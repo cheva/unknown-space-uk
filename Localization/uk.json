@@ -1622,7 +1622,7 @@
     {
       "symbol": "INTERACTIONS->SURVEYOR_AWAY",
       "original": "Survey in progress",
-      "translation": "дослідження триває",
+      "translation": "Дослідження триває",
       "priority": 0,
       "reviewed": false
     },
@@ -1678,28 +1678,28 @@
     {
       "symbol": "INTERACTIONS->PRESS_DEPLOY",
       "original": "Press [X] to deploy Survey Team",
-      "translation": "Натисніть [X], щоб розгорнути Survey Team",
+      "translation": "Натисніть [X], щоб розгорнути дослідження",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "INTERACTIONS->PRESS_REDEPLOY",
       "original": "Press [X] to re-deploy Survey Team",
-      "translation": "Натисніть [X], щоб повторно розгорнути Survey Team",
+      "translation": "Натисніть [X], щоб ще раз розгорнути дослідження",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "INTERACTIONS->UNSCANNED",
       "original": "Unscanned",
-      "translation": "Нескановане",
+      "translation": "Не проскановано",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "INTERACTIONS->UNSURVEYED",
       "original": "Unsurveyed",
-      "translation": "Необстежений",
+      "translation": "Не обстежено",
       "priority": 0,
       "reviewed": false
     },
@@ -1727,21 +1727,21 @@
     {
       "symbol": "INTERACTIONS->SURVEY_COMPLETE",
       "original": "Survey complete",
-      "translation": "дослідження закінчене",
+      "translation": "Дослідження закінчене",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "INTERACTIONS->SURVEY_INCOMPLETE",
       "original": "Survey incomplete",
-      "translation": "дослідження не закінчене",
+      "translation": "Дослідження не закінчене",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "INTERACTIONS->SURVEY_IN_PROGRESS",
       "original": "Survey in progress",
-      "translation": "дослідження триває",
+      "translation": "Дослідження триває",
       "priority": 0,
       "reviewed": false
     },
@@ -3050,7 +3050,7 @@
     {
       "symbol": "RESOURCE->DIBERYLLIUM_NAME",
       "original": "DiBeryllium",
-      "translation": "діберилій",
+      "translation": "Діберилій",
       "priority": 0,
       "reviewed": false
     },
@@ -3204,7 +3204,7 @@
     {
       "symbol": "SKILL->XENOCULTURE_DESC",
       "original": "Study of alien language, culture and thought. Officers with high Xenoculture are better able to understand alien motivations, make inferences from their artifacts, and conduct negotiations. \r\n\r\nThis is the most frequently used skill for insights and skill checks during anomalies and alien interactions.",
-      "translation": "дослідження чужої мови, культури та мислення. Офіцери з високою ксенокультурою краще розуміють мотивацію прибульців, роблять висновки з їхніх артефактів і ведуть переговори.\r\n\r\nЦе навик, який найчастіше використовують для інсайтів і перевірки навичок під час аномалій і взаємодії з інопланетянами.",
+      "translation": "Дослідження чужої мови, культури та мислення. Офіцери з високою ксенокультурою краще розуміють мотивацію прибульців, роблять висновки з їхніх артефактів і ведуть переговори.\r\n\r\nЦе навик, який найчастіше використовують для інсайтів і перевірки навичок під час аномалій і взаємодії з інопланетянами.",
       "priority": 0,
       "reviewed": false
     },
@@ -5283,7 +5283,7 @@
     {
       "symbol": "PERSISTENT->HOME",
       "original": "Home",
-      "translation": "додому",
+      "translation": "Додому",
       "priority": 0,
       "reviewed": false
     },
@@ -5731,21 +5731,21 @@
     {
       "symbol": "PERSISTENT->LUNAR_L1",
       "original": "Lunar L1",
-      "translation": "Місячний L1",
+      "translation": "Місяць L1",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "PERSISTENT->LUNAR_L2",
       "original": "Lunar L2",
-      "translation": "Місячний L2",
+      "translation": "Місяць L2",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "PERSISTENT->LUNAR_L3",
       "original": "Lunar L3",
-      "translation": "Місячний L3",
+      "translation": "Місяць L3",
       "priority": 0,
       "reviewed": false
     },
@@ -8958,7 +8958,7 @@
     {
       "symbol": "ARRIVAL->MISSIONS->SHIPYARD_TUTORIAL->NODES->4->ACTOR->MESSAGE",
       "original": "Good. [SHIP_NAME] can now conduct planetary survey landings. You should feel free to experiment with different ship designs-- we have a lossless reclimator, so you won't lose any resources. \n\nJust drag a module off the ship to remove or reposition it.",
-      "translation": "добре. [SHIP_NAME] тепер може здійснювати висадку планетарного огляду. Ви можете сміливо експериментувати з різними конструкціями кораблів - у нас є рекліматизатор без втрат, тому ви не втратите жодних ресурсів.\n\nПросто перетягніть модуль з корабля, щоб видалити або змінити його положення.",
+      "translation": "Добре. [SHIP_NAME] тепер може здійснювати висадку планетарного огляду. Ви можете сміливо експериментувати з різними конструкціями кораблів - у нас є рекліматизатор без втрат, тому ви не втратите жодних ресурсів.\n\nПросто перетягніть модуль з корабля, щоб видалити або змінити його положення.",
       "priority": 0,
       "reviewed": false
     },
@@ -8979,7 +8979,7 @@
     {
       "symbol": "ARRIVAL->MISSIONS->STATION_NEWS->NODES->0->NEWS->RESEARCH->ANNOUNCER",
       "original": "Research",
-      "translation": "дослідження",
+      "translation": "Дослідження",
       "priority": 0,
       "reviewed": false
     },
@@ -9063,7 +9063,7 @@
     {
       "symbol": "ARRIVAL->MISSIONS->STATION_NEWS->NODES->0->NEWS->RESEARCH->ANNOUNCER",
       "original": "Research",
-      "translation": "дослідження",
+      "translation": "Дослідження",
       "priority": 0,
       "reviewed": false
     },
@@ -13907,7 +13907,7 @@
     {
       "symbol": "CONFLICT->CONVO->PLAYER_GUILD_DIPLOMAT->DIALOGUE->3_PC",
       "original": "Where?",
-      "translation": "де",
+      "translation": "Де",
       "priority": 0,
       "reviewed": false
     },
@@ -23035,7 +23035,7 @@
     {
       "symbol": "DISPATCHES->ANOMALY->RESEARCH_DISPATCH->DIALOGUE->7_NPC",
       "original": "*\"research on the ??? Vault on ??? has been proceeding too cautiously \r\n\r\n...\r\n\r\nThe motivation of ??? in constructing the Talonians is inscrutable, but a reasonable supposition is that they are an interface—possibly for us, possibly even for themselves—to technology too complex for organic ??? to reliably control. The constraint protocols may be assumed to have a similar purpose to the safety guard on a plasma torch: to prevent accidental severing of one own’s ???\"*",
-      "translation": "*\"дослідження ??? Vault на ??? тривають надто обережно\r\n\r\n...\r\n\r\nМотивація ??? у створенні Talonians є незбагненним, але розумне припущення полягає в тому, що вони є інтерфейсом — можливо, для нас, можливо, навіть для них самих — до технології, надто складної для органічних ??? надійно контролювати. Можна припустити, що протоколи обмеження мають подібну мету до захисного огородження на плазмовому пальнику: запобігати випадковому розриву власного ???\"*",
+      "translation": "*\"Дослідження ??? Vault на ??? тривають надто обережно\r\n\r\n...\r\n\r\nМотивація ??? у створенні Talonians є незбагненним, але розумне припущення полягає в тому, що вони є інтерфейсом — можливо, для нас, можливо, навіть для них самих — до технології, надто складної для органічних ??? надійно контролювати. Можна припустити, що протоколи обмеження мають подібну мету до захисного огородження на плазмовому пальнику: запобігати випадковому розриву власного ???\"*",
       "priority": 0,
       "reviewed": false
     },
@@ -32954,7 +32954,7 @@
     {
       "symbol": "OUTLIERS->MISSIONS->BAD_KNOWLEDGE->NODES->27->NEWS->RESEARCH->ANNOUNCER",
       "original": "Research",
-      "translation": "дослідження",
+      "translation": "Дослідження",
       "priority": 0,
       "reviewed": false
     },
@@ -38015,7 +38015,7 @@
     {
       "symbol": "RETURN->MISSIONS->GOING_HOME->NAME",
       "original": "Home",
-      "translation": "додому",
+      "translation": "Додому",
       "priority": 0,
       "reviewed": false
     },
