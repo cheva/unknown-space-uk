@@ -2322,7 +2322,7 @@
     {
       "symbol": "OPTIONS_UI_STATIC->VSYNC",
       "original": "Vsync",
-      "translation": "Vsync",
+      "translation": "Vsync:",
       "priority": 0,
       "reviewed": false
     },
@@ -2350,14 +2350,14 @@
     {
       "symbol": "OPTIONS_UI_STATIC->ENABLE_LENS_FLARE_",
       "original": "Enable Lens Flare:",
-      "translation": "Увімкнути відблиск:",
+      "translation": "Відблиск:",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "OPTIONS_UI_STATIC->POST-PROCESS_BLOOM_",
       "original": "Post-process Bloom:",
-      "translation": "Блум після обробки:",
+      "translation": "Блум:",
       "priority": 0,
       "reviewed": false
     },
@@ -2385,7 +2385,7 @@
     {
       "symbol": "OPTIONS_UI_STATIC->MOUSE_STEER",
       "original": "Mouse Steer",
-      "translation": "Мишка кермує",
+      "translation": "Мишка кермує:",
       "priority": 0,
       "reviewed": false
     },
@@ -2406,7 +2406,7 @@
     {
       "symbol": "OPTIONS_UI_STATIC->COLOR-BLIND_MODE_",
       "original": "Color-blind Mode:",
-      "translation": "Режим дальтоніку:",
+      "translation": "Дальтонія:",
       "priority": 0,
       "reviewed": false
     },
