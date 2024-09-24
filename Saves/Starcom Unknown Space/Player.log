@@ -10,11 +10,11 @@ Direct3D:
     VRAM:     8119 MB
     Driver:   31.0.101.2115
 Begin MonoManager ReloadAssembly
-- Completed reload, in  0.174 seconds
+- Completed reload, in  0.175 seconds
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 1.844400 ms
+UnloadTime: 1.013000 ms
 Preloader started, build Kepler (17321)
 Async progress 90%, attempting scene activation...
 Build Number: 17321
@@ -40,41 +40,9 @@ Steam knows about 0 achievements
 StoryId was null
 No starting story found: ''
 No starting location
-Material ProgressFill doesn't have _Stencil property
-Material ProgressFill(Clone) doesn't have _Stencil property
-Material ProgressFill(Clone) doesn't have _Stencil property
-Material ProgressFill(Clone) doesn't have _Stencil property
-Material ProgressFill(Clone) doesn't have _Stencil property
-Material ProgressFill(Clone) doesn't have _Stencil property
-Material ProgressFill(Clone) doesn't have _Stencil property
-Material ProgressFill(Clone) doesn't have _Stencil property
-Material ProgressFill(Clone) doesn't have _Stencil property
-#10711 368.3023 sec: FPS: 29.82977 Mission Update: 0.00115572
 Can not play a disabled audio source
 StoryId was null
 No starting story found: ''
 No starting location
-Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
-Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 6)
-Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 6)
-#21107 726.9589 sec: FPS: 29.90691 Mission Update: 0.00178867
-Attempted to trigger an unknown Steam Achievement: 'RAIDER_FACTORY'
-Bootstrapped story 'REMNANT_MINIS'
-#29432 1026.962 sec: FPS: 29.87237 Mission Update: 0.00259572
-Attempted to trigger an unknown Steam Achievement: 'POLYHEDRAL'
-Attempting to set item tradeable that player has, but allowTakeFromPlayer is false DEFAULT.MISSILE_GUIDANCE
-Duplicate log entry, skipping
-#37713 1326.967 sec: FPS: 29.9817 Mission Update: 0.0011518
-Material ProgressFill doesn't have _Stencil property
-Material ProgressFill(Clone) doesn't have _Stencil property
-Material ProgressFill(Clone) doesn't have _Stencil property
-Material ProgressFill(Clone) doesn't have _Stencil property
-Material ProgressFill(Clone) doesn't have _Stencil property
-Material ProgressFill(Clone) doesn't have _Stencil property
-Material ProgressFill(Clone) doesn't have _Stencil property
-Material ProgressFill(Clone) doesn't have _Stencil property
-#46296 1626.98 sec: FPS: 29.82524 Mission Update: 0.00150932
-#55088 1926.996 sec: FPS: 29.98536 Mission Update: 0.00144331
-Setting up 2 worker threads for Enlighten.
-  Thread -> id: 12f0 -> priority: 1 
-  Thread -> id: 2140 -> priority: 1 
+Activating emissary for 'EmissaryDestination'
+Adding active THE_EMISSARY
