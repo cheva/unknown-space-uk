@@ -80,7 +80,8 @@
           "DEFAULT.YU_DEFAULT",
           "ARRIVAL.YU_RESCUE_COMPLETE",
           "ARRIVAL.YU_RAIDERS",
-          "ARRIVAL.YU_ALETHEIA"
+          "ARRIVAL.YU_ALETHEIA",
+          "ARRIVAL.YU_ALETHEIA_FOUND"
         ],
         "activeTopics": [
           "ARRIVAL.PLAYER_YU_CLASSIFIED",
@@ -92,7 +93,8 @@
       {
         "actorId": "DEFAULT.STARCOM:ENGINEER",
         "activeIntros": [
-          "DEFAULT.ENGINEER_DEFAULT"
+          "DEFAULT.ENGINEER_DEFAULT",
+          "BEYOND.PLAYER_MILTON_CHROMA"
         ],
         "activeTopics": [
           "ARRIVAL.PLAYER_MILTON_BLACKSHIP",
@@ -271,11 +273,12 @@
       "BEYOND.PLAYER_YU_FACTIONS",
       "DEFAULT.PLAYER_YU_CREW",
       "GORYR.GORYR_DEFAULT",
-      "GORYR.PLAYER_GORYR_TRADE"
+      "GORYR.PLAYER_GORYR_TRADE",
+      "ARRIVAL.ALETHEIA_DEFAULT"
     ]
   },
   "crewData": {
-    "totalXP": 16,
+    "totalXP": 17,
     "unspentPoints": 0,
     "currentTeamLevel": 1,
     "crew": [
@@ -1049,7 +1052,8 @@
     "factionsMet": [
       "DEFAULT.STARCOM",
       "DEFAULT.ERMYR",
-      "GORYR.GORYR"
+      "GORYR.GORYR",
+      "ARRIVAL.ALETHEIA"
     ],
     "expansions": [
       {
@@ -1080,16 +1084,17 @@
   },
   "gameVarData": {
     "numberVars": {
-      "DEFAULT.ANALYTICS-4_delay": 1820.93384,
+      "DEFAULT.ANALYTICS-4_delay": 2029.13281,
       "DEFAULT.ANALYTICS-13_delay": 90.528595,
       "ALPHA.STABILIZERS": 2.0,
-      "DEFAULT.DEEP_SPACE-10_lull": 92.51114,
+      "DEFAULT.DEEP_SPACE-10_lull": 176.3873,
       "GORYR.VISIT-5_delay": 92.07569,
       "REMNANT_SPACE.RAMA_SCIENCE_POINTS": 490.0,
       "REMNANT_SPACE.RAMA_SCIENCE_QUESTIONS": 1.0,
       "COMETS.COMETS": 2.0,
-      "CXTA.CXTA_FREIGHTERS-2_delay": 858.9434,
-      "ARRIVAL.POLYHEDRAL-4_delay": 649.3807
+      "CXTA.CXTA_FREIGHTERS-2_delay": 1067.13965,
+      "ARRIVAL.POLYHEDRAL-4_delay": 857.576965,
+      "WISKAMUG.WISKAMUG-21_lull": 176.3873
     },
     "flagVars": {
       "SEPHARIAL.LOOP": true,
@@ -1116,7 +1121,8 @@
       "STALKERS.SPAWN_VICTIM_1": true,
       "CXTA.SPAWN_CXTA": true,
       "ARRIVAL.VOID_DETECTED": true,
-      "DEFAULT.TRADE_ANALYSIS_UNLOCKED": true
+      "DEFAULT.TRADE_ANALYSIS_UNLOCKED": true,
+      "WISKAMUG.SPAWN_WISKAMUG": true
     },
     "stringVars": {
       "DEFAULT.ANOMALY_WHITELIST": "ARRIVAL.CELAENO_OUTPOST"
@@ -1126,7 +1132,8 @@
     "hintsSeen": [
       "REMNANT_SPACE.DUMPED_WRECK[1]",
       "ARRIVAL.PYRAMIDS[2]",
-      "EMISSARY.RINGWORLD[1]"
+      "EMISSARY.RINGWORLD[1]",
+      "ARRIVAL.HIDDEN_LAUNCH_PAD[2]"
     ],
     "nodesSeen": [
       "ALPHA.SCHELL_WORMHOLE[1]",
@@ -1147,7 +1154,8 @@
       "ARRIVAL.YU_ALETHEIA[1]",
       "BEYOND.PLAYER_YU_FACTIONS[2]",
       "GORYR.GORYR_DEFAULT[1]",
-      "EMISSARY.RINGWORLD[1]"
+      "EMISSARY.RINGWORLD[1]",
+      "ARRIVAL.ALETHEIA_DEFAULT[1]"
     ],
     "skillsChecked": [],
     "anomaliesSeen": [
@@ -1171,7 +1179,8 @@
       "ARRIVAL.DERELICT_SCOUT",
       "ARRIVAL.CRATER",
       "ARRIVAL.PYRAMIDS",
-      "EMISSARY.RINGWORLD"
+      "EMISSARY.RINGWORLD",
+      "ARRIVAL.HIDDEN_LAUNCH_PAD"
     ]
   },
   "itemSaveData": {
@@ -1327,12 +1336,12 @@
       },
       "DEFAULT.IRIDESCENT_GLOBE": {
         "itemId": "DEFAULT.IRIDESCENT_GLOBE",
-        "faction": "",
+        "faction": "DEFAULT.PLAYER",
         "droppable": false,
         "moduleTypeDrop": 0,
-        "analyzed": false,
+        "analyzed": true,
         "frequency": 0.0,
-        "acquiredTime": 0.0,
+        "acquiredTime": 5436.31348,
         "tags": []
       },
       "DEFAULT.MISSILE_ENGINE": {
@@ -1449,12 +1458,12 @@
       },
       "ARRIVAL.POLYHEDRAL_KEY": {
         "itemId": "ARRIVAL.POLYHEDRAL_KEY",
-        "faction": "",
+        "faction": "DEFAULT.PLAYER",
         "droppable": false,
         "moduleTypeDrop": 0,
-        "analyzed": false,
+        "analyzed": true,
         "frequency": 0.0,
-        "acquiredTime": 0.0,
+        "acquiredTime": 5453.705,
         "tags": []
       },
       "ARRIVAL.STARCOM_COMPONENTS": {
@@ -2723,7 +2732,7 @@
             "progress": 0,
             "maxProgress": 1,
             "startTime": 4772.51465,
-            "age": 683.7437,
+            "age": 940.3477,
             "playerCoord": {
               "universe": 0,
               "ux": 4,
@@ -2739,7 +2748,7 @@
           2,
           3,
           0,
-          0,
+          1,
           0,
           0,
           0,
@@ -2989,7 +2998,7 @@
         "stopped": false,
         "details": [],
         "activeNodeIndices": [
-          0
+          1
         ]
       },
       {
@@ -3008,7 +3017,7 @@
             "progress": 0,
             "maxProgress": 1,
             "startTime": 1265.21033,
-            "age": 6326.062,
+            "age": 6582.478,
             "playerCoord": {
               "universe": 0,
               "ux": 10,
@@ -3026,7 +3035,7 @@
             "progress": 0,
             "maxProgress": 1,
             "startTime": 4815.526,
-            "age": 647.086,
+            "age": 903.69,
             "playerCoord": {
               "universe": 0,
               "ux": 3,
@@ -3533,7 +3542,7 @@
         "details": [],
         "activeNodeIndices": [
           1,
-          0
+          1
         ]
       },
       {
@@ -4811,7 +4820,7 @@
             "progress": 0,
             "maxProgress": 1,
             "startTime": 4159.758,
-            "age": 3184.63281,
+            "age": 3441.04883,
             "playerCoord": {
               "universe": 0,
               "ux": 5,
@@ -4836,7 +4845,7 @@
         "missionId": "ARRIVAL.ALETHEIA",
         "state": 1,
         "priority": 1,
-        "progressTime": 4937.5142965090927,
+        "progressTime": 5453.7048837927869,
         "stopped": false,
         "details": [
           {
@@ -4873,10 +4882,10 @@
             "missionId": "ARRIVAL.ALETHEIA",
             "id": "FIND_ALETHEIA",
             "description": "Ми увійшли в систему, де востаннє повідомлялося про Алетею. Нам слід шукати поблизу її ознаки.",
-            "progress": 0,
+            "progress": 1,
             "maxProgress": 1,
             "startTime": 4937.514,
-            "age": 490.461517,
+            "age": 562.773254,
             "playerCoord": {
               "universe": 0,
               "ux": 3,
@@ -4886,11 +4895,29 @@
             },
             "priority": 20,
             "HasGoal": false
+          },
+          {
+            "missionId": "ARRIVAL.ALETHEIA",
+            "id": "INFORM_YU",
+            "description": "Ми знайшли The Aletheia. Вони були зненацька під час нападу The Devout, але повідомляють, що вони в безпеці. Ми повинні повідомити Cdre Yu.",
+            "progress": 0,
+            "maxProgress": 1,
+            "startTime": 5453.705,
+            "age": 184.259064,
+            "playerCoord": {
+              "universe": 0,
+              "ux": 3,
+              "uz": 3,
+              "x": -626.9757,
+              "z": 980.4837
+            },
+            "priority": 20,
+            "HasGoal": false
           }
         ],
         "activeNodeIndices": [
           3,
-          0,
+          1,
           1,
           0,
           1
@@ -5066,6 +5093,31 @@
           0,
           0
         ]
+      },
+      {
+        "appearInLog": false,
+        "collapsed": false,
+        "missionId": "WISKAMUG.WISKAMUG",
+        "state": 1,
+        "priority": 0,
+        "progressTime": 5436.3135180260288,
+        "stopped": false,
+        "details": [],
+        "activeNodeIndices": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
       }
     ],
     "currentEnding": {
@@ -5083,12 +5135,12 @@
       "universe": 0,
       "ux": 3,
       "uz": 3,
-      "x": -625.2053,
-      "z": 989.2083
+      "x": -606.0505,
+      "z": 967.9131
     },
     "playerShip": {
       "shipDesignId": "DEFAULT.SMALL_MISSILES",
-      "rotation": 198.919952,
+      "rotation": 163.843842,
       "scale": 0.0,
       "modules": [
         {
@@ -5335,7 +5387,7 @@
       },
       "lastVisibility": 355.000031,
       "lastDisposition": 1000.0,
-      "lastActive": 5421.9288031912874,
+      "lastActive": 5630.125478909933,
       "disabled": false,
       "persistentId": "PLAYER",
       "prefabName": "Ship",
@@ -5343,20 +5395,20 @@
         "universe": 0,
         "ux": 3,
         "uz": 3,
-        "x": -625.2053,
-        "z": 989.2083
+        "x": -606.0505,
+        "z": 967.9131
       },
       "factionId": "DEFAULT.PLAYER",
       "discovered": false
     },
     "playerResources": {
       "ALUMINUM": 47,
-      "PLATINUM": 5,
+      "PLATINUM": 8,
       "COPPER": 6,
       "YTTRIUM": 6,
       "CHIRALITE": 0,
       "GOLD": 1,
-      "TITANIUM": 10,
+      "TITANIUM": 15,
       "IRIDIUM": 0,
       "SILVER": 15,
       "URANIUM": 0,
@@ -5375,10 +5427,10 @@
     "battlestationsCooldown": 0.0,
     "shieldCharge": 0.0,
     "havokCharge": 0.0,
-    "researchPoints": 260,
-    "totalResearchPoints": 1010,
-    "anomaliesCompleted": 17,
-    "distanceFlown": 145052.54046653069,
+    "researchPoints": 325,
+    "totalResearchPoints": 1075,
+    "anomaliesCompleted": 18,
+    "distanceFlown": 145558.75785291547,
     "swatch": {
       "id": "DEFAULT.STARCOM",
       "plating1": {
@@ -5494,7 +5546,7 @@
   "phenomenaData": {
     "emissaryData": {
       "destinations": [],
-      "timer": 344.10907
+      "timer": 554.61084
     }
   },
   "proceduralData": {
@@ -5772,7 +5824,7 @@
     }
   },
   "shipLogData": {
-    "index": 111,
+    "index": 113,
     "entries": [
       {
         "id": 1,
@@ -7769,6 +7821,42 @@
         "summary": "\"<i>Сліди частинок нейтронію в цій кометі вказують на те, що середовище цієї...</i>\"",
         "intro": "<i>Die Hard</i>: 2641.12.02 23:24 at -14.26 x 6.53 Unknown Space, Crew Log Entry",
         "details": "Ens. Cassie Pirx (Астронаука):\n\nСліди частинок нейтронію в цій кометі вказують на те, що середовище цієї системи не є природним, на нього вплинула величезна техніка."
+      },
+      {
+        "id": 112,
+        "type": 2,
+        "gameTime": 5435,
+        "coord": {
+          "universe": 0,
+          "ux": 3,
+          "uz": 3,
+          "x": -804.802246,
+          "z": 950.6674
+        },
+        "showMapPin": false,
+        "spriteId": "ARRIVAL.Anomalies/CanyonHideaway",
+        "categoryText": "Planetary Anomaly: Hidden Launch Pad",
+        "summary": "<i>Аномалію важко помітити з повітря — посадковий модуль робить кілька...</i>",
+        "intro": "12/3/2641 9:20:00 AM <i>Die Hard Lander SCS-01</i>\t Planetary Anomaly Report at 3.34 x 3.69 Unknown Space",
+        "details": "Аномалію важко помітити з повітря — посадковий модуль робить кілька проходів, перш ніж Ens. Kepler помітить ціль.\n\nЗдалеку це виглядає як покинутий форпост, який поступово стирає стихія.\n\nЗблизька видно, що поверхні споруди закамуфльовано під колір і текстуру навколишньої породи.\n\nБільшість корисного обладнання було вилучено, але незвичайний предмет, безпосередньо пов’язаний з деякими інструментами невідомого призначення, залишився.\n\nEns. Kepler (Спостереження Інсайт): <i>Недалеко від платформи стоять контейнери з таким же камуфляжним покриттям.</i>\n\tПридбаний предмет: Райдужний глобус\n\n<i>Cmd Diem's orders: Investigate the containers.</i>\n\nЦе схованка деталей кораблебудування. Ймовірно, у тих, хто залишив цю базу, не було для них ні часу, ні місця.\n\t+5 Титан\n\t+3 Платина\n"
+      },
+      {
+        "id": 113,
+        "type": 4,
+        "gameTime": 5453,
+        "coord": {
+          "universe": 0,
+          "ux": 3,
+          "uz": 3,
+          "x": -626.9757,
+          "z": 980.4837
+        },
+        "showMapPin": false,
+        "spriteId": "ARRIVAL.Portraits/ALETHEIA_DEFAULT",
+        "categoryText": "Comms Log: Командир Долсон",
+        "summary": "<i>Командир Долсон: \"Це капітан Долсон, командир «Алетеї». Приємно бачити ще...</i>",
+        "intro": "12/3/2641 10:50:00 AM <i>Die Hard</i>\t Comms Log Transcript",
+        "details": "Командир Долсон: \"Це капітан Долсон, командир «Алетеї». Приємно бачити ще одне судно Starcom.\n\nПід час дослідження аномалії ми зіткнулися з групою суден, які назвали себе \"The Devout\". Я не знаю, що ми сказали не так, але вони почали по нас стріляти. Вони застали нас зненацька, і наш реактор отримав серйозні пошкодження.\"\n\n<i>Cmd Diem: Do you need an escort back?</i>\n\nКомандир Долсон: \"Добре з вашого боку, що ви запропонували, але якщо ми не зустрінемо більшу кількість, у нас усе гаразд.\n\nЯ не очікував нападу, в чому я сам винен. Наступного разу ми будемо готові.\"\n\n<i>Cmd Diem: <i>Tell the Aletheia's commander about the wormhole gateways.</i></i>\n\nКомандир Долсон: \"Отже, Рама мав рацію.\n\nЩо ж, ця хороша новина трохи скоротить наш час у дорозі. Дякуємо за цю інформацію.\"\n\n<i>Cmd Diem: Did you find anything during your interrupted survey?</i>\n\nКомандир Долсон: \"Власне кажучи, ми це зробили. Коли на нас напали, ми щойно закінчили досліджувати релікварій у метеорному кратері.\n\nКілька цікавих сувоїв і дивний предмет. Ми не змогли проаналізувати це через пошкодження. Ми передамо його на ваш корабель.\"\n\n\tПридбаний предмет: Складні трикутники\n"
       }
     ]
   },
@@ -7994,101 +8082,101 @@
         "tradeData": {
           "ALUMINUM": {
             "resource": 5,
-            "currentSupply": 1544,
+            "currentSupply": 1543,
             "targetSupply": 1737,
             "naturalSupply": 1532,
-            "unitPriceFloor": 0.732797742
+            "unitPriceFloor": 0.549598336
           },
           "COPPER": {
             "resource": 10,
             "currentSupply": 1118,
             "targetSupply": 927,
             "naturalSupply": 1118,
-            "unitPriceFloor": 1.10794961
+            "unitPriceFloor": 0.8309622
           },
           "SILVER": {
             "resource": 15,
             "currentSupply": 333,
             "targetSupply": 454,
             "naturalSupply": 333,
-            "unitPriceFloor": 2.37692261
+            "unitPriceFloor": 1.782692
           },
           "TITANIUM": {
             "resource": 20,
             "currentSupply": 224,
             "targetSupply": 165,
             "naturalSupply": 224,
-            "unitPriceFloor": 4.28765
+            "unitPriceFloor": 3.21573758
           },
           "YTTRIUM": {
             "resource": 45,
             "currentSupply": 182,
             "targetSupply": 271,
             "naturalSupply": 182,
-            "unitPriceFloor": 6.36411
+            "unitPriceFloor": 4.77308273
           },
           "GOLD": {
             "resource": 50,
             "currentSupply": 187,
             "targetSupply": 262,
             "naturalSupply": 187,
-            "unitPriceFloor": 7.67556572
+            "unitPriceFloor": 5.75667429
           },
           "PLATINUM": {
             "resource": 55,
             "currentSupply": 40,
             "targetSupply": 125,
             "naturalSupply": 34,
-            "unitPriceFloor": 16.9657135
+            "unitPriceFloor": 12.7242851
           },
           "URANIUM": {
             "resource": 25,
             "currentSupply": 53,
             "targetSupply": 44,
             "naturalSupply": 53,
-            "unitPriceFloor": 9.861595
+            "unitPriceFloor": 7.39619637
           },
           "IRIDIUM": {
             "resource": 35,
             "currentSupply": 78,
             "targetSupply": 46,
             "naturalSupply": 78,
-            "unitPriceFloor": 21.4382515
+            "unitPriceFloor": 16.07869
           },
           "DIBERYLLIUM": {
             "resource": 40,
             "currentSupply": 35,
             "targetSupply": 27,
             "naturalSupply": 35,
-            "unitPriceFloor": 53.5879364
+            "unitPriceFloor": 40.1909523
           },
           "CHIRALITE": {
             "resource": 60,
             "currentSupply": 14,
             "targetSupply": 20,
             "naturalSupply": 15,
-            "unitPriceFloor": 63.3350372
+            "unitPriceFloor": 47.5012779
           },
           "NEUTRONIUM": {
             "resource": 75,
             "currentSupply": 16,
             "targetSupply": 18,
             "naturalSupply": 16,
-            "unitPriceFloor": 80.26489
+            "unitPriceFloor": 60.19867
           },
           "ETHERINE": {
             "resource": 65,
             "currentSupply": 10,
             "targetSupply": 9,
             "naturalSupply": 10,
-            "unitPriceFloor": 134.401367
+            "unitPriceFloor": 100.801025
           },
           "XENIUM": {
             "resource": 80,
             "currentSupply": 8,
             "targetSupply": 6,
             "naturalSupply": 8,
-            "unitPriceFloor": 171.506012
+            "unitPriceFloor": 128.629517
           },
           "METALLIC_HELIUM": {
             "resource": 85,
@@ -8102,7 +8190,7 @@
             "currentSupply": 3,
             "targetSupply": 3,
             "naturalSupply": 3,
-            "unitPriceFloor": 388.1554
+            "unitPriceFloor": 291.116547
           }
         }
       }
@@ -8632,7 +8720,7 @@
           {
             "$type": "ShipData, Assembly-CSharp",
             "shipDesignId": "DEVOUT.FAITHFUL",
-            "rotation": 45.618576,
+            "rotation": 43.09546,
             "scale": 1.33,
             "modules": [
               {
@@ -8825,7 +8913,7 @@
             },
             "lastVisibility": 392.975,
             "lastDisposition": 0.0,
-            "lastActive": 5421.9288031912874,
+            "lastActive": 5630.125478909933,
             "disabled": false,
             "persistentId": "#Ship_1685112659-1948067699",
             "prefabName": "Ship",
@@ -8833,8 +8921,8 @@
               "universe": 0,
               "ux": 3,
               "uz": 4,
-              "x": -62.27327,
-              "z": -1167.56885
+              "x": -253.9208,
+              "z": -1474.479
             },
             "factionId": "DEVOUT.DEVOUT",
             "discovered": true
@@ -8842,7 +8930,7 @@
           {
             "$type": "ShipData, Assembly-CSharp",
             "shipDesignId": "DEVOUT.FAITHFUL",
-            "rotation": 51.55865,
+            "rotation": 55.3139343,
             "scale": 1.33,
             "modules": [
               {
@@ -9035,7 +9123,7 @@
             },
             "lastVisibility": 392.975,
             "lastDisposition": 0.0,
-            "lastActive": 5421.9288031912874,
+            "lastActive": 5630.125478909933,
             "disabled": false,
             "persistentId": "#Ship_972820373-492887240",
             "prefabName": "Ship",
@@ -9043,8 +9131,8 @@
               "universe": 0,
               "ux": 3,
               "uz": 4,
-              "x": -109.179977,
-              "z": -1187.23877
+              "x": -299.033325,
+              "z": -1430.87793
             },
             "factionId": "DEVOUT.DEVOUT",
             "discovered": true
@@ -9052,7 +9140,7 @@
           {
             "$type": "ShipData, Assembly-CSharp",
             "shipDesignId": "DEVOUT.FAITHFUL",
-            "rotation": 39.5725822,
+            "rotation": 38.820488,
             "scale": 1.33,
             "modules": [
               {
@@ -9245,7 +9333,7 @@
             },
             "lastVisibility": 392.975,
             "lastDisposition": 0.0,
-            "lastActive": 5421.9288031912874,
+            "lastActive": 5630.125478909933,
             "disabled": false,
             "persistentId": "#Ship_696936279-1525372537",
             "prefabName": "Ship",
@@ -9253,8 +9341,8 @@
               "universe": 0,
               "ux": 3,
               "uz": 4,
-              "x": -79.492424,
-              "z": -1206.02979
+              "x": -279.956543,
+              "z": -1463.96777
             },
             "factionId": "DEVOUT.DEVOUT",
             "discovered": true
@@ -9297,8 +9385,8 @@
           {
             "$type": "StarData, Assembly-CSharp",
             "luminosity": 0.9149578,
-            "explored": false,
-            "dragReduced": false,
+            "explored": true,
+            "dragReduced": true,
             "depleted": false,
             "persistentId": "#White Star_537319767-20195966",
             "prefabName": "White Star",
@@ -9363,11 +9451,11 @@
             "size": 86.37294,
             "seed": 1896790724,
             "interaction": {
-              "anomalyState": 0,
+              "anomalyState": 6,
               "anomalyId": "ARRIVAL.HIDDEN_LAUNCH_PAD",
               "stationId": "",
               "hasTrade": false,
-              "instanceVisits": 0
+              "instanceVisits": 1
             },
             "procAnomalyCandidate": false,
             "placementPadding": 0.0,
@@ -9385,7 +9473,7 @@
           {
             "$type": "ShipData, Assembly-CSharp",
             "shipDesignId": "ARRIVAL.ALETHEIA",
-            "rotation": 143.710419,
+            "rotation": 151.344009,
             "scale": 0.0,
             "modules": [
               {
@@ -9678,7 +9766,7 @@
             },
             "lastVisibility": 472.5,
             "lastDisposition": 99.0,
-            "lastActive": 5421.9288031912874,
+            "lastActive": 5630.125478909933,
             "disabled": false,
             "persistentId": "ARRIVAL.ALETHEIA",
             "prefabName": "Ship",
@@ -9686,8 +9774,8 @@
               "universe": 0,
               "ux": 3,
               "uz": 3,
-              "x": -1030.41541,
-              "z": 1533.746
+              "x": -671.9263,
+              "z": 1046.16125
             },
             "factionId": "ARRIVAL.ALETHEIA",
             "discovered": true
@@ -41283,6 +41371,6 @@
   },
   "startBuild": 17321,
   "gameId": "19bdd786f39c4dfca6ca58269b6a2d52",
-  "gameTime": 5421.92871,
-  "playTime": 12182.88
+  "gameTime": 5630.12549,
+  "playTime": 12448.624
 }

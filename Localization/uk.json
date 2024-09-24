@@ -1034,14 +1034,14 @@
     {
       "symbol": "TRADE_UI->FACTION_BODY",
       "original": "The [FACTION] have agreed to trade with us. Use the fields on the left to set desired transfers. When ready click \"Execute Trades\". The [FACTION] use [CURRENCY] as their reserve currency, so any excess profits/costs will adjust our [CURRENCY] supply. Any artifacts available for sale are list on the right.",
-      "translation": "[ФРАКЦІЯ] погодилася торгувати з нами. Використовуйте поля ліворуч, щоб встановити бажані перекази. Коли будете готові, натисніть «Виконати угоди». [ФРАКЦІЯ] використовує [ВАЛЮТУ] як свою резервну валюту, тому будь-які надприбутки/витрати регулюватимуть нашу пропозицію [ВАЛЮТА]. Список будь-яких артефактів, доступних для продажу, наведено праворуч.",
+      "translation": "[FACTION] погодилася торгувати з нами. Використовуйте поля ліворуч, щоб встановити бажані перекази. Коли будете готові, натисніть «Виконати угоди». [FACTION] використовує [CURRENCY] як свою резервну валюту, тому будь-які надприбутки/витрати регулюватимуться з [CURRENCY]. Список будь-яких артефактів, доступних для продажу, наведено праворуч.",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "TRADE_UI->OUR_CURRENCY",
       "original": "Our [CURRENCY]",
-      "translation": "Якась [ВАЛЮТА]",
+      "translation": "Якась [CURRENCY]",
       "priority": 0,
       "reviewed": false
     },
@@ -6543,7 +6543,7 @@
     {
       "symbol": "_EXTERNAL->STORE_DESC",
       "original": "[img]{STEAM_APP_IMAGE}/extras/BuildMissiles5MB.gif[/img]\r\nExplore a mysterious open-world universe filled with alien factions, strange worlds, mysterious artifacts and an epic story. \r\n\r\nAs a new commander you and your crew will transform your ship from a small scout into whatever you want: a deep-space explorer, a fast strike craft or an armor-leaden battlecruiser. \r\n\r\nMeet alien races, both friendly, hostile or enigmatic. Turn foes into allies and vice versa.\r\n\r\nInvestigate new worlds and anomalies to unlock new technologies, gather valuable resources and discover the secrets of this unknown universe.\r\n\r\nFeatures:\r\n\r\n[list]\r\n[*] Explore a fully open-world universe with multiple quests and a deep story\r\n[*] Build your own starship with different weapons, defenses and modules\r\n[*] Research new technologies\r\n[*] Survey unique planetary anomalies and investigate mysterious celestial artifacts\r\n[*] Talk with different alien factions, each with their own strengths, weaknesses and motivations\r\n[*] Fast-travel between discovered wormholes\r\n[/list]\r\n\r\n[img]{STEAM_APP_IMAGE}/extras/RingworldVisit.gif[/img]\r\n\r\nFans of Starcom: Nexus should know that the overall game mechanics have remained similar (with a number of improvements), this is not a direct sequel-- it is a brand new story. New players will not need to be familiar with the plot of Starcom: Nexus to jump right in.",
-      "translation": "[img]{STEAM_APP_IMAGE}/extras/BuildMissiles5MB.gif[/img]\r\nДосліджуйте таємничий відкритий всесвіт, наповнений інопланетними фракціями, дивними світами, таємничими артефактами та епічним сюжетом. \r\n\r\nЯк новий командир, ви та ваша команда перетворите свій корабель із маленького розвідника на все, що вам завгодно: дослідник глибокого космосу, швидкісний ударний корабель або броньований бойовий крейсер. \r\n\r\nЗустрічайте інопланетні раси, як дружні, ворожі, так і загадкові. Перетворіть ворогів на союзників і навпаки.\r\n\r\nДосліджуйте нові світи та аномалії, щоб розблокувати нові технології, збирати цінні ресурси та відкривати таємниці цього невідомого всесвіту.\r\n\r\nособливості:\r\n\r\n[список]\r\n[*] Досліджуйте всесвіт повністю відкритого світу з кількома квестами та глибокою історією\r\n[*] Створіть свій власний корабель із різною зброєю, засобами захисту та модулями\r\n[*] Дослідження нових технологій\r\n[*] Досліджуйте унікальні планетарні аномалії та досліджуйте таємничі небесні артефакти\r\n[*] Спілкуйтеся з різними фракціями прибульців, кожна зі своїми сильними, слабкими сторонами та мотивацією\r\n[*] Швидка подорож між виявленими червоточинами\r\n[/list]\r\n\r\n[img]{STEAM_APP_IMAGE}/extras/RingworldVisit.gif[/img]\r\n\r\nШанувальники Starcom: Nexus повинні знати, що загальна ігрова механіка залишилася подібною (з рядом покращень), це не пряме продовження - це абсолютно нова історія. Новим гравцям не потрібно буде знайомитися із сюжетом Starcom: Nexus, щоб одразу почати.",
+      "translation": "[img]{STEAM_APP_IMAGE}/extras/BuildMissiles5MB.gif[/img]\r\nДосліджуйте таємничий відкритий всесвіт, наповнений інопланетними фракціями, дивними світами, таємничими артефактами та епічним сюжетом. \r\n\r\nЯк новий командир, ви та ваша команда перетворите свій корабель із маленького розвідника на все, що вам завгодно: дослідник глибокого космосу, швидкісний ударний корабель або броньований бойовий крейсер. \r\n\r\nЗустрічайте інопланетні раси, як дружні, ворожі, так і загадкові. Перетворіть ворогів на союзників і навпаки.\r\n\r\nДосліджуйте нові світи та аномалії, щоб розблокувати нові технології, збирати цінні ресурси та відкривати таємниці цього невідомого всесвіту.\r\n\r\nособливості:\r\n\r\n[list]\r\n[*] Досліджуйте всесвіт повністю відкритого світу з кількома квестами та глибокою історією\r\n[*] Створіть свій власний корабель із різною зброєю, засобами захисту та модулями\r\n[*] Дослідження нових технологій\r\n[*] Досліджуйте унікальні планетарні аномалії та досліджуйте таємничі небесні артефакти\r\n[*] Спілкуйтеся з різними фракціями прибульців, кожна зі своїми сильними, слабкими сторонами та мотивацією\r\n[*] Швидка подорож між виявленими червоточинами\r\n[/list]\r\n\r\n[img]{STEAM_APP_IMAGE}/extras/RingworldVisit.gif[/img]\r\n\r\nШанувальники Starcom: Nexus повинні знати, що загальна ігрова механіка залишилася подібною (з рядом покращень), це не пряме продовження - це абсолютно нова історія. Новим гравцям не потрібно буде знайомитися із сюжетом Starcom: Nexus, щоб одразу почати.",
       "priority": 0,
       "reviewed": false
     },
@@ -7040,7 +7040,7 @@
     {
       "symbol": "ALPHA->MISSIONS->CARGO_SPILL->NODES->0->FIRST_OFFICER->EXTRA",
       "original": "[FORWARD][LEFT][BACK][RIGHT] to steer",
-      "translation": "[ВПЕРЕД][ЛІВО][НАЗАД][ПРАВО], щоб керувати",
+      "translation": "[FORWARD][LEFT][BACK][RIGHT], щоб керувати",
       "priority": 0,
       "reviewed": false
     },
@@ -21390,7 +21390,7 @@
     {
       "symbol": "DEVOUT->ITEMS->DATA_SPEAR_ANALYSIS",
       "original": "Report regarding detection of unidentified warp signals by [REDACTED] originating near the \"tip of the Talonian spear\".",
-      "translation": "Звіт про виявлення [ВИДАЛЕНО] неідентифікованих сигналів деформації, що походять біля «кінчика талонського списа».",
+      "translation": "Звіт про виявлення [REDACTED] неідентифікованих сигналів деформації, що походять біля «кінчика талонського списа».",
       "priority": 0,
       "reviewed": false
     },
@@ -24645,14 +24645,14 @@
     {
       "symbol": "ENDING->ANOMALY->CHARIOT_TALONIAN->DIALOGUE->22_PC",
       "original": "*Transfer [fragments] fragments to the Talonian*",
-      "translation": "*Передача [фрагментів] фрагментів до талонця*",
+      "translation": "*Передача [fragments] фрагментів до талонця*",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "ENDING->ANOMALY->CHARIOT_TALONIAN->DIALOGUE->23_NPC",
       "original": "Neural metaconnections restored. \n\nThank you, with the [total] fragments you've recovered I have a better understanding of my history.",
-      "translation": "Нейронні метазв'язки відновлені.\n\nДякую, [загалом] фрагменти, які ви відновили, я краще розумію свою історію.",
+      "translation": "Нейронні метазв'язки відновлені.\n\nДякую, [total] фрагменти, які ви відновили, я краще розумію свою історію.",
       "priority": 0,
       "reviewed": false
     },
@@ -29055,7 +29055,7 @@
     {
       "symbol": "HELP->MISSIONS->HELP_SHIELDS->NODES->0->FIRST_OFFICER->EXTRA",
       "original": "Press [SHIELDS] to active",
-      "translation": "Натисніть [ЩИТИ] для активації",
+      "translation": "Натисніть [SHIELDS] для активації",
       "priority": 0,
       "reviewed": false
     },
@@ -31344,7 +31344,7 @@
     {
       "symbol": "LOCOAN->ANOMALY->YELLOW_FOG->DIALOGUE->2_NPC",
       "original": "There are still [remaining] structures that may hold valuable resources.",
-      "translation": "Є ще [залишилися] структури, які можуть містити цінні ресурси.",
+      "translation": "Є ще [remaining] структури, які можуть містити цінні ресурси.",
       "priority": 0,
       "reviewed": false
     },
@@ -31771,7 +31771,7 @@
     {
       "symbol": "LOST_ARKADIANS->ANOMALY->RELIQUARY->DIALOGUE->1_NPC",
       "original": "[hail]",
-      "translation": "[вітаю]",
+      "translation": "[hail]",
       "priority": 0,
       "reviewed": false
     },
@@ -31855,7 +31855,7 @@
     {
       "symbol": "LOST_ARKADIANS->ANOMALY->WATCHTOWER->DIALOGUE->2_NPC",
       "original": "It is a simple device, clearly added by a civilization more on par with our own. It has a label that translates as \"Watch Tower\" although [CREW_XENOCULTURE] notes that the first word is closer in meaning to \"Eye\".\n\nIt consists of a binary display and five toggle buttons.\n\nThe display reads [binary].",
-      "translation": "Це простий пристрій, явно доданий цивілізацією, більшою за нашу. Він має мітку, яка перекладається як «Вартова вежа», хоча [CREW_XENOCULTURE] зазначає, що перше слово ближче за значенням до «Око».\n\nВін складається з двійкового дисплея та п'яти кнопок перемикання.\n\nНа дисплеї відображається [двійковий].",
+      "translation": "Це простий пристрій, явно доданий цивілізацією, більшою за нашу. Він має мітку, яка перекладається як «Вартова вежа», хоча [CREW_XENOCULTURE] зазначає, що перше слово ближче за значенням до «Око».\n\nВін складається з двійкового дисплея та п'яти кнопок перемикання.\n\nНа дисплеї відображається [binary].",
       "priority": 0,
       "reviewed": false
     },
@@ -31939,7 +31939,7 @@
     {
       "symbol": "LOST_ARKADIANS->ANOMALY->WATCHTOWER->DIALOGUE->5_NPC",
       "original": "The device attachment reads:\n\n[binary]",
-      "translation": "У додатку до пристрою написано:\n\n[двійковий]",
+      "translation": "У додатку до пристрою написано:\n\n[binary]",
       "priority": 0,
       "reviewed": false
     },
@@ -33248,7 +33248,7 @@
     {
       "symbol": "PIRATES->CONVO->BROGIDAR_DEFAULT->DIALOGUE->14_PC",
       "original": "Pay [gold] gold for \"protection\".",
-      "translation": "Платіть [золото] золотом за «захист».",
+      "translation": "Платіть [gold] золотом за «захист».",
       "priority": 0,
       "reviewed": false
     },
@@ -33262,7 +33262,7 @@
     {
       "symbol": "PIRATES->CONVO->BROGIDAR_DEFAULT->DIALOGUE->16_PC",
       "original": "Insufficient gold ([gold] needed)",
-      "translation": "Недостатньо золота (потрібно [золото])",
+      "translation": "Недостатньо золота (потрібно [gold])",
       "priority": 0,
       "reviewed": false
     },
@@ -33276,7 +33276,7 @@
     {
       "symbol": "PIRATES->CONVO->BROGIDAR_DEFAULT->DIALOGUE->18_NPC",
       "original": "How can you put such a low price on your safety?\n\nOur scans show that we will find a great deal more than [gold] gold in salvage from your ship.\n\n",
-      "translation": "Як можна поставити таку низьку ціну на свою безпеку?\n\nНаше сканування показує, що ми знайдемо набагато більше, ніж [золото] золото у врятованих з вашого корабля.\n\n",
+      "translation": "Як можна поставити таку низьку ціну на свою безпеку?\n\nНаше сканування показує, що ми знайдемо набагато більше, ніж [gold] золото у врятованих з вашого корабля.\n\n",
       "priority": 0,
       "reviewed": false
     },
@@ -33304,7 +33304,7 @@
     {
       "symbol": "PIRATES->CONVO->BROGIDAR_DEFAULT->DIALOGUE->7_NPC",
       "original": "It is time to renew your protection subscription, [PLAYER_NAME].\n\nJust [gold] gold for peace of mind and also the regular kind of peace. ",
-      "translation": "Настав час поновити вашу підписку на захист, [PLAYER_NAME].\n\nПросто [золото] золото для душевного спокою, а також звичайного миру.",
+      "translation": "Настав час поновити вашу підписку на захист, [PLAYER_NAME].\n\nПросто [gold] золото для душевного спокою, а також звичайного миру.",
       "priority": 0,
       "reviewed": false
     },
@@ -35082,42 +35082,42 @@
     {
       "symbol": "REMNANTS_2->ANOMALY->ORDEAL->DIALOGUE->15_NPC",
       "original": "The team waits expectantly for the vitals distress beacon. [CREW_ASTRO] sits at the lander's controls, ready to launch a rescue.\n\nBut the signal never comes-- at dawn [contestant] sprints out of the trees, chased by angry balls of fur and teeth. Soon they are over the wall and making the victory sprint to the tower. \n\nThe team cheers them on while politely averting their gaze.",
-      "translation": "Команда з нетерпінням чекає сигналу лиха. [CREW_ASTRO] сидить за пультом посадкового модуля, готовий почати рятувальну службу.\n\nАле сигнал так і не надходить — на світанку [учасник] вибігає з-за дерев, переслідуваний розлюченими клубками хутра та зубами. Невдовзі вони перетинають мур і мчать до вежі.\n\nКоманда підбадьорює їх, ввічливо відводячи їхні погляди.",
+      "translation": "Команда з нетерпінням чекає сигналу лиха. [CREW_ASTRO] сидить за пультом посадкового модуля, готовий почати рятувальну службу.\n\nАле сигнал так і не надходить — на світанку [contestant] вибігає з-за дерев, переслідуваний розлюченими клубками хутра та зубами. Невдовзі вони перетинають мур і мчать до вежі.\n\nКоманда підбадьорює їх, ввічливо відводячи їхні погляди.",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "REMNANTS_2->ANOMALY->ORDEAL->DIALOGUE->25_NPC",
       "original": "There is some delay in [contestant]'s return: apparently the council did not actually have a contingency for this scenario.\n\nEventually, it is agreed [contestant] will be allowed to examine the tower to their heart's content and in lieu of council seat, a Neutronium plaque.",
-      "translation": "Існує певна затримка в поверненні [конкурсанта]: очевидно, у ради насправді не було резерву для цього сценарію.\n\nЗрештою, [учасникам конкурсу] буде дозволено оглянути вежу досхочу, а замість місця ради встановити нейтронієву дошку.",
+      "translation": "Існує певна затримка в поверненні [contestant]: очевидно, у ради насправді не було резерву для цього сценарію.\n\nЗрештою, [contestant] буде дозволено оглянути вежу досхочу, а замість місця ради встановити нейтронієву дошку.",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "REMNANTS_2->ANOMALY->ORDEAL->DIALOGUE->26_NPC",
       "original": "Fortunately, [contestant] was allowed to re-dress and retrieve their effects before entering the tower, allowing them to make detailed scans of the original source of the anomaly signal: a strange blue-gold object that radiates beautiful colored light.",
-      "translation": "На щастя, [учаснику] дозволили переодягнутися та отримати свої наслідки перед тим, як увійти до вежі, що дало їм змогу зробити детальне сканування вихідного джерела сигналу аномалії: дивного синьо-золотистого об’єкта, який випромінює красиве кольорове світло.",
+      "translation": "На щастя, [contestant] дозволили переодягнутися та отримати свої наслідки перед тим, як увійти до вежі, що дало їм змогу зробити детальне сканування вихідного джерела сигналу аномалії: дивного синьо-золотистого об’єкта, який випромінює красиве кольорове світло.",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "REMNANTS_2->ANOMALY->ORDEAL->DIALOGUE->16_NPC",
       "original": "Once again, a crew member sets off into the dark jungle.\n\nAnd once again, soon needs rescuing.\n\n[contestant] agrees that Tactics, Biomed and Observation were all necessary, and the ordeal leveraged their weakest skill against them.",
-      "translation": "Знову член екіпажу вирушає в темні джунглі.\n\nІ знову, незабаром потребує порятунку.\n\n[Учасник] погоджується, що тактика, біомедіа та спостереження були необхідні, і випробування використали їхні найслабші навички проти них.",
+      "translation": "Знову член екіпажу вирушає в темні джунглі.\n\nІ знову, незабаром потребує порятунку.\n\n[contestant] погоджується, що тактика, біомедіа та спостереження були необхідні, і випробування використали їхні найслабші навички проти них.",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "REMNANTS_2->ANOMALY->ORDEAL->DIALOGUE->20_NPC",
       "original": "While the team secretly hoped this was going to be an \"underdog unexpectedly triumphs\" moment, within a few hours of departure, the emergency vitals monitor signals distress.\n\nThe survey lander swoops in to rescue [contestant] from the jaws of a terrifying carnivorous plant.",
-      "translation": "Хоча команда таємно сподівалася, що це буде момент «неочікуваного тріумфу аутсайдера», протягом кількох годин після відправлення монітор життєво важливих показників сигналізує про біду.\n\nОглядовий посадковий модуль налітає, щоб врятувати [учасника] з пащі жахливої м’ясоїдної рослини.",
+      "translation": "Хоча команда таємно сподівалася, що це буде момент «неочікуваного тріумфу аутсайдера», протягом кількох годин після відправлення монітор життєво важливих показників сигналізує про біду.\n\nОглядовий посадковий модуль налітає, щоб врятувати [contestant] з пащі жахливої м’ясоїдної рослини.",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "REMNANTS_2->ANOMALY->ORDEAL->DIALOGUE->21_NPC",
       "original": "But the trial, while painful and embarrassing, did reveal some useful information.\n\n[contestant]: \"It seemed impossible, but I think it can be done. The real challenge that it really requires proficiency in Tactics, Biomed and Observation\".",
-      "translation": "Але судовий процес, хоч і був болісним і сором’язливим, все ж відкрив деяку корисну інформацію.\n\n[учасник]: «Це здавалося неможливим, але я думаю, що це можна зробити. Справжній виклик полягає в тому, що для цього потрібні навички тактики, біомедицини та спостереження».",
+      "translation": "Але судовий процес, хоч і був болісним і сором’язливим, все ж відкрив деяку корисну інформацію.\n\n[contestant]: «Це здавалося неможливим, але я думаю, що це можна зробити. Справжній виклик полягає в тому, що для цього потрібні навички тактики, біомедицини та спостереження».",
       "priority": 0,
       "reviewed": false
     },
@@ -39436,7 +39436,7 @@
     {
       "symbol": "SEPHARIAL->CONVO->GUILD_SEPHARIAL->DIALOGUE->25_PC",
       "original": "*Pay the Envoy [fee] Iridium.*",
-      "translation": "*Сплатіть посланнику [комісію] Iridium.*",
+      "translation": "*Сплатіть посланнику [fee] Iridium.*",
       "priority": 0,
       "reviewed": false
     },
@@ -40283,7 +40283,7 @@
     {
       "symbol": "SOUTHERN->MISSIONS->GRAVITY_GUN->NODES->3->FIRST_OFFICER->EXTRA",
       "original": "Press [SPACE] to charge.",
-      "translation": "Натисніть [ПРОБІЛ], щоб зарядити.",
+      "translation": "Натисніть [SPACE], щоб зарядити.",
       "priority": 0,
       "reviewed": false
     },
@@ -42817,7 +42817,7 @@
     {
       "symbol": "PROLOGUE->TRANSMISSION",
       "original": "SCS Vessel [SHIP_NAME], Scout Class\r\nCommanding Officer: [PLAYER_LASTNAME], [PLAYER_FIRSTNAME], Commander 2nd Class\r\nFirst Officer: Avery, Octavia, Lieutenant Commander\r\nStandard Sol Date: [DATE]\r\n\r\nPriority: Medium  \r\n\r\nRedacted for Clearance\r\n\r\nA service ship departing Maia Station struck debris at -16.6 x -7.7\r\nand sustained moderate damage to port-forward deflector. Sensor \r\nlogs showed a debris field and damaged cargo hauler in captured \r\norbit around Gas Giant J1-2888B. Due to \r\n\r\n[CLASSIFIED, SECTION REDACTED] \r\n\r\nwas needed at Merope Station and unable to investigate. \r\n\r\n[SHIP_NAME] is ordered to investigate and determine if the debris \r\npresents an ongoing threat to regional cargo traffic.\r",
-      "translation": "Судно SCS [SHIP_NAME], клас Scout\r\nКомандир: [PLAYER_LASTNAME], [PLAYER_FIRSTNAME], командир 2-го класу\r\nПерший офіцер: Евері, Октавія, капітан-лейтенант\r\nСтандартна дата солону: [ДАТА]\r\n\r\nПріоритет: середній\r\n\r\nВідредаговано для очищення\r\n\r\nСлужбовий корабель, що відправлявся зі станції Майя, зіткнувся з уламками при -16,6 x -7,7\r\nі отримав помірні пошкодження переднього лівого дефлектора. датчик\r\nу журналах було видно поле сміття та пошкоджений вантажний самоскид\r\nорбіту навколо газового гіганта J1-2888B. Через\r\n\r\n[ЗАСЕДКОВАНО, РОЗДІЛ ВИДАЛЕНО]\r\n\r\nбув потрібен на станції Merope і не міг дослідити.\r\n\r\n[SHIP_NAME] наказано дослідити та визначити, чи є уламки\r\nстворює постійну загрозу для регіональних вантажопотоків.\r",
+      "translation": "Судно SCS [SHIP_NAME], клас Scout\r\nКомандир: [PLAYER_LASTNAME], [PLAYER_FIRSTNAME], командир 2-го класу\r\nПерший офіцер: Евері, Октавія, капітан-лейтенант\r\nСтандартна дата солону: [DATE]\r\n\r\nПріоритет: середній\r\n\r\nВідредаговано для очищення\r\n\r\nСлужбовий корабель, що відправлявся зі станції Майя, зіткнувся з уламками при -16,6 x -7,7\r\nі отримав помірні пошкодження переднього лівого дефлектора. датчик\r\nу журналах було видно поле сміття та пошкоджений вантажний самоскид\r\nорбіту навколо газового гіганта J1-2888B. Через\r\n\r\n[ЗАСЕДКОВАНО, РОЗДІЛ ВИДАЛЕНО]\r\n\r\nбув потрібен на станції Merope і не міг дослідити.\r\n\r\n[SHIP_NAME] наказано дослідити та визначити, чи є уламки\r\nстворює постійну загрозу для регіональних вантажопотоків.\r",
       "priority": 0,
       "reviewed": false
     },
