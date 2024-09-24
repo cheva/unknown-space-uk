@@ -2056,7 +2056,7 @@
     {
       "symbol": "GAME_MENU_UI_STATIC->QUIT_TO_MENU",
       "original": "Quit to Menu",
-      "translation": "До меню",
+      "translation": "Меню",
       "priority": 0,
       "reviewed": false
     },
@@ -2588,7 +2588,7 @@
     {
       "symbol": "CREDITS_UI->CREDITS",
       "original": "Credits",
-      "translation": "Кредити",
+      "translation": "Подяка",
       "priority": 0,
       "reviewed": false
     },
@@ -2602,7 +2602,7 @@
     {
       "symbol": "CREDITS_UI->COLUMN_1",
       "original": "Game Music: \nMoritz Sebastian\n\nCharacter Portraits: \nHardy Fowler\n\nModule 3D Art: \nPovilas Selila\nDavid Ly\n\nArtifact 3D Art:\nPovilas Selila\n\nProps Concept Art:\nRuslan Ahmatnurov\n\nTrailer Score: \nZak McNeil\n\nEA Launch QA\r:\nConnor Goglin\n\nMoral Support:\nKristin Cashore\n\nThe Game:\nKevin Lin",
-      "translation": "Ігрова музика:\nМоріц Себастьян\n\nПортрети персонажів:\nХарді Фаулер\n\nМодуль 3D Art:\nПовілас Селіла\nДевід Лі\n\nArtifact 3D Art:\nПовілас Селіла\n\nКонцепт-арт Props:\nРуслан Ахматнуров\n\nОцінка трейлера:\nЗак Макнейл\n\nEA Launch QA\r:\nКоннор Гоглін\n\nМоральна підтримка:\nКрістін Кашор\n\nГра:\nКевін Лін",
+      "translation": "Game Music: \nMoritz Sebastian\n\nCharacter Portraits: \nHardy Fowler\n\nModule 3D Art: \nPovilas Selila\nDavid Ly\n\nArtifact 3D Art:\nPovilas Selila\n\nProps Concept Art:\nRuslan Ahmatnurov\n\nTrailer Score: \nZak McNeil\n\nEA Launch QA\r:\nConnor Goglin\n\nMoral Support:\nKristin Cashore\n\nThe Game:\nKevin Lin",
       "priority": 0,
       "reviewed": false
     },
@@ -2616,7 +2616,7 @@
     {
       "symbol": "CREDITS_UI->COLUMN_2",
       "original": "Game Engine: \r\nUnity 3D\r\n\r\nMusic Audio: \r\nAudiokinect Wwise\r\n\r\nAnomaly Images: \r\nEon Vue\r\n\r\n3D Modeling:\r\nBlender\r\n\r\nImage Editing: \r\nAdobe Photoshop\r\n\r\nAudio Editing: \r\nAudacity\r\n\r\nShader Editor: \r\nAmplify\r\n\r\nLicensed 3rd Party Assets:\r\nProFlares\r\nBoom Library\r\nPM Sound\r\nNova Shade \r\nRobert Stein III\r\n\r\nCreative Commons Attributions:\r\nFreesound, inc: \r\nAlanCat, aj_heels, benboncan, Cell 31, CGEffex, C3Sabertooth, ilmari, inspectorJ, Jarusca, juskiddink, MatriXXX, SyntaxSeed",
-      "translation": "Ігровий двигун:\r\nUnity 3D\r\n\r\nАудіо музики:\r\nAudiokinect Wwise\r\n\r\nЗображення аномалій:\r\nEon Vue\r\n\r\n3D моделювання:\r\nблендер\r\n\r\nРедагування зображень:\r\nAdobe Photoshop\r\n\r\nРедагування аудіо:\r\nЗухвалість\r\n\r\nРедактор шейдерів:\r\nПосилювати\r\n\r\nЛіцензовані сторонні активи:\r\nProFlares\r\nБібліотека Boom\r\nЗвук PM\r\nNova Shade\r\nРоберт Стайн III\r\n\r\nАтрибуції Creative Commons:\r\nFreesound, inc:\r\nAlanCat, aj_heels, benboncan, Cell 31, CGEffex, C3Sabertooth, ilmari, inspectorJ, Jarusca, juskiddink, MatriXXX, SyntaxSeed",
+      "translation": "Game Engine: \r\nUnity 3D\r\n\r\nMusic Audio: \r\nAudiokinect Wwise\r\n\r\nAnomaly Images: \r\nEon Vue\r\n\r\n3D Modeling:\r\nBlender\r\n\r\nImage Editing: \r\nAdobe Photoshop\r\n\r\nAudio Editing: \r\nAudacity\r\n\r\nShader Editor: \r\nAmplify\r\n\r\nLicensed 3rd Party Assets:\r\nProFlares\r\nBoom Library\r\nPM Sound\r\nNova Shade \r\nRobert Stein III\r\n\r\nCreative Commons Attributions:\r\nFreesound, inc: \r\nAlanCat, aj_heels, benboncan, Cell 31, CGEffex, C3Sabertooth, ilmari, inspectorJ, Jarusca, juskiddink, MatriXXX, SyntaxSeed",
       "priority": 0,
       "reviewed": false
     },

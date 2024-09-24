@@ -10,11 +10,11 @@ Direct3D:
     VRAM:     8119 MB
     Driver:   31.0.101.2115
 Begin MonoManager ReloadAssembly
-- Completed reload, in  0.167 seconds
+- Completed reload, in  0.202 seconds
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 1.651600 ms
+UnloadTime: 1.725600 ms
 Preloader started, build Kepler (17321)
 Async progress 90%, attempting scene activation...
 Build Number: 17321
@@ -40,11 +40,15 @@ Steam knows about 0 achievements
 StoryId was null
 No starting story found: ''
 No starting location
-#23110 769.9782 sec: FPS: 30.02749 Mission Update: 0.00282158
-#31738 1070.03 sec: FPS: 17.76108 Mission Update: 0.00279082
-Bootstrapped story 'FOREST'
-Bootstrapped story 'CXTA'
-#40184 1370.043 sec: FPS: 29.64178 Mission Update: 0.00222454
+Material ProgressFill doesn't have _Stencil property
+Material ProgressFill(Clone) doesn't have _Stencil property
+Material ProgressFill(Clone) doesn't have _Stencil property
+Material ProgressFill(Clone) doesn't have _Stencil property
+Material ProgressFill(Clone) doesn't have _Stencil property
+Material ProgressFill(Clone) doesn't have _Stencil property
+Material ProgressFill(Clone) doesn't have _Stencil property
+#14594 375.3577 sec: FPS: 29.71076 Mission Update: 0.00265279
+#17617 864.5447 sec: FPS: 0.08065658 Mission Update: 0.00149626
 Setting up 2 worker threads for Enlighten.
-  Thread -> id: 1368 -> priority: 1 
-  Thread -> id: 1b2c -> priority: 1 
+  Thread -> id: 15a0 -> priority: 1 
+  Thread -> id: 2f70 -> priority: 1 
