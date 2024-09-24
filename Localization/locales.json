@@ -1,0 +1,34 @@
+[
+  {
+    "code": "en-us",
+    "language": "English (Default)"
+  },
+  {
+    "code": "de",
+    "language": "Deutsch"
+  },
+  {
+    "code": "es",
+    "language": "Española"
+  },
+  {
+    "code": "fr",
+    "language": "Français"
+  },
+  {
+    "code": "pl",
+	"language": "Polski"
+  },
+  {
+    "code": "pt-BR",
+	"language": "Portugues (BR)"
+  },
+  {
+    "code": "uk",
+	"language": "Українська"
+  },
+  {
+    "code": "tr",
+	"language": "Türkçe"
+  }
+]
