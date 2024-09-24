@@ -10,11 +10,11 @@ Direct3D:
     VRAM:     8119 MB
     Driver:   31.0.101.2115
 Begin MonoManager ReloadAssembly
-- Completed reload, in  0.202 seconds
+- Completed reload, in  0.172 seconds
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 1.725600 ms
+UnloadTime: 0.867200 ms
 Preloader started, build Kepler (17321)
 Async progress 90%, attempting scene activation...
 Build Number: 17321
@@ -40,15 +40,20 @@ Steam knows about 0 achievements
 StoryId was null
 No starting story found: ''
 No starting location
-Material ProgressFill doesn't have _Stencil property
-Material ProgressFill(Clone) doesn't have _Stencil property
-Material ProgressFill(Clone) doesn't have _Stencil property
-Material ProgressFill(Clone) doesn't have _Stencil property
-Material ProgressFill(Clone) doesn't have _Stencil property
-Material ProgressFill(Clone) doesn't have _Stencil property
-Material ProgressFill(Clone) doesn't have _Stencil property
-#14594 375.3577 sec: FPS: 29.71076 Mission Update: 0.00265279
-#17617 864.5447 sec: FPS: 0.08065658 Mission Update: 0.00149626
+Activating emissary for 'EmissaryDestination'
+Adding active THE_EMISSARY
+#11967 378.9912 sec: FPS: 29.71346 Mission Update: 0.00256084
+Attempted to trigger an unknown Steam Achievement: 'EMISSARY'
+#19667 679.0168 sec: FPS: 29.77646 Mission Update: 0.00254795
+Task scheduler exceeded 1500ms
+Task scheduler exceeded 1500ms
+Task scheduler exceeded 1500ms
+Task scheduler exceeded 1500ms
+Task scheduler exceeded 1500ms
+Task scheduler exceeded 1500ms
+#28231 1055.092 sec: FPS: 0.3760271 Mission Update: 0.00174547
+#36587 1355.097 sec: FPS: 29.92329 Mission Update: 0.00254138
+#45555 1655.126 sec: FPS: 29.91236 Mission Update: 0.00251316
 Setting up 2 worker threads for Enlighten.
-  Thread -> id: 15a0 -> priority: 1 
-  Thread -> id: 2f70 -> priority: 1 
+  Thread -> id: 1cc8 -> priority: 1 
+  Thread -> id: 16cc -> priority: 1 
