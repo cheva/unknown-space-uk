@@ -5374,7 +5374,7 @@
     {
       "symbol": "PERSISTENT->VOID_DISRUPTOR",
       "original": "Void Disruptor",
-      "translation": "Пустота Disruptor",
+      "translation": "Порушник Пустоти",
       "priority": 0,
       "reviewed": false
     },
@@ -5486,7 +5486,7 @@
     {
       "symbol": "PERSISTENT->MUSIC",
       "original": "Music",
-      "translation": "музика",
+      "translation": "Музика",
       "priority": 0,
       "reviewed": false
     },
@@ -5528,21 +5528,21 @@
     {
       "symbol": "PERSISTENT->DERELICT_DEBRIS_BLACK_BOX",
       "original": "Derelict Debris Black Box",
-      "translation": "Чорна скринька занедбаного сміття",
+      "translation": "Чорна скринька сміття",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "PERSISTENT->GENERATION_ASTEROID_FIELD",
       "original": "Generation Asteroid Field",
-      "translation": "Астероїдне поле покоління",
+      "translation": "Астероїдне поле",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "PERSISTENT->GENERATION_BLACK_BOXES",
       "original": "Generation Black Boxes",
-      "translation": "Покоління чорних ящиків",
+      "translation": "Поле чорних ящиків",
       "priority": 0,
       "reviewed": false
     },
@@ -5563,14 +5563,14 @@
     {
       "symbol": "PERSISTENT->SHIP_DEBRIS_FIELD",
       "original": "Ship Debris Field",
-      "translation": "Поле уламків кораблів",
+      "translation": "Поле уламків",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "PERSISTENT->SHIP_DEBRIS_FIELD_FRESH",
       "original": "Ship Debris Field Fresh",
-      "translation": "Поле сміття корабля свіже",
+      "translation": "Поле сміття",
       "priority": 0,
       "reviewed": false
     },
@@ -5612,7 +5612,7 @@
     {
       "symbol": "PERSISTENT->EARTH",
       "original": "Earth",
-      "translation": "земля",
+      "translation": "Земля",
       "priority": 0,
       "reviewed": false
     },
@@ -5696,7 +5696,7 @@
     {
       "symbol": "PERSISTENT->GREENHOUSE_X1",
       "original": "Greenhouse X1",
-      "translation": "Теплиця Х1",
+      "translation": "Зелена Х1",
       "priority": 0,
       "reviewed": false
     },
@@ -5759,70 +5759,70 @@
     {
       "symbol": "PERSISTENT->NEUTRON_PLANET",
       "original": "Neutron Planet",
-      "translation": "Планета нейтронів",
+      "translation": "Нейтронна планета",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "PERSISTENT->OCEANIC_O1",
       "original": "Oceanic O1",
-      "translation": "Океанічний О1",
+      "translation": "Океанічна О1",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "PERSISTENT->PRIMORDIAL_P1",
       "original": "Primordial P1",
-      "translation": "Первісний P1",
+      "translation": "Первісна P1",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "PERSISTENT->ROCKY_R1",
       "original": "Rocky R1",
-      "translation": "Рокі R1",
+      "translation": "Кам'яна R1",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "PERSISTENT->ROCKY_R1D",
       "original": "Rocky R1D",
-      "translation": "Рокі R1D",
+      "translation": "Кам'яна R1D",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "PERSISTENT->ROCKY_R2",
       "original": "Rocky R2",
-      "translation": "Рокі R2",
+      "translation": "Кам'яна R2",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "PERSISTENT->ROCKY_R3",
       "original": "Rocky R3",
-      "translation": "Рокі R3",
+      "translation": "Кам'яна R3",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "PERSISTENT->ROCKY_R4",
       "original": "Rocky R4",
-      "translation": "Рокі R4",
+      "translation": "Кам'яна R4",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "PERSISTENT->ROCKY_R5",
       "original": "Rocky R5",
-      "translation": "Рокі R5",
+      "translation": "Кам'яна R5",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "PERSISTENT->ROCKY_R7D",
       "original": "Rocky R7D",
-      "translation": "Рокі R7D",
+      "translation": "Кам'яна R7D",
       "priority": 0,
       "reviewed": false
     },
@@ -5836,35 +5836,35 @@
     {
       "symbol": "PERSISTENT->TERRESTRIAL_M1",
       "original": "Terrestrial M1",
-      "translation": "Наземний М1",
+      "translation": "Земна М1",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "PERSISTENT->TERRESTRIAL_M1D",
       "original": "Terrestrial M1D",
-      "translation": "Наземний M1D",
+      "translation": "Земна M1D",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "PERSISTENT->TERRESTRIAL_M1X",
       "original": "Terrestrial M1X",
-      "translation": "Наземний M1X",
+      "translation": "Земна M1X",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "PERSISTENT->TERRESTRIAL_M2",
       "original": "Terrestrial M2",
-      "translation": "Наземний М2",
+      "translation": "Земна М2",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "PERSISTENT->TERRESTRIAL_M3",
       "original": "Terrestrial M3",
-      "translation": "Наземний М3",
+      "translation": "Земна М3",
       "priority": 0,
       "reviewed": false
     },
@@ -5885,7 +5885,7 @@
     {
       "symbol": "PERSISTENT->ENCOUNTER_SPAWNER",
       "original": "Encounter Spawner",
-      "translation": "Encounter Spawner",
+      "translation": "Шукач",
       "priority": 0,
       "reviewed": false
     },
@@ -5899,7 +5899,7 @@
     {
       "symbol": "PERSISTENT->SHIP_SPAWNER",
       "original": "Ship Spawner",
-      "translation": "Корабель Спаунер",
+      "translation": "Корабель",
       "priority": 0,
       "reviewed": false
     },
