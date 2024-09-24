@@ -9833,7 +9833,7 @@
     {
       "symbol": "BEYOND->CONVO->ERMYR_ARTIFACT->DIALOGUE->1_NPC",
       "original": "Halt. This area is off-limits to unauthorized vessels. Depart immediately.",
-      "translation": "зупинка. Ця зона заборонена для несанкціонованих суден. Вирушайте негайно.",
+      "translation": "Не руш. Ця зона заборонена для несанкціонованих суден. Вирушайте негайно.",
       "priority": 0,
       "reviewed": false
     },
