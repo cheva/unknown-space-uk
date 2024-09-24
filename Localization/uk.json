@@ -5150,14 +5150,14 @@
     {
       "symbol": "MODULE_CATEGORY->ENERGYWEAPONS",
       "original": "Energy Weapons",
-      "translation": "Енергетична зброя",
+      "translation": "Зброя",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "MODULE_CATEGORY->OTHERWEAPONS",
       "original": "Other Weapons",
-      "translation": "Інша зброя",
+      "translation": "Ще зброя",
       "priority": 0,
       "reviewed": false
     },
