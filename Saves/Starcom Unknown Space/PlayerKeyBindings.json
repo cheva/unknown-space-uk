@@ -18,5 +18,10 @@
     "action": 82,
     "key1": 49,
     "key2": 0
+  },
+  "TURBO": {
+    "action": 9,
+    "key1": 304,
+    "key2": 303
   }
 }
