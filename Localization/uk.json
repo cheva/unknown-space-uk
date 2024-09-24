@@ -173,7 +173,7 @@
     {
       "symbol": "SHIP_STATION_UI->LOAD_DESIGN",
       "original": "Load Design",
-      "translation": "Завантажити",
+      "translation": "Бібліотека",
       "priority": 0,
       "reviewed": false
     },
@@ -1321,7 +1321,7 @@
     {
       "symbol": "BLUEPRINT_LOAD_UI_STATIC->SET_BUILD_GOAL",
       "original": "Set Build Goal",
-      "translation": "Ціль створення",
+      "translation": "Ціль збору",
       "priority": 0,
       "reviewed": false
     },
@@ -1377,7 +1377,7 @@
     {
       "symbol": "BLUEPRINT_LOAD_UI->LOAD_DESIGN_BUTTON",
       "original": "Load Design",
-      "translation": "Проектування",
+      "translation": "Зібрати",
       "priority": 0,
       "reviewed": false
     },
@@ -1440,7 +1440,7 @@
     {
       "symbol": "BLUEPRINT_SAVE_UI->SET_AS_RESOURCE_GOAL",
       "original": "Set as Resource Goal",
-      "translation": "Установити як ресурсну ціль",
+      "translation": "Як ціль збору",
       "priority": 0,
       "reviewed": false
     },
