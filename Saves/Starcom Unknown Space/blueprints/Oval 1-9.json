@@ -1,0 +1,301 @@
+{
+  "id": "Oval 1-9",
+  "description": "",
+  "custom": false,
+  "defaultFactionId": "DEFAULT.PLAYER",
+  "normalCost": 0.0,
+  "modules": [
+    {
+      "moduleId": "BRIDGE_2",
+      "origin": {
+        "x": 0,
+        "y": 0
+      },
+      "rot": 0,
+      "mirrored": false,
+      "health": 15.0
+    },
+    {
+      "moduleId": "PLASMA_1",
+      "origin": {
+        "x": -1,
+        "y": 0
+      },
+      "rot": 0,
+      "mirrored": false,
+      "health": 6.0
+    },
+    {
+      "moduleId": "ENGINE_1",
+      "origin": {
+        "x": -1,
+        "y": -1
+      },
+      "rot": 0,
+      "mirrored": false,
+      "health": 8.0
+    },
+    {
+      "moduleId": "ENGINE_1",
+      "origin": {
+        "x": 0,
+        "y": -1
+      },
+      "rot": 0,
+      "mirrored": false,
+      "health": 8.0
+    },
+    {
+      "moduleId": "REACTOR_1",
+      "origin": {
+        "x": -1,
+        "y": 1
+      },
+      "rot": 0,
+      "mirrored": false,
+      "health": 5.0
+    },
+    {
+      "moduleId": "WEDGE_0B",
+      "origin": {
+        "x": 2,
+        "y": 3
+      },
+      "rot": 0,
+      "mirrored": false,
+      "health": 3.0
+    },
+    {
+      "moduleId": "WEDGE_0B",
+      "origin": {
+        "x": -2,
+        "y": 3
+      },
+      "rot": 3,
+      "mirrored": false,
+      "health": 3.0
+    },
+    {
+      "moduleId": "PLASMA_1",
+      "origin": {
+        "x": -1,
+        "y": 3
+      },
+      "rot": 0,
+      "mirrored": false,
+      "health": 6.0
+    },
+    {
+      "moduleId": "PLASMA_1",
+      "origin": {
+        "x": 1,
+        "y": 3
+      },
+      "rot": 0,
+      "mirrored": false,
+      "health": 6.0
+    },
+    {
+      "moduleId": "REACTOR_1",
+      "origin": {
+        "x": -1,
+        "y": 2
+      },
+      "rot": 0,
+      "mirrored": false,
+      "health": 5.0
+    },
+    {
+      "moduleId": "BATTERY_1",
+      "origin": {
+        "x": 0,
+        "y": 2
+      },
+      "rot": 0,
+      "mirrored": false,
+      "health": 5.0
+    },
+    {
+      "moduleId": "PLASMA_1",
+      "origin": {
+        "x": -1,
+        "y": 4
+      },
+      "rot": 0,
+      "mirrored": false,
+      "health": 6.0
+    },
+    {
+      "moduleId": "PLASMA_1",
+      "origin": {
+        "x": 1,
+        "y": 4
+      },
+      "rot": 0,
+      "mirrored": false,
+      "health": 6.0
+    },
+    {
+      "moduleId": "WEDGE_0B",
+      "origin": {
+        "x": 2,
+        "y": 4
+      },
+      "rot": 0,
+      "mirrored": false,
+      "health": 3.0
+    },
+    {
+      "moduleId": "WEDGE_0B",
+      "origin": {
+        "x": -2,
+        "y": 4
+      },
+      "rot": 3,
+      "mirrored": false,
+      "health": 3.0
+    },
+    {
+      "moduleId": "CREW_2",
+      "origin": {
+        "x": 0,
+        "y": 4
+      },
+      "rot": 0,
+      "mirrored": false,
+      "health": 35.0
+    },
+    {
+      "moduleId": "SURVEYOR_1",
+      "origin": {
+        "x": 0,
+        "y": 5
+      },
+      "rot": 0,
+      "mirrored": false,
+      "health": 3.0
+    },
+    {
+      "moduleId": "WEDGE_0B",
+      "origin": {
+        "x": -1,
+        "y": 5
+      },
+      "rot": 4,
+      "mirrored": false,
+      "health": 3.0
+    },
+    {
+      "moduleId": "WEDGE_0B",
+      "origin": {
+        "x": 1,
+        "y": 5
+      },
+      "rot": 5,
+      "mirrored": false,
+      "health": 3.0
+    },
+    {
+      "moduleId": "DETECTOR_1",
+      "origin": {
+        "x": 1,
+        "y": 2
+      },
+      "rot": 1,
+      "mirrored": false,
+      "health": 5.0
+    },
+    {
+      "moduleId": "REACTOR_1",
+      "origin": {
+        "x": 1,
+        "y": 1
+      },
+      "rot": 0,
+      "mirrored": false,
+      "health": 5.0
+    },
+    {
+      "moduleId": "PLASMA_1",
+      "origin": {
+        "x": 1,
+        "y": 0
+      },
+      "rot": 0,
+      "mirrored": false,
+      "health": 6.0
+    },
+    {
+      "moduleId": "ENGINE_1",
+      "origin": {
+        "x": 1,
+        "y": -1
+      },
+      "rot": 0,
+      "mirrored": false,
+      "health": 8.0
+    },
+    {
+      "moduleId": "WING_2",
+      "origin": {
+        "x": 2,
+        "y": 2
+      },
+      "rot": 6,
+      "mirrored": true,
+      "health": 4.0
+    },
+    {
+      "moduleId": "WING_2",
+      "origin": {
+        "x": -2,
+        "y": 2
+      },
+      "rot": 0,
+      "mirrored": false,
+      "health": 4.0
+    },
+    {
+      "moduleId": "HALF_0",
+      "origin": {
+        "x": 2,
+        "y": 1
+      },
+      "rot": 4,
+      "mirrored": false,
+      "health": 7.0
+    },
+    {
+      "moduleId": "HALF_0",
+      "origin": {
+        "x": -2,
+        "y": 1
+      },
+      "rot": 2,
+      "mirrored": false,
+      "health": 7.0
+    },
+    {
+      "moduleId": "ENGINE_1",
+      "origin": {
+        "x": 2,
+        "y": 0
+      },
+      "rot": 0,
+      "mirrored": false,
+      "health": 8.0
+    },
+    {
+      "moduleId": "ENGINE_1",
+      "origin": {
+        "x": -2,
+        "y": 0
+      },
+      "rot": 0,
+      "mirrored": false,
+      "health": 8.0
+    }
+  ],
+  "scale": 0.0,
+  "steamFileId": 0
+}

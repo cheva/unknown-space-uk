@@ -1041,7 +1041,7 @@
     {
       "symbol": "TRADE_UI->OUR_CURRENCY",
       "original": "Our [CURRENCY]",
-      "translation": "Наша [ВАЛЮТА]",
+      "translation": "Якась [ВАЛЮТА]",
       "priority": 0,
       "reviewed": false
     },
@@ -1937,14 +1937,14 @@
     {
       "symbol": "TITLE_MENU->OPTIONS_BUTTON",
       "original": "Options",
-      "translation": "Опції",
+      "translation": "Налаштування",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "TITLE_MENU->CREDITS_BUTTON",
       "original": "Credits",
-      "translation": "Кредити",
+      "translation": "Подяка",
       "priority": 0,
       "reviewed": false
     },
@@ -2462,7 +2462,7 @@
     {
       "symbol": "OPTIONS_UI_STATIC->AUTODETECT_GAMEPAD",
       "original": "Autodetect Gamepad",
-      "translation": "Автовизначення геймпада",
+      "translation": "Автовизначення",
       "priority": 0,
       "reviewed": false
     },
@@ -6956,7 +6956,7 @@
     {
       "symbol": "ALPHA->CONVO->SCHELL_WORMHOLE->DIALOGUE->21_NPC",
       "original": "According to early research papers, the wormhole may lead to a universe that was separated from ours during the early expansion of the universe.\n\nWe sent Celaeno Station through a month ago and they have begun studying the region.",
-      "translation": "Згідно з ранніми дослідницькими роботами, червоточина може привести до Всесвіту, який був відділений від нашого під час раннього розширення Всесвіту.\n\nМи відправили станцію Celaeno місяць тому, і вони почали вивчати регіон.",
+      "translation": "Згідно з ранніми дослідницькими роботами, червоточина може привести до Всесвіту, який був відділений від нашого під час раннього розширення Всесвіту.\n\nМи відправили станцію Селено місяць тому, і вони почали вивчати регіон.",
       "priority": 0,
       "reviewed": false
     },
@@ -7607,7 +7607,7 @@
     {
       "symbol": "ARRIVAL->CONVO->PLAYER_YU_DEBRIS->DIALOGUE->7_NPC",
       "original": "During Celaeno's construction, they moved pretty fast. There was an accident with one of the construction ships that scattered leftover materials.\n\nI guess some of it got captured by the gravity of the nearby system.",
-      "translation": "Під час будівництва Celaeno вони рухалися досить швидко. З одним із будівельних кораблів сталася аварія, яка розкидала залишки матеріалів.\n\nЯ припускаю, що частина цього була захоплена гравітацією сусідньої системи.",
+      "translation": "Під час будівництва Селено вони рухалися досить швидко. З одним із будівельних кораблів сталася аварія, яка розкидала залишки матеріалів.\n\nЯ припускаю, що частина цього була захоплена гравітацією сусідньої системи.",
       "priority": 0,
       "reviewed": false
     },
@@ -7845,7 +7845,7 @@
     {
       "symbol": "ARRIVAL->CONVO->YU_ARRIVAL->DIALOGUE->23_NPC",
       "original": "Welcome to Celaeno Station commander. \n\nI assume your appearance means Maia picked up our emergency beacon. And I hope [SHIP_NAME] is just the very small tip of a much larger spear of reinforcements coming soon?",
-      "translation": "Ласкаво просимо до командира станції Celaeno.\n\nЯ припускаю, що ваша поява означає, що Майя підхопила наш аварійний маяк. І я сподіваюся, що [SHIP_NAME] — це лише маленький наконечник набагато більшого списа підкріплення, яке незабаром з’явиться?",
+      "translation": "Ласкаво просимо до командира станції Селено.\n\nЯ припускаю, що ваша поява означає, що Майя підхопила наш аварійний маяк. І я сподіваюся, що [SHIP_NAME] — це лише маленький наконечник набагато більшого списа підкріплення, яке незабаром з’явиться?",
       "priority": 0,
       "reviewed": false
     },
@@ -8475,7 +8475,7 @@
     {
       "symbol": "ARRIVAL->MISSIONS->ALETHEIA_RETURNS->NODES->3->ENDING->TEXT",
       "original": "[SHIP_NAME] spent many months searching for clues to re-open the wormhole. Eventually, Celaeno's supplies began to dwindle.\n\nThe crew of Celaeno and [SHIP_NAME] were forced to relocate to a Class M planet they had discovered.\n\nPerhaps if the Aletheia had survived, things might have ended differently.",
-      "translation": "[SHIP_NAME] витратив багато місяців на пошук підказок, щоб знову відкрити червоточину. Згодом запаси Селено почали скорочуватися.\n\nЕкіпаж Celaeno та [SHIP_NAME] були змушені переїхати на планету класу M, яку вони виявили.\n\nМожливо, якби Алетея вижила, все могло б закінчитися інакше.",
+      "translation": "[SHIP_NAME] витратив багато місяців на пошук підказок, щоб знову відкрити червоточину. Згодом запаси Селено почали скорочуватися.\n\nЕкіпаж Селено та [SHIP_NAME] були змушені переїхати на планету класу M, яку вони виявили.\n\nМожливо, якби Алетея вижила, все могло б закінчитися інакше.",
       "priority": 0,
       "reviewed": false
     },
@@ -8496,14 +8496,14 @@
     {
       "symbol": "ARRIVAL->MISSIONS->CELAENO_DESTROYED->NODES->1->ENDING->TITLE",
       "original": "Celaeno Destroyed",
-      "translation": "Celaeno знищено",
+      "translation": "Селено знищено",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "ARRIVAL->MISSIONS->CELAENO_DESTROYED->NODES->1->ENDING->TEXT",
       "original": "Following the destruction Celaeno Station, [SHIP_NAME] continued the search for a way back home.\r\n\r\nEventually the crew got tired of looking, mutinied, and settled on the next M1 planet they came across. ",
-      "translation": "Після знищення станції Celaeno [SHIP_NAME] продовжив пошуки шляху додому.\r\n\r\nЗрештою екіпаж втомився шукати, збунтувався та оселився на наступній планеті M1, на яку вони натрапили.",
+      "translation": "Після знищення станції Селено [SHIP_NAME] продовжив пошуки шляху додому.\r\n\r\nЗрештою екіпаж втомився шукати, збунтувався та оселився на наступній планеті M1, на яку вони натрапили.",
       "priority": 0,
       "reviewed": false
     },
@@ -8643,7 +8643,7 @@
     {
       "symbol": "ARRIVAL->MISSIONS->LEASH->NODES->0->FIRST_OFFICER->MESSAGE",
       "original": "I think we should complete our initial objectives with Celaeno before trying to explore this space on our own.",
-      "translation": "Я думаю, що ми повинні виконати наші початкові цілі з Celaeno, перш ніж намагатися досліджувати цей простір самостійно.",
+      "translation": "Я думаю, що ми повинні виконати наші початкові цілі з Селено, перш ніж намагатися досліджувати цей простір самостійно.",
       "priority": 0,
       "reviewed": false
     },
@@ -8790,7 +8790,7 @@
     {
       "symbol": "ARRIVAL->MISSIONS->RED_RAIDERS->DESCRIPTION",
       "original": "Celaeno detected ship movement around a nearby gas giant.",
-      "translation": "Celaeno виявив рух корабля навколо сусіднього газового гіганта.",
+      "translation": "Селено виявив рух корабля навколо сусіднього газового гіганта.",
       "priority": 0,
       "reviewed": false
     },
@@ -8846,7 +8846,7 @@
     {
       "symbol": "ARRIVAL->MISSIONS->RESCUE->DESCRIPTION",
       "original": "Since Celaeno has started coming under attack by unknown ships, the Commodore wants us to evacuate the outpost they established.",
-      "translation": "Оскільки Celaeno почали атакувати невідомі кораблі, Коммодор хоче, щоб ми евакуювали створений ними форпост.",
+      "translation": "Оскільки Селено почали атакувати невідомі кораблі, Коммодор хоче, щоб ми евакуювали створений ними форпост.",
       "priority": 0,
       "reviewed": false
     },
@@ -9014,7 +9014,7 @@
     {
       "symbol": "ARRIVAL->MISSIONS->STATION_NEWS->NODES->0->NEWS->THIS_IS_A_TEST_O_29729->TEXT",
       "original": "This is a test of the updated wormhole stabilizer relay antennae.\n\nAny crew aboard Celaeno who see this notification send an ACK message. You should receive a counter-reply at the next wormhole open in 48 hours.",
-      "translation": "Це випробування оновленої релейної антени стабілізатора червоточини.\n\nБудь-який екіпаж на борту Celaeno, який бачить це сповіщення, надсилає повідомлення ACK. Ви повинні отримати зустрічну відповідь під час наступного відкриття червоточини через 48 годин.",
+      "translation": "Це випробування оновленої релейної антени стабілізатора червоточини.\n\nБудь-який екіпаж на борту Селено, який бачить це сповіщення, надсилає повідомлення ACK. Ви повинні отримати зустрічну відповідь під час наступного відкриття червоточини через 48 годин.",
       "priority": 0,
       "reviewed": false
     },
@@ -9056,7 +9056,7 @@
     {
       "symbol": "ARRIVAL->MISSIONS->STATION_NEWS->NODES->0->NEWS->THERE_IS_ANOTHER_12297->TEXT",
       "original": "There is another junior research opening, apply Celaeno-Res:JRAMA. This is not a repost. This is a new posting for the same position.",
-      "translation": "Є ще одне відкриття для молодших дослідників, застосувати Celaeno-Res:JRAMA. Це не репост. Це нове оголошення на ту саму посаду.",
+      "translation": "Є ще одне відкриття для молодших дослідників, застосувати Селено-Res:JRAMA. Це не репост. Це нове оголошення на ту саму посаду.",
       "priority": 0,
       "reviewed": false
     },
@@ -9070,7 +9070,7 @@
     {
       "symbol": "ARRIVAL->MISSIONS->STATION_NEWS->NODES->0->NEWS->CELAENO_S_LAST_W_98646->TEXT",
       "original": "Celaeno's last window for a longwave transmission to Maia for relay is tomorrow at 1435. Your messages home should be submitted today, by 1600, to allow for clearance review. ",
-      "translation": "Останнє вікно Celaeno для довгохвильової передачі до Майї для ретрансляції завтра о 14:35. Ваші повідомлення додому мають бути надіслані сьогодні, до 16:00, щоб мати можливість перевірити дозвіл.",
+      "translation": "Останнє вікно Селено для довгохвильової передачі до Майї для ретрансляції завтра о 14:35. Ваші повідомлення додому мають бути надіслані сьогодні, до 16:00, щоб мати можливість перевірити дозвіл.",
       "priority": 0,
       "reviewed": false
     },
@@ -9154,7 +9154,7 @@
     {
       "symbol": "ARRIVAL->MISSIONS->STATION_NEWS->NODES->0->NEWS->POST-ACTION_GENE_14062->TEXT",
       "original": "Post-action general debrief on Celaeno-Mil channel.",
-      "translation": "Загальний звіт після дії на каналі Celaeno-Mil.",
+      "translation": "Загальний звіт після дії на каналі Селено-Mil.",
       "priority": 0,
       "reviewed": false
     },
@@ -9231,7 +9231,7 @@
     {
       "symbol": "ARRIVAL->MISSIONS->VISIT_CEL->NODES->0->MISSION_DETAIL_TALK_YU",
       "original": "We should head to Celaeno Station and update the Commodore on what happened.",
-      "translation": "Нам слід відправитися на станцію Celaeno і повідомити Коммодору про те, що сталося.",
+      "translation": "Нам слід відправитися на станцію Селено і повідомити Коммодору про те, що сталося.",
       "priority": 0,
       "reviewed": false
     },
@@ -9448,7 +9448,7 @@
     {
       "symbol": "ARRIVAL->SHIP->CELAENO_UPGRADE_1->NAME",
       "original": "Celaeno Upgrade 1",
-      "translation": "Оновлення Celaeno 1",
+      "translation": "Оновлення Селено 1",
       "priority": 0,
       "reviewed": false
     },
@@ -10743,7 +10743,7 @@
     {
       "symbol": "BEYOND->MISSIONS->RED_RAIDERS->NODES->9->NEWS->_CREW_TACTICS__S_18817->TEXT",
       "original": "[CREW_TACTICS]'s pre-recorded presentation on Red Raider tactics is now available on Celaeno-Mil.",
-      "translation": "Попередньо записана презентація [CREW_TACTICS] про тактику Red Raider тепер доступна на Celaeno-Mil.",
+      "translation": "Попередньо записана презентація [CREW_TACTICS] про тактику Red Raider тепер доступна на Селено-Mil.",
       "priority": 0,
       "reviewed": false
     },
@@ -11184,7 +11184,7 @@
     {
       "symbol": "CELAENO_DEFENSE->CONVO->YU_RED_GUARD_ATTACK->DIALOGUE->1_NPC",
       "original": "I suppose it was only a matter of time before these newer Red Raiders launched an attack.\n\nWhile I suspect The Aletheia and Celaeno could have handled them, it was lucky [SHIP_NAME] was nearby.\n\nThis emphasizes the importance of re-opening that wormhole to bring in more support. We're all counting on you.",
-      "translation": "Я вважаю, що це було лише питанням часу, коли ці нові червоні рейдери розпочнуть атаку.\n\nХоча я підозрюю, що Aletheia та Celaeno могли впоратися з ними, пощастило, що [SHIP_NAME] був поруч.\n\nЦе підкреслює важливість повторного відкриття цієї червоточини, щоб отримати більше підтримки. Ми всі на тебе розраховуємо.",
+      "translation": "Я вважаю, що це було лише питанням часу, коли ці нові червоні рейдери розпочнуть атаку.\n\nХоча я підозрюю, що Aletheia та Селено могли впоратися з ними, пощастило, що [SHIP_NAME] був поруч.\n\nЦе підкреслює важливість повторного відкриття цієї червоточини, щоб отримати більше підтримки. Ми всі на тебе розраховуємо.",
       "priority": 0,
       "reviewed": false
     },
@@ -11233,7 +11233,7 @@
     {
       "symbol": "CELAENO_DEFENSE->MISSIONS->UPGRADES->NODES->1->NEWS->ALL_PERSONNEL_WI_13756->TEXT",
       "original": "All personnel will be required to attend two briefings on changes to Celaeno combat drills. Your section head will schedule, but it is your responsibility to know the drills by your next review.",
-      "translation": "Весь особовий склад повинен буде відвідати два брифінги щодо змін у бойових навчаннях Celaeno. Ваш керівник відділу складе графік, але ви зобов’язані знати тренування до наступного перегляду.",
+      "translation": "Весь особовий склад повинен буде відвідати два брифінги щодо змін у бойових навчаннях Селено. Ваш керівник відділу складе графік, але ви зобов’язані знати тренування до наступного перегляду.",
       "priority": 0,
       "reviewed": false
     },
@@ -11947,7 +11947,7 @@
     {
       "symbol": "CEPHEID2->CONVO->PLAYER_RAMA_PERSONAL->DIALOGUE->14_PC",
       "original": "How did you get assigned to Celaeno?",
-      "translation": "Як вас призначили до Celaeno?",
+      "translation": "Як вас призначили до Селено?",
       "priority": 0,
       "reviewed": false
     },
@@ -12472,7 +12472,7 @@
     {
       "symbol": "COLLAPSAR->CONVO->YU_CHARIOT_STABILIZER->DIALOGUE->2_NPC",
       "original": "Once the wormhole is large enough, [SHIP_NAME] and The Aletheia will evacuate Celaeno's crew through.\n\nI'll command a skeleton crew to trigger the CIE device once you're through.",
-      "translation": "Коли червоточина стане достатньо великою, [SHIP_NAME] і Aletheia евакуюють команду Celaeno.\n\nЯ накажу скелетній команді запустити пристрій CIE, коли ви закінчите.",
+      "translation": "Коли червоточина стане достатньо великою, [SHIP_NAME] і Aletheia евакуюють команду Селено.\n\nЯ накажу скелетній команді запустити пристрій CIE, коли ви закінчите.",
       "priority": 0,
       "reviewed": false
     },
@@ -12941,7 +12941,7 @@
     {
       "symbol": "COLLAPSAR->MISSIONS->STRANGE_MATTER->NODES->8->NEWS->ALL_CREW__COMMEN_19272->TEXT",
       "original": "All crew: Commence immediate preparations for orderly evacuation of Celaeno.\n\nThis is not a drill.",
-      "translation": "Весь екіпаж: розпочати негайну підготовку до впорядкованої евакуації Celaeno.\n\nЦе не свердло.",
+      "translation": "Весь екіпаж: розпочати негайну підготовку до впорядкованої евакуації Селено.\n\nЦе не свердло.",
       "priority": 0,
       "reviewed": false
     },
@@ -17141,7 +17141,7 @@
     {
       "symbol": "DEFAULT->MISSIONS->CREW_HELP->NODES->16->FIRST_OFFICER->MESSAGE",
       "original": "As we upgrade our bridge, Celaeno will be able to assign us more personnel.",
-      "translation": "Коли ми оновлюємо наш міст, Celaeno зможе призначити нам більше персоналу.",
+      "translation": "Коли ми оновлюємо наш міст, Селено зможе призначити нам більше персоналу.",
       "priority": 0,
       "reviewed": false
     },
@@ -17274,7 +17274,7 @@
     {
       "symbol": "DEFAULT->MISSIONS->DEMOLITION_DEMOTION->NODES->0->ENDING->TEXT",
       "original": "After [SHIP_NAME] next returned to Celaeno, Cdre Yu initiated a personnel change, promoting Lt. Avery to commander.\r\n\r\n[PLAYER_NAME] was reassigned to Celaeno's commissary. The reason recorded for the demotion was \"Poor judgement on what to blow up.\"\r\n\r\nCmd. Avery and [SHIP_NAME] went on to save not one, but two universes. [PLAYER_NAME] ended up demonstrating great proficiency in cooking and baking.",
-      "translation": "Після того, як [SHIP_NAME] наступного разу повернувся до Celaeno, Cdre Yu ініціював кадрові зміни, підвищивши лейтенанта Евері до командира.\r\n\r\n[PLAYER_NAME] був перепризначений комісаром Celaeno. Записана причина пониження в посаді: «Погане рішення щодо того, що підірвати».\r\n\r\nCmd. Евері та [SHIP_NAME] врятували не один, а два всесвіти. Зрештою [PLAYER_NAME] продемонстрував чудові вміння готувати та випікати.",
+      "translation": "Після того, як [SHIP_NAME] наступного разу повернувся до Селено, Cdre Yu ініціював кадрові зміни, підвищивши лейтенанта Евері до командира.\r\n\r\n[PLAYER_NAME] був перепризначений комісаром Селено. Записана причина пониження в посаді: «Погане рішення щодо того, що підірвати».\r\n\r\nCmd. Евері та [SHIP_NAME] врятували не один, а два всесвіти. Зрештою [PLAYER_NAME] продемонстрував чудові вміння готувати та випікати.",
       "priority": 0,
       "reviewed": false
     },
@@ -17288,7 +17288,7 @@
     {
       "symbol": "DEFAULT->MISSIONS->DERELICTION->NODES->0->ENDING->TEXT",
       "original": "Lt. Avery assumed command of [SHIP_NAME] under Starcom Directive 881-C.\n\n[PLAYER_NAME] was remanded to clerical duty aboard Celaeno until it was destroyed by a group of religious fanatics.",
-      "translation": "Лейтенант Ейвері прийняв командування [SHIP_NAME] відповідно до директиви Starcom 881-C.\n\n[PLAYER_NAME] був залишений на духовну службу на борту Celaeno, поки його не знищила група релігійних фанатиків.",
+      "translation": "Лейтенант Ейвері прийняв командування [SHIP_NAME] відповідно до директиви Starcom 881-C.\n\n[PLAYER_NAME] був залишений на духовну службу на борту Селено, поки його не знищила група релігійних фанатиків.",
       "priority": 0,
       "reviewed": false
     },
@@ -24113,7 +24113,7 @@
     {
       "symbol": "EMISSARY->MISSIONS->EMISSARY_INTRO->NODES->9->NEWS->_CREW_ENGINEERIN_21168->TEXT",
       "original": "[CREW_ENGINEERING] has shared a presentation: \"Remnant Megastructure Engineering: Tidal-Force Stressor Models\" on Celaeno-Engineering channel.",
-      "translation": "[CREW_ENGINEERING] поділився презентацією: \"Інженерія залишкових мегаструктур: моделі стресорів приливної сили\" на каналі Celaeno-Engineering.",
+      "translation": "[CREW_ENGINEERING] поділився презентацією: \"Інженерія залишкових мегаструктур: моделі стресорів приливної сили\" на каналі Селено-Engineering.",
       "priority": 0,
       "reviewed": false
     },
@@ -24232,7 +24232,7 @@
     {
       "symbol": "ENDING->CONVO->DOLSON_ENDING->DIALOGUE->1_NPC",
       "original": "I gather some of Celaeno's staff have volunteered to stay on this side of the wormhole to continue our research. \n\nI can't blame them, but I joined Starcom for archaeology, not adventure and war stories. We'll be transporting any of Celaeno's crew who want to ship back.\n\nThen I'll revel in the glory of writing papers and lecturing to other archaeologists.",
-      "translation": "Наскільки я зрозумів, деякі співробітники Celaeno зголосилися залишитися по цей бік червоточини, щоб продовжити наші дослідження.\n\nЯ не можу їх звинувачувати, але я приєднався до Starcom заради археології, а не пригодницьких і військових історій. Ми перевеземо всіх членів екіпажу Celaeno, які захочуть повернутися назад.\n\nТоді я буду насолоджуватися славою написання робіт і читання лекцій іншим археологам.",
+      "translation": "Наскільки я зрозумів, деякі співробітники Селено зголосилися залишитися по цей бік червоточини, щоб продовжити наші дослідження.\n\nЯ не можу їх звинувачувати, але я приєднався до Starcom заради археології, а не пригодницьких і військових історій. Ми перевеземо всіх членів екіпажу Celaeno, які захочуть повернутися назад.\n\nТоді я буду насолоджуватися славою написання робіт і читання лекцій іншим археологам.",
       "priority": 0,
       "reviewed": false
     },
@@ -24267,14 +24267,14 @@
     {
       "symbol": "ENDING->CONVO->DOLSON_ENDING->DIALOGUE->7_NPC",
       "original": "We still have a little while before all of Celaeno's crew are ready. \n\nLet us know if there's anything you need.",
-      "translation": "У нас ще є трохи часу, перш ніж уся команда Celaeno буде готова. \n\nДайте нам знати, якщо вам щось знадобиться.",
+      "translation": "У нас ще є трохи часу, перш ніж уся команда Селено буде готова. \n\nДайте нам знати, якщо вам щось знадобиться.",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "ENDING->CONVO->DOLSON_ENDING->DIALOGUE->8_NPC",
       "original": "We're just waiting for the rest of the Celaeno crew to finish departure prep.",
-      "translation": "Ми просто чекаємо, поки решта команди Celaeno закінчить підготовку до вильоту.",
+      "translation": "Ми просто чекаємо, поки решта команди Селено закінчить підготовку до вильоту.",
       "priority": 0,
       "reviewed": false
     },
@@ -24484,7 +24484,7 @@
     {
       "symbol": "ENDING->CONVO->YU_FINAL->DIALOGUE->7_NPC",
       "original": "Your crew has earned a break. Starcom hasn’t given an official directive. The Aletheia will be taking a lot of Celaeno’s staff back, but some of us have decided that even if the wormhole closes for good, there’s still a mission for Starcom here.\r\n\nI think this time really is goodbye. It’s been an honor to serve as your commander—I’m writing an incandescent post-action. If we ever meet again, I expect to call you sir.\r",
-      "translation": "Ваша команда заробила перерву. Starcom не давав офіційних вказівок. Aletheia забере багато співробітників Celaeno, але деякі з нас вирішили, що навіть якщо червоточина закриється назавжди, місія для Starcom все ще є тут.\r\n\nЯ думаю, що цей час справді до побачення. Для мене було честю служити вашим командиром — я пишу розжарений пост-екшн. Якщо ми колись зустрінемося знову, я сподіваюся називати вас сер.\r",
+      "translation": "Ваша команда заробила перерву. Starcom не давав офіційних вказівок. Aletheia забере багато співробітників Селено, але деякі з нас вирішили, що навіть якщо червоточина закриється назавжди, місія для Starcom все ще є тут.\r\n\nЯ думаю, що цей час справді до побачення. Для мене було честю служити вашим командиром — я пишу розжарений пост-екшн. Якщо ми колись зустрінемося знову, я сподіваюся називати вас сер.\r",
       "priority": 0,
       "reviewed": false
     },
@@ -24876,7 +24876,7 @@
     {
       "symbol": "ENDING->MISSIONS->HOME->NODES->1->MISSION_DETAIL_CELAENO",
       "original": "We should report to Celaeno before returning home, again.",
-      "translation": "Ми повинні доповісти Celaeno, перш ніж знову повернутися додому.",
+      "translation": "Ми повинні доповісти Селено, перш ніж знову повернутися додому.",
       "priority": 0,
       "reviewed": false
     },
@@ -27942,7 +27942,7 @@
     {
       "symbol": "GORYR->MISSIONS->VISIT->DESCRIPTION",
       "original": "A race called the Goryr have visited Celaeno station. Cdre. Yu believes they may be a useful source of information about this region.",
-      "translation": "Гонка під назвою Goryr відвідала станцію Celaeno. Cdre. Ю вважає, що вони можуть бути корисним джерелом інформації про цей регіон.",
+      "translation": "Гонка під назвою Goryr відвідала станцію Селено. Cdre. Ю вважає, що вони можуть бути корисним джерелом інформації про цей регіон.",
       "priority": 0,
       "reviewed": false
     },

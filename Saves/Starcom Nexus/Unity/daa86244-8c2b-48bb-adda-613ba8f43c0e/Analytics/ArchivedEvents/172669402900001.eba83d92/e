@@ -1,0 +1,5 @@
+{"type":"analytics.custom.v1","msg":{"ts":1726694025036,"t_since_start":9290423,"name":"unity.sceneLoad","custom_params":{"level_name":"main","level_num":0,"total_levels":3}}}
+{"type":"analytics.appRunning.v1","msg":{"ts":1726694088758,"t_since_start":73013133,"duration":1726694081,"local_time_offset":-7200000}}
+{"type":"analytics.custom.v1","msg":{"ts":1726694110548,"t_since_start":94802577,"name":"unity.sceneLoad","custom_params":{"level_name":"gameworld","level_num":1,"total_levels":3}}}
+{"type":"analytics.appRunning.v1","msg":{"ts":1726694208747,"t_since_start":193002031,"duration":1726694201,"local_time_offset":-7200000}}
+{"type":"analytics.appRunning.v1","msg":{"ts":1726694328755,"t_since_start":313009650,"duration":1726694321,"local_time_offset":-7200000}}

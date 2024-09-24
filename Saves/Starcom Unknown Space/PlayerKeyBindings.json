@@ -1,0 +1,22 @@
+{
+  "TURBO_TOGGLE": {
+    "action": 6,
+    "key1": 116,
+    "key2": 301
+  },
+  "ZOOM_IN": {
+    "action": 20,
+    "key1": 61,
+    "key2": 0
+  },
+  "ZOOM_OUT": {
+    "action": 21,
+    "key1": 45,
+    "key2": 0
+  },
+  "FIRE_FIXED": {
+    "action": 82,
+    "key1": 49,
+    "key2": 0
+  }
+}

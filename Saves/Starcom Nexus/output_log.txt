@@ -1,0 +1,928 @@
+Initialize engine version: 2017.4.29f1 (06508aa14ca1)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) HD Graphics 520 (ID=0x1916)
+    Vendor:   Intel
+    VRAM:     4187 MB
+    Driver:   31.0.101.2115
+Begin MonoManager ReloadAssembly
+- Completed reload, in  0.089 seconds
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 18.344700 ms
+WwiseUnity: Initialize sound engine ...
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+WwiseUnity: Sound engine initialized.
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Initializing GalaxyPeer instance...
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Signing user in using Galaxy client...
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+No sector starter
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Submitting news request...
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+[Steamworks.NET] SteamAPI_Init() failed. Refer to Valve's documentation or the comment above this line for more information.
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 1c44 -> priority: 1 
+  Thread -> id: 2088 -> priority: 1 
+Response received
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Network error retrieving announcements
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Cannot resolve destination host
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Release 1.0.13c:
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Current quality setting: 0
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Deactivating gamePanelButton
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Failed to sign in for reason FAILURE_REASON_GALAXY_SERVICE_NOT_AVAILABLE
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Loaded translation: 4124 entries
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Locale is now ru
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Requesting localization from server for ru
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+There was an error retrieving translations from the server: Cannot resolve destination host
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Showing new game
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Наконец-то получили в распоряжение собственный корабль, а, [var=playerName]? Ну, полагаю, что он больше похож на шаттл, но мне когда-то пришлось начинать на станционном буксире. Ваша посудина-то хотя бы классифицируется как корабль.
+ 
+ Станция «Воздушный змей» может, и не самое заманчивое назначение в Старкоме, но, повторюсь, мы все с чего-то начинали.
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Async loading gameworld
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 55.420300 ms
+Expected exactly one AssetManager in scene, found 2
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Loaded 164 technologies
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Rocky Planet 2 (Orbit) orbitted object not found: White Dwarf::sector_beta_0_0::6381623
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Loaded 164 technologies
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Creating universe with seed 824570703
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Xeno Citadel 2b produced 1 planets. Star type: Orange Star
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Xeno Sentinel Lost produced 1 planets. Star type: White Dwarf
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Added a total of 10 free sectors
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Total anomalies: 220
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Xeno Nest 3: 5 density: 1
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+There were 10 unplaced procedurals
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Universe creation took 346 ms
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Fewer than 4 of Forest Network (PlanetAnomaly)
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Total sectors: 159
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Total anomalies placed: 254
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Total planets: 485
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Lowest POI: 1 in Xeno Araona 1b
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+High poi: 5 in Xeno Nest 3
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+175 unique anomalies out of 185
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+181 possible surveyable
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Generation produced invalid universe, trying again
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Creating universe with seed 824570704
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Xeno West 6 produced 1 planets. Star type: White Giant
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Xeno Zoar 5 produced 1 planets. Star type: White Dwarf
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Added a total of 10 free sectors
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Total anomalies: 212
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+There were 6 unplaced procedurals
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Universe creation took 360 ms
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Total sectors: 159
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Total anomalies placed: 246
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Total planets: 472
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Lowest POI: 1 in Xeno 7b
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+High poi: 4 in Xeno Gortanu 1 Drive
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+172 unique anomalies out of 185
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+181 possible surveyable
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Difficulty is 1
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Player coord: sector_alpha_-7_32 1201 x 1200
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Duplicate map icon in lookup: autoid::Lumae Radiant::403916039 while load sector_yota_75_75
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Replacing PersistentObject with another of same id: autoid::Midnight Background::1031879074
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Game load time: 494 ms
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+
+Unloading 190 unused Assets to reduce memory usage. Loaded Objects now: 152167.
+Total: 345.370700 ms (FindLiveObjects: 34.165500 ms CreateObjectMapping: 22.544500 ms MarkObjects: 288.223600 ms  DeleteObjects: 0.436400 ms)
+
+GameTasks took 0.590332
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+GameStartZoom (MissionGraph) is complete
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Act0 (MissionGraph) is complete
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Opening convo with AUGUST_LEE
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Current quality setting: 0
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Current quality setting: 0
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Returning game to MODAL_DIALOG
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Closing Menu Canvas (MenuPanel): 0
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+No such persistent: COCYTUS
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Translation does not contain MISSIONS.STEERING_TITLE
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Translation does not contain MISSIONS.ASTEROID_1_TITLE
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Translation does not contain MISSIONS.ASTEROID_2_TITLE
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Translation does not contain MISSIONS.ASTEROID_2_EXTRA
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Translation does not contain MISSIONS.ASTEROID_3_TITLE
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Translation does not contain MISSIONS.ASTEROID_3_EXTRA
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Translation does not contain MISSIONS.ASTEROID_4_TITLE
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Translation does not contain MISSIONS.ASTEROID_4_EXTRA
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Translation does not contain MISSIONS.ASTEROID_5_TITLE
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Translation does not contain MISSIONS.ASTEROID_5_EXTRA
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Translation does not contain MISSIONS.RIFT_1_TITLE
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Translation does not contain MISSIONS.RIFT_1_EXTRA
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Translation does not contain MISSIONS.RIFT_2_TITLE
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Translation does not contain MISSIONS.RIFT_2_EXTRA
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+AlphaDelivery (MissionGraph) is complete
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+AsteroidHunter (MissionGraph) is complete
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Replacing PersistentObject with another of same id: autoid::Lumae Radiant::403916039
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Failed to remove autoid::Midnight Background::1031879074
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Failed to remove autoid::Lumae Radiant::403916039
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+AlphaToXeno (MissionGraph) is complete
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+XenoNexusOff (MissionGraph) is complete
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Projectile Impact 2(Clone) (ParticleAutodestruct) exceeded max life, removing.
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Translation does not contain MISSIONS.WHAT_THE_HELL_TITLE
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Translation does not contain MISSIONS.WHAT_THE_HELL_EXTRA
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Translation does not contain MISSIONS.NAV_BACK_TITLE
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Translation does not contain MISSIONS.NAV_BACK_EXTRA
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+XenoEntry (MissionGraph) is complete
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+ActI (MissionGraph) is complete
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+_HelpMissions (MissionGraph) is complete
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+StartingLogs (MissionGraph) is complete
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Translation does not contain MISSIONS.KITE_STATION_DETECTED_EXTRA
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Opening convo with CHITIK
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Closing Menu Canvas (MenuPanel): 0
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Not starting MapNoteHelp (MissionGraph): ACTIVE
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+MapHelp (MissionGraph) is complete
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Commander button attract mode: True
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Opening convo with STATION
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Achievement: GREETINGS
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Exception in GOG Galaxy: System.NullReferenceException: Object reference not set to an instance of an object
+  at AchievementManager.AchievementUnlocked (AchievementId achievementId) [0x00000] in <filename unknown>:0 
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+StationReunion (MissionGraph) is complete
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Opening convo with SHIPYARD
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Text was empty: SHIPYARD_DEFAULT, 0
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Translation does not contain MISSIONS.HELP_SHIPYARD_TITLE
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Translation does not contain MISSIONS.HELP_SHIPYARD_EXTRA
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Translation does not contain MISSIONS.HELP_SHIP_CONFIG_EXTRA
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Translation does not contain MISSIONS.HELP_BLUEPRINTS_EXTRA
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Opening convo with STATION
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+From LUA: 350.7332
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Text was empty: STATION_DEFAULT, 0
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Opening convo with SHIPYARD
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Text was empty: SHIPYARD_DEFAULT, 0
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Deleting previous save: QUICKSAVE_1726694539
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Shipyard (MissionGraph) is complete
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Translation does not contain MISSIONS.SURVEY_3_PLANETS_EXTRA
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Commander button attract mode: False
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Deleting previous save: QUICKSAVE_1726694744
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Deleting previous save: QUICKSAVE_1726694764
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Current quality setting: 0
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Translation does not contain MISSIONS.SURVEY_1_PLANET_EXTRA
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Adding news for NOTICES.STATIONNOTICES_2 : ВНИМАНИЕ: До тех пор, пока в этом секторе не будет найден надёжный источник органических питательных веществ, вводится продовольственное нормирование.
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Translation does not contain MISSIONS.SURVEY_COMPLETE_EXTRA
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+SurveyXeno1 (SurveyPlanetsMission) is complete
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+ChitikAmbush (MissionGraph) is complete
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Commander button attract mode: True
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Opening convo with STATION
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Opening convo with RESEARCH
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Text was empty: RESEARCH_DEFAULT, 0
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Translation does not contain MISSIONS.HELP_RESEARCH_LAB_EXTRA
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Translation does not contain MISSIONS.HELP_RESEARCH_CHOOSE_EXTRA
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Translation does not contain MISSIONS.RESEARCH_ADVICE_EXTRA
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Translation does not contain MISSIONS.RESEARCH_COMPLETE_EXTRA
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+ResearchLab (MissionGraph) is complete
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Translation does not contain MISSIONS.SCIENCE_INTERUPT_TITLE
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Translation does not contain MISSIONS.SCIENCE_INTERUPT_EXTRA
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Translation does not contain BLUEPRINTS._DEE8G3_NAME
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Translation does not contain BLUEPRINTS._DEE8G3_NAME
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Opening convo with STATION
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+TurboHelp (MissionGraph) is complete
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Start: sector_xeno_0_0 438 x -305 End: sector_xeno_4_1 641 x -1180
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+ChitikFirstContact (MissionGraph) is complete
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Achievement: NEXUS_JUMP
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Exception in GOG Galaxy: System.NullReferenceException: Object reference not set to an instance of an object
+  at AchievementManager.AchievementUnlocked (AchievementId achievementId) [0x00000] in <filename unknown>:0 
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Deleting previous save: QUICKSAVE_1726695255
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Translation does not contain MISSIONS.HELP_CREW_LOST_TITLE
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Translation does not contain MISSIONS.HELP_CREW_LOST_EXTRA
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+CrewHelp (MissionGraph) is complete
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Adding news for NOTICES.STATIONNOTICES_4 : Пока Dee занимается изучением местной солнечной системы, корабль «Covan», скорее всего, будет нуждаться в дополнительном личном составе. Ввиду высокого риска планетарных высадок добровольцы будут получать надбавку за опасную работу.
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Deleting previous save: QUICKSAVE_1726695360
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Deleting previous save: QUICKSAVE_1726695408
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Start: sector_xeno_4_1 1244 x -463 End: sector_xeno_6_0 544 x 542
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Deleting previous save: QUICKSAVE_1726695410
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Deleting previous save: QUICKSAVE_1726695471
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Translation does not contain MISSIONS.HELP_GYROSCOPE_EXTRA
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+XenoNexus (MissionGraph) is complete
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Translation does not contain MISSIONS.NEXUS_WHOA_EXTRA
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Logging resources
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Start: sector_xeno_6_0 1533 x 374 End: sector_xeno_7_2 -549 x -487
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Deleting previous save: QUICKSAVE_1726695697
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Deleting previous save: QUICKSAVE_1726695744
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Opening convo with SAURID
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Exception in GOG Galaxy: System.NullReferenceException: Object reference not set to an instance of an object
+  at AchievementManager.AchievementUnlocked (AchievementId achievementId) [0x00000] in <filename unknown>:0 
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Text was empty: SAURID_DEFAULT, 0
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Start: sector_xeno_7_2 -39 x 112 End: sector_xeno_10_-1 72 x 1253
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Deleting previous save: QUICKSAVE_1726695896
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Translation does not contain MISSIONS.WARP_INSTABILITY_EXTRA
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+No such persistent: WARP_FAILURE
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Warp Failure Effect(Clone) (ParticleAutodestruct) exceeded max life, removing.
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+No such persistent: WARP_FAILURE
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Deleting previous save: QUICKSAVE_1726695912
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Sneaking off while player isn't looking
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+MapNoteHelp (MissionGraph) is complete
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Deleting previous save: QUICKSAVE_1726696002
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Sneaking off while player isn't looking
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Start: sector_xeno_10_-1 597 x 1491 End: sector_xeno_0_0 673.5328 x 234.6246
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Transition already in progress
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Deleting previous save: QUICKSAVE_1726696196
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Commander button attract mode: True
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Opening convo with STATION
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+NexusGateway (NavigatorMission) is complete
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Text was empty: STATION_DEFAULT, 0
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Opening convo with RESEARCH
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Text was empty: RESEARCH_DEFAULT, 0
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Translation does not contain BLUEPRINTS._DEE8G3_NAME
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Translation does not contain BLUEPRINTS._DEE8G3_NAME
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Translation does not contain BLUEPRINTS._DEE8E3_NAME
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Opening convo with SHIPYARD
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Text was empty: SHIPYARD_DEFAULT, 0
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Opening convo with STATION
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+SauridFirstContact (MissionGraph) is complete
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Text was empty: STATION_DEFAULT, 0
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Start: sector_xeno_0_0 676 x 236 End: sector_xeno_6_0 724.207 x 513.6427
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Transition already in progress
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+GameTasks took 0.5351563
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Deleting previous save: QUICKSAVE_1726696471
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Translation does not contain MISSIONS.MESSAGE_FRAGMENT_0_EXTRA
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Translation does not contain MISSIONS.MESSAGE_FRAGMENT_2_EXTRA
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Deleting previous save: QUICKSAVE_1726696651
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Deleting previous save: QUICKSAVE_1726696684
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+MissionLogHelp (MissionGraph) is complete
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Translation does not contain MISSIONS.DEEP_SPACE_EXTRA
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Deleting previous save: QUICKSAVE_1726696720
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Opening convo with SAURID
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Text was empty: SAURID_DEFAULT, 0
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Deleting previous save: QUICKSAVE_1726696922
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Start: sector_xeno_7_2 -39 x 112 End: sector_xeno_10_-1 72 x 1253
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Adding news for NOTICES.STATIONNOTICES_11 : Ввиду ограниченности запасов кофе с этого момента будет стоить 2 продовольственных балла.
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Deleting previous save: QUICKSAVE_1726696966
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Sneaking off while player isn't looking
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Deleting previous save: QUICKSAVE_1726696992
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Deleting previous save: QUICKSAVE_1726697081
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Sneaking off while player isn't looking
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Sneaking off while player isn't looking
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Deleting previous save: QUICKSAVE_1726697107
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Deleting previous save: QUICKSAVE_1726697144
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Deleting previous save: QUICKSAVE_1726697178
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
