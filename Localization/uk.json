@@ -2273,14 +2273,14 @@
     {
       "symbol": "OPTIONS_UI_STATIC->MASTER_",
       "original": "Master:",
-      "translation": "майстер:",
+      "translation": "Загальна:",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "OPTIONS_UI_STATIC->MUSIC_",
       "original": "Music:",
-      "translation": "музика:",
+      "translation": "Музика:",
       "priority": 0,
       "reviewed": false
     },
@@ -2294,7 +2294,7 @@
     {
       "symbol": "OPTIONS_UI_STATIC->UI_",
       "original": "UI:",
-      "translation": "ІК:",
+      "translation": "Інтерфейс:",
       "priority": 0,
       "reviewed": false
     },
@@ -2364,7 +2364,7 @@
     {
       "symbol": "OPTIONS_UI_STATIC->GAME_PLAY",
       "original": "Game Play",
-      "translation": "Грати в гру",
+      "translation": "Гра:",
       "priority": 0,
       "reviewed": false
     },
@@ -2378,7 +2378,7 @@
     {
       "symbol": "OPTIONS_UI_STATIC->SHOW_HEADING_VECTOR_",
       "original": "Show Heading Vector:",
-      "translation": "Показати вектор заголовка:",
+      "translation": "Показати вектор:",
       "priority": 0,
       "reviewed": false
     },
@@ -2392,14 +2392,14 @@
     {
       "symbol": "OPTIONS_UI_STATIC->MAP_ZOOM_TO_MOUSE_",
       "original": "Map zoom to mouse:",
-      "translation": "Масштаб карти за допомогою миші:",
+      "translation": "Масштаб карти:",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "OPTIONS_UI_STATIC->NOTIFICATION_DISMISS_",
       "original": "Notification Dismiss:",
-      "translation": "Відхилення сповіщення:",
+      "translation": "Сповіщення:",
       "priority": 0,
       "reviewed": false
     },
@@ -2413,28 +2413,28 @@
     {
       "symbol": "OPTIONS_UI_STATIC->TEXT_SCALING_",
       "original": "Text Scaling:",
-      "translation": "Масштабування тексту:",
+      "translation": "Масштаб тексту:",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "OPTIONS_UI_STATIC->HIGH_CONTRAST_RETICULE_",
       "original": "High Contrast Reticule:",
-      "translation": "Висококонтрастна сітка:",
+      "translation": "Контраст сітки:",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "OPTIONS_UI_STATIC->IMAGE_DISTORTION_",
       "original": "Image Distortion:",
-      "translation": "Спотворення зображення:",
+      "translation": "Бруд зображення:",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "OPTIONS_UI_STATIC->KEYBINDINGS_HEADER",
       "original": "Keybindings",
-      "translation": "Прив'язки клавіш",
+      "translation": "Клавіши",
       "priority": 0,
       "reviewed": false
     },
@@ -2448,21 +2448,21 @@
     {
       "symbol": "OPTIONS_UI_STATIC->RESET_TO_DEFAULTS",
       "original": "Reset to Defaults",
-      "translation": "Скинути до значень за замовчуванням",
+      "translation": "За замовчуванням",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "OPTIONS_UI_STATIC->GAMEPAD_HEADER",
       "original": "Game Pad",
-      "translation": "Ігровий планшет",
+      "translation": "Геймпад",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "OPTIONS_UI_STATIC->AUTODETECT_GAMEPAD",
       "original": "Autodetect Gamepad",
-      "translation": "Автоматичне визначення геймпада",
+      "translation": "Автовизначення геймпада",
       "priority": 0,
       "reviewed": false
     },
@@ -2609,7 +2609,7 @@
     {
       "symbol": "CREDITS_UI->SOFTWARE",
       "original": "Software & Assets",
-      "translation": "Програмне забезпечення та активи",
+      "translation": "ПО та ассети:",
       "priority": 0,
       "reviewed": false
     },
@@ -2623,7 +2623,7 @@
     {
       "symbol": "CREDITS_UI->PLAYTESTERS",
       "original": "Playtesters",
-      "translation": "Плейтестери",
+      "translation": "Тестувальники:",
       "priority": 0,
       "reviewed": false
     },
