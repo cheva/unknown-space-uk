@@ -50,3 +50,7 @@ Task scheduler exceeded 1500ms
 Task scheduler exceeded 1500ms
 Task scheduler exceeded 1500ms
 Task scheduler exceeded 1500ms
+Task scheduler exceeded 1500ms
+#28231 1055.092 sec: FPS: 0.3760271 Mission Update: 0.00174547
+#36587 1355.097 sec: FPS: 29.92329 Mission Update: 0.00254138
+#45555 1655.126 sec: FPS: 29.91236 Mission Update: 0.00251316
