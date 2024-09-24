@@ -705,7 +705,7 @@
         "maxRange": 1000.0,
         "rechargeTime": 600.0,
         "canChargeActive": false,
-        "currentCharge": 257.911926,
+        "currentCharge": 300.0,
         "currentActiveLevel": 0.0,
         "spawnedShips": [],
         "hasSpawned": true
@@ -1323,8 +1323,8 @@
         "GORYR.GORYR": -2.1119544E-17
       },
       "DEVOUT.DEVOUT": {
-        "DEFAULT.PLAYER": -2.44907687E-06,
-        "WISKAMUG.WISKAMUG": -3.83397447E-34,
+        "DEFAULT.PLAYER": -1.02849424E-06,
+        "WISKAMUG.WISKAMUG": -1.61008426E-34,
         "DEFAULT.OBSTACLE": -0.99
       },
       "WISKAMUG.WISKAMUG": {
@@ -1332,11 +1332,11 @@
         "DEFAULT.OBSTACLE": -4.48000765
       },
       "PIRATES.BROGIDAR": {
-        "DEFAULT.PLAYER": -0.204833031,
-        "WISKAMUG.WISKAMUG": -7.09621963E-05
+        "DEFAULT.PLAYER": -0.08601999,
+        "WISKAMUG.WISKAMUG": -2.98007035E-05
       },
       "DEVOUT.DEVOUT_ELITE": {
-        "DEFAULT.PLAYER": -8.193176
+        "DEFAULT.PLAYER": -3.44073868
       },
       "LOCOAN.LOCOAN": {
         "DEFAULT.PLAYER": 0.0
@@ -1422,35 +1422,35 @@
   "gameVarData": {
     "numberVars": {
       "COMETS.COMETS": 3.0,
-      "COMETS.COMETS-4_delay": 10889.1309,
+      "COMETS.COMETS-4_delay": 10960.5771,
       "REMNANT_SPACE.RAMA_SCIENCE_QUESTIONS": 1.0,
-      "BEYOND.RED_RAIDERS-6_delay": 11898.1846,
+      "BEYOND.RED_RAIDERS-6_delay": 11969.6309,
       "ALPHA.STABILIZERS": 2.0,
       "PIRATES.TREASURES": 2.0,
       "CXTA.PLAGUE_SHARE": 0.75,
-      "DEFAULT.DEEP_SPACE-10_lull": 24.0609264,
+      "DEFAULT.DEEP_SPACE-10_lull": 0.0,
       "REMNANT_SPACE.RAMA_SCIENCE_POINTS": 925.0,
       "ARRIVAL.ALETHEIA_RETURNS-14_anomalies": 0.0,
       "REMNANT_SPACE.VOID_RANDOM": 10225.9277,
       "HERETICS.PYRAMIDS": 1.0,
-      "PIRATES.BROGIDAR-24_delay": 260.313171,
+      "PIRATES.BROGIDAR-24_delay": 331.758881,
       "DOLSON.DOLSON_CONVOS-2_anomalies": 0.0,
       "PIRATES.BROGIDAR-3_kills": 2.0,
       "FALLEN.EMPIRE_RUINS": 1.0,
-      "DEFAULT.SCUTTLEBUTT": 15683.8867,
+      "DEFAULT.SCUTTLEBUTT": 16126.7119,
       "REMNANT_SPACE.RANDOMS": 3.0,
       "OUTLIERS.OUTLIERS": 1.0,
       "DISPATCHES.DISPATCHES": 14490.6113,
       "DISPATCHES.DISPATCHES-8_anomalies": 0.0,
       "HARD_RADIATION.BOOTSTRAP-2_anomalies": 0.0,
-      "WISKAMUG.WISKAMUG-23_delay": 1040.17981,
+      "WISKAMUG.WISKAMUG-23_delay": 1111.6261,
       "DISPATCHES.FOUND": 1.0,
-      "OUTLIERS.RELAYS-13_delay": 1103.35742,
+      "OUTLIERS.RELAYS-13_delay": 1174.80371,
       "HARD_RADIATION.EXPERIMENTS": 1.0,
       "OUTLIERS.MESSAGES": 1.0,
-      "PIRATES.BROGIDAR-20_delay": 1041.25269,
+      "HARD_RADIATION.DEVOUT_JETSAM-3_anomalies": 61.0,
       "OUTLIERS.RELAYS-13_anomalies": 58.0,
-      "DEVOUT.ELITE-4_delay": 519.872,
+      "DEVOUT.ELITE-4_delay": 781.8412,
       "LOCOAN.YELLOW_FOG": 3.0
     },
     "flagVars": {
@@ -1627,7 +1627,8 @@
       "OUTLIERS.EVACUATED_PYRAMID[1]",
       "OUTLIERS.BURST_RELAY[1]",
       "LOCOAN.LOCOAN_INTRO[1]",
-      "LOCOAN.PLAYER_LOCOAN_DEVOUT[1]"
+      "LOCOAN.PLAYER_LOCOAN_DEVOUT[1]",
+      "REFINERY.FLINGER_TOWER[1]"
     ],
     "skillsChecked": [
       "#Lunar L2_768410519-941399026::REMNANT_SPACE.RED_LUNAR[4]",
@@ -1702,7 +1703,8 @@
       "REMNANT_SPACE.BINARY_NEUTRONIUM",
       "LOCOAN.YELLOW_FOG",
       "PIRATES.BROGIDAR_TREASURE_2",
-      "REFINERY.EMPIRE_PETS"
+      "REFINERY.EMPIRE_PETS",
+      "REFINERY.FLINGER_TOWER"
     ]
   },
   "itemSaveData": {
@@ -2332,7 +2334,7 @@
         "faction": "DEFAULT.PLAYER",
         "droppable": false,
         "moduleTypeDrop": 0,
-        "analyzed": false,
+        "analyzed": true,
         "frequency": 0.0,
         "acquiredTime": 15785.8584,
         "tags": [
@@ -2342,19 +2344,21 @@
       "PIRATES.PLASMA_PRESSURIZER": {
         "itemId": "PIRATES.PLASMA_PRESSURIZER",
         "faction": "PIRATES.BROGIDAR",
-        "droppable": false,
+        "droppable": true,
         "moduleTypeDrop": 0,
         "analyzed": false,
-        "frequency": 0.0,
+        "frequency": 0.02,
         "acquiredTime": 0.0,
-        "tags": []
+        "tags": [
+          "PIRATES.BROGIDAR_DROP"
+        ]
       },
       "PIRATES.PLASMA_RIFLE": {
         "itemId": "PIRATES.PLASMA_RIFLE",
         "faction": "DEFAULT.PLAYER",
         "droppable": false,
         "moduleTypeDrop": 0,
-        "analyzed": false,
+        "analyzed": true,
         "frequency": 0.0,
         "acquiredTime": 15733.4229,
         "tags": [
@@ -2589,12 +2593,12 @@
       },
       "HARD_RADIATION.JETSAM_9778": {
         "itemId": "HARD_RADIATION.JETSAM_9778",
-        "faction": "",
+        "faction": "DEFAULT.PLAYER",
         "droppable": false,
         "moduleTypeDrop": 0,
-        "analyzed": false,
+        "analyzed": true,
         "frequency": 0.0,
-        "acquiredTime": 0.0,
+        "acquiredTime": 16142.3145,
         "tags": [
           "DEVOUT_JETSAM"
         ]
@@ -3315,7 +3319,7 @@
             "progress": 1,
             "maxProgress": 3,
             "startTime": 14815.2178,
-            "age": 1465.886,
+            "age": 1544.8667,
             "playerCoord": {
               "universe": 0,
               "ux": 21,
@@ -4368,7 +4372,7 @@
             "progress": 0,
             "maxProgress": 1,
             "startTime": 9598.245,
-            "age": 9832.269,
+            "age": 9911.423,
             "playerCoord": {
               "universe": 0,
               "ux": 10,
@@ -4889,7 +4893,7 @@
         "stopped": false,
         "details": [],
         "activeNodeIndices": [
-          0,
+          1,
           0,
           0,
           0,
@@ -5948,7 +5952,7 @@
             "progress": 0,
             "maxProgress": 1,
             "startTime": 5237.46338,
-            "age": 17564.7422,
+            "age": 17643.4336,
             "playerCoord": {
               "universe": 0,
               "ux": 8,
@@ -6287,7 +6291,7 @@
             "progress": 0,
             "maxProgress": 1,
             "startTime": 13387.4307,
-            "age": 4517.663,
+            "age": 4596.586,
             "playerCoord": {
               "universe": 0,
               "ux": 5,
@@ -6416,12 +6420,12 @@
           }
         ],
         "activeNodeIndices": [
-          3,
+          1,
           2,
           0,
           0,
           1,
-          8,
+          9,
           0,
           0,
           2,
@@ -6698,17 +6702,36 @@
         ]
       },
       {
-        "appearInLog": false,
+        "appearInLog": true,
         "collapsed": false,
         "missionId": "PIRATES.CANNON_UNLOCK",
         "state": 1,
         "priority": 0,
-        "progressTime": 10101.713841031422,
+        "progressTime": 16147.968380124308,
         "stopped": false,
-        "details": [],
+        "details": [
+          {
+            "missionId": "PIRATES.CANNON_UNLOCK",
+            "id": "CANNON_PARTS",
+            "description": "Ens. Cygnus-Lee вважає, що є інший компонент, який дозволить нам дослідити варіант Fixed Gun.",
+            "progress": 1,
+            "maxProgress": 2,
+            "startTime": 16147.9688,
+            "age": 15.160615,
+            "playerCoord": {
+              "universe": 0,
+              "ux": 9,
+              "uz": -1,
+              "x": -830.5497,
+              "z": -46.1120529
+            },
+            "priority": 5,
+            "HasGoal": false
+          }
+        ],
         "activeNodeIndices": [
-          1,
-          0
+          2,
+          3
         ]
       },
       {
@@ -6770,24 +6793,43 @@
         ]
       },
       {
-        "appearInLog": false,
+        "appearInLog": true,
         "collapsed": false,
         "missionId": "HARD_RADIATION.DEVOUT_JETSAM",
         "state": 1,
         "priority": 0,
-        "progressTime": 15151.660258904449,
+        "progressTime": 16147.968380124308,
         "stopped": false,
-        "details": [],
+        "details": [
+          {
+            "missionId": "HARD_RADIATION.DEVOUT_JETSAM",
+            "id": "JETSAM_9778",
+            "description": "Контейнер 9778: Зразки арсеніду галію",
+            "progress": 0,
+            "maxProgress": 0,
+            "startTime": 16147.9688,
+            "age": 0.0,
+            "playerCoord": {
+              "universe": 0,
+              "ux": 9,
+              "uz": -1,
+              "x": -830.5497,
+              "z": -46.1120529
+            },
+            "priority": 0,
+            "HasGoal": false
+          }
+        ],
         "activeNodeIndices": [
+          3,
           1,
-          0,
           3,
           0,
           0,
           0,
           0,
           0,
-          0,
+          1,
           0,
           0
         ]
@@ -6806,14 +6848,14 @@
     "playerRank": 9,
     "playerCoord": {
       "universe": 0,
-      "ux": 8,
-      "uz": 0,
-      "x": -596.8705,
-      "z": -34.6451378
+      "ux": 9,
+      "uz": -1,
+      "x": -655.7544,
+      "z": 200.514191
     },
     "playerShip": {
       "shipDesignId": "DEFAULT.SMALL_MISSILES",
-      "rotation": 134.989243,
+      "rotation": 43.79495,
       "scale": 0.0,
       "modules": [
         {
@@ -7121,18 +7163,6 @@
       "maxHealth": 290.0,
       "maxSize": 40.0,
       "profileType": "SimpleAgent",
-      "command": {
-        "$type": "AIPlayerAutopilotCommand, Assembly-CSharp",
-        "destination": {
-          "universe": 0,
-          "ux": 9,
-          "uz": -1,
-          "x": -579.5576,
-          "z": -42.502285
-        },
-        "ThrottledSpeed": -1.0,
-        "UseTurbo": true
-      },
       "spawnOrigin": {
         "universe": 0,
         "ux": 999,
@@ -7142,16 +7172,16 @@
       },
       "lastVisibility": 450.0,
       "lastDisposition": 1000.0,
-      "lastActive": 16087.81872516498,
+      "lastActive": 16159.281704799389,
       "disabled": false,
       "persistentId": "PLAYER",
       "prefabName": "Ship",
       "coordinates": {
         "universe": 0,
-        "ux": 8,
-        "uz": 0,
-        "x": -596.8705,
-        "z": -34.6451378
+        "ux": 9,
+        "uz": -1,
+        "x": -655.7544,
+        "z": 200.514191
       },
       "factionId": "DEFAULT.PLAYER",
       "discovered": false
@@ -7182,10 +7212,10 @@
     "battlestationsCooldown": 0.0,
     "shieldCharge": 0.0,
     "havokCharge": 0.0,
-    "researchPoints": 460,
-    "totalResearchPoints": 3155,
+    "researchPoints": 495,
+    "totalResearchPoints": 3190,
     "anomaliesCompleted": 56,
-    "distanceFlown": 813528.21638148325,
+    "distanceFlown": 821029.32820039976,
     "swatch": {
       "id": "DEFAULT.STARCOM",
       "plating1": {
@@ -7301,7 +7331,7 @@
   "phenomenaData": {
     "emissaryData": {
       "destinations": [],
-      "timer": 207.0408
+      "timer": 279.56543
     }
   },
   "proceduralData": {
@@ -7726,7 +7756,7 @@
     }
   },
   "shipLogData": {
-    "index": 267,
+    "index": 272,
     "entries": [
       {
         "id": 1,
@@ -12531,6 +12561,96 @@
         "summary": "<i>Ця маленька колонія була покинута щонайменше століття. Ens. Triton зауважує,...</i>",
         "intro": "1/8/2642 9:10:00 PM <i>Covan Lander SCS-01</i>\t Planetary Anomaly Report at 8.45 x 0.53 Unknown Space",
         "details": "Ця маленька колонія була покинута щонайменше століття. Ens. Triton зауважує, що це був повільний економічний колапс, можливо, через занепад місцевої промисловості.\n\nКоли команда досліджує структури, вони дізнаються, що кілька сутностей переслідують їх, приховані деревами.\n\nВикористовуючи несмертельні електрошокуючі пастки, команді вдалося захопити одного з непомітних спостерігачів неушкодженим. Решта сталкерів швидко розходяться.\n\nЦе пухнаста шестинога прудка істота, на вигляд щось середнє між резусом і смугастим котом.\n\nВін має винятково велику порожнину мозку для свого розміру.\n"
+      },
+      {
+        "id": 268,
+        "type": 1,
+        "gameTime": 16126,
+        "coord": {
+          "universe": 0,
+          "ux": 9,
+          "uz": -1,
+          "x": -1100.52356,
+          "z": 258.146759
+        },
+        "showMapPin": false,
+        "spriteId": "DEFAULT.Portraits/STARCOM_CREW_2",
+        "categoryText": "Ens. Martina Kepler (Спостереження)",
+        "summary": "\"<i>Обломки плямисті.</i>\"",
+        "intro": "<i>Covan</i>: 2642.01.09 12:18 at 9.28 x -0.45 Unknown Space, Crew Log Entry",
+        "details": "Ens. Martina Kepler (Спостереження):\n\nОбломки плямисті."
+      },
+      {
+        "id": 269,
+        "type": 1,
+        "gameTime": 16135,
+        "coord": {
+          "universe": 0,
+          "ux": 9,
+          "uz": -1,
+          "x": -830.438049,
+          "z": -76.63879
+        },
+        "showMapPin": false,
+        "spriteId": "DEFAULT.Portraits/STARCOM_CREW_6",
+        "categoryText": "Ens. Mark Gliese (Інженерія)",
+        "summary": "\"<i>Джетсам. Обломки зазвичай мають ознаки пошкодження осколками від розвалу корпусу</i>\"",
+        "intro": "<i>Covan</i>: 2642.01.09 13:04 at 9.33 x -0.52 Unknown Space, Crew Log Entry",
+        "details": "Ens. Mark Gliese (Інженерія):\n\nДжетсам. Обломки зазвичай мають ознаки пошкодження осколками від розвалу корпусу.\n\nВін запечатаний, нам доведеться розірвати його, щоб побачити, що всередині."
+      },
+      {
+        "id": 270,
+        "type": 1,
+        "gameTime": 16147,
+        "coord": {
+          "universe": 0,
+          "ux": 9,
+          "uz": -1,
+          "x": -830.5497,
+          "z": -46.1120529
+        },
+        "showMapPin": false,
+        "spriteId": "DEFAULT.Portraits/STARCOM_CREW_1",
+        "categoryText": "Ens. Jennifer Cygnus-Lee (Тактика)",
+        "summary": "\"<i>Ця невелика зброя дає мені зрозуміти, як вони модифікували свої фіксовані...</i>\"",
+        "intro": "<i>Covan</i>: 2642.01.09 14:04 at 9.33 x -0.51 Unknown Space, Crew Log Entry",
+        "details": "Ens. Jennifer Cygnus-Lee (Тактика):\n\nЦя невелика зброя дає мені зрозуміти, як вони модифікували свої фіксовані гармати, щоб стріляти летючою плазмою. Якщо ми зможемо знайти компресор, я думаю, ми зможемо дослідити цей варіант."
+      },
+      {
+        "id": 271,
+        "type": 1,
+        "gameTime": 16159,
+        "coord": {
+          "universe": 0,
+          "ux": 9,
+          "uz": -1,
+          "x": -655.8925,
+          "z": 200.347046
+        },
+        "showMapPin": false,
+        "spriteId": "DEFAULT.Portraits/STARCOM_CREW_5",
+        "categoryText": "Ens. Cassie Pirx (Астронаука)",
+        "summary": "\"<i>Судячи зі сканування пилу, раніше це було велике багате поле астероїдів.</i>\"",
+        "intro": "<i>Covan</i>: 2642.01.09 15:00 at 9.37 x -0.46 Unknown Space, Crew Log Entry",
+        "details": "Ens. Cassie Pirx (Астронаука):\n\nСудячи зі сканування пилу, раніше це було велике багате поле астероїдів."
+      },
+      {
+        "id": 272,
+        "type": 2,
+        "gameTime": 16158,
+        "coord": {
+          "universe": 0,
+          "ux": 9,
+          "uz": -1,
+          "x": -655.903931,
+          "z": 200.333267
+        },
+        "showMapPin": false,
+        "spriteId": "REFINERY.Anomalies/FlingerTower",
+        "categoryText": "Planetary Anomaly: Flinger Antenna",
+        "summary": "<i>Самотня радіоантена на сонячних батареях спрямована в небо</i>",
+        "intro": "1/9/2642 2:55:00 PM <i>Covan Lander SCS-01</i>\t Planetary Anomaly Report at 9.37 x -0.46 Unknown Space",
+        "details": "Самотня радіоантена на сонячних батареях спрямована в небо.\n\nПісля перевірки блоку керування Ens. Gliese зазначає, що ця антена передає повторювані дані в бік флінгера поблизу.\n\n<i>Cmd Covan's orders: Have the team return to the ship, for now.</i>\n"
       }
     ]
   },
@@ -36848,11 +36968,11 @@
             "size": 113.6413,
             "seed": 499791018,
             "interaction": {
-              "anomalyState": 0,
+              "anomalyState": 5,
               "anomalyId": "REFINERY.FLINGER_TOWER",
               "stationId": "",
               "hasTrade": false,
-              "instanceVisits": 0
+              "instanceVisits": 1
             },
             "procAnomalyCandidate": false,
             "placementPadding": 0.0,
@@ -36866,7 +36986,7 @@
               "x": -662.609558,
               "z": 216.286926
             },
-            "discovered": false
+            "discovered": true
           },
           {
             "$type": "ShipSpawnerData, Assembly-CSharp",
@@ -36914,7 +37034,7 @@
             "radius": 300.0,
             "currentObstacles": 20,
             "initialized": true,
-            "lastUpdateGametime": 16087.7588,
+            "lastUpdateGametime": 16159.2041,
             "persistentId": "REFINERY.ASTEROIDS_1",
             "tags": "",
             "prefabName": "Asteroid Field",
@@ -36925,7 +37045,7 @@
               "x": -463.3897,
               "z": 368.994324
             },
-            "discovered": false
+            "discovered": true
           },
           {
             "$type": "PlanetData, Assembly-CSharp",
@@ -36949,7 +37069,7 @@
               "x": 499.303772,
               "z": -460.02356
             },
-            "discovered": false
+            "discovered": true
           },
           {
             "$type": "FlingerData, Assembly-CSharp",
@@ -36974,7 +37094,7 @@
               "z": 418.597656
             },
             "factionId": "",
-            "discovered": false
+            "discovered": true
           },
           {
             "$type": "WarpNexusData, Assembly-CSharp",
@@ -37185,7 +37305,7 @@
             },
             "lastVisibility": 542.5,
             "lastDisposition": 0.0,
-            "lastActive": 16087.81872516498,
+            "lastActive": 16159.281704799389,
             "disabled": true,
             "persistentId": "REFINERY.REFINERY",
             "prefabName": "Ship",
@@ -37193,11 +37313,11 @@
               "universe": 0,
               "ux": 9,
               "uz": -1,
-              "x": -554.1035,
-              "z": 305.081543
+              "x": -551.5676,
+              "z": 302.888123
             },
             "factionId": "REFINERY.REFINERY",
-            "discovered": false
+            "discovered": true
           }
         ]
       },
@@ -52134,6 +52254,26 @@
         "u": 0,
         "x": 6,
         "z": 1
+      },
+      {
+        "u": 0,
+        "x": 8,
+        "z": -3
+      },
+      {
+        "u": 0,
+        "x": 7,
+        "z": -3
+      },
+      {
+        "u": 0,
+        "x": 9,
+        "z": -3
+      },
+      {
+        "u": 0,
+        "x": 10,
+        "z": -3
       }
     ],
     "universes": [
@@ -52143,6 +52283,6 @@
   },
   "startBuild": 17321,
   "gameId": "019518e0875b407abf43ffc01b75dfd5",
-  "gameTime": 16087.8184,
-  "playTime": 49939.3359
+  "gameTime": 16159.2813,
+  "playTime": 50024.26
 }

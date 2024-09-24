@@ -1,11 +1,11 @@
 {
   "saveName": "Covan",
-  "saveFile": "Covan",
+  "saveFile": "Covan_240925005526",
   "gameId": "019518e0875b407abf43ffc01b75dfd5",
-  "saveTime": "2024-09-25T00:57:00.246137+03:00",
-  "playTime": 50362.9531,
+  "saveTime": "2024-09-25T00:55:26.8133917+03:00",
+  "playTime": 50269.4531,
   "buildNumber": 17321,
   "buildName": "Kepler",
-  "autosave": false,
+  "autosave": true,
   "isPresave": false
 }

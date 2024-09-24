@@ -46,3 +46,277 @@ No starting story found: ''
 No starting location
 Activating emissary for 'EmissaryDestination'
 Adding active THE_EMISSARY
+#10939 410.2485 sec: FPS: 28.16088 Mission Update: 0.00943783
+#19338 710.2662 sec: FPS: 29.72244 Mission Update: 0.00310358
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.GameObject.SetActive(UnityEngine.GameObject,bool)
+  at GameCamera.UpdatePostProcessPref () [0x0000f] in <20096a5fbaa34bb6bdee6b59ea292e93>:0 
+  at (wrapper delegate-invoke) <Module>.invoke_void()
+  at OptionsManager.SetSpeedDustLimit (System.Int32 limit) [0x0003a] in <20096a5fbaa34bb6bdee6b59ea292e93>:0 
+  at OptionsManager.QualityChanged (System.Int32 level) [0x00022] in <20096a5fbaa34bb6bdee6b59ea292e93>:0 
+  at OptionsPopUpUI.QualityChanged (System.Int32 quality) [0x0000f] in <20096a5fbaa34bb6bdee6b59ea292e93>:0 
+  at UnityEngine.Events.InvokableCall`1[T1].Invoke (T1 args0) [0x00010] in <4fae2288737c4dfda349689bbefabfcc>:0 
+  at UnityEngine.Events.UnityEvent`1[T0].Invoke (T0 arg0) [0x00025] in <4fae2288737c4dfda349689bbefabfcc>:0 
+  at TMPro.TMP_Dropdown.SetValue (System.Int32 value, System.Boolean sendCallback) [0x0005c] in <8ee697d2a79f4589b7f2958bbdde1c3b>:0 
+  at TMPro.TMP_Dropdown.set_value (System.Int32 value) [0x00000] in <8ee697d2a79f4589b7f2958bbdde1c3b>:0 
+  at TMPro.TMP_Dropdown.OnSelectItem (UnityEngine.UI.Toggle toggle) [0x0004a] in <8ee697d2a79f4589b7f2958bbdde1c3b>:0 
+  at TMPro.TMP_Dropdown+<>c__DisplayClass69_0.<Show>b__0 (System.Boolean x) [0x00011] in <8ee697d2a79f4589b7f2958bbdde1c3b>:0 
+  at UnityEngine.Events.InvokableCall`1[T1].Invoke (T1 args0) [0x00010] in <4fae2288737c4dfda349689bbefabfcc>:0 
+  at UnityEngine.Events.UnityEvent`1[T0].Invoke (T0 arg0) [0x00025] in <4fae2288737c4dfda349689bbefabfcc>:0 
+  at UnityEngine.UI.Toggle.Set (System.Boolean value, System.Boolean sendCallback) [0x00087] in <2611ebd716ec47748b234e16791bb28a>:0 
+  at UnityEngine.UI.Toggle.set_isOn (System.Boolean value) [0x00000] in <2611ebd716ec47748b234e16791bb28a>:0 
+  at UnityEngine.UI.Toggle.InternalToggle () [0x00018] in <2611ebd716ec47748b234e16791bb28a>:0 
+  at UnityEngine.UI.Toggle.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) [0x00009] in <2611ebd716ec47748b234e16791bb28a>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00007] in <2611ebd716ec47748b234e16791bb28a>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) [0x0006c] in <2611ebd716ec47748b234e16791bb28a>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ReleaseMouse(PointerEventData, GameObject)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent()
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.GameObject.SetActive(UnityEngine.GameObject,bool)
+  at GameCamera.UpdatePostProcessPref () [0x0000f] in <20096a5fbaa34bb6bdee6b59ea292e93>:0 
+  at (wrapper delegate-invoke) <Module>.invoke_void()
+  at OptionsManager.SetSpeedDustLimit (System.Int32 limit) [0x0003a] in <20096a5fbaa34bb6bdee6b59ea292e93>:0 
+  at OptionsManager.QualityChanged (System.Int32 level) [0x00003] in <20096a5fbaa34bb6bdee6b59ea292e93>:0 
+  at OptionsPopUpUI.QualityChanged (System.Int32 quality) [0x0000f] in <20096a5fbaa34bb6bdee6b59ea292e93>:0 
+  at UnityEngine.Events.InvokableCall`1[T1].Invoke (T1 args0) [0x00010] in <4fae2288737c4dfda349689bbefabfcc>:0 
+  at UnityEngine.Events.UnityEvent`1[T0].Invoke (T0 arg0) [0x00025] in <4fae2288737c4dfda349689bbefabfcc>:0 
+  at TMPro.TMP_Dropdown.SetValue (System.Int32 value, System.Boolean sendCallback) [0x0005c] in <8ee697d2a79f4589b7f2958bbdde1c3b>:0 
+  at TMPro.TMP_Dropdown.set_value (System.Int32 value) [0x00000] in <8ee697d2a79f4589b7f2958bbdde1c3b>:0 
+  at TMPro.TMP_Dropdown.OnSelectItem (UnityEngine.UI.Toggle toggle) [0x0004a] in <8ee697d2a79f4589b7f2958bbdde1c3b>:0 
+  at TMPro.TMP_Dropdown+<>c__DisplayClass69_0.<Show>b__0 (System.Boolean x) [0x00011] in <8ee697d2a79f4589b7f2958bbdde1c3b>:0 
+  at UnityEngine.Events.InvokableCall`1[T1].Invoke (T1 args0) [0x00010] in <4fae2288737c4dfda349689bbefabfcc>:0 
+  at UnityEngine.Events.UnityEvent`1[T0].Invoke (T0 arg0) [0x00025] in <4fae2288737c4dfda349689bbefabfcc>:0 
+  at UnityEngine.UI.Toggle.Set (System.Boolean value, System.Boolean sendCallback) [0x00087] in <2611ebd716ec47748b234e16791bb28a>:0 
+  at UnityEngine.UI.Toggle.set_isOn (System.Boolean value) [0x00000] in <2611ebd716ec47748b234e16791bb28a>:0 
+  at UnityEngine.UI.Toggle.InternalToggle () [0x00018] in <2611ebd716ec47748b234e16791bb28a>:0 
+  at UnityEngine.UI.Toggle.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) [0x00009] in <2611ebd716ec47748b234e16791bb28a>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00007] in <2611ebd716ec47748b234e16791bb28a>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) [0x0006c] in <2611ebd716ec47748b234e16791bb28a>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ReleaseMouse(PointerEventData, GameObject)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent()
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+
+  at MoonSharp.Interpreter.Tree.Lexer.ReadToken () [0x003a5] in <c3f3bab77ac0407c8bfc72d60668439c>:0 
+  at MoonSharp.Interpreter.Tree.Lexer.FetchNewToken () [0x00000] in <c3f3bab77ac0407c8bfc72d60668439c>:0 
+  at MoonSharp.Interpreter.Tree.Lexer.Next () [0x00000] in <c3f3bab77ac0407c8bfc72d60668439c>:0 
+  at MoonSharp.Interpreter.Tree.Lexer.get_Current () [0x00008] in <c3f3bab77ac0407c8bfc72d60668439c>:0 
+  at MoonSharp.Interpreter.Tree.Statements.CompositeStatement..ctor (MoonSharp.Interpreter.Execution.ScriptLoadingContext lcontext) [0x00018] in <c3f3bab77ac0407c8bfc72d60668439c>:0 
+  at MoonSharp.Interpreter.Tree.Statements.ChunkStatement..ctor (MoonSharp.Interpreter.Execution.ScriptLoadingContext lcontext) [0x00040] in <c3f3bab77ac0407c8bfc72d60668439c>:0 
+  at MoonSharp.Interpreter.Tree.Fast_Interface.Loader_Fast.LoadChunk (MoonSharp.Interpreter.Script script, MoonSharp.Interpreter.Debugging.SourceCode source, MoonSharp.Interpreter.Execution.VM.ByteCode bytecode) [0x000a7] in <c3f3bab77ac0407c8bfc72d60668439c>:0 
+  at MoonSharp.Interpreter.Script.LoadString (System.String code, MoonSharp.Interpreter.Table globalTable, System.String codeFriendlyName) [0x0009f] in <c3f3bab77ac0407c8bfc72d60668439c>:0 
+  at MoonSharp.Interpreter.Script.DoString (System.String code, MoonSharp.Interpreter.Table globalContext, System.String codeFriendlyName) [0x00000] in <c3f3bab77ac0407c8bfc72d60668439c>:0 
+  at LuaManager.ExecuteLua (System.String lua, System.String story, System.Action`1[T] exceptionHandler) [0x00048] in <20096a5fbaa34bb6bdee6b59ea292e93>:0 
+  at MoonSharp.Interpreter.Tree.Lexer.ReadToken () [0x003a5] in <c3f3bab77ac0407c8bfc72d60668439c>:0 
+  at MoonSharp.Interpreter.Tree.Lexer.FetchNewToken () [0x00000] in <c3f3bab77ac0407c8bfc72d60668439c>:0 
+  at MoonSharp.Interpreter.Tree.Lexer.Next () [0x00000] in <c3f3bab77ac0407c8bfc72d60668439c>:0 
+  at MoonSharp.Interpreter.Tree.Lexer.get_Current () [0x00008] in <c3f3bab77ac0407c8bfc72d60668439c>:0 
+  at MoonSharp.Interpreter.Tree.Statements.CompositeStatement..ctor (MoonSharp.Interpreter.Execution.ScriptLoadingContext lcontext) [0x00018] in <c3f3bab77ac0407c8bfc72d60668439c>:0 
+  at MoonSharp.Interpreter.Tree.Statements.ChunkStatement..ctor (MoonSharp.Interpreter.Execution.ScriptLoadingContext lcontext) [0x00040] in <c3f3bab77ac0407c8bfc72d60668439c>:0 
+  at MoonSharp.Interpreter.Tree.Fast_Interface.Loader_Fast.LoadChunk (MoonSharp.Interpreter.Script script, MoonSharp.Interpreter.Debugging.SourceCode source, MoonSharp.Interpreter.Execution.VM.ByteCode bytecode) [0x000a7] in <c3f3bab77ac0407c8bfc72d60668439c>:0 
+  at MoonSharp.Interpreter.Script.LoadString (System.String code, MoonSharp.Interpreter.Table globalTable, System.String codeFriendlyName) [0x0009f] in <c3f3bab77ac0407c8bfc72d60668439c>:0 
+  at MoonSharp.Interpreter.Script.DoString (System.String code, MoonSharp.Interpreter.Table globalContext, System.String codeFriendlyName) [0x00000] in <c3f3bab77ac0407c8bfc72d60668439c>:0 
+  at LuaManager.ExecuteLua (System.String lua, System.String story, System.Action`1[T] exceptionHandler) [0x00048] in <20096a5fbaa34bb6bdee6b59ea292e93>:0 
+Binding Input1 (KeybindButton)
+StoryId was null
+No starting story found: ''
+No starting location
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.GameObject.SetActive(UnityEngine.GameObject,bool)
+  at GameCamera.UpdatePostProcessPref () [0x0000f] in <20096a5fbaa34bb6bdee6b59ea292e93>:0 
+  at (wrapper delegate-invoke) <Module>.invoke_void()
+  at OptionsManager.SetSpeedDustLimit (System.Int32 limit) [0x0003a] in <20096a5fbaa34bb6bdee6b59ea292e93>:0 
+  at OptionsManager.QualityChanged (System.Int32 level) [0x0001a] in <20096a5fbaa34bb6bdee6b59ea292e93>:0 
+  at OptionsPopUpUI.QualityChanged (System.Int32 quality) [0x0000f] in <20096a5fbaa34bb6bdee6b59ea292e93>:0 
+  at UnityEngine.Events.InvokableCall`1[T1].Invoke (T1 args0) [0x00010] in <4fae2288737c4dfda349689bbefabfcc>:0 
+  at UnityEngine.Events.UnityEvent`1[T0].Invoke (T0 arg0) [0x00025] in <4fae2288737c4dfda349689bbefabfcc>:0 
+  at TMPro.TMP_Dropdown.SetValue (System.Int32 value, System.Boolean sendCallback) [0x0005c] in <8ee697d2a79f4589b7f2958bbdde1c3b>:0 
+  at TMPro.TMP_Dropdown.set_value (System.Int32 value) [0x00000] in <8ee697d2a79f4589b7f2958bbdde1c3b>:0 
+  at TMPro.TMP_Dropdown.OnSelectItem (UnityEngine.UI.Toggle toggle) [0x0004a] in <8ee697d2a79f4589b7f2958bbdde1c3b>:0 
+  at TMPro.TMP_Dropdown+<>c__DisplayClass69_0.<Show>b__0 (System.Boolean x) [0x00011] in <8ee697d2a79f4589b7f2958bbdde1c3b>:0 
+  at UnityEngine.Events.InvokableCall`1[T1].Invoke (T1 args0) [0x00010] in <4fae2288737c4dfda349689bbefabfcc>:0 
+  at UnityEngine.Events.UnityEvent`1[T0].Invoke (T0 arg0) [0x00025] in <4fae2288737c4dfda349689bbefabfcc>:0 
+  at UnityEngine.UI.Toggle.Set (System.Boolean value, System.Boolean sendCallback) [0x00087] in <2611ebd716ec47748b234e16791bb28a>:0 
+  at UnityEngine.UI.Toggle.set_isOn (System.Boolean value) [0x00000] in <2611ebd716ec47748b234e16791bb28a>:0 
+  at UnityEngine.UI.Toggle.InternalToggle () [0x00018] in <2611ebd716ec47748b234e16791bb28a>:0 
+  at UnityEngine.UI.Toggle.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) [0x00009] in <2611ebd716ec47748b234e16791bb28a>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00007] in <2611ebd716ec47748b234e16791bb28a>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) [0x0006c] in <2611ebd716ec47748b234e16791bb28a>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ReleaseMouse(PointerEventData, GameObject)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent()
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.GameObject.SetActive(UnityEngine.GameObject,bool)
+  at GameCamera.UpdatePostProcessPref () [0x0000f] in <20096a5fbaa34bb6bdee6b59ea292e93>:0 
+  at (wrapper delegate-invoke) <Module>.invoke_void()
+  at OptionsManager.SetSpeedDustLimit (System.Int32 limit) [0x0003a] in <20096a5fbaa34bb6bdee6b59ea292e93>:0 
+  at OptionsManager.QualityChanged (System.Int32 level) [0x0000e] in <20096a5fbaa34bb6bdee6b59ea292e93>:0 
+  at OptionsPopUpUI.QualityChanged (System.Int32 quality) [0x0000f] in <20096a5fbaa34bb6bdee6b59ea292e93>:0 
+  at UnityEngine.Events.InvokableCall`1[T1].Invoke (T1 args0) [0x00010] in <4fae2288737c4dfda349689bbefabfcc>:0 
+  at UnityEngine.Events.UnityEvent`1[T0].Invoke (T0 arg0) [0x00025] in <4fae2288737c4dfda349689bbefabfcc>:0 
+  at TMPro.TMP_Dropdown.SetValue (System.Int32 value, System.Boolean sendCallback) [0x0005c] in <8ee697d2a79f4589b7f2958bbdde1c3b>:0 
+  at TMPro.TMP_Dropdown.set_value (System.Int32 value) [0x00000] in <8ee697d2a79f4589b7f2958bbdde1c3b>:0 
+  at TMPro.TMP_Dropdown.OnSelectItem (UnityEngine.UI.Toggle toggle) [0x0004a] in <8ee697d2a79f4589b7f2958bbdde1c3b>:0 
+  at TMPro.TMP_Dropdown+<>c__DisplayClass69_0.<Show>b__0 (System.Boolean x) [0x00011] in <8ee697d2a79f4589b7f2958bbdde1c3b>:0 
+  at UnityEngine.Events.InvokableCall`1[T1].Invoke (T1 args0) [0x00010] in <4fae2288737c4dfda349689bbefabfcc>:0 
+  at UnityEngine.Events.UnityEvent`1[T0].Invoke (T0 arg0) [0x00025] in <4fae2288737c4dfda349689bbefabfcc>:0 
+  at UnityEngine.UI.Toggle.Set (System.Boolean value, System.Boolean sendCallback) [0x00087] in <2611ebd716ec47748b234e16791bb28a>:0 
+  at UnityEngine.UI.Toggle.set_isOn (System.Boolean value) [0x00000] in <2611ebd716ec47748b234e16791bb28a>:0 
+  at UnityEngine.UI.Toggle.InternalToggle () [0x00018] in <2611ebd716ec47748b234e16791bb28a>:0 
+  at UnityEngine.UI.Toggle.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) [0x00009] in <2611ebd716ec47748b234e16791bb28a>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00007] in <2611ebd716ec47748b234e16791bb28a>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) [0x0006c] in <2611ebd716ec47748b234e16791bb28a>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ReleaseMouse(PointerEventData, GameObject)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent()
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.GameObject.SetActive(UnityEngine.GameObject,bool)
+  at GameCamera.UpdatePostProcessPref () [0x0000f] in <20096a5fbaa34bb6bdee6b59ea292e93>:0 
+  at (wrapper delegate-invoke) <Module>.invoke_void()
+  at OptionsManager.SetSpeedDustLimit (System.Int32 limit) [0x0003a] in <20096a5fbaa34bb6bdee6b59ea292e93>:0 
+  at OptionsManager.QualityChanged (System.Int32 level) [0x0001a] in <20096a5fbaa34bb6bdee6b59ea292e93>:0 
+  at OptionsPopUpUI.QualityChanged (System.Int32 quality) [0x0000f] in <20096a5fbaa34bb6bdee6b59ea292e93>:0 
+  at UnityEngine.Events.InvokableCall`1[T1].Invoke (T1 args0) [0x00010] in <4fae2288737c4dfda349689bbefabfcc>:0 
+  at UnityEngine.Events.UnityEvent`1[T0].Invoke (T0 arg0) [0x00025] in <4fae2288737c4dfda349689bbefabfcc>:0 
+  at TMPro.TMP_Dropdown.SetValue (System.Int32 value, System.Boolean sendCallback) [0x0005c] in <8ee697d2a79f4589b7f2958bbdde1c3b>:0 
+  at TMPro.TMP_Dropdown.set_value (System.Int32 value) [0x00000] in <8ee697d2a79f4589b7f2958bbdde1c3b>:0 
+  at TMPro.TMP_Dropdown.OnSelectItem (UnityEngine.UI.Toggle toggle) [0x0004a] in <8ee697d2a79f4589b7f2958bbdde1c3b>:0 
+  at TMPro.TMP_Dropdown+<>c__DisplayClass69_0.<Show>b__0 (System.Boolean x) [0x00011] in <8ee697d2a79f4589b7f2958bbdde1c3b>:0 
+  at UnityEngine.Events.InvokableCall`1[T1].Invoke (T1 args0) [0x00010] in <4fae2288737c4dfda349689bbefabfcc>:0 
+  at UnityEngine.Events.UnityEvent`1[T0].Invoke (T0 arg0) [0x00025] in <4fae2288737c4dfda349689bbefabfcc>:0 
+  at UnityEngine.UI.Toggle.Set (System.Boolean value, System.Boolean sendCallback) [0x00087] in <2611ebd716ec47748b234e16791bb28a>:0 
+  at UnityEngine.UI.Toggle.set_isOn (System.Boolean value) [0x00000] in <2611ebd716ec47748b234e16791bb28a>:0 
+  at TMPro.TMP_Dropdown.OnSelectItem (UnityEngine.UI.Toggle toggle) [0x00008] in <8ee697d2a79f4589b7f2958bbdde1c3b>:0 
+  at TMPro.TMP_Dropdown+<>c__DisplayClass69_0.<Show>b__0 (System.Boolean x) [0x00011] in <8ee697d2a79f4589b7f2958bbdde1c3b>:0 
+  at UnityEngine.Events.InvokableCall`1[T1].Invoke (T1 args0) [0x00010] in <4fae2288737c4dfda349689bbefabfcc>:0 
+  at UnityEngine.Events.UnityEvent`1[T0].Invoke (T0 arg0) [0x00025] in <4fae2288737c4dfda349689bbefabfcc>:0 
+  at UnityEngine.UI.Toggle.Set (System.Boolean value, System.Boolean sendCallback) [0x00087] in <2611ebd716ec47748b234e16791bb28a>:0 
+  at UnityEngine.UI.Toggle.set_isOn (System.Boolean value) [0x00000] in <2611ebd716ec47748b234e16791bb28a>:0 
+  at UnityEngine.UI.Toggle.InternalToggle () [0x00018] in <2611ebd716ec47748b234e16791bb28a>:0 
+  at UnityEngine.UI.Toggle.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) [0x00009] in <2611ebd716ec47748b234e16791bb28a>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00007] in <2611ebd716ec47748b234e16791bb28a>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) [0x0006c] in <2611ebd716ec47748b234e16791bb28a>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ReleaseMouse(PointerEventData, GameObject)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent()
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+
+#34000 1233.954 sec: FPS: 29.60964 Mission Update: 0.00433325
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.GameObject.SetActive(UnityEngine.GameObject,bool)
+  at GameCamera.UpdatePostProcessPref () [0x0000f] in <20096a5fbaa34bb6bdee6b59ea292e93>:0 
+  at (wrapper delegate-invoke) <Module>.invoke_void()
+  at OptionsManager.SetSpeedDustLimit (System.Int32 limit) [0x0003a] in <20096a5fbaa34bb6bdee6b59ea292e93>:0 
+  at OptionsManager.QualityChanged (System.Int32 level) [0x0000e] in <20096a5fbaa34bb6bdee6b59ea292e93>:0 
+  at OptionsPopUpUI.QualityChanged (System.Int32 quality) [0x0000f] in <20096a5fbaa34bb6bdee6b59ea292e93>:0 
+  at UnityEngine.Events.InvokableCall`1[T1].Invoke (T1 args0) [0x00010] in <4fae2288737c4dfda349689bbefabfcc>:0 
+  at UnityEngine.Events.UnityEvent`1[T0].Invoke (T0 arg0) [0x00025] in <4fae2288737c4dfda349689bbefabfcc>:0 
+  at TMPro.TMP_Dropdown.SetValue (System.Int32 value, System.Boolean sendCallback) [0x0005c] in <8ee697d2a79f4589b7f2958bbdde1c3b>:0 
+  at TMPro.TMP_Dropdown.set_value (System.Int32 value) [0x00000] in <8ee697d2a79f4589b7f2958bbdde1c3b>:0 
+  at TMPro.TMP_Dropdown.OnSelectItem (UnityEngine.UI.Toggle toggle) [0x0004a] in <8ee697d2a79f4589b7f2958bbdde1c3b>:0 
+  at TMPro.TMP_Dropdown+<>c__DisplayClass69_0.<Show>b__0 (System.Boolean x) [0x00011] in <8ee697d2a79f4589b7f2958bbdde1c3b>:0 
+  at UnityEngine.Events.InvokableCall`1[T1].Invoke (T1 args0) [0x00010] in <4fae2288737c4dfda349689bbefabfcc>:0 
+  at UnityEngine.Events.UnityEvent`1[T0].Invoke (T0 arg0) [0x00025] in <4fae2288737c4dfda349689bbefabfcc>:0 
+  at UnityEngine.UI.Toggle.Set (System.Boolean value, System.Boolean sendCallback) [0x00087] in <2611ebd716ec47748b234e16791bb28a>:0 
+  at UnityEngine.UI.Toggle.set_isOn (System.Boolean value) [0x00000] in <2611ebd716ec47748b234e16791bb28a>:0 
+  at UnityEngine.UI.Toggle.InternalToggle () [0x00018] in <2611ebd716ec47748b234e16791bb28a>:0 
+  at UnityEngine.UI.Toggle.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) [0x00009] in <2611ebd716ec47748b234e16791bb28a>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00007] in <2611ebd716ec47748b234e16791bb28a>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) [0x0006c] in <2611ebd716ec47748b234e16791bb28a>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ReleaseMouse(PointerEventData, GameObject)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent()
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+
+StoryId was null
+No starting story found: ''
+No starting location
+#56169 1656.523 sec: FPS: 51.61941 Mission Update: 0.01140783
+Attempted to trigger an unknown Steam Achievement: 'EXPLORER_2'
+#72283 1956.563 sec: FPS: 50.36065 Mission Update: 0.00282049
+Adding active DISPATCHES.DISPATCH
+#85147 2256.585 sec: FPS: 29.60964 Mission Update: 0.0034815
+Activating emissary for 'EmissaryDestination'
+Removing inactive emissary
+Adding active THE_EMISSARY
+Task scheduler exceeded 1500ms
+Task scheduler exceeded 1500ms
+Task scheduler exceeded 1500ms
+Task scheduler exceeded 1500ms
+Task scheduler exceeded 1500ms
+Task scheduler exceeded 1500ms
+Task scheduler exceeded 1500ms
+Task scheduler exceeded 1500ms
+Task scheduler exceeded 1500ms
+Task scheduler exceeded 1500ms
+Attempting to set item tradeable that player has, but allowTakeFromPlayer is false DEFAULT.BEAM_COOLANT
+#93625 2556.617 sec: FPS: 29.76744 Mission Update: 0.00362554
+Adding active OUTLIERS.RELAY
+#101676 2856.631 sec: FPS: 29.82524 Mission Update: 0.00251337
+#110134 3156.64 sec: FPS: 29.86874 Mission Update: 0.00162849
+Cannot interact while scan in progress
+#118789 3456.661 sec: FPS: 29.98536 Mission Update: 0.00236988
+Duplicate log entry, skipping
+#126993 3756.677 sec: FPS: 29.81077 Mission Update: 0.00281314
+Activating emissary for 'EmissaryDestination'
+Adding active THE_EMISSARY
+#135242 4056.74 sec: FPS: 17.04773 Mission Update: 0.00451363
+No such detail 'REPAIRS' in 'REFINERY.REFINERY_REPAIR'
+No such detail 'REPAIRS' in 'REFINERY.REFINERY_REPAIR'
+Duplicate log entry, skipping
+#143742 4356.75 sec: FPS: 29.62392 Mission Update: 0.00243797
+Duplicate log entry, skipping
+Material ProgressFill doesn't have _Stencil property
+Material ProgressFill(Clone) doesn't have _Stencil property
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 1e8c -> priority: 1 
+  Thread -> id: dc8 -> priority: 1 
