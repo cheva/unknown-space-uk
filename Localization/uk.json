@@ -971,7 +971,7 @@
     {
       "symbol": "TRADE_UI_STATIC->EXECUTE_TRADES",
       "original": "Execute Trades",
-      "translation": "Виконуйте угоди",
+      "translation": "Погодитись",
       "priority": 0,
       "reviewed": false
     },
