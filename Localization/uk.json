@@ -936,28 +936,28 @@
     {
       "symbol": "TRADE_UI_STATIC->OUR_CARGO",
       "original": "Our Cargo",
-      "translation": "Наш вантаж",
+      "translation": "Вантаж",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "TRADE_UI_STATIC->THEY_HAVE",
       "original": "They Have",
-      "translation": "Вони мають",
+      "translation": "Мають",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "TRADE_UI_STATIC->NEED",
       "original": "Need",
-      "translation": "потреба",
+      "translation": "Треба",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "TRADE_UI_STATIC->OUR_SELL___BUY_PRICE",
       "original": "Our Sell / Buy Price",
-      "translation": "Наша ціна продажу/купівлі",
+      "translation": "Продаж/купівля",
       "priority": 0,
       "reviewed": false
     },
@@ -978,7 +978,7 @@
     {
       "symbol": "TRADE_UI_STATIC->ARTIFACTS_FOR_SALE",
       "original": "Artifacts for Sale",
-      "translation": "Артефакти на продаж",
+      "translation": "Артефакти",
       "priority": 0,
       "reviewed": false
     },
@@ -992,14 +992,14 @@
     {
       "symbol": "TRADE_UI_STATIC->BUY_BUTTON",
       "original": "Buy",
-      "translation": "купити",
+      "translation": "Купити",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "TRADE_UI_STATIC->ARTIFACTS_IN_CARGO_HOLD",
       "original": "Artifacts in Cargo Hold",
-      "translation": "Артефакти у вантажному відсіку",
+      "translation": "Артефакти у вантажу",
       "priority": 0,
       "reviewed": false
     },
@@ -1041,7 +1041,7 @@
     {
       "symbol": "TRADE_UI->OUR_CURRENCY",
       "original": "Our [CURRENCY]",
-      "translation": "Якась [CURRENCY]",
+      "translation": "За [CURRENCY]",
       "priority": 0,
       "reviewed": false
     },
