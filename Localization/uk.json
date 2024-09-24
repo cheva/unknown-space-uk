@@ -1531,7 +1531,7 @@
     {
       "symbol": "INTERACTIONS->CONTINUE",
       "original": "Continue...",
-      "translation": "продовжити...",
+      "translation": "Продовжити...",
       "priority": 0,
       "reviewed": false
     },
@@ -1916,14 +1916,14 @@
     {
       "symbol": "TITLE_MENU->CONTINUE_BUTTON",
       "original": "Continue Last",
-      "translation": "Продовжити Останнє",
+      "translation": "Продовжити",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "TITLE_MENU->LOAD_GAME_BUTTON",
       "original": "Load Save",
-      "translation": "Завантаження",
+      "translation": "Завантажити",
       "priority": 0,
       "reviewed": false
     },
@@ -1951,7 +1951,7 @@
     {
       "symbol": "TITLE_MENU->QUIT_BUTTON",
       "original": "Quit to Desktop",
-      "translation": "Вийти на робочий стіл",
+      "translation": "Вийти",
       "priority": 0,
       "reviewed": false
     },
@@ -2056,14 +2056,14 @@
     {
       "symbol": "GAME_MENU_UI_STATIC->QUIT_TO_MENU",
       "original": "Quit to Menu",
-      "translation": "Вийти до меню",
+      "translation": "До меню",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "GAME_MENU_UI_STATIC->EXIT_TO_DESKTOP",
       "original": "Exit to Desktop",
-      "translation": "Вихід на робочий стіл",
+      "translation": "Вихід",
       "priority": 0,
       "reviewed": false
     },
@@ -2105,7 +2105,7 @@
     {
       "symbol": "GAME_OVER_UI->QUIT_TO_MENU",
       "original": "Quit to Menu",
-      "translation": "Вийти до меню",
+      "translation": "До меню",
       "priority": 0,
       "reviewed": false
     },
