@@ -1092,18 +1092,19 @@
   },
   "gameVarData": {
     "numberVars": {
-      "DEFAULT.ANALYTICS-4_delay": 2131.046,
+      "DEFAULT.ANALYTICS-4_delay": 2129.96167,
       "DEFAULT.ANALYTICS-13_delay": 90.528595,
       "ALPHA.STABILIZERS": 2.0,
       "DEFAULT.DEEP_SPACE-10_lull": 0.0,
       "GORYR.VISIT-5_delay": 92.07569,
-      "WISKAMUG.WISKAMUG-31_delay": 1.40113163,
+      "WISKAMUG.WISKAMUG-31_delay": 0.3170769,
       "REMNANT_SPACE.RAMA_SCIENCE_POINTS": 490.0,
       "REMNANT_SPACE.RAMA_SCIENCE_QUESTIONS": 1.0,
       "COMETS.COMETS": 2.0,
-      "CXTA.CXTA_FREIGHTERS-2_delay": 1169.04834,
-      "ARRIVAL.POLYHEDRAL-4_delay": 959.487732,
-      "WISKAMUG.WISKAMUG-23_delay": 25.791975
+      "CXTA.CXTA_FREIGHTERS-2_delay": 1167.96423,
+      "ARRIVAL.POLYHEDRAL-4_delay": 958.4037,
+      "WISKAMUG.WISKAMUG-23_delay": 24.70792,
+      "WISKAMUG.WISKAMUG-35_delay": 0.3170769
     },
     "flagVars": {
       "SEPHARIAL.LOOP": true,
@@ -2743,7 +2744,7 @@
             "progress": 0,
             "maxProgress": 1,
             "startTime": 4772.51465,
-            "age": 1794.639,
+            "age": 1793.1394,
             "playerCoord": {
               "universe": 0,
               "ux": 4,
@@ -3028,7 +3029,7 @@
             "progress": 0,
             "maxProgress": 1,
             "startTime": 1265.21033,
-            "age": 7436.14355,
+            "age": 7434.645,
             "playerCoord": {
               "universe": 0,
               "ux": 10,
@@ -3046,7 +3047,7 @@
             "progress": 0,
             "maxProgress": 1,
             "startTime": 4815.526,
-            "age": 1757.98132,
+            "age": 1756.48169,
             "playerCoord": {
               "universe": 0,
               "ux": 3,
@@ -4831,7 +4832,7 @@
             "progress": 0,
             "maxProgress": 1,
             "startTime": 4159.758,
-            "age": 4294.71436,
+            "age": 4293.216,
             "playerCoord": {
               "universe": 0,
               "ux": 5,
@@ -4914,7 +4915,7 @@
             "progress": 0,
             "maxProgress": 1,
             "startTime": 5453.705,
-            "age": 1038.49036,
+            "age": 1036.99072,
             "playerCoord": {
               "universe": 0,
               "ux": 3,
@@ -5156,7 +5157,7 @@
           0,
           1,
           0,
-          2,
+          1,
           0,
           0,
           1,
@@ -5183,12 +5184,12 @@
       "universe": 0,
       "ux": 3,
       "uz": 4,
-      "x": -408.3636,
-      "z": -1422.49
+      "x": -398.169952,
+      "z": -1435.73621
     },
     "playerShip": {
       "shipDesignId": "DEFAULT.SMALL_MISSILES",
-      "rotation": 318.557831,
+      "rotation": 318.571472,
       "scale": 0.0,
       "modules": [
         {
@@ -5435,7 +5436,7 @@
       },
       "lastVisibility": 355.000031,
       "lastDisposition": 1000.0,
-      "lastActive": 5732.0354008206632,
+      "lastActive": 5730.9182300183456,
       "disabled": false,
       "persistentId": "PLAYER",
       "prefabName": "Ship",
@@ -5443,8 +5444,8 @@
         "universe": 0,
         "ux": 3,
         "uz": 4,
-        "x": -408.3636,
-        "z": -1422.49
+        "x": -398.169952,
+        "z": -1435.73621
       },
       "factionId": "DEFAULT.PLAYER",
       "discovered": false
@@ -5478,7 +5479,7 @@
     "researchPoints": 325,
     "totalResearchPoints": 1075,
     "anomaliesCompleted": 18,
-    "distanceFlown": 148625.24052989649,
+    "distanceFlown": 148608.68489424771,
     "swatch": {
       "id": "DEFAULT.STARCOM",
       "plating1": {
@@ -5594,7 +5595,7 @@
   "phenomenaData": {
     "emissaryData": {
       "destinations": [],
-      "timer": 739.3182
+      "timer": 737.3141
     }
   },
   "proceduralData": {
@@ -5879,7 +5880,7 @@
     }
   },
   "shipLogData": {
-    "index": 115,
+    "index": 114,
     "entries": [
       {
         "id": 1,
@@ -7930,24 +7931,6 @@
         "summary": "<i>Wiskamug: \"Це я, Віскамуг! Без сумніву, ви вважали мене просто легендою, але...</i>",
         "intro": "12/4/2641 9:55:00 AM <i>Die Hard</i>\t Comms Log Transcript",
         "details": "Wiskamug: \"Це я, Віскамуг! Без сумніву, ви вважали мене просто легендою, але повірте, що я справжній.\"\n\n<i>Cmd Diem: Surely you cannot be <i>the</i> Wiskamug?</i>\n\nWiskamug: \"Дійсно! Зізнаюся, я заздрю вам, маючи задоволення зустрітися з тим, кого ви вважали міфом.\"\n\nWiskamug: \"Хто має задоволення познайомитися зі мною?\"\n\n<i>Cmd Diem: You wouldn't have heard of us. I am Cmd Diem, commander of Die Hard. </i>\n\nWiskamug: \"Така скромність вас рекомендує.\n\nКолись співатимуть пісні про Cmd Diem, Who Met Wiskamug, Hero of a Thousand Years, Champion of a Thousand Worlds.\"\n\n<i>Cmd Diem: We'd like to trade with you.</i>\n\nWiskamug: \"Звичайно!\n\nВіскамуг — герой багатьох битв. Він часто має нагороди для продажу: зброю тих, хто нерозумний, щоб чинити зло в його полі зору.\n\nЯкщо не зараз, то незабаром поверніться, щоб поповнити свою колекцію. Ціни високі, оскільки ці компоненти є предметами колекціонування: вони колись належали Wiskamug.\"\n"
-      },
-      {
-        "id": 115,
-        "type": 1,
-        "gameTime": 5731,
-        "coord": {
-          "universe": 0,
-          "ux": 3,
-          "uz": 4,
-          "x": -405.701416,
-          "z": -1425.9491
-        },
-        "showMapPin": false,
-        "spriteId": "DEFAULT.Portraits/STARCOM_CREW_2",
-        "categoryText": "Ens. Martina Kepler (Спостереження)",
-        "summary": "\"<i>Яка особлива особистість.</i>\"",
-        "intro": "<i>Die Hard</i>: 2641.12.04 10:03 at 3.42 x 4.21 Unknown Space, Crew Log Entry",
-        "details": "Ens. Martina Kepler (Спостереження):\n\nЯка особлива особистість."
       }
     ]
   },
@@ -8927,7 +8910,7 @@
           {
             "$type": "ShipData, Assembly-CSharp",
             "shipDesignId": "DEVOUT.FAITHFUL",
-            "rotation": 318.6364,
+            "rotation": 313.01535,
             "scale": 1.33,
             "modules": [
               {
@@ -9120,7 +9103,7 @@
             },
             "lastVisibility": 392.975,
             "lastDisposition": 0.0,
-            "lastActive": 5732.0354008206632,
+            "lastActive": 5730.9182300183456,
             "disabled": false,
             "persistentId": "#Ship_1685112659-1948067699",
             "prefabName": "Ship",
@@ -9128,8 +9111,8 @@
               "universe": 0,
               "ux": 3,
               "uz": 4,
-              "x": -302.8941,
-              "z": -455.850616
+              "x": -288.5249,
+              "z": -465.280365
             },
             "factionId": "DEVOUT.DEVOUT",
             "discovered": true
@@ -9137,7 +9120,7 @@
           {
             "$type": "ShipData, Assembly-CSharp",
             "shipDesignId": "DEVOUT.FAITHFUL",
-            "rotation": 311.863159,
+            "rotation": 318.13147,
             "scale": 1.33,
             "modules": [
               {
@@ -9330,7 +9313,7 @@
             },
             "lastVisibility": 392.975,
             "lastDisposition": 0.0,
-            "lastActive": 5732.0354008206632,
+            "lastActive": 5730.9182300183456,
             "disabled": false,
             "persistentId": "#Ship_972820373-492887240",
             "prefabName": "Ship",
@@ -9338,8 +9321,8 @@
               "universe": 0,
               "ux": 3,
               "uz": 4,
-              "x": -275.578339,
-              "z": -468.4284
+              "x": -262.445343,
+              "z": -478.533356
             },
             "factionId": "DEVOUT.DEVOUT",
             "discovered": true
@@ -9347,7 +9330,7 @@
           {
             "$type": "ShipData, Assembly-CSharp",
             "shipDesignId": "DEVOUT.FAITHFUL",
-            "rotation": 307.6571,
+            "rotation": 304.673645,
             "scale": 1.33,
             "modules": [
               {
@@ -9540,7 +9523,7 @@
             },
             "lastVisibility": 392.975,
             "lastDisposition": 0.0,
-            "lastActive": 5732.0354008206632,
+            "lastActive": 5730.9182300183456,
             "disabled": false,
             "persistentId": "#Ship_696936279-1525372537",
             "prefabName": "Ship",
@@ -9548,8 +9531,8 @@
               "universe": 0,
               "ux": 3,
               "uz": 4,
-              "x": -326.4696,
-              "z": -431.873077
+              "x": -311.115051,
+              "z": -441.3314
             },
             "factionId": "DEVOUT.DEVOUT",
             "discovered": true
@@ -9557,7 +9540,7 @@
           {
             "$type": "ShipData, Assembly-CSharp",
             "shipDesignId": "WISKAMUG.WISKAMUG",
-            "rotation": 347.075165,
+            "rotation": 338.309784,
             "scale": 2.0,
             "modules": [
               {
@@ -10200,7 +10183,7 @@
             },
             "lastVisibility": 700.0,
             "lastDisposition": 1.0,
-            "lastActive": 5732.0354008206632,
+            "lastActive": 5730.9182300183456,
             "disabled": false,
             "persistentId": "WISKAMUG.WISKAMUG",
             "prefabName": "Ship",
@@ -10208,8 +10191,8 @@
               "universe": 0,
               "ux": 3,
               "uz": 4,
-              "x": -449.910553,
-              "z": -1372.00061
+              "x": -443.05188,
+              "z": -1389.953
             },
             "factionId": "WISKAMUG.WISKAMUG",
             "discovered": true
@@ -10340,7 +10323,7 @@
           {
             "$type": "ShipData, Assembly-CSharp",
             "shipDesignId": "ARRIVAL.ALETHEIA",
-            "rotation": 327.2505,
+            "rotation": 293.187683,
             "scale": 0.0,
             "modules": [
               {
@@ -10633,7 +10616,7 @@
             },
             "lastVisibility": 472.5,
             "lastDisposition": 99.0,
-            "lastActive": 5732.0354008206632,
+            "lastActive": 5730.9182300183456,
             "disabled": false,
             "persistentId": "ARRIVAL.ALETHEIA",
             "prefabName": "Ship",
@@ -10641,8 +10624,8 @@
               "universe": 0,
               "ux": 3,
               "uz": 3,
-              "x": -795.27356,
-              "z": 944.967041
+              "x": -773.9228,
+              "z": 939.4055
             },
             "factionId": "ARRIVAL.ALETHEIA",
             "discovered": true
@@ -42238,6 +42221,6 @@
   },
   "startBuild": 17321,
   "gameId": "19bdd786f39c4dfca6ca58269b6a2d52",
-  "gameTime": 5732.03564,
-  "playTime": 13396.6914
+  "gameTime": 5730.91846,
+  "playTime": 13394.6875
 }
