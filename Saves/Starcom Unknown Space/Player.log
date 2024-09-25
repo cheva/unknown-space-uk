@@ -118,3 +118,12 @@ No starting location
 Material ProgressFill doesn't have _Stencil property
 Material ProgressFill(Clone) doesn't have _Stencil property
 #135781 4686.653 sec: FPS: 29.97073 Mission Update: 0.00102494
+StoryId was null
+No starting story found: ''
+No starting location
+Adding active DISPATCHES.DISPATCH
+Cannot interact while scan in progress
+#154003 5312.125 sec: FPS: 29.92694 Mission Update: 0.00086272
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 302c -> priority: 1 
+  Thread -> id: 2b90 -> priority: 1 
