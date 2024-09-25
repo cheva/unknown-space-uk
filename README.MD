@@ -1,5 +1,5 @@
 # Edited translation - unknown-space-uk GitHub repo 
-
+![Слава Україні!]( https://github.com/cheva/unknown-space-uk/blob/initial/title.png?raw=true "Слава Україні!") 
 Local path: "Starcom Unknown Space\Starcom Unknown Space_Data\StreamingAssets\Localization"
 
 Хак знайшов того. 
