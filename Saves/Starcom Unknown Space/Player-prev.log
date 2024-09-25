@@ -10,11 +10,11 @@ Direct3D:
     VRAM:     8119 MB
     Driver:   31.0.101.2115
 Begin MonoManager ReloadAssembly
-- Completed reload, in  0.144 seconds
+- Completed reload, in  0.121 seconds
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 1.066300 ms
+UnloadTime: 1.936500 ms
 Preloader started, build Kepler (17321)
 Async progress 90%, attempting scene activation...
 Build Number: 17321
@@ -34,6 +34,96 @@ Preloading ALPHA
 Preloading ARRIVAL
 Preloading BEYOND
 Preloading REMNANT_SPACE
+StoryId was null
+No starting story found: ''
+No starting location
+Bootstrapped story 'LAST_TALONIAN'
+Adding topic links instead of child nodes
+Bootstrapped story 'CEPHEID'
+Duplicate log entry, skipping
+Duplicate log entry, skipping
+#14204 452.1183 sec: FPS: 19.83655 Mission Update: 0.00273198
+Cannot interact while scan in progress
+Cannot interact while scan in progress
+Cannot interact while scan in progress
+Cannot interact while scan in progress
+Cannot interact while scan in progress
+#22621 752.1259 sec: FPS: 29.90326 Mission Update: 0.00071958
+Task scheduler exceeded 1500ms
+Task scheduler exceeded 1500ms
+Cannot interact while scan in progress
+#31370 1052.142 sec: FPS: 29.90509 Mission Update: 0.00072343
+Bootstrapped story 'DOLSON'
+Bootstrapped story 'REMNANTS_2'
+Bootstrapped story 'HELLO'
+#39146 1352.178 sec: FPS: 30 Mission Update: 0.00165417
+Duplicate log entry, skipping
+#47980 1652.194 sec: FPS: 29.95612 Mission Update: 0.0009124
+Task scheduler exceeded 1500ms
+Task scheduler exceeded 1500ms
+Task scheduler exceeded 1500ms
+Task scheduler exceeded 1500ms
+StoryId was null
+No starting story found: ''
+No starting location
+Cannot interact while scan in progress
+Cannot interact while scan in progress
+Cannot interact while scan in progress
+Cannot interact while scan in progress
+Cannot interact while scan in progress
+Cannot interact while scan in progress
+Cannot interact while scan in progress
+Cannot interact while scan in progress
+Cannot interact while scan in progress
+#72499 2513.609 sec: FPS: 29.876 Mission Update: 0.00079654
+Cannot interact while scan in progress
+Bootstrapped story 'DISPATCHES'
+#81135 2813.625 sec: FPS: 19.49857 Mission Update: 0.0008342
+Material ProgressFill doesn't have _Stencil property
+Material ProgressFill(Clone) doesn't have _Stencil property
+Material ProgressFill(Clone) doesn't have _Stencil property
+#90060 3113.63 sec: FPS: 29.97073 Mission Update: 0.00093565
+#98619 3413.656 sec: FPS: 22.41518 Mission Update: 0.00311227
+#107443 3713.67 sec: FPS: 29.85423 Mission Update: 0.00088281
+Cannot interact while scan in progress
+Cannot interact while scan in progress
+Cannot interact while scan in progress
+Cannot interact while scan in progress
+Cannot interact while scan in progress
+Cannot interact while scan in progress
+Cannot interact while scan in progress
+Cannot interact while scan in progress
+Cannot interact while scan in progress
+Cannot interact while scan in progress
+Cannot interact while scan in progress
+Cannot interact while scan in progress
+Cannot interact while scan in progress
+Cannot interact while scan in progress
+Cannot interact while scan in progress
+Cannot interact while scan in progress
+Cannot interact while scan in progress
+#116291 4013.696 sec: FPS: 29.91965 Mission Update: 0.0009074
+Duplicate log entry, skipping
+Cannot interact while scan in progress
+Cannot interact while scan in progress
+Cannot interact while scan in progress
+Cannot interact while scan in progress
+Cannot interact while scan in progress
+Task scheduler exceeded 1500ms
+Task scheduler exceeded 1500ms
+#124870 4313.723 sec: FPS: 22.10072 Mission Update: 0.00383722
+StoryId was null
+No starting story found: ''
+No starting location
+Material ProgressFill doesn't have _Stencil property
+Material ProgressFill(Clone) doesn't have _Stencil property
+#135781 4686.653 sec: FPS: 29.97073 Mission Update: 0.00102494
+StoryId was null
+No starting story found: ''
+No starting location
+Adding active DISPATCHES.DISPATCH
+Cannot interact while scan in progress
+#154003 5312.125 sec: FPS: 29.92694 Mission Update: 0.00086272
 Setting up 2 worker threads for Enlighten.
-  Thread -> id: 2b20 -> priority: 1 
-  Thread -> id: 2acc -> priority: 1 
+  Thread -> id: 302c -> priority: 1 
+  Thread -> id: 2b90 -> priority: 1 
