@@ -10,11 +10,11 @@ Direct3D:
     VRAM:     8119 MB
     Driver:   31.0.101.2115
 Begin MonoManager ReloadAssembly
-- Completed reload, in  0.170 seconds
+- Completed reload, in  0.173 seconds
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 2.161800 ms
+UnloadTime: 1.458300 ms
 Preloader started, build Kepler (17321)
 Async progress 90%, attempting scene activation...
 Build Number: 17321
@@ -32,15 +32,16 @@ WwiseUnity: Wwise(R) SDK Version 2021.1.9 Build 7847.
 WwiseUnity: Setting Plugin DLL path to: C:/Games/Starcom Unknown Space/Starcom Unknown Space_Data\Plugins\x86_64
 WwiseUnity: Sound engine initialized successfully.
 Preloading DEFAULT
+Steam knows about 0 achievements
 Preloading ALPHA
 Preloading ARRIVAL
 Preloading BEYOND
 Preloading REMNANT_SPACE
-Steam knows about 0 achievements
-StoryId was null
-No starting story found: ''
-No starting location
 Can not play a disabled audio source
 StoryId was null
 No starting story found: ''
 No starting location
+#10183 388.7928 sec: FPS: 29.7918 Mission Update: 0.00266714
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 1918 -> priority: 1 
+  Thread -> id: 2d3c -> priority: 1 
