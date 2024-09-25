@@ -59,3 +59,7 @@ Bootstrapped story 'HELLO'
 #39146 1352.178 sec: FPS: 30 Mission Update: 0.00165417
 Duplicate log entry, skipping
 #47980 1652.194 sec: FPS: 29.95612 Mission Update: 0.0009124
+Task scheduler exceeded 1500ms
+Task scheduler exceeded 1500ms
+Task scheduler exceeded 1500ms
+Task scheduler exceeded 1500ms

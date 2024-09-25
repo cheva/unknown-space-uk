@@ -311,7 +311,7 @@
     ]
   },
   "crewData": {
-    "totalXP": 21,
+    "totalXP": 22,
     "unspentPoints": 0,
     "currentTeamLevel": 1,
     "crew": [
@@ -957,7 +957,7 @@
         "maxRange": 1000.0,
         "rechargeTime": 300.0,
         "canChargeActive": false,
-        "currentCharge": 55.9818954,
+        "currentCharge": 101.611458,
         "currentActiveLevel": 71.60425,
         "spawnedShips": [
           "#Ship_816926145-257871086",
@@ -1074,7 +1074,8 @@
       "ARRIVAL.RED_RAIDERS": 806.3123,
       "DEFAULT.ERMYR": 34.1772461,
       "DEVOUT.DEVOUT": 296.427917,
-      "PIRATES.BROGIDAR": 31.0120144
+      "PIRATES.BROGIDAR": 31.0120144,
+      "REMNANT_SPACE.DERELICT": 77.27718
     },
     "playerDamageReceived": {
       "ARRIVAL.RED_RAIDERS": 706.0128,
@@ -1125,17 +1126,19 @@
       "OUTLIERS.OUTLIERS": 1.0,
       "DEFAULT.ANALYTICS-13_delay": 90.528595,
       "ALPHA.STABILIZERS": 2.0,
-      "DEFAULT.DEEP_SPACE-10_lull": 244.623749,
+      "DEFAULT.DEEP_SPACE-10_lull": 40.6928,
       "REMNANT_SPACE.RAMA_SCIENCE_POINTS": 490.0,
       "REMNANT_SPACE.RAMA_SCIENCE_QUESTIONS": 1.0,
       "COMETS.COMETS": 2.0,
-      "ARRIVAL.POLYHEDRAL-13_delay": 1389.67175,
-      "WISKAMUG.WISKAMUG-23_delay": 407.269379,
-      "DEFAULT.SCUTTLEBUTT": 7345.92432,
+      "ARRIVAL.POLYHEDRAL-13_delay": 1538.1156,
+      "WISKAMUG.WISKAMUG-23_delay": 555.7135,
+      "DEFAULT.SCUTTLEBUTT": 7841.9624,
       "ARRIVAL.ALETHEIA_RETURNS-14_anomalies": 0.0,
-      "DOLSON.DOLSON_CONVOS-0_lull": 244.623749,
-      "PIRATES.BROGIDAR-24_delay": 350.3956,
-      "REMNANT_SPACE.RANDOMS": 1.0
+      "DOLSON.DOLSON_CONVOS-0_lull": 40.6928,
+      "PIRATES.BROGIDAR-24_delay": 498.8396,
+      "REMNANT_SPACE.RANDOMS": 2.0,
+      "REMNANT_SPACE.VOID_RANDOM": 7841.9624,
+      "CXTA.CXTA_FREIGHTERS-2_delay": 199.024567
     },
     "flagVars": {
       "SEPHARIAL.LOOP": true,
@@ -1192,7 +1195,8 @@
       "EMISSARY.RINGWORLD[1]",
       "ARRIVAL.HIDDEN_LAUNCH_PAD[2]",
       "BEYOND.RAIDER_FACTORY[1]",
-      "OUTLIERS.EVACUATED_PYRAMID[3]"
+      "OUTLIERS.EVACUATED_PYRAMID[3]",
+      "REMNANT_SPACE.MARY_CELESTE[2]"
     ],
     "nodesSeen": [
       "ALPHA.SCHELL_WORMHOLE[1]",
@@ -1260,11 +1264,13 @@
       "ARRIVAL.POLYHEDRAL",
       "REMNANT_SPACE.GRANITE_ORE",
       "OUTLIERS.EVACUATED_PYRAMID",
-      "REMNANT_SPACE.ICE_CORE"
+      "REMNANT_SPACE.ICE_CORE",
+      "REMNANT_SPACE.MARY_CELESTE",
+      "REMNANTS_2.MINING_IMPELLER"
     ]
   },
   "itemSaveData": {
-    "itemDropMultiplier": 36.0,
+    "itemDropMultiplier": 56.0,
     "itemStates": {
       "DEFAULT.ADVANCED_ENGINE": {
         "itemId": "DEFAULT.ADVANCED_ENGINE",
@@ -2799,7 +2805,7 @@
             "progress": 1,
             "maxProgress": 3,
             "startTime": 6442.052,
-            "age": 1941.2699,
+            "age": 2104.855,
             "playerCoord": {
               "universe": 0,
               "ux": 4,
@@ -3116,7 +3122,7 @@
         "activeNodeIndices": [
           0,
           0,
-          0,
+          7,
           0,
           0,
           1,
@@ -5126,7 +5132,7 @@
             "progress": 0,
             "maxProgress": 1,
             "startTime": 4159.758,
-            "age": 7426.653,
+            "age": 7590.15967,
             "playerCoord": {
               "universe": 0,
               "ux": 5,
@@ -5379,7 +5385,7 @@
         "stopped": false,
         "details": [],
         "activeNodeIndices": [
-          1
+          3
         ]
       },
       {
@@ -5808,14 +5814,14 @@
     "playerRank": 8,
     "playerCoord": {
       "universe": 0,
-      "ux": -2,
+      "ux": -1,
       "uz": -2,
-      "x": -479.2286,
-      "z": 2492.99048
+      "x": 481.999969,
+      "z": -48.6521149
     },
     "playerShip": {
       "shipDesignId": "DEFAULT.SMALL_MISSILES",
-      "rotation": 276.736053,
+      "rotation": 265.915833,
       "scale": 0.0,
       "modules": [
         {
@@ -6157,10 +6163,10 @@
         "$type": "AIPlayerAutopilotCommand, Assembly-CSharp",
         "destination": {
           "universe": 0,
-          "ux": -6,
-          "uz": -1,
-          "x": -635.0994,
-          "z": -126.271545
+          "ux": -1,
+          "uz": -2,
+          "x": 57.03418,
+          "z": -109.511719
         },
         "ThrottledSpeed": -1.0,
         "UseTurbo": true
@@ -6174,35 +6180,35 @@
       },
       "lastVisibility": 447.5,
       "lastDisposition": 1000.0,
-      "lastActive": 7824.08508188813,
+      "lastActive": 7972.5292109868024,
       "disabled": false,
       "persistentId": "PLAYER",
       "prefabName": "Ship",
       "coordinates": {
         "universe": 0,
-        "ux": -2,
+        "ux": -1,
         "uz": -2,
-        "x": -479.2286,
-        "z": 2492.99048
+        "x": 481.999969,
+        "z": -48.6521149
       },
       "factionId": "DEFAULT.PLAYER",
       "discovered": false
     },
     "playerResources": {
-      "ALUMINUM": 286,
+      "ALUMINUM": 291,
       "PLATINUM": 10,
       "COPPER": 17,
       "YTTRIUM": 24,
-      "CHIRALITE": 1,
+      "CHIRALITE": 2,
       "GOLD": 5,
-      "TITANIUM": 55,
+      "TITANIUM": 77,
       "IRIDIUM": 0,
       "SILVER": 15,
-      "URANIUM": 1,
+      "URANIUM": 4,
       "DIBERYLLIUM": 0,
-      "NEUTRONIUM": 0,
+      "NEUTRONIUM": 1,
       "ETHERINE": 0,
-      "XENIUM": 0,
+      "XENIUM": 1,
       "METALLIC_HELIUM": 0,
       "ADAMANTINE": 0
     },
@@ -6216,8 +6222,8 @@
     "havokCharge": 0.0,
     "researchPoints": 245,
     "totalResearchPoints": 1690,
-    "anomaliesCompleted": 22,
-    "distanceFlown": 294566.17456489115,
+    "anomaliesCompleted": 23,
+    "distanceFlown": 303950.60034917609,
     "swatch": {
       "id": "DEFAULT.STARCOM",
       "plating1": {
@@ -6333,7 +6339,7 @@
   "phenomenaData": {
     "emissaryData": {
       "destinations": [],
-      "timer": 419.684235
+      "timer": 568.404358
     }
   },
   "proceduralData": {
@@ -6342,9 +6348,9 @@
     ],
     "procAnomalyData": {
       "recentAnomalyIds": [
-        "REMNANT_SPACE.WET_DEBRIS",
         "REMNANT_SPACE.PRIMORDIAL_OCEAN",
-        "REMNANT_SPACE.GRANITE_ORE"
+        "REMNANT_SPACE.GRANITE_ORE",
+        "REMNANTS_2.MINING_IMPELLER"
       ],
       "anomalyProbabilities": [
         {
@@ -6695,7 +6701,7 @@
           "environment": 500,
           "baseProbability": 0.2,
           "decay": 0.5,
-          "placementCount": 0
+          "placementCount": 1
         },
         {
           "anomalyId": "REMNANTS_2.ORDEAL",
@@ -6737,7 +6743,7 @@
     }
   },
   "shipLogData": {
-    "index": 146,
+    "index": 151,
     "entries": [
       {
         "id": 1,
@@ -9364,6 +9370,96 @@
         "summary": "\"<i>Гази на цій планеті перетворилися на твердий лід за досить короткий проміжок...</i>\"",
         "intro": "<i>Die Hard</i>: 2641.12.10 18:55 at -11.45 x 2.46 Unknown Space, Crew Log Entry",
         "details": "Ens. Cassie Pirx (Астронаука):\n\nГази на цій планеті перетворилися на твердий лід за досить короткий проміжок часу, зафіксувавши рідкісний знімок великомасштабних атмосферних змін."
+      },
+      {
+        "id": 147,
+        "type": 1,
+        "gameTime": 7842,
+        "coord": {
+          "universe": 0,
+          "ux": -2,
+          "uz": -2,
+          "x": 800.212036,
+          "z": 1762.241
+        },
+        "showMapPin": false,
+        "spriteId": "DEFAULT.Portraits/STARCOM_FIRST_OFFICER",
+        "categoryText": "Лейтенант Евері",
+        "summary": "\"<i>Попереду виявлено занедбане судно.</i>\"",
+        "intro": "<i>Die Hard</i>: 2641.12.11 17:57 at -1.34 x -1.15 Unknown Space, Crew Log Entry",
+        "details": "Лейтенант Евері:\n\nПопереду виявлено занедбане судно."
+      },
+      {
+        "id": 148,
+        "type": 3,
+        "gameTime": 7860,
+        "coord": {
+          "universe": 0,
+          "ux": -2,
+          "uz": -2,
+          "x": 1085.86963,
+          "z": 1490.19812
+        },
+        "showMapPin": false,
+        "spriteId": "REMNANT_SPACE.Anomalies/VoidDerelict",
+        "categoryText": "EV Investigation: Radiation Decay",
+        "summary": "<i>Залишений знаходиться в надзвичайно хорошому стані, особливо тому, що...</i>",
+        "intro": "12/11/2641 7:25:00 PM <i>Die Hard</i>\t Spaced-based Anomaly Report at -1.28 x -1.20 Unknown Space",
+        "details": "Залишений знаходиться в надзвичайно хорошому стані, особливо тому, що показання розпаду нейтрино на реакторі показують, що він мертвий у космосі десятиліттями, якщо не довше.\n\nРівень радіації досить високий, але все ще достатньо безпечний для короткого дослідження.\n\nНемає жодних слідів екіпажу чи пасажирів, а суднові журнали порожні.\n\nУ вантажному відсіку є кілька контейнерів із матеріалами, у тому числі радіоактивними. Але всі вони ще цілі і не пояснюють підвищену радіацію.\n\nEns. Gliese (Інженерія Інсайт): <i>Враховуючи носій даних, випромінювання, ймовірно, стерло корабельні журнали. Хоча я не можу пояснити радіацію, яка вже мала б розпатися.</i>\n\t+5 Титан\n\t+3 Уран\n\t+1 Хіраліт\n\t+1 Ксеніум\n"
+      },
+      {
+        "id": 149,
+        "type": 1,
+        "gameTime": 7866,
+        "coord": {
+          "universe": 0,
+          "ux": -2,
+          "uz": -2,
+          "x": 1075.10559,
+          "z": 1480.50464
+        },
+        "showMapPin": false,
+        "spriteId": "DEFAULT.Portraits/STARCOM_CREW_5",
+        "categoryText": "Ens. Cassie Pirx (Астронаука)",
+        "summary": "\"<i>Це Марія Кюрі Селеста!</i>\"",
+        "intro": "<i>Die Hard</i>: 2641.12.11 19:55 at -1.28 x -1.20 Unknown Space, Crew Log Entry",
+        "details": "Ens. Cassie Pirx (Астронаука):\n\nЦе Марія Кюрі Селеста!"
+      },
+      {
+        "id": 150,
+        "type": 1,
+        "gameTime": 7875,
+        "coord": {
+          "universe": 0,
+          "ux": -2,
+          "uz": -2,
+          "x": 1071.15125,
+          "z": 1476.75085
+        },
+        "showMapPin": false,
+        "spriteId": "DEFAULT.Portraits/STARCOM_CREW_5",
+        "categoryText": "Ens. Cassie Pirx (Астронаука)",
+        "summary": "\"<i>Вибачте, це було смішніше в моїй голові.</i>\"",
+        "intro": "<i>Die Hard</i>: 2641.12.11 20:41 at -1.29 x -1.20 Unknown Space, Crew Log Entry",
+        "details": "Ens. Cassie Pirx (Астронаука):\n\nВибачте, це було смішніше в моїй голові."
+      },
+      {
+        "id": 151,
+        "type": 2,
+        "gameTime": 7931,
+        "coord": {
+          "universe": 0,
+          "ux": -1,
+          "uz": -2,
+          "x": -137.0867,
+          "z": 620.501343
+        },
+        "showMapPin": false,
+        "spriteId": "REMNANTS_2.Anomalies/MiningImpeller",
+        "categoryText": "Planetary Anomaly: Mining Impeller",
+        "summary": "<i>Ens. Gliese пояснює, що ця велика конструкція є робочим колесом для шахт....</i>",
+        "intro": "12/12/2641 1:20:00 AM <i>Die Hard Lander SCS-01</i>\t Planetary Anomaly Report at -0.53 x -1.38 Unknown Space",
+        "details": "Ens. Gliese пояснює, що ця велика конструкція є робочим колесом для шахт. Запущений на велику відстань, він би зайшов глибоко в поверхню планетоїда до відомого родовища корисних копалин.\n\nПісля завершення видобутку він запускатиме ресурс на високу орбіту, де дрон зможе його зібрати.\n\nЦей метод видобутку мав низку переваг, зокрема невелику кількість розумної праці.\n\nАле позаду залишилася головка крильчатки, яка обов'язково мала бути зроблена з міцного легкого матеріалу.\n\t+17 Титан\n"
       }
     ]
   },
@@ -25688,7 +25784,7 @@
               "x": 57.03418,
               "z": -109.511719
             },
-            "discovered": false
+            "discovered": true
           },
           {
             "$type": "FlingerData, Assembly-CSharp",
@@ -25712,13 +25808,13 @@
               "x": 218.765625,
               "z": 806.6328
             },
-            "discovered": false
+            "discovered": true
           },
           {
             "$type": "StarData, Assembly-CSharp",
             "luminosity": 1.0,
-            "explored": false,
-            "dragReduced": false,
+            "explored": true,
+            "dragReduced": true,
             "depleted": false,
             "starName": "",
             "persistentId": "#Orange Star_1809284931-211695375",
@@ -25739,11 +25835,12 @@
             "size": 110.863266,
             "seed": 87972320,
             "interaction": {
-              "anomalyState": 0,
+              "anomalyState": 6,
+              "anomalyId": "REMNANTS_2.MINING_IMPELLER",
               "hasTrade": false,
-              "instanceVisits": 0
+              "instanceVisits": 1
             },
-            "procAnomalyCandidate": true,
+            "procAnomalyCandidate": false,
             "placementPadding": 0.0,
             "persistentId": "#Lunar L1_690176647-1780112773",
             "prefabName": "Lunar L1",
@@ -25761,7 +25858,7 @@
             "size": 306.6507,
             "seed": 770833149,
             "interaction": {
-              "anomalyState": 0,
+              "anomalyState": 6,
               "hasTrade": false,
               "instanceVisits": 0
             },
@@ -25783,7 +25880,7 @@
             "size": 50.0,
             "seed": 973153204,
             "interaction": {
-              "anomalyState": 0,
+              "anomalyState": 6,
               "hasTrade": false,
               "instanceVisits": 0
             },
@@ -25798,7 +25895,165 @@
               "x": 624.1868,
               "z": -107.759163
             },
-            "discovered": false
+            "discovered": true
+          },
+          {
+            "$type": "ShipData, Assembly-CSharp",
+            "shipDesignId": "CXTA.CXTA_HAULER",
+            "rotation": 231.877625,
+            "scale": 2.0,
+            "modules": [
+              {
+                "moduleId": "BRIDGE_4",
+                "origin": {
+                  "x": 0,
+                  "y": 0
+                },
+                "rot": 0,
+                "mirrored": false,
+                "health": 63.0
+              },
+              {
+                "moduleId": "CARGO_4",
+                "origin": {
+                  "x": 0,
+                  "y": -1
+                },
+                "rot": 0,
+                "mirrored": false,
+                "health": 17.0
+              },
+              {
+                "moduleId": "CARGO_4",
+                "origin": {
+                  "x": 0,
+                  "y": -2
+                },
+                "rot": 0,
+                "mirrored": false,
+                "health": 17.0
+              },
+              {
+                "moduleId": "CARGO_4",
+                "origin": {
+                  "x": 0,
+                  "y": -3
+                },
+                "rot": 0,
+                "mirrored": false,
+                "health": 17.0
+              },
+              {
+                "moduleId": "CARGO_2",
+                "origin": {
+                  "x": 0,
+                  "y": 2
+                },
+                "rot": 0,
+                "mirrored": false,
+                "health": 17.0
+              },
+              {
+                "moduleId": "CARGO_2",
+                "origin": {
+                  "x": 0,
+                  "y": 3
+                },
+                "rot": 0,
+                "mirrored": false,
+                "health": 17.0
+              },
+              {
+                "moduleId": "CARGO_2",
+                "origin": {
+                  "x": 0,
+                  "y": 4
+                },
+                "rot": 0,
+                "mirrored": false,
+                "health": 17.0
+              },
+              {
+                "moduleId": "ARMOR_ANGLED_3",
+                "origin": {
+                  "x": 0,
+                  "y": 5
+                },
+                "rot": 0,
+                "mirrored": false,
+                "health": 140.0
+              },
+              {
+                "moduleId": "BUMPERS_2",
+                "origin": {
+                  "x": -2,
+                  "y": 0
+                },
+                "rot": 0,
+                "mirrored": false,
+                "health": 70.0
+              },
+              {
+                "moduleId": "BUMPERS_2",
+                "origin": {
+                  "x": 2,
+                  "y": 0
+                },
+                "rot": 0,
+                "mirrored": true,
+                "health": 70.0
+              },
+              {
+                "moduleId": "ENGINE_6",
+                "origin": {
+                  "x": 0,
+                  "y": -4
+                },
+                "rot": 0,
+                "mirrored": false,
+                "health": 84.0
+              },
+              {
+                "moduleId": "PLASMA_1",
+                "origin": {
+                  "x": 1,
+                  "y": -4
+                },
+                "rot": 0,
+                "mirrored": false,
+                "health": 8.0
+              }
+            ],
+            "moduleHealthMultiplier": 1.4,
+            "maxHealth": 537.0,
+            "maxSize": 28.0,
+            "profileType": "Freighter",
+            "command": {
+              "$type": "AILeaveCommand, Assembly-CSharp",
+              "ThrottledSpeed": -1.0
+            },
+            "spawnOrigin": {
+              "universe": 0,
+              "ux": -1,
+              "uz": -2,
+              "x": 157.97998,
+              "z": 1202.75317
+            },
+            "lastVisibility": 530.0,
+            "lastDisposition": 0.0,
+            "lastActive": 7972.5292109868024,
+            "disabled": false,
+            "persistentId": "#Ship_864625408-262134289",
+            "prefabName": "Ship",
+            "coordinates": {
+              "universe": 0,
+              "ux": -1,
+              "uz": -2,
+              "x": -152.572372,
+              "z": 643.6799
+            },
+            "factionId": "CXTA.CXTA",
+            "discovered": true
           }
         ]
       },
@@ -33246,7 +33501,7 @@
               "x": -536.0057,
               "z": -558.7458
             },
-            "discovered": false,
+            "discovered": true,
             "Size": 300.0
           },
           {
@@ -39095,17 +39350,6 @@
       {
         "coordinates": {
           "universe": 0,
-          "ux": -2,
-          "uz": -2,
-          "x": 0.0,
-          "z": 0.0
-        },
-        "tags": [],
-        "Persistents": []
-      },
-      {
-        "coordinates": {
-          "universe": 0,
           "ux": 6,
           "uz": -4,
           "x": 0.0,
@@ -39252,6 +39496,11 @@
       }
     ],
     "emptySectors": [
+      {
+        "u": 0,
+        "x": -2,
+        "z": -2
+      },
       {
         "u": -1,
         "x": 9997,
@@ -45205,6 +45454,6 @@
   },
   "startBuild": 17321,
   "gameId": "19bdd786f39c4dfca6ca58269b6a2d52",
-  "gameTime": 7824.4375,
-  "playTime": 16674.2969
+  "gameTime": 7972.88135,
+  "playTime": 16842.6758
 }

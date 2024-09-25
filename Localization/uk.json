@@ -187,7 +187,7 @@
     {
       "symbol": "SHIP_STATION_UI->EDIT_COLOR_SCHEME",
       "original": "Edit Color Scheme",
-      "translation": "Редагувати колірну схему",
+      "translation": "Колірна схему",
       "priority": 0,
       "reviewed": false
     },
