@@ -10,20 +10,23 @@ Direct3D:
     VRAM:     8119 MB
     Driver:   31.0.101.2115
 Begin MonoManager ReloadAssembly
-- Completed reload, in  0.121 seconds
+- Completed reload, in  0.322 seconds
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 1.936500 ms
+UnloadTime: 2.461600 ms
 Preloader started, build Kepler (17321)
 Async progress 90%, attempting scene activation...
 Build Number: 17321
+Curl error 6: Could not resolve host: lab.wx3.com
 Found announce override, using instead of server supplied news.
 Steamworks initialized successfully for 1750770, Branch: 
 Creating presave for C:\Games\Starcom Unknown Space\Starcom Unknown Space_Data\StreamingAssets\Content\Kepler\Presaves\Arrival_Complete_info.json
 Creating presave for C:\Games\Starcom Unknown Space\Starcom Unknown Space_Data\StreamingAssets\Content\Kepler\Presaves\Post_Prologue_info.json
 Localizing to uk
 Total localization targets: 0, total symbols: 6103
+Cannot resolve destination host
+Server unexpected response: 
 Activating Wwise
 WwiseUnity: Wwise(R) SDK Version 2021.1.9 Build 7847.
 WwiseUnity: Setting Plugin DLL path to: C:/Games/Starcom Unknown Space/Starcom Unknown Space_Data\Plugins\x86_64
@@ -37,93 +40,89 @@ Preloading REMNANT_SPACE
 StoryId was null
 No starting story found: ''
 No starting location
-Bootstrapped story 'LAST_TALONIAN'
-Adding topic links instead of child nodes
-Bootstrapped story 'CEPHEID'
-Duplicate log entry, skipping
-Duplicate log entry, skipping
-#14204 452.1183 sec: FPS: 19.83655 Mission Update: 0.00273198
-Cannot interact while scan in progress
-Cannot interact while scan in progress
-Cannot interact while scan in progress
-Cannot interact while scan in progress
-Cannot interact while scan in progress
-#22621 752.1259 sec: FPS: 29.90326 Mission Update: 0.00071958
-Task scheduler exceeded 1500ms
-Task scheduler exceeded 1500ms
-Cannot interact while scan in progress
-#31370 1052.142 sec: FPS: 29.90509 Mission Update: 0.00072343
-Bootstrapped story 'DOLSON'
-Bootstrapped story 'REMNANTS_2'
-Bootstrapped story 'HELLO'
-#39146 1352.178 sec: FPS: 30 Mission Update: 0.00165417
-Duplicate log entry, skipping
-#47980 1652.194 sec: FPS: 29.95612 Mission Update: 0.0009124
-Task scheduler exceeded 1500ms
-Task scheduler exceeded 1500ms
-Task scheduler exceeded 1500ms
-Task scheduler exceeded 1500ms
+Can not play a disabled audio source
 StoryId was null
 No starting story found: ''
 No starting location
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 5)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 5)
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.GameObject.SetActive(UnityEngine.GameObject,bool)
+  at GameCamera.UpdatePostProcessPref () [0x0000f] in <20096a5fbaa34bb6bdee6b59ea292e93>:0 
+  at (wrapper delegate-invoke) <Module>.invoke_void()
+  at OptionsManager.SetSpeedDustLimit (System.Int32 limit) [0x0003a] in <20096a5fbaa34bb6bdee6b59ea292e93>:0 
+  at OptionsPopUpUI.SpeedDustChanged (System.Single val) [0x00000] in <20096a5fbaa34bb6bdee6b59ea292e93>:0 
+  at UnityEngine.Events.InvokableCall`1[T1].Invoke (T1 args0) [0x00010] in <4fae2288737c4dfda349689bbefabfcc>:0 
+  at UnityEngine.Events.UnityEvent`1[T0].Invoke (T0 arg0) [0x00025] in <4fae2288737c4dfda349689bbefabfcc>:0 
+  at UnityEngine.UI.Slider.Set (System.Single input, System.Boolean sendCallback) [0x0002d] in <2611ebd716ec47748b234e16791bb28a>:0 
+  at UnityEngine.UI.Slider.set_value (System.Single value) [0x00000] in <2611ebd716ec47748b234e16791bb28a>:0 
+  at UnityEngine.UI.Slider.set_normalizedValue (System.Single value) [0x00013] in <2611ebd716ec47748b234e16791bb28a>:0 
+  at UnityEngine.UI.Slider.UpdateDrag (UnityEngine.EventSystems.PointerEventData eventData, UnityEngine.Camera cam) [0x000be] in <2611ebd716ec47748b234e16791bb28a>:0 
+  at UnityEngine.UI.Slider.OnPointerDown (UnityEngine.EventSystems.PointerEventData eventData) [0x00078] in <2611ebd716ec47748b234e16791bb28a>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IPointerDownHandler handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00007] in <2611ebd716ec47748b234e16791bb28a>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) [0x0006c] in <2611ebd716ec47748b234e16791bb28a>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.ExecuteEvents:ExecuteHierarchy(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent()
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.GameObject.SetActive(UnityEngine.GameObject,bool)
+  at GameCamera.UpdatePostProcessPref () [0x0000f] in <20096a5fbaa34bb6bdee6b59ea292e93>:0 
+  at (wrapper delegate-invoke) <Module>.invoke_void()
+  at OptionsManager.SetSpeedDustLimit (System.Int32 limit) [0x0003a] in <20096a5fbaa34bb6bdee6b59ea292e93>:0 
+  at OptionsPopUpUI.SpeedDustChanged (System.Single val) [0x00000] in <20096a5fbaa34bb6bdee6b59ea292e93>:0 
+  at UnityEngine.Events.InvokableCall`1[T1].Invoke (T1 args0) [0x00010] in <4fae2288737c4dfda349689bbefabfcc>:0 
+  at UnityEngine.Events.UnityEvent`1[T0].Invoke (T0 arg0) [0x00025] in <4fae2288737c4dfda349689bbefabfcc>:0 
+  at UnityEngine.UI.Slider.Set (System.Single input, System.Boolean sendCallback) [0x0002d] in <2611ebd716ec47748b234e16791bb28a>:0 
+  at UnityEngine.UI.Slider.set_value (System.Single value) [0x00000] in <2611ebd716ec47748b234e16791bb28a>:0 
+  at UnityEngine.UI.Slider.set_normalizedValue (System.Single value) [0x00013] in <2611ebd716ec47748b234e16791bb28a>:0 
+  at UnityEngine.UI.Slider.UpdateDrag (UnityEngine.EventSystems.PointerEventData eventData, UnityEngine.Camera cam) [0x000be] in <2611ebd716ec47748b234e16791bb28a>:0 
+  at UnityEngine.UI.Slider.OnDrag (UnityEngine.EventSystems.PointerEventData eventData) [0x00012] in <2611ebd716ec47748b234e16791bb28a>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IDragHandler handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00007] in <2611ebd716ec47748b234e16791bb28a>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) [0x0006c] in <2611ebd716ec47748b234e16791bb28a>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.PointerInputModule:ProcessDrag(PointerEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent()
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+
+#14152 494.2873 sec: FPS: 29.30599 Mission Update: 0.00273131
+Adding active OUTLIERS.RELAY
+#21973 794.2904 sec: FPS: 29.89781 Mission Update: 0.00388701
+#30499 1094.3 sec: FPS: 30.04768 Mission Update: 0.00305733
+Cannot interact while scan in progress
+Task scheduler exceeded 1500ms
+Task scheduler exceeded 1500ms
+Task scheduler exceeded 1500ms
+Task scheduler exceeded 1500ms
+Task scheduler exceeded 1500ms
+Task scheduler exceeded 1500ms
+Task scheduler exceeded 1500ms
+Task scheduler exceeded 1500ms
+Task scheduler exceeded 1500ms
 Cannot interact while scan in progress
 Cannot interact while scan in progress
-Cannot interact while scan in progress
-Cannot interact while scan in progress
-Cannot interact while scan in progress
-Cannot interact while scan in progress
-Cannot interact while scan in progress
-Cannot interact while scan in progress
-Cannot interact while scan in progress
-#72499 2513.609 sec: FPS: 29.876 Mission Update: 0.00079654
-Cannot interact while scan in progress
-Bootstrapped story 'DISPATCHES'
-#81135 2813.625 sec: FPS: 19.49857 Mission Update: 0.0008342
-Material ProgressFill doesn't have _Stencil property
-Material ProgressFill(Clone) doesn't have _Stencil property
-Material ProgressFill(Clone) doesn't have _Stencil property
-#90060 3113.63 sec: FPS: 29.97073 Mission Update: 0.00093565
-#98619 3413.656 sec: FPS: 22.41518 Mission Update: 0.00311227
-#107443 3713.67 sec: FPS: 29.85423 Mission Update: 0.00088281
-Cannot interact while scan in progress
-Cannot interact while scan in progress
-Cannot interact while scan in progress
-Cannot interact while scan in progress
-Cannot interact while scan in progress
-Cannot interact while scan in progress
-Cannot interact while scan in progress
-Cannot interact while scan in progress
-Cannot interact while scan in progress
-Cannot interact while scan in progress
-Cannot interact while scan in progress
-Cannot interact while scan in progress
-Cannot interact while scan in progress
-Cannot interact while scan in progress
-Cannot interact while scan in progress
-Cannot interact while scan in progress
-Cannot interact while scan in progress
-#116291 4013.696 sec: FPS: 29.91965 Mission Update: 0.0009074
+#38681 1394.322 sec: FPS: 17.53049 Mission Update: 0.00317288
 Duplicate log entry, skipping
-Cannot interact while scan in progress
-Cannot interact while scan in progress
-Cannot interact while scan in progress
-Cannot interact while scan in progress
-Cannot interact while scan in progress
-Task scheduler exceeded 1500ms
-Task scheduler exceeded 1500ms
-#124870 4313.723 sec: FPS: 22.10072 Mission Update: 0.00383722
+#47327 1694.333 sec: FPS: 29.78548 Mission Update: 0.00193954
+Bootstrapped story 'CEPHEID2'
 StoryId was null
 No starting story found: ''
 No starting location
-Material ProgressFill doesn't have _Stencil property
-Material ProgressFill(Clone) doesn't have _Stencil property
-#135781 4686.653 sec: FPS: 29.97073 Mission Update: 0.00102494
-StoryId was null
-No starting story found: ''
-No starting location
-Adding active DISPATCHES.DISPATCH
-Cannot interact while scan in progress
-#154003 5312.125 sec: FPS: 29.92694 Mission Update: 0.00086272
 Setting up 2 worker threads for Enlighten.
-  Thread -> id: 302c -> priority: 1 
-  Thread -> id: 2b90 -> priority: 1 
+  Thread -> id: 2430 -> priority: 1 
+  Thread -> id: 2a6c -> priority: 1 
