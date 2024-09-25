@@ -311,7 +311,7 @@
     ]
   },
   "crewData": {
-    "totalXP": 20,
+    "totalXP": 21,
     "unspentPoints": 0,
     "currentTeamLevel": 1,
     "crew": [
@@ -449,7 +449,8 @@
       "ARRIVAL.HELIUM_GIANT",
       "SCAN_DISCOVERIES.MAGNETIC_SPIKES",
       "ARRIVAL.POLYHEDRAL_BURST",
-      "REMNANT_SPACE.DEAD_STAR"
+      "REMNANT_SPACE.DEAD_STAR",
+      "REMNANT_SPACE.ICE_CORE"
     ]
   },
   "encounterSaveData": {
@@ -942,7 +943,7 @@
         "maxRange": 1000.0,
         "rechargeTime": 300.0,
         "canChargeActive": false,
-        "currentCharge": 117.454407,
+        "currentCharge": 127.411659,
         "currentActiveLevel": 0.0,
         "spawnedShips": [],
         "hasSpawned": true
@@ -1034,14 +1035,14 @@
       },
       "WISKAMUG.WISKAMUG": {
         "DEFAULT.PLAYER": 0.0,
-        "PIRATES.BROGIDAR": -1.05658174
+        "PIRATES.BROGIDAR": -0.6651855
       },
       "DEVOUT.DEVOUT": {
-        "DEFAULT.PLAYER": -0.139207482
+        "DEFAULT.PLAYER": -0.08763997
       },
       "PIRATES.BROGIDAR": {
-        "WISKAMUG.WISKAMUG": -2.38704848,
-        "DEFAULT.PLAYER": -0.233014628
+        "WISKAMUG.WISKAMUG": -1.50279891,
+        "DEFAULT.PLAYER": -0.146697551
       }
     },
     "damageModifiers": {
@@ -1106,18 +1107,18 @@
       "OUTLIERS.OUTLIERS": 1.0,
       "DEFAULT.ANALYTICS-13_delay": 90.528595,
       "ALPHA.STABILIZERS": 2.0,
-      "DEFAULT.DEEP_SPACE-10_lull": 16.1159172,
+      "DEFAULT.DEEP_SPACE-10_lull": 21.0091,
       "REMNANT_SPACE.RAMA_SCIENCE_POINTS": 490.0,
       "REMNANT_SPACE.RAMA_SCIENCE_QUESTIONS": 1.0,
       "COMETS.COMETS": 2.0,
-      "ARRIVAL.POLYHEDRAL-13_delay": 1125.64282,
-      "WISKAMUG.WISKAMUG-23_delay": 143.240768,
+      "ARRIVAL.POLYHEDRAL-13_delay": 1166.05676,
+      "WISKAMUG.WISKAMUG-23_delay": 183.654861,
       "DEFAULT.SCUTTLEBUTT": 7345.92432,
       "ARRIVAL.ALETHEIA_RETURNS-14_anomalies": 0.0,
-      "DOLSON.DOLSON_CONVOS-0_lull": 16.1159172,
-      "PIRATES.BROGIDAR-24_delay": 86.36692,
+      "DOLSON.DOLSON_CONVOS-0_lull": 21.0091,
+      "PIRATES.BROGIDAR-24_delay": 126.780937,
       "REMNANT_SPACE.RANDOMS": 1.0,
-      "PIRATES.BROGIDAR-20_delay": 366.92337
+      "PIRATES.BROGIDAR-20_delay": 505.246826
     },
     "flagVars": {
       "SEPHARIAL.LOOP": true,
@@ -1241,7 +1242,8 @@
       "BEYOND.RAIDER_FACTORY",
       "ARRIVAL.POLYHEDRAL",
       "REMNANT_SPACE.GRANITE_ORE",
-      "OUTLIERS.EVACUATED_PYRAMID"
+      "OUTLIERS.EVACUATED_PYRAMID",
+      "REMNANT_SPACE.ICE_CORE"
     ]
   },
   "itemSaveData": {
@@ -2780,7 +2782,7 @@
             "progress": 1,
             "maxProgress": 3,
             "startTime": 6442.052,
-            "age": 1662.67126,
+            "age": 1712.82568,
             "playerCoord": {
               "universe": 0,
               "ux": 4,
@@ -5107,7 +5109,7 @@
             "progress": 0,
             "maxProgress": 1,
             "startTime": 4159.758,
-            "age": 7148.2583,
+            "age": 7198.376,
             "playerCoord": {
               "universe": 0,
               "ux": 5,
@@ -5791,12 +5793,12 @@
       "universe": 0,
       "ux": -12,
       "uz": 2,
-      "x": 240.163071,
-      "z": -210.165848
+      "x": 942.540039,
+      "z": -532.922
     },
     "playerShip": {
       "shipDesignId": "DEFAULT.SMALL_MISSILES",
-      "rotation": 274.974731,
+      "rotation": 108.109093,
       "scale": 0.0,
       "modules": [
         {
@@ -6134,6 +6136,18 @@
       "maxHealth": 287.0,
       "maxSize": 39.5,
       "profileType": "SimpleAgent",
+      "command": {
+        "$type": "AIPlayerAutopilotCommand, Assembly-CSharp",
+        "destination": {
+          "universe": 0,
+          "ux": -1,
+          "uz": -2,
+          "x": -1170.5542,
+          "z": 2182.30835
+        },
+        "ThrottledSpeed": -1.0,
+        "UseTurbo": true
+      },
       "spawnOrigin": {
         "universe": 0,
         "ux": 999,
@@ -6143,7 +6157,7 @@
       },
       "lastVisibility": 447.5,
       "lastDisposition": 1000.0,
-      "lastActive": 7560.4420725697419,
+      "lastActive": 7600.4676203001291,
       "disabled": false,
       "persistentId": "PLAYER",
       "prefabName": "Ship",
@@ -6151,8 +6165,8 @@
         "universe": 0,
         "ux": -12,
         "uz": 2,
-        "x": 240.163071,
-        "z": -210.165848
+        "x": 942.540039,
+        "z": -532.922
       },
       "factionId": "DEFAULT.PLAYER",
       "discovered": false
@@ -6180,13 +6194,13 @@
     "potentialMissiles": 0,
     "fighters": 0,
     "potentialFighters": 0,
-    "battlestationsCooldown": 16.2638931,
+    "battlestationsCooldown": 0.0,
     "shieldCharge": 0.0,
     "havokCharge": 0.0,
-    "researchPoints": 210,
-    "totalResearchPoints": 1655,
-    "anomaliesCompleted": 21,
-    "distanceFlown": 232478.30495420354,
+    "researchPoints": 245,
+    "totalResearchPoints": 1690,
+    "anomaliesCompleted": 22,
+    "distanceFlown": 234517.74287754385,
     "swatch": {
       "id": "DEFAULT.STARCOM",
       "plating1": {
@@ -6302,7 +6316,7 @@
   "phenomenaData": {
     "emissaryData": {
       "destinations": [],
-      "timer": 148.3172
+      "timer": 188.705521
     }
   },
   "proceduralData": {
@@ -6706,7 +6720,7 @@
     }
   },
   "shipLogData": {
-    "index": 144,
+    "index": 146,
     "entries": [
       {
         "id": 1,
@@ -9297,6 +9311,42 @@
         "summary": "\"<i>У цій зірці термоядерний синтез майже повністю зупинився. Він випромінюється...</i>\"",
         "intro": "<i>Die Hard</i>: 2641.12.10 15:39 at -11.53 x 2.46 Unknown Space, Crew Log Entry",
         "details": "Ens. Cassie Pirx (Астронаука):\n\nУ цій зірці термоядерний синтез майже повністю зупинився. Він випромінюється переважно завдяки збереженому теплу. Єдине пояснення, яке я маю, полягає в тому, що за короткий проміжок часу відбувся широкомасштабний синтез за допомогою невідомого механізму."
+      },
+      {
+        "id": 145,
+        "type": 2,
+        "gameTime": 7565,
+        "coord": {
+          "universe": 0,
+          "ux": -12,
+          "uz": 2,
+          "x": 227.267242,
+          "z": -205.792755
+        },
+        "showMapPin": false,
+        "spriteId": "REMNANT_SPACE.Anomalies/IceCore",
+        "categoryText": "Planetary Anomaly: Ice Core",
+        "summary": "<i>Ця замерзла планета має незвичайні крижані утворення Ens. Pirx, яких раніше...</i>",
+        "intro": "12/10/2641 6:50:00 PM <i>Die Hard Lander SCS-01</i>\t Planetary Anomaly Report at -11.45 x 2.46 Unknown Space",
+        "details": "Ця замерзла планета має незвичайні крижані утворення Ens. Pirx, яких раніше не бачили, що спонукало їх зібрати серію зразків керна льоду.\n"
+      },
+      {
+        "id": 146,
+        "type": 1,
+        "gameTime": 7566,
+        "coord": {
+          "universe": 0,
+          "ux": -12,
+          "uz": 2,
+          "x": 227.1202,
+          "z": -205.7429
+        },
+        "showMapPin": false,
+        "spriteId": "DEFAULT.Portraits/STARCOM_CREW_5",
+        "categoryText": "Ens. Cassie Pirx (Астронаука)",
+        "summary": "\"<i>Гази на цій планеті перетворилися на твердий лід за досить короткий проміжок...</i>\"",
+        "intro": "<i>Die Hard</i>: 2641.12.10 18:55 at -11.45 x 2.46 Unknown Space, Crew Log Entry",
+        "details": "Ens. Cassie Pirx (Астронаука):\n\nГази на цій планеті перетворилися на твердий лід за досить короткий проміжок часу, зафіксувавши рідкісний знімок великомасштабних атмосферних змін."
       }
     ]
   },
@@ -37113,11 +37163,11 @@
             "size": 114.2413,
             "seed": 0,
             "interaction": {
-              "anomalyState": 1,
+              "anomalyState": 6,
               "anomalyId": "REMNANT_SPACE.ICE_CORE",
               "stationId": "",
               "hasTrade": false,
-              "instanceVisits": 0
+              "instanceVisits": 1
             },
             "procAnomalyCandidate": false,
             "placementPadding": 0.0,
@@ -37136,7 +37186,7 @@
           {
             "$type": "WarpNexusData, Assembly-CSharp",
             "isOn": true,
-            "sectorExplored": false,
+            "sectorExplored": true,
             "persistentId": "#Warp Nexus_552011365-1490834792",
             "tags": "",
             "prefabName": "Warp Nexus",
@@ -37152,7 +37202,7 @@
           {
             "$type": "StarData, Assembly-CSharp",
             "luminosity": 1.0,
-            "explored": false,
+            "explored": true,
             "dragReduced": true,
             "depleted": false,
             "persistentId": "#Dead Star_1379079651-575599109",
@@ -42868,6 +42918,6 @@
   },
   "startBuild": 17321,
   "gameId": "19bdd786f39c4dfca6ca58269b6a2d52",
-  "gameTime": 7560.442,
-  "playTime": 16382.6729
+  "gameTime": 7600.82275,
+  "playTime": 16435.9766
 }

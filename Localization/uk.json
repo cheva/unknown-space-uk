@@ -1083,7 +1083,7 @@
     {
       "symbol": "MAP_HUD_STATIC->MAP_CONTROL_TIPS",
       "original": "Mousewheel: Zoom to Center\nCTRL+ Mousewheel: to Zoom to Cursor\nCTRL+ Click: Autopilot\nCTRL+ALT+ Click: Direct Autopilot\nRight-Click: Create Log Entry",
-      "translation": "Колесо миші: масштаб до центру\nCTRL+ коліщатко миші: щоб масштабувати курсор\nCTRL+ Клацніть: Автопілот\nCTRL+ALT+ Натисніть: прямий автопілот\nКлацніть правою кнопкою миші: створити запис журналу",
+      "translation": "Колесо миші: масштаб до центру\nCTRL+ коліщатко миші: щоб масштабувати курсор\nCTRL+ Клац: Автопілот\nCTRL+ALT+ Клац: прямий автопілот\nКлацніть правою кнопкою миші: створити запис журналу",
       "priority": 0,
       "reviewed": false
     },

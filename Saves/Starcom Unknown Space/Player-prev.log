@@ -10,11 +10,11 @@ Direct3D:
     VRAM:     8119 MB
     Driver:   31.0.101.2115
 Begin MonoManager ReloadAssembly
-- Completed reload, in  0.289 seconds
+- Completed reload, in  0.144 seconds
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 2.311000 ms
+UnloadTime: 1.066300 ms
 Preloader started, build Kepler (17321)
 Async progress 90%, attempting scene activation...
 Build Number: 17321
@@ -34,41 +34,6 @@ Preloading ALPHA
 Preloading ARRIVAL
 Preloading BEYOND
 Preloading REMNANT_SPACE
-StoryId was null
-No starting story found: ''
-No starting location
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.GameObject.SetActive(UnityEngine.GameObject,bool)
-  at GameCamera.UpdatePostProcessPref () [0x0000f] in <20096a5fbaa34bb6bdee6b59ea292e93>:0 
-  at OptionsManager.SetSpeedDustLimit (System.Int32 limit) [0x0003a] in <20096a5fbaa34bb6bdee6b59ea292e93>:0 
-  at OptionsManager.QualityChanged (System.Int32 level) [0x0000e] in <20096a5fbaa34bb6bdee6b59ea292e93>:0 
-  at OptionsPopUpUI.QualityChanged (System.Int32 quality) [0x0000f] in <20096a5fbaa34bb6bdee6b59ea292e93>:0 
-  at UnityEngine.Events.InvokableCall`1[T1].Invoke (T1 args0) [0x00010] in <4fae2288737c4dfda349689bbefabfcc>:0 
-  at UnityEngine.Events.UnityEvent`1[T0].Invoke (T0 arg0) [0x00025] in <4fae2288737c4dfda349689bbefabfcc>:0 
-  at TMPro.TMP_Dropdown.SetValue (System.Int32 value, System.Boolean sendCallback) [0x0005c] in <8ee697d2a79f4589b7f2958bbdde1c3b>:0 
-  at TMPro.TMP_Dropdown.set_value (System.Int32 value) [0x00000] in <8ee697d2a79f4589b7f2958bbdde1c3b>:0 
-  at TMPro.TMP_Dropdown.OnSelectItem (UnityEngine.UI.Toggle toggle) [0x0004a] in <8ee697d2a79f4589b7f2958bbdde1c3b>:0 
-  at TMPro.TMP_Dropdown+<>c__DisplayClass69_0.<Show>b__0 (System.Boolean x) [0x00011] in <8ee697d2a79f4589b7f2958bbdde1c3b>:0 
-  at UnityEngine.Events.InvokableCall`1[T1].Invoke (T1 args0) [0x00010] in <4fae2288737c4dfda349689bbefabfcc>:0 
-  at UnityEngine.Events.UnityEvent`1[T0].Invoke (T0 arg0) [0x00025] in <4fae2288737c4dfda349689bbefabfcc>:0 
-  at UnityEngine.UI.Toggle.Set (System.Boolean value, System.Boolean sendCallback) [0x00087] in <2611ebd716ec47748b234e16791bb28a>:0 
-  at UnityEngine.UI.Toggle.set_isOn (System.Boolean value) [0x00000] in <2611ebd716ec47748b234e16791bb28a>:0 
-  at UnityEngine.UI.Toggle.InternalToggle () [0x00018] in <2611ebd716ec47748b234e16791bb28a>:0 
-  at UnityEngine.UI.Toggle.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) [0x00009] in <2611ebd716ec47748b234e16791bb28a>:0 
-  at UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00007] in <2611ebd716ec47748b234e16791bb28a>:0 
-  at UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) [0x0006c] in <2611ebd716ec47748b234e16791bb28a>:0 
-UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
-UnityEngine.DebugLogHandler:LogException(Exception, Object)
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
-UnityEngine.EventSystems.StandaloneInputModule:ReleaseMouse(PointerEventData, GameObject)
-UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
-UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
-UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent()
-UnityEngine.EventSystems.StandaloneInputModule:Process()
-UnityEngine.EventSystems.EventSystem:Update()
-
 Setting up 2 worker threads for Enlighten.
-  Thread -> id: 3158 -> priority: 1 
-  Thread -> id: 2b90 -> priority: 1 
+  Thread -> id: 2b20 -> priority: 1 
+  Thread -> id: 2acc -> priority: 1 
