@@ -180,14 +180,14 @@
     {
       "symbol": "SHIP_STATION_UI->REVERT",
       "original": "Revert",
-      "translation": "Повернути",
+      "translation": "Назад",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "SHIP_STATION_UI->EDIT_COLOR_SCHEME",
       "original": "Edit Color Scheme",
-      "translation": "Колірна схему",
+      "translation": "Колірна схема",
       "priority": 0,
       "reviewed": false
     },
@@ -201,7 +201,7 @@
     {
       "symbol": "SHIP_STATION_UI->SIMULATE_HEAT_PROFILE",
       "original": "Simulate Heat Profile",
-      "translation": "Імітація теплового профілю",
+      "translation": "Тепловогий профіль",
       "priority": 0,
       "reviewed": false
     },
