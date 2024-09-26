@@ -1083,7 +1083,7 @@
     {
       "symbol": "MAP_HUD_STATIC->MAP_CONTROL_TIPS",
       "original": "Mousewheel: Zoom to Center\nCTRL+ Mousewheel: to Zoom to Cursor\nCTRL+ Click: Autopilot\nCTRL+ALT+ Click: Direct Autopilot\nRight-Click: Create Log Entry",
-      "translation": "Колесо миші: масштаб до центру\nCTRL+ коліщатко миші: щоб масштабувати курсор\nCTRL+ Клац: Автопілот\nCTRL+ALT+ Клац: прямий автопілот\nКлацніть правою кнопкою миші: створити запис журналу",
+      "translation": "Колесо миші: масштаб до центру\nCTRL+ колесо миші: масштабувати на курсор\nCTRL+ Клац: автопілот\nCTRL+ALT+ Клац: прямий автопілот\nКлац ПКМ: створити мітку",
       "priority": 0,
       "reviewed": false
     },
@@ -1181,7 +1181,7 @@
     {
       "symbol": "HUD->SUPPORT_CRITICAL",
       "original": "Support personnel member critically injured!",
-      "translation": "Співробітник допоміжного персоналу важко поранений!",
+      "translation": "Ремонтник важко поранений!",
       "priority": 0,
       "reviewed": false
     },
@@ -7838,7 +7838,7 @@
     {
       "symbol": "ARRIVAL->CONVO->YU_ALETHEIA_FOUND->DIALOGUE->3_NPC",
       "original": "Now that your command crew have a bit of experience in the field, I am assigning them a small team of support personnel to [SHIP_NAME].\n\nThey won't participate in survey missions, but will speed up ship repairs.",
-      "translation": "Тепер, коли ваш командний екіпаж має невеликий досвід роботи, я призначаю їм невелику команду допоміжного персоналу на [SHIP_NAME].\n\nВони не братимуть участі в оглядових місіях, але прискорять ремонт суден.",
+      "translation": "Тепер, коли ваш командний екіпаж має невеликий досвід роботи, я призначаю їм невелику команду ремонтників на [SHIP_NAME].\n\nВони не братимуть участі в оглядових місіях, але прискорять ремонт суден.",
       "priority": 0,
       "reviewed": false
     },
@@ -17134,7 +17134,7 @@
     {
       "symbol": "DEFAULT->MISSIONS->CREW_HELP->NODES->15->FIRST_OFFICER->MESSAGE",
       "original": "Yay, more personnel to manage.\n\nYou don't need to concern yourself with the support personnel, but they'll help with ship operations and speed up repairs.",
-      "translation": "Так, більше персоналу для управління.\n\nВам не потрібно турбуватися про допоміжний персонал, але він допоможе в роботі судна та прискорить ремонт.",
+      "translation": "Так, більше персоналу для управління.\n\nВам не потрібно турбуватися про ремонтників, але віни допоможуть в роботі судна.",
       "priority": 0,
       "reviewed": false
     },
@@ -17148,14 +17148,14 @@
     {
       "symbol": "DEFAULT->MISSIONS->CREW_HELP->NODES->12->CREW_SKILL_NOTIFY->MESSAGE",
       "original": "A member of [SHIP_NAME]'s support personnel has been critically injured. Ship repairs will be slightly degraded until we return to Celaeno.",
-      "translation": "Співробітник допоміжного персоналу [SHIP_NAME] отримав важкі поранення. Ремонт кораблів буде дещо погіршений, доки ми не повернемося в Селено.",
+      "translation": "Ремонтники [SHIP_NAME] отримли важкі поранення. Ремонт кораблів буде дещо погіршений, доки ми не повернемося в Селено.",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "DEFAULT->MISSIONS->CREW_HELP->NODES->13->CREW_SKILL_NOTIFY->MESSAGE",
       "original": "I've transferred the critically injured support personnel to Celaeno's medbay. We've been assigned replacements from their staff.",
-      "translation": "Я перевів важкопораненого допоміжного персоналу до медбаку Селено. Нам призначили заміну з їхнього персоналу.",
+      "translation": "Я перевів важкопораненого ремонтника до лазарету Селено. Нам призначили їх заміну.",
       "priority": 0,
       "reviewed": false
     },
