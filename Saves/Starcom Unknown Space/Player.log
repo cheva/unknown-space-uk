@@ -42,3 +42,53 @@ Story 'BEYOND' already started
 #14753 649.6402 sec: FPS: 29.92147 Mission Update: 0.00068614
 Bootstrapped story 'GORYR'
 Cannot begin survey: SURVEYOR_DAMAGED
+#23698 949.6494 sec: FPS: 29.92694 Mission Update: 0.00061623
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 7)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 7)
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 7)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 7)
+#32549 1249.657 sec: FPS: 29.876 Mission Update: 0.0007461
+Cannot interact while scan in progress
+Cannot interact while scan in progress
+Cannot interact while scan in progress
+Cannot interact while scan in progress
+Cannot interact while scan in progress
+#41431 1549.685 sec: FPS: 29.84335 Mission Update: 0.00063254
+Cannot interact while scan in progress
+Cannot interact while scan in progress
+Cannot interact while scan in progress
+Cannot interact while scan in progress
+Cannot interact while scan in progress
+Cannot interact while scan in progress
+Cannot interact while scan in progress
+Cannot interact while scan in progress
+Cannot interact while scan in progress
+Cannot interact while scan in progress
+Cannot interact while scan in progress
+Cannot interact while scan in progress
+Cannot interact while scan in progress
+Cannot interact while scan in progress
+Cannot interact while scan in progress
+Cannot interact while scan in progress
+Cannot begin survey: HOSTILES_NEAR
+Cannot begin survey: HOSTILES_NEAR
+Cannot begin survey: HOSTILES_NEAR
+Cannot begin survey: HOSTILES_NEAR
+Cannot begin survey: HOSTILES_NEAR
+Cannot begin survey: HOSTILES_NEAR
+Cannot begin survey: HOSTILES_NEAR
+Cannot begin survey: HOSTILES_NEAR
+Cannot begin survey: HOSTILES_NEAR
+Cannot begin survey: HOSTILES_NEAR
+Cannot begin survey: HOSTILES_NEAR
+Cannot begin survey: HOSTILES_NEAR
+Cannot begin survey: HOSTILES_NEAR
+Cannot begin survey: HOSTILES_NEAR
+Cannot begin survey: HOSTILES_NEAR
+Cannot begin survey: HOSTILES_NEAR
+Cannot begin survey: HOSTILES_NEAR
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 2f8 -> priority: 1 
+  Thread -> id: 2928 -> priority: 1 
