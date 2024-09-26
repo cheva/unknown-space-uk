@@ -2745,7 +2745,7 @@
             "progress": 0,
             "maxProgress": 1,
             "startTime": 1367.46021,
-            "age": 294.711853,
+            "age": 290.713562,
             "playerCoord": {
               "universe": 0,
               "ux": 10,
@@ -4161,7 +4161,7 @@
             "progress": 0,
             "maxProgress": 1,
             "startTime": 1283.348,
-            "age": 378.509369,
+            "age": 374.511078,
             "playerCoord": {
               "universe": 0,
               "ux": 10,
@@ -37710,5 +37710,5 @@
   "startBuild": 17321,
   "gameId": "9977d3cca4fe43699194bfdf23d3beee",
   "gameTime": 1560.997,
-  "playTime": 4186.33057
+  "playTime": 4182.008
 }

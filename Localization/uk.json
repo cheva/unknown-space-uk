@@ -2196,7 +2196,7 @@
     {
       "symbol": "LOAD_GAME_UI_STATIC->DELETE_CHECKED",
       "original": "Delete Checked",
-      "translation": "Видалити галочку",
+      "translation": "Видалити",
       "priority": 0,
       "reviewed": false
     },

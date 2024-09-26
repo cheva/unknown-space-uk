@@ -237,7 +237,7 @@
     ]
   },
   "crewData": {
-    "totalXP": 3,
+    "totalXP": 2,
     "unspentPoints": 0,
     "currentTeamLevel": 0,
     "crew": [
@@ -337,7 +337,7 @@
         "portraitId": "DEFAULT.Portraits/STARCOM_CREW_6",
         "state": 1,
         "rank": 0,
-        "healthPercent": 1.0,
+        "healthPercent": 0.943966,
         "expertise": 50,
         "skills": {
           "XENOCULTURE": 0,
@@ -356,10 +356,7 @@
     "playerDiscoveries": [
       "DEFAULT.NANOREPAIR",
       "ARRIVAL.RING_DATA",
-      "BEYOND.CRASH_SPHERE",
-      "SCAN_DISCOVERIES.DOUBLE_CORE",
-      "SCAN_DISCOVERIES.FROZEN_ALIGNMENT",
-      "DEFAULT.FLINGER"
+      "BEYOND.CRASH_SPHERE"
     ]
   },
   "encounterSaveData": {
@@ -373,7 +370,7 @@
         "maxRange": 800.0,
         "rechargeTime": 450.0,
         "canChargeActive": false,
-        "currentCharge": 3.53569078,
+        "currentCharge": 2.49280453,
         "currentActiveLevel": 0.0,
         "spawnedShips": [],
         "hasSpawned": true
@@ -387,12 +384,10 @@
         "maxRange": 1000.0,
         "rechargeTime": 600.0,
         "canChargeActive": false,
-        "currentCharge": 11.8467751,
-        "currentActiveLevel": 1.69078207,
-        "spawnedShips": [
-          "#Ship_1106390426-748730860"
-        ],
-        "hasSpawned": true
+        "currentCharge": 15.0,
+        "currentActiveLevel": 0.0,
+        "spawnedShips": [],
+        "hasSpawned": false
       },
       {
         "persistentId": "#Sphere Of Influence_1541572938-395581468",
@@ -931,20 +926,20 @@
         "DEFAULT.REMNANT": -1.320757
       },
       "ARRIVAL.RED_RAIDERS": {
-        "DEFAULT.STARCOM": -0.00140934472,
-        "DEFAULT.PLAYER": -2.84026885
+        "DEFAULT.STARCOM": -0.006718282,
+        "DEFAULT.PLAYER": -2.15955257
       }
     },
     "damageModifiers": {},
     "playerDamageDealt": {
       "ALPHA.CARGO_HAULER": 69.34671,
-      "ARRIVAL.RED_RAIDERS": 93.94487
+      "ARRIVAL.RED_RAIDERS": 73.40002
     },
     "playerDamageReceived": {
       "ALPHA.CARGO_HAULER": 6.52842855,
       "DEFAULT.PLAYER": 13.8675795,
       "DEFAULT.STARCOM": 0.8368218,
-      "ARRIVAL.RED_RAIDERS": 164.810242
+      "ARRIVAL.RED_RAIDERS": 133.737808
     },
     "factionsMet": [
       "DEFAULT.STARCOM"
@@ -978,15 +973,15 @@
   },
   "gameVarData": {
     "numberVars": {
-      "DEFAULT.SKILL_TECHS-0_delay": 1560.48193,
-      "DEFAULT.ANALYTICS-2_delay": 660.3584,
+      "DEFAULT.SKILL_TECHS-0_delay": 1424.58325,
+      "DEFAULT.ANALYTICS-2_delay": 524.4572,
       "DEFAULT.ANALYTICS-13_delay": 71.68724,
-      "HELP.VOID-0_lull": 11.8146753,
+      "HELP.VOID-0_lull": 0.0595521927,
       "ALPHA.STABILIZERS": 2.0,
-      "DEFAULT.DEEP_SPACE-8_lull": 11.8146753,
-      "ARRIVAL.GREAT_BEYOND-23_lull": 11.8146753,
-      "ARRIVAL.GREAT_BEYOND-18_lull": 11.8146753,
-      "DEFAULT.DEEP_SPACE-0_lull": 11.8146753
+      "DEFAULT.DEEP_SPACE-8_lull": 0.0595521927,
+      "ARRIVAL.GREAT_BEYOND-23_lull": 0.0595521927,
+      "ARRIVAL.GREAT_BEYOND-18_lull": 0.0595521927,
+      "DEFAULT.DEEP_SPACE-6_delay": 0.0595521927
     },
     "flagVars": {
       "SEPHARIAL.LOOP": true,
@@ -1024,12 +1019,11 @@
       "ALPHA.CARGO_HAULER",
       "ARRIVAL.CELAENO_OUTPOST",
       "ARRIVAL.BURIED_RING",
-      "BEYOND.CRASH_SPHERE",
-      "BEYOND.YTTRIUM_CRUISER"
+      "BEYOND.CRASH_SPHERE"
     ]
   },
   "itemSaveData": {
-    "itemDropMultiplier": 25.0,
+    "itemDropMultiplier": 11.0,
     "itemStates": {
       "DEFAULT.ADVANCED_ENGINE": {
         "itemId": "DEFAULT.ADVANCED_ENGINE",
@@ -2229,7 +2223,7 @@
         "stopped": false,
         "details": [],
         "activeNodeIndices": [
-          3
+          0
         ]
       },
       {
@@ -2745,7 +2739,7 @@
             "progress": 0,
             "maxProgress": 1,
             "startTime": 1367.46021,
-            "age": 294.711853,
+            "age": 148.940826,
             "playerCoord": {
               "universe": 0,
               "ux": 10,
@@ -3897,7 +3891,7 @@
         "stopped": false,
         "details": [],
         "activeNodeIndices": [
-          2,
+          1,
           1,
           0,
           1
@@ -4161,7 +4155,7 @@
             "progress": 0,
             "maxProgress": 1,
             "startTime": 1283.348,
-            "age": 378.509369,
+            "age": 232.738342,
             "playerCoord": {
               "universe": 0,
               "ux": 10,
@@ -4263,12 +4257,12 @@
       "universe": 0,
       "ux": 10,
       "uz": 11,
-      "x": -700.3975,
-      "z": -919.8397
+      "x": -745.376465,
+      "z": -498.647247
     },
     "playerShip": {
       "shipDesignId": "DEFAULT.SMALL_MISSILES",
-      "rotation": 343.432678,
+      "rotation": 105.432327,
       "scale": 0.0,
       "modules": [
         {
@@ -4299,7 +4293,7 @@
           },
           "rot": 0,
           "mirrored": false,
-          "health": 6.0
+          "health": 0.0
         },
         {
           "moduleId": "WING_2",
@@ -4309,7 +4303,7 @@
           },
           "rot": 0,
           "mirrored": false,
-          "health": 4.0
+          "health": 0.0
         },
         {
           "moduleId": "PLASMA_1",
@@ -4319,7 +4313,7 @@
           },
           "rot": 0,
           "mirrored": false,
-          "health": 6.0
+          "health": 0.261490464
         },
         {
           "moduleId": "WEDGE_0B",
@@ -4359,7 +4353,7 @@
           },
           "rot": 0,
           "mirrored": false,
-          "health": 5.0
+          "health": 1.51395118
         },
         {
           "moduleId": "PLASMA_1",
@@ -4369,7 +4363,7 @@
           },
           "rot": 0,
           "mirrored": false,
-          "health": 6.0
+          "health": 0.6571332
         },
         {
           "moduleId": "ENGINE_1",
@@ -4409,7 +4403,7 @@
           },
           "rot": 0,
           "mirrored": true,
-          "health": 4.0
+          "health": 0.0
         },
         {
           "moduleId": "REACTOR_1",
@@ -4419,7 +4413,7 @@
           },
           "rot": 0,
           "mirrored": false,
-          "health": 5.0
+          "health": 3.72702718
         },
         {
           "moduleId": "ENGINE_1",
@@ -4463,9 +4457,9 @@
         "x": 0.0,
         "z": 0.0
       },
-      "lastVisibility": 339.999969,
+      "lastVisibility": 340.0,
       "lastDisposition": 1000.0,
-      "lastActive": 1560.6452888298081,
+      "lastActive": 1425.0963435216108,
       "disabled": false,
       "persistentId": "PLAYER",
       "prefabName": "Ship",
@@ -4473,19 +4467,19 @@
         "universe": 0,
         "ux": 10,
         "uz": 11,
-        "x": -700.3975,
-        "z": -919.8397
+        "x": -745.376465,
+        "z": -498.647247
       },
       "factionId": "DEFAULT.PLAYER",
       "discovered": false
     },
     "playerResources": {
       "ALUMINUM": 166,
-      "PLATINUM": 12,
+      "PLATINUM": 11,
       "COPPER": 8,
       "SILVER": 0,
-      "TITANIUM": 4,
-      "YTTRIUM": 8,
+      "TITANIUM": 3,
+      "YTTRIUM": 6,
       "GOLD": 5,
       "URANIUM": 0,
       "IRIDIUM": 0,
@@ -4505,10 +4499,10 @@
     "battlestationsCooldown": 0.0,
     "shieldCharge": 0.0,
     "havokCharge": 0.0,
-    "researchPoints": 205,
-    "totalResearchPoints": 265,
-    "anomaliesCompleted": 4,
-    "distanceFlown": 39910.608737916453,
+    "researchPoints": 130,
+    "totalResearchPoints": 190,
+    "anomaliesCompleted": 3,
+    "distanceFlown": 11818.752649775121,
     "swatch": {
       "id": "DEFAULT.STARCOM",
       "plating1": {
@@ -4624,7 +4618,7 @@
   "phenomenaData": {
     "emissaryData": {
       "destinations": [],
-      "timer": 174.83989
+      "timer": 38.68875
     }
   },
   "proceduralData": {
@@ -4891,7 +4885,7 @@
     }
   },
   "shipLogData": {
-    "index": 50,
+    "index": 45,
     "entries": [
       {
         "id": 1,
@@ -5700,96 +5694,6 @@
         "summary": "<i>Аномалія являє собою титанову розбиваючу сферу, призначену для уповільнення...</i>",
         "intro": "11/19/2641 11:05:00 AM <i>Choven Lander SCS-01</i>\t Planetary Anomaly Report at 10.35 x 11.40 Unknown Space",
         "details": "Аномалія являє собою титанову розбиваючу сферу, призначену для уповільнення та захисту невеликої капсули виживання під час аварійної посадки.\r\n\nУ цьому випадку це спрацювало ідеально, але пасажир мав отримати важкі травми до катапультування.\r\n\t+3 Титан\n\nМісцева мікрофауна перетворила тіло трохи більше ніж на скелет, тому все, що команда може встановити, це те, що вони були двоногими з двома рукоподібними відростками та трьома очними порожнинами.\r\n\nДеякий час тому аварійний маяк припинив трансляцію, але деякі фрагменти повідомлення відновлені універсальним перекладачем:\r\n\n«... Побожна нападна група ... курс, щоб уникнути повторного відстеження ... місце виробництва безпілотників ...»\r\n\n"
-      },
-      {
-        "id": 46,
-        "type": 2,
-        "gameTime": 1460,
-        "coord": {
-          "universe": 0,
-          "ux": 10,
-          "uz": 11,
-          "x": -392.0096,
-          "z": -421.462921
-        },
-        "showMapPin": false,
-        "spriteId": "BEYOND.Anomalies/SwampedCorvette",
-        "categoryText": "Planetary Anomaly: Swamped Gunship",
-        "summary": "<i>На цій забитій метаном планеті мало цікавого. Найбільш розвиненою формою...</i>",
-        "intro": "11/19/2641 2:05:00 PM <i>Choven Lander SCS-01</i>\t Planetary Anomaly Report at 10.42 x 11.42 Unknown Space",
-        "details": "На цій забитій метаном планеті мало цікавого. Найбільш розвиненою формою життя є гриб, схожий на траву.\n\nАле десь за останні кілька століть хтось бився за цю мокру скелю, про що свідчить напівзатонулий бойовий корабель. Незважаючи на те, що природа позбавила багатьох її ресурсів, деякі турелі все ще мають ітрієві конденсатори.\n\t+2 Ітрій\n"
-      },
-      {
-        "id": 47,
-        "type": 1,
-        "gameTime": 1472,
-        "coord": {
-          "universe": 0,
-          "ux": 10,
-          "uz": 11,
-          "x": -204.68457,
-          "z": -290.268372
-        },
-        "showMapPin": false,
-        "spriteId": "DEFAULT.Portraits/STARCOM_CREW_5",
-        "categoryText": "Cdt. Cassie Pirx (Астронаука)",
-        "summary": "\"<i>Ця планета має друге, менше залізо-нікелеве ядро, близьке до основного ядра....</i>\"",
-        "intro": "<i>Choven</i>: 2641.11.19 15:09 at 10.46 x 11.44 Unknown Space, Crew Log Entry",
-        "details": "Cdt. Cassie Pirx (Астронаука):\n\nЦя планета має друге, менше залізо-нікелеве ядро, близьке до основного ядра. Я припускаю, що він злився з маленьким місяцем під час утворення, але різниці потенційних енергій було недостатньо, щоб також розпатися."
-      },
-      {
-        "id": 48,
-        "type": 1,
-        "gameTime": 1508,
-        "coord": {
-          "universe": 0,
-          "ux": 10,
-          "uz": 11,
-          "x": -686.330933,
-          "z": -855.633
-        },
-        "showMapPin": false,
-        "spriteId": "DEFAULT.Portraits/STARCOM_CREW_5",
-        "categoryText": "Cdt. Cassie Pirx (Астронаука)",
-        "summary": "\"<i>Кристали метанового льоду на цій планеті розташовані ортогонально до...</i>\"",
-        "intro": "<i>Choven</i>: 2641.11.19 18:08 at 10.36 x 11.33 Unknown Space, Crew Log Entry",
-        "details": "Cdt. Cassie Pirx (Астронаука):\n\nКристали метанового льоду на цій планеті розташовані ортогонально до слабкого магнітного поля планети. Механізм цього не відразу очевидний."
-      },
-      {
-        "id": 49,
-        "type": 1,
-        "gameTime": 1512,
-        "coord": {
-          "universe": 0,
-          "ux": 10,
-          "uz": 11,
-          "x": -696.050964,
-          "z": -885.6154
-        },
-        "showMapPin": false,
-        "spriteId": "DEFAULT.Portraits/STARCOM_FIRST_OFFICER",
-        "categoryText": "Лейтенант Евері",
-        "summary": "\"<i>Схоже, ця структура генерує локальне негативне поле Хіггса</i>\"",
-        "intro": "<i>Choven</i>: 2641.11.19 18:27 at 10.36 x 11.32 Unknown Space, Crew Log Entry",
-        "details": "Лейтенант Евері:\n\nСхоже, ця структура генерує локальне негативне поле Хіггса.\n\nStarcom експериментувала з використанням цього принципу для подорожей на далекі відстані, але ми не вирішили проблему дезінтеграції."
-      },
-      {
-        "id": 50,
-        "type": 1,
-        "gameTime": 1528,
-        "coord": {
-          "universe": 0,
-          "ux": 11,
-          "uz": 8,
-          "x": -1959.96448,
-          "z": 1381.41919
-        },
-        "showMapPin": false,
-        "spriteId": "DEFAULT.Portraits/STARCOM_FIRST_OFFICER",
-        "categoryText": "Лейтенант Евері",
-        "summary": "\"<i>Я припускаю, що той, хто створив ці прискорювачі, вирішив проблему розпаду.</i>\"",
-        "intro": "<i>Choven</i>: 2641.11.19 19:45 at 11.11 x 8.78 Unknown Space, Crew Log Entry",
-        "details": "Лейтенант Евері:\n\nЯ припускаю, що той, хто створив ці прискорювачі, вирішив проблему розпаду."
       }
     ]
   },
@@ -7477,7 +7381,158 @@
             "shipDesignId": "ALPHA.CARGO_HAULER",
             "rotation": 141.0,
             "scale": 2.0,
-            "modules": [],
+            "modules": [
+              {
+                "moduleId": "BRIDGE_4",
+                "origin": {
+                  "x": 0,
+                  "y": 0
+                },
+                "rot": 0,
+                "mirrored": false,
+                "health": 27.0
+              },
+              {
+                "moduleId": "CARGO_3B",
+                "origin": {
+                  "x": 0,
+                  "y": -1
+                },
+                "rot": 0,
+                "mirrored": false,
+                "health": 6.756456
+              },
+              {
+                "moduleId": "BULKHEAD_3_BENT",
+                "origin": {
+                  "x": -2,
+                  "y": 0
+                },
+                "rot": -2,
+                "mirrored": false,
+                "health": 23.993187
+              },
+              {
+                "moduleId": "REACTOR_3",
+                "origin": {
+                  "x": 0,
+                  "y": 2
+                },
+                "rot": 0,
+                "mirrored": false,
+                "health": 10.946003
+              },
+              {
+                "moduleId": "BULKHEAD_3_BENT",
+                "origin": {
+                  "x": 2,
+                  "y": 0
+                },
+                "rot": 2,
+                "mirrored": false,
+                "health": 24.3537312
+              },
+              {
+                "moduleId": "CARGO_3B",
+                "origin": {
+                  "x": 0,
+                  "y": 3
+                },
+                "rot": 0,
+                "mirrored": false,
+                "health": 5.946003
+              },
+              {
+                "moduleId": "CARGO_3B",
+                "origin": {
+                  "x": 0,
+                  "y": 4
+                },
+                "rot": 0,
+                "mirrored": false,
+                "health": 7.0
+              },
+              {
+                "moduleId": "SLOPED_2",
+                "origin": {
+                  "x": -3,
+                  "y": 0
+                },
+                "rot": 0,
+                "mirrored": false,
+                "health": 2.89223552
+              },
+              {
+                "moduleId": "SLOPED_2",
+                "origin": {
+                  "x": 3,
+                  "y": 0
+                },
+                "rot": 0,
+                "mirrored": true,
+                "health": 9.082381
+              },
+              {
+                "moduleId": "ARMOR_ANGLED_3",
+                "origin": {
+                  "x": 0,
+                  "y": 5
+                },
+                "rot": 0,
+                "mirrored": false,
+                "health": 55.696228
+              },
+              {
+                "moduleId": "CARGO_3",
+                "origin": {
+                  "x": 0,
+                  "y": -3
+                },
+                "rot": 0,
+                "mirrored": false,
+                "health": 5.58593655
+              },
+              {
+                "moduleId": "SLOPED_2",
+                "origin": {
+                  "x": -1,
+                  "y": -3
+                },
+                "rot": 0,
+                "mirrored": false,
+                "health": 15.6054955
+              },
+              {
+                "moduleId": "SLOPED_2",
+                "origin": {
+                  "x": 1,
+                  "y": -3
+                },
+                "rot": 0,
+                "mirrored": true,
+                "health": 14.6875544
+              },
+              {
+                "moduleId": "BULKHEAD_2_LINE",
+                "origin": {
+                  "x": 1,
+                  "y": 2
+                },
+                "rot": -1,
+                "mirrored": false,
+                "health": 13.53875
+              },
+              {
+                "moduleId": "BULKHEAD_2_LINE",
+                "origin": {
+                  "x": -1,
+                  "y": 2
+                },
+                "rot": 1,
+                "mirrored": false,
+                "health": 6.29140759
+              }
+            ],
             "moduleHealthMultiplier": 0.6,
             "maxHealth": 304.0,
             "maxSize": 39.0,
@@ -7834,7 +7889,298 @@
             "shipDesignId": "ALPHA.BYZANTIUM",
             "rotation": 258.1714,
             "scale": 1.25,
-            "modules": [],
+            "modules": [
+              {
+                "moduleId": "BRIDGE_4",
+                "origin": {
+                  "x": 0,
+                  "y": 0
+                },
+                "rot": 0,
+                "mirrored": false,
+                "health": 56.0
+              },
+              {
+                "moduleId": "BULKHEAD_3_BENT",
+                "origin": {
+                  "x": 0,
+                  "y": 2
+                },
+                "rot": 0,
+                "mirrored": false,
+                "health": 56.0
+              },
+              {
+                "moduleId": "HABITAT_RING",
+                "origin": {
+                  "x": 0,
+                  "y": 4
+                },
+                "rot": 0,
+                "mirrored": false,
+                "health": 19.0
+              },
+              {
+                "moduleId": "REACTOR_3",
+                "origin": {
+                  "x": 0,
+                  "y": -1
+                },
+                "rot": 0,
+                "mirrored": false,
+                "health": 25.0
+              },
+              {
+                "moduleId": "BULKHEAD_1",
+                "origin": {
+                  "x": -1,
+                  "y": -1
+                },
+                "rot": 0,
+                "mirrored": false,
+                "health": 19.0
+              },
+              {
+                "moduleId": "BULKHEAD_1",
+                "origin": {
+                  "x": 1,
+                  "y": -1
+                },
+                "rot": 0,
+                "mirrored": false,
+                "health": 19.0
+              },
+              {
+                "moduleId": "BATTERY_1",
+                "origin": {
+                  "x": 2,
+                  "y": 1
+                },
+                "rot": 0,
+                "mirrored": false,
+                "health": 6.0
+              },
+              {
+                "moduleId": "BULKHEAD_2_LINE",
+                "origin": {
+                  "x": -2,
+                  "y": -2
+                },
+                "rot": 0,
+                "mirrored": false,
+                "health": 44.0
+              },
+              {
+                "moduleId": "BULKHEAD_2_LINE",
+                "origin": {
+                  "x": 2,
+                  "y": -2
+                },
+                "rot": 0,
+                "mirrored": false,
+                "health": 44.0
+              },
+              {
+                "moduleId": "CONNECTOR_1",
+                "origin": {
+                  "x": -1,
+                  "y": -4
+                },
+                "rot": -1,
+                "mirrored": false,
+                "health": 5.0
+              },
+              {
+                "moduleId": "CONNECTOR_1",
+                "origin": {
+                  "x": 1,
+                  "y": -4
+                },
+                "rot": 1,
+                "mirrored": false,
+                "health": 5.0
+              },
+              {
+                "moduleId": "PLASMA_2",
+                "origin": {
+                  "x": 0,
+                  "y": -3
+                },
+                "rot": 0,
+                "mirrored": false,
+                "health": 15.0
+              },
+              {
+                "moduleId": "ENGINE_2",
+                "origin": {
+                  "x": -2,
+                  "y": -4
+                },
+                "rot": 0,
+                "mirrored": false,
+                "health": 35.0
+              },
+              {
+                "moduleId": "ENGINE_2",
+                "origin": {
+                  "x": 2,
+                  "y": -4
+                },
+                "rot": 0,
+                "mirrored": false,
+                "health": 35.0
+              },
+              {
+                "moduleId": "NACELLE_4",
+                "origin": {
+                  "x": -3,
+                  "y": -4
+                },
+                "rot": 0,
+                "mirrored": false,
+                "health": 12.0
+              },
+              {
+                "moduleId": "NACELLE_4",
+                "origin": {
+                  "x": 3,
+                  "y": -4
+                },
+                "rot": 0,
+                "mirrored": true,
+                "health": 12.0
+              },
+              {
+                "moduleId": "BULKHEAD_2_LINE",
+                "origin": {
+                  "x": 5,
+                  "y": -4
+                },
+                "rot": 0,
+                "mirrored": false,
+                "health": 44.0
+              },
+              {
+                "moduleId": "BULKHEAD_2_LINE",
+                "origin": {
+                  "x": -5,
+                  "y": -4
+                },
+                "rot": 0,
+                "mirrored": false,
+                "health": 44.0
+              },
+              {
+                "moduleId": "FIXED_2",
+                "origin": {
+                  "x": -5,
+                  "y": -3
+                },
+                "rot": 0,
+                "mirrored": false,
+                "health": 15.0
+              },
+              {
+                "moduleId": "FIXED_2",
+                "origin": {
+                  "x": 5,
+                  "y": -3
+                },
+                "rot": 0,
+                "mirrored": false,
+                "health": 15.0
+              },
+              {
+                "moduleId": "SLOPED_2",
+                "origin": {
+                  "x": 2,
+                  "y": 0
+                },
+                "rot": 0,
+                "mirrored": true,
+                "health": 38.0
+              },
+              {
+                "moduleId": "SLOPED_2",
+                "origin": {
+                  "x": -2,
+                  "y": 0
+                },
+                "rot": 0,
+                "mirrored": false,
+                "health": 38.0
+              },
+              {
+                "moduleId": "HALF_0",
+                "origin": {
+                  "x": -2,
+                  "y": 1
+                },
+                "rot": 2,
+                "mirrored": false,
+                "health": 9.0
+              },
+              {
+                "moduleId": "WEDGE_0B",
+                "origin": {
+                  "x": 6,
+                  "y": -4
+                },
+                "rot": 0,
+                "mirrored": false,
+                "health": 4.0
+              },
+              {
+                "moduleId": "WEDGE_0B",
+                "origin": {
+                  "x": -6,
+                  "y": -4
+                },
+                "rot": 0,
+                "mirrored": true,
+                "health": 4.0
+              },
+              {
+                "moduleId": "BULKHEAD_4",
+                "origin": {
+                  "x": 0,
+                  "y": 5
+                },
+                "rot": 0,
+                "mirrored": false,
+                "health": 94.0
+              },
+              {
+                "moduleId": "HALF_0",
+                "origin": {
+                  "x": -1,
+                  "y": 6
+                },
+                "rot": 2,
+                "mirrored": false,
+                "health": 9.0
+              },
+              {
+                "moduleId": "HALF_0",
+                "origin": {
+                  "x": 1,
+                  "y": 6
+                },
+                "rot": -2,
+                "mirrored": false,
+                "health": 9.0
+              },
+              {
+                "moduleId": "PLASMA_1",
+                "origin": {
+                  "x": 0,
+                  "y": 7
+                },
+                "rot": 0,
+                "mirrored": false,
+                "health": 8.0
+              }
+            ],
             "moduleHealthMultiplier": 1.25,
             "maxHealth": 738.0,
             "maxSize": 46.0,
@@ -8273,12 +8619,14 @@
           "x": 0.0,
           "z": 0.0
         },
-        "tags": [],
+        "tags": [
+          "BEYOND"
+        ],
         "Persistents": [
           {
             "$type": "WarpNexusData, Assembly-CSharp",
             "isOn": true,
-            "sectorExplored": true,
+            "sectorExplored": false,
             "persistentId": "BEYOND.NEXUS_START",
             "tags": "",
             "prefabName": "Warp Nexus",
@@ -8301,8 +8649,8 @@
               "x": -1969.67383,
               "z": 1410.6582
             },
-            "used": true,
-            "explored": true,
+            "used": false,
+            "explored": false,
             "persistentId": "BEYOND.FLINGER_1",
             "prefabName": "Flinger",
             "coordinates": {
@@ -8319,9 +8667,8 @@
             "$type": "PlanetData, Assembly-CSharp",
             "size": 114.2423,
             "seed": 0,
-            "scanDiscovery": "SCAN_DISCOVERIES.FROZEN_ALIGNMENT",
             "interaction": {
-              "anomalyState": 6,
+              "anomalyState": 0,
               "stationId": "",
               "hasTrade": false,
               "instanceVisits": 0
@@ -8343,9 +8690,8 @@
             "$type": "PlanetData, Assembly-CSharp",
             "size": 134.0676,
             "seed": 494205998,
-            "scanDiscovery": "SCAN_DISCOVERIES.DOUBLE_CORE",
             "interaction": {
-              "anomalyState": 6,
+              "anomalyState": 0,
               "stationId": "",
               "hasTrade": false,
               "instanceVisits": 0
@@ -8411,8 +8757,8 @@
           {
             "$type": "StarData, Assembly-CSharp",
             "luminosity": 2.0,
-            "explored": true,
-            "dragReduced": true,
+            "explored": false,
+            "dragReduced": false,
             "depleted": false,
             "persistentId": "BEYOND.WEST_STAR",
             "prefabName": "Orange Star",
@@ -8453,11 +8799,11 @@
             "size": 95.0,
             "seed": 1610264332,
             "interaction": {
-              "anomalyState": 6,
+              "anomalyState": 0,
               "anomalyId": "BEYOND.YTTRIUM_CRUISER",
               "stationId": "",
               "hasTrade": false,
-              "instanceVisits": 1
+              "instanceVisits": 0
             },
             "procAnomalyCandidate": false,
             "placementPadding": 0.0,
@@ -8520,227 +8866,11 @@
               "z": -503.997345
             },
             "discovered": true
-          }
-        ]
-      },
-      {
-        "coordinates": {
-          "universe": 0,
-          "ux": 11,
-          "uz": 8,
-          "x": 0.0,
-          "z": 0.0
-        },
-        "tags": [],
-        "Persistents": [
-          {
-            "$type": "FlingerData, Assembly-CSharp",
-            "destinationId": "BEYOND.FLINGER_1",
-            "destinationCoord": {
-              "universe": 0,
-              "ux": 10,
-              "uz": 11,
-              "x": -696.8779,
-              "z": -931.7422
-            },
-            "used": true,
-            "explored": true,
-            "persistentId": "BEYOND.FLINGER_2",
-            "prefabName": "Flinger",
-            "coordinates": {
-              "universe": 0,
-              "ux": 11,
-              "uz": 8,
-              "x": -1969.67383,
-              "z": 1410.6582
-            },
-            "factionId": "",
-            "discovered": true
-          },
-          {
-            "$type": "StartingSphereData, Assembly-CSharp",
-            "initialFaction": "ARRIVAL.RED_RAIDERS",
-            "maxActiveLevel": 12.0,
-            "maxCharge": 15.0,
-            "maxShips": 5,
-            "maxRange": 1000.0,
-            "rechargeTime": 600.0,
-            "canChargeActive": false,
-            "initialized": false,
-            "persistentId": "#Sphere Of Influence_844093109-848021258",
-            "tags": "",
-            "prefabName": "Sphere Of Influence",
-            "coordinates": {
-              "universe": 0,
-              "ux": 11,
-              "uz": 8,
-              "x": -1973.55359,
-              "z": 1019.839
-            },
-            "discovered": true
-          },
-          {
-            "$type": "StarData, Assembly-CSharp",
-            "luminosity": 1.0,
-            "explored": false,
-            "dragReduced": false,
-            "depleted": false,
-            "persistentId": "BEYOND.SOUTH_STAR",
-            "prefabName": "White Star",
-            "coordinates": {
-              "universe": 0,
-              "ux": 11,
-              "uz": 8,
-              "x": -1773.2915,
-              "z": 930.3667
-            },
-            "discovered": true,
-            "Size": 300.0
-          },
-          {
-            "$type": "ShipSpawnerData, Assembly-CSharp",
-            "shipDesign": "ARRIVAL.RAIDER_BASE",
-            "spawnId": "",
-            "factionId": "ARRIVAL.RED_RAIDERS",
-            "stationId": "",
-            "autodefend": false,
-            "defaultSphereOfInfluence": false,
-            "beaconEncounter": "",
-            "spawnDisabled": false,
-            "spawned": true,
-            "persistentId": "#Ship Spawner_210409426-1786595694",
-            "prefabName": "Ship Spawner",
-            "coordinates": {
-              "universe": 0,
-              "ux": 11,
-              "uz": 8,
-              "x": -1258.49719,
-              "z": 1103.38574
-            },
-            "discovered": false
-          },
-          {
-            "$type": "FlingerData, Assembly-CSharp",
-            "destinationId": "BEYOND.FLINGER_SE_S",
-            "destinationCoord": {
-              "universe": 0,
-              "ux": 14,
-              "uz": 8,
-              "x": -1205.8418,
-              "z": 540.773438
-            },
-            "used": false,
-            "explored": false,
-            "persistentId": "BEYOND.FLINGER_S_SE",
-            "prefabName": "Flinger",
-            "coordinates": {
-              "universe": 0,
-              "ux": 11,
-              "uz": 8,
-              "x": -1443.332,
-              "z": 945.630859
-            },
-            "factionId": "",
-            "discovered": true
-          },
-          {
-            "$type": "PlanetData, Assembly-CSharp",
-            "size": 124.0,
-            "seed": 1692871166,
-            "interaction": {
-              "anomalyState": 0,
-              "anomalyId": "BEYOND.RAIDER_DEBRIS",
-              "stationId": "",
-              "hasTrade": false,
-              "instanceVisits": 0
-            },
-            "procAnomalyCandidate": false,
-            "placementPadding": 0.0,
-            "persistentId": "#Desert D1_642500836-1242882220",
-            "tags": "",
-            "prefabName": "Desert D1",
-            "coordinates": {
-              "universe": 0,
-              "ux": 11,
-              "uz": 8,
-              "x": -2101.551,
-              "z": 1140.69727
-            },
-            "discovered": true
-          },
-          {
-            "$type": "PlanetData, Assembly-CSharp",
-            "size": 65.93237,
-            "seed": 2008205227,
-            "interaction": {
-              "anomalyState": 0,
-              "stationId": "",
-              "hasTrade": false,
-              "instanceVisits": 0
-            },
-            "procAnomalyCandidate": false,
-            "placementPadding": 0.0,
-            "persistentId": "#Lunar L2_309910075-315545380",
-            "prefabName": "Lunar L2",
-            "coordinates": {
-              "universe": 0,
-              "ux": 11,
-              "uz": 8,
-              "x": -665.8374,
-              "z": 1357.9458
-            },
-            "discovered": false
-          },
-          {
-            "$type": "PlanetData, Assembly-CSharp",
-            "size": 154.5082,
-            "seed": 1256124182,
-            "interaction": {
-              "anomalyState": 0,
-              "stationId": "",
-              "hasTrade": false,
-              "instanceVisits": 0
-            },
-            "procAnomalyCandidate": false,
-            "placementPadding": 0.0,
-            "persistentId": "#Desert D2_1782192457-130450723",
-            "prefabName": "Desert D2",
-            "coordinates": {
-              "universe": 0,
-              "ux": 11,
-              "uz": 8,
-              "x": -1304.208,
-              "z": 1080.50317
-            },
-            "discovered": true
-          },
-          {
-            "$type": "PlanetData, Assembly-CSharp",
-            "size": 106.8135,
-            "seed": 1801968082,
-            "interaction": {
-              "anomalyState": 6,
-              "stationId": "",
-              "hasTrade": false,
-              "instanceVisits": 0
-            },
-            "procAnomalyCandidate": false,
-            "placementPadding": 0.0,
-            "persistentId": "BEYOND.SW_START",
-            "prefabName": "Oceanic O1",
-            "coordinates": {
-              "universe": 0,
-              "ux": 11,
-              "uz": 8,
-              "x": -1900.922,
-              "z": 1454.9176
-            },
-            "discovered": true
           },
           {
             "$type": "ShipData, Assembly-CSharp",
             "shipDesignId": "ARRIVAL.RAIDER_BASE",
-            "rotation": 338.969971,
+            "rotation": 296.559052,
             "scale": 1.5,
             "modules": [
               {
@@ -8840,16 +8970,16 @@
             "profileType": "StationAgent",
             "command": {
               "$type": "AIVisitCommand, Assembly-CSharp",
-              "persistentId": "#Lunar L2_309910075-315545380",
+              "persistentId": "#Greenhouse X1_324837503-1290052461",
               "locked": false,
               "ThrottledSpeed": -1.0
             },
             "spawnOrigin": {
               "universe": 0,
-              "ux": 11,
-              "uz": 8,
-              "x": -1258.49731,
-              "z": 1103.387
+              "ux": 10,
+              "uz": 11,
+              "x": -211.195953,
+              "z": -282.6166
             },
             "interaction": {
               "anomalyState": 0,
@@ -8858,120 +8988,238 @@
               "instanceVisits": 0
             },
             "lastVisibility": 377.5,
-            "lastDisposition": -7.18859625,
-            "lastActive": 1553.4267464998411,
+            "lastDisposition": -6.15955257,
+            "lastActive": 1425.0963435216108,
             "disabled": false,
-            "persistentId": "#Ship_183234719-1513317269",
+            "persistentId": "#Ship_1774752140-1501676443",
             "prefabName": "Ship",
             "coordinates": {
               "universe": 0,
-              "ux": 11,
-              "uz": 8,
-              "x": -1258.41357,
-              "z": 1103.21411
+              "ux": 10,
+              "uz": 11,
+              "x": -210.966888,
+              "z": -282.6153
             },
             "factionId": "ARRIVAL.RED_RAIDERS",
             "discovered": false
-          },
+          }
+        ]
+      },
+      {
+        "coordinates": {
+          "universe": 0,
+          "ux": 11,
+          "uz": 8,
+          "x": 0.0,
+          "z": 0.0
+        },
+        "tags": [
+          "BEYOND"
+        ],
+        "Persistents": [
           {
-            "$type": "ShipData, Assembly-CSharp",
-            "shipDesignId": "ARRIVAL.RAIDER_SCOUT",
-            "rotation": 17.69943,
-            "scale": 1.2,
-            "modules": [
-              {
-                "moduleId": "BRIDGE_2",
-                "origin": {
-                  "x": 0,
-                  "y": 0
-                },
-                "rot": 0,
-                "mirrored": false,
-                "health": 3.0
-              },
-              {
-                "moduleId": "PLASMA_1",
-                "origin": {
-                  "x": -1,
-                  "y": 0
-                },
-                "rot": 0,
-                "mirrored": false,
-                "health": 1.0
-              },
-              {
-                "moduleId": "PLASMA_1",
-                "origin": {
-                  "x": 1,
-                  "y": 0
-                },
-                "rot": 0,
-                "mirrored": false,
-                "health": 1.0
-              },
-              {
-                "moduleId": "ENGINE_2",
-                "origin": {
-                  "x": 0,
-                  "y": -1
-                },
-                "rot": 0,
-                "mirrored": false,
-                "health": 5.0
-              },
-              {
-                "moduleId": "WING_2",
-                "origin": {
-                  "x": -2,
-                  "y": 0
-                },
-                "rot": 0,
-                "mirrored": false,
-                "health": 1.0
-              },
-              {
-                "moduleId": "WING_2",
-                "origin": {
-                  "x": 2,
-                  "y": 0
-                },
-                "rot": 0,
-                "mirrored": true,
-                "health": 1.0
-              }
-            ],
-            "moduleHealthMultiplier": 0.18,
-            "maxHealth": 12.0,
-            "maxSize": 10.0,
-            "profileType": "AttackRunScout",
-            "command": {
-              "$type": "AIVisitCommand, Assembly-CSharp",
-              "persistentId": "#Lunar L2_309910075-315545380",
-              "locked": false,
-              "ThrottledSpeed": -1.0
+            "$type": "FlingerData, Assembly-CSharp",
+            "destinationId": "BEYOND.FLINGER_1",
+            "destinationCoord": {
+              "universe": -1,
+              "ux": 9999,
+              "uz": 9999,
+              "x": 0.0,
+              "z": 0.0
             },
-            "spawnOrigin": {
-              "universe": 0,
-              "ux": 11,
-              "uz": 8,
-              "x": -2101.55,
-              "z": 1140.69946
-            },
-            "lastVisibility": 310.0,
-            "lastDisposition": -7.18859625,
-            "lastActive": 1553.4267464998411,
-            "disabled": false,
-            "persistentId": "#Ship_1106390426-748730860",
-            "prefabName": "Ship",
+            "used": false,
+            "explored": false,
+            "persistentId": "BEYOND.FLINGER_2",
+            "prefabName": "Flinger",
             "coordinates": {
               "universe": 0,
               "ux": 11,
               "uz": 8,
-              "x": -1921.02417,
-              "z": 1388.39355
+              "x": -1969.67383,
+              "z": 1410.6582
             },
+            "factionId": "",
+            "discovered": false
+          },
+          {
+            "$type": "StartingSphereData, Assembly-CSharp",
+            "initialFaction": "ARRIVAL.RED_RAIDERS",
+            "maxActiveLevel": 12.0,
+            "maxCharge": 15.0,
+            "maxShips": 5,
+            "maxRange": 1000.0,
+            "rechargeTime": 600.0,
+            "canChargeActive": false,
+            "initialized": false,
+            "persistentId": "#Sphere Of Influence_844093109-848021258",
+            "tags": "",
+            "prefabName": "Sphere Of Influence",
+            "coordinates": {
+              "universe": 0,
+              "ux": 11,
+              "uz": 8,
+              "x": -1973.55359,
+              "z": 1019.839
+            },
+            "discovered": false
+          },
+          {
+            "$type": "StarData, Assembly-CSharp",
+            "luminosity": 1.0,
+            "explored": false,
+            "dragReduced": false,
+            "depleted": false,
+            "persistentId": "BEYOND.SOUTH_STAR",
+            "prefabName": "White Star",
+            "coordinates": {
+              "universe": 0,
+              "ux": 11,
+              "uz": 8,
+              "x": -1773.2915,
+              "z": 930.3667
+            },
+            "discovered": false,
+            "Size": 300.0
+          },
+          {
+            "$type": "ShipSpawnerData, Assembly-CSharp",
+            "shipDesign": "ARRIVAL.RAIDER_BASE",
+            "spawnId": "",
             "factionId": "ARRIVAL.RED_RAIDERS",
-            "discovered": true
+            "stationId": "",
+            "autodefend": false,
+            "defaultSphereOfInfluence": false,
+            "beaconEncounter": "",
+            "spawnDisabled": false,
+            "spawned": false,
+            "persistentId": "#Ship Spawner_210409426-1786595694",
+            "prefabName": "Ship Spawner",
+            "coordinates": {
+              "universe": 0,
+              "ux": 11,
+              "uz": 8,
+              "x": -1258.49719,
+              "z": 1103.38574
+            },
+            "discovered": false
+          },
+          {
+            "$type": "FlingerData, Assembly-CSharp",
+            "destinationId": "BEYOND.FLINGER_SE_S",
+            "destinationCoord": {
+              "universe": -1,
+              "ux": 9999,
+              "uz": 9999,
+              "x": 0.0,
+              "z": 0.0
+            },
+            "used": false,
+            "explored": false,
+            "persistentId": "BEYOND.FLINGER_S_SE",
+            "prefabName": "Flinger",
+            "coordinates": {
+              "universe": 0,
+              "ux": 11,
+              "uz": 8,
+              "x": -1443.332,
+              "z": 945.630859
+            },
+            "factionId": "",
+            "discovered": false
+          },
+          {
+            "$type": "PlanetData, Assembly-CSharp",
+            "size": 124.0,
+            "seed": 1692871166,
+            "interaction": {
+              "anomalyState": 0,
+              "anomalyId": "BEYOND.RAIDER_DEBRIS",
+              "stationId": "",
+              "hasTrade": false,
+              "instanceVisits": 0
+            },
+            "procAnomalyCandidate": false,
+            "placementPadding": 0.0,
+            "persistentId": "#Desert D1_642500836-1242882220",
+            "tags": "",
+            "prefabName": "Desert D1",
+            "coordinates": {
+              "universe": 0,
+              "ux": 11,
+              "uz": 8,
+              "x": -2101.551,
+              "z": 1140.69727
+            },
+            "discovered": false
+          },
+          {
+            "$type": "PlanetData, Assembly-CSharp",
+            "size": 65.93237,
+            "seed": 2008205227,
+            "interaction": {
+              "anomalyState": 0,
+              "stationId": "",
+              "hasTrade": false,
+              "instanceVisits": 0
+            },
+            "procAnomalyCandidate": false,
+            "placementPadding": 0.0,
+            "persistentId": "#Lunar L2_309910075-315545380",
+            "prefabName": "Lunar L2",
+            "coordinates": {
+              "universe": 0,
+              "ux": 11,
+              "uz": 8,
+              "x": -665.8374,
+              "z": 1357.9458
+            },
+            "discovered": false
+          },
+          {
+            "$type": "PlanetData, Assembly-CSharp",
+            "size": 154.5082,
+            "seed": 1256124182,
+            "interaction": {
+              "anomalyState": 0,
+              "stationId": "",
+              "hasTrade": false,
+              "instanceVisits": 0
+            },
+            "procAnomalyCandidate": false,
+            "placementPadding": 0.0,
+            "persistentId": "#Desert D2_1782192457-130450723",
+            "prefabName": "Desert D2",
+            "coordinates": {
+              "universe": 0,
+              "ux": 11,
+              "uz": 8,
+              "x": -1304.208,
+              "z": 1080.50317
+            },
+            "discovered": false
+          },
+          {
+            "$type": "PlanetData, Assembly-CSharp",
+            "size": 106.8135,
+            "seed": 1801968082,
+            "interaction": {
+              "anomalyState": 0,
+              "stationId": "",
+              "hasTrade": false,
+              "instanceVisits": 0
+            },
+            "procAnomalyCandidate": false,
+            "placementPadding": 0.0,
+            "persistentId": "BEYOND.SW_START",
+            "prefabName": "Oceanic O1",
+            "coordinates": {
+              "universe": 0,
+              "ux": 11,
+              "uz": 8,
+              "x": -1900.922,
+              "z": 1454.9176
+            },
+            "discovered": false
           }
         ]
       },
@@ -9048,7 +9296,7 @@
               "x": 1319.63647,
               "z": -622.408936
             },
-            "discovered": true,
+            "discovered": false,
             "Size": 300.0
           },
           {
@@ -9228,7 +9476,9 @@
           "x": 0.0,
           "z": 0.0
         },
-        "tags": [],
+        "tags": [
+          "BEYOND"
+        ],
         "Persistents": [
           {
             "$type": "PlanetData, Assembly-CSharp",
@@ -9275,7 +9525,7 @@
               "x": 1851.64661,
               "z": 651.088867
             },
-            "discovered": true
+            "discovered": false
           },
           {
             "$type": "PlanetData, Assembly-CSharp",
@@ -9315,7 +9565,7 @@
               "x": 1332.29736,
               "z": 978.318359
             },
-            "discovered": true,
+            "discovered": false,
             "Size": 300.0
           }
         ]
@@ -9563,7 +9813,7 @@
               "x": -329.0675,
               "z": -909.4095
             },
-            "discovered": true,
+            "discovered": false,
             "Size": 300.0
           },
           {
@@ -37670,36 +37920,6 @@
         "u": 0,
         "x": 11,
         "z": 13
-      },
-      {
-        "u": 0,
-        "x": 8,
-        "z": 8
-      },
-      {
-        "u": 0,
-        "x": 10,
-        "z": 6
-      },
-      {
-        "u": 0,
-        "x": 11,
-        "z": 6
-      },
-      {
-        "u": 0,
-        "x": 8,
-        "z": 7
-      },
-      {
-        "u": 0,
-        "x": 9,
-        "z": 6
-      },
-      {
-        "u": 0,
-        "x": 12,
-        "z": 6
       }
     ],
     "universes": [
@@ -37709,6 +37929,6 @@
   },
   "startBuild": 17321,
   "gameId": "9977d3cca4fe43699194bfdf23d3beee",
-  "gameTime": 1560.997,
-  "playTime": 4186.33057
+  "gameTime": 1425.09631,
+  "playTime": 4038.70459
 }
