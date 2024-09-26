@@ -6032,14 +6032,14 @@
     {
       "symbol": "INPUT->LEFT_NAME",
       "original": "Turn Left",
-      "translation": "Поверніть наліво",
+      "translation": "Ліворуч",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "INPUT->RIGHT_NAME",
       "original": "Turn Right",
-      "translation": "Поверніть праворуч",
+      "translation": "Праворуч",
       "priority": 0,
       "reviewed": false
     },
@@ -6088,7 +6088,7 @@
     {
       "symbol": "INPUT->CRUISE_TOGGLE_NAME",
       "original": "Toggle Autothrust",
-      "translation": "Перемкнути автоматичну тягу",
+      "translation": "Автоматична тяга",
       "priority": 0,
       "reviewed": false
     },
@@ -6102,7 +6102,7 @@
     {
       "symbol": "INPUT->SHIP_INFO_NAME",
       "original": "Ship Management",
-      "translation": "Управління судном",
+      "translation": "Судовий журнал",
       "priority": 0,
       "reviewed": false
     },
@@ -6137,7 +6137,7 @@
     {
       "symbol": "INPUT->PLASMA_AUTOFIRE_NAME",
       "original": "Plasma Autofire",
-      "translation": "Плазмовий автовогонь",
+      "translation": "Автопостріл",
       "priority": 0,
       "reviewed": false
     },
@@ -6158,7 +6158,7 @@
     {
       "symbol": "INPUT->MAP_TOGGLE_NAME",
       "original": "Toggle Map",
-      "translation": "Переключити карту",
+      "translation": "Мапа",
       "priority": 0,
       "reviewed": false
     },
@@ -6228,14 +6228,14 @@
     {
       "symbol": "INPUT->BATTLESTATIONS_NAME",
       "original": "Battlestations",
-      "translation": "Бойові станції",
+      "translation": "Бойовий режим",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "INPUT->BATTLESTATIONS_COMMENT",
       "original": "Once researched, activates crew battlestation action.",
-      "translation": "Після дослідження активує бойову станцію команди.",
+      "translation": "Після дослідження активує бойовий режим команди.",
       "priority": 0,
       "reviewed": false
     },
@@ -9126,7 +9126,7 @@
     {
       "symbol": "ARRIVAL->MISSIONS->STATION_NEWS->NODES->0->NEWS->ALL_PERSONEL_TO__11104->TEXT",
       "original": "ALL PERSONEL TO BATTLE STATIONS. THIS IS NOT A DRILL. Non-critical suspend, emergency stations.",
-      "translation": "УВЕСЬ ОСОБОВИЙ СІЙ НА БОЙОВІ МІСЦЯ. ЦЕ НЕ ДРЕЛЬ. Некритичні призупинення, станції швидкої допомоги.",
+      "translation": "КОМАНДА ОСОБОВИЙ НА БОЙОВІ МІСЦЯ! ЦЕ НЕ НАВЧАННЯ! Некритичні призупинення.",
       "priority": 0,
       "reviewed": false
     },
@@ -9140,7 +9140,7 @@
     {
       "symbol": "ARRIVAL->MISSIONS->STATION_NEWS->NODES->0->NEWS->BATTLE_STATION_A_10402->TEXT",
       "original": "Battle Station Alert over, non-critical resume.",
-      "translation": "Попередження бойової станції завершено, некритичне відновлення.",
+      "translation": "Відбій бойової тревоги, некритичні відновлення.",
       "priority": 0,
       "reviewed": false
     },
@@ -22580,7 +22580,7 @@
     {
       "symbol": "DEVOUT_WAR->MISSIONS->CELAENO_ATTACK->NODES->1->NEWS->RED_ALERT__ALL_P_14830->TEXT",
       "original": "RED ALERT. All personnel to combat or emergency stations. THIS IS NOT A DRILL.",
-      "translation": "ЧЕРВОНА ТРИВОГА. Весь особовий склад на бойові або аварійні станції. ЦЕ НЕ ДРЕЛЬ.",
+      "translation": "ЧЕРВОНА ТРИВОГА. Весь особовий склад на бойові або аварійні станції. ЦЕ НЕ НАВЧАННЯ!",
       "priority": 0,
       "reviewed": false
     },
