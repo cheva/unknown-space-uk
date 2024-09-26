@@ -71,3 +71,9 @@ Bootstrapped story 'HARD_RADIATION'
 Bootstrapped story 'DEVOUT_WAR'
 Bootstrapped story 'SOUTHERN'
 #8072 410.9497 sec: FPS: 16.29546 Mission Update: 0.00368733
+#12885 710.9776 sec: FPS: 15 Mission Update: 0.00313428
+Task scheduler exceeded 1500ms
+#17571 1011.003 sec: FPS: 16.58691 Mission Update: 0.00381354
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 2514 -> priority: 1 
+  Thread -> id: 269c -> priority: 1 
