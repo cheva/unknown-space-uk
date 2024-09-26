@@ -23,5 +23,15 @@
     "action": 9,
     "key1": 304,
     "key2": 303
+  },
+  "TOGGLE_UI": {
+    "action": 41,
+    "key1": 104,
+    "key2": 9
+  },
+  "QUICK_SAVE": {
+    "action": 50,
+    "key1": 286,
+    "key2": 0
   }
 }

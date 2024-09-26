@@ -41,3 +41,71 @@ Story 'BEYOND' already started
 Bootstrapped story 'GORYR'
 #10298 340.452 sec: FPS: 29.55089 Mission Update: 0.00203293
 #19170 640.4821 sec: FPS: 28.29869 Mission Update: 0.00187664
+#27880 940.4969 sec: FPS: 29.69192 Mission Update: 0.00144205
+Task scheduler exceeded 1500ms
+Task scheduler exceeded 1500ms
+Bootstrapped story 'ASTEROIDS'
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 5)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 5)
+#36534 1240.506 sec: FPS: 29.00165 Mission Update: 0.00193848
+Attempted to trigger an unknown Steam Achievement: 'ERMYR_BRIBE'
+Bootstrapped story 'CODEX_SHAPE'
+#45058 1540.522 sec: FPS: 29.81077 Mission Update: 0.00314993
+Cannot interact while scan in progress
+Cannot interact while scan in progress
+Cannot interact while scan in progress
+Cannot interact while scan in progress
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 7)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 7)
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 7)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 7)
+Cannot begin survey: HOSTILES_NEAR
+#53891 1840.533 sec: FPS: 29.92694 Mission Update: 0.00149807
+Cannot begin survey: HOSTILES_NEAR
+Cannot begin survey: HOSTILES_NEAR
+Cannot begin survey: HOSTILES_NEAR
+Cannot begin survey: HOSTILES_NEAR
+Cannot begin survey: HOSTILES_NEAR
+Cannot begin survey: HOSTILES_NEAR
+Cannot begin survey: HOSTILES_NEAR
+Cannot begin survey: HOSTILES_NEAR
+Cannot begin survey: HOSTILES_NEAR
+Cannot begin survey: HOSTILES_NEAR
+Cannot begin survey: HOSTILES_NEAR
+Cannot begin survey: HOSTILES_NEAR
+Cannot begin survey: HOSTILES_NEAR
+Cannot begin survey: HOSTILES_NEAR
+Cannot begin survey: HOSTILES_NEAR
+Cannot begin survey: HOSTILES_NEAR
+Cannot begin survey: HOSTILES_NEAR
+Cannot begin survey: HOSTILES_NEAR
+Cannot begin survey: HOSTILES_NEAR
+Cannot begin survey: HOSTILES_NEAR
+Cannot begin survey: HOSTILES_NEAR
+Cannot interact while scan in progress
+Cannot interact while scan in progress
+Cannot begin survey: HOSTILES_NEAR
+Cannot begin survey: HOSTILES_NEAR
+Cannot begin survey: HOSTILES_NEAR
+Cannot begin survey: HOSTILES_NEAR
+Cannot begin survey: HOSTILES_NEAR
+Cannot begin survey: HOSTILES_NEAR
+Cannot begin survey: HOSTILES_NEAR
+Cannot begin survey: HOSTILES_NEAR
+Cannot begin survey: HOSTILES_NEAR
+Cannot begin survey: HOSTILES_NEAR
+Attempted to trigger an unknown Steam Achievement: 'EXPLORER_1'
+Cannot begin survey: HOSTILES_NEAR
+#62752 2140.553 sec: FPS: 29.78187 Mission Update: 0.00177312
+Cannot begin survey: HOSTILES_NEAR
+Cannot begin survey: HOSTILES_NEAR
+Cannot begin survey: HOSTILES_NEAR
+Cannot begin survey: HOSTILES_NEAR
+Cannot begin survey: HOSTILES_NEAR
+Cannot begin survey: HOSTILES_NEAR
+Cannot begin survey: HOSTILES_NEAR
+Cannot begin survey: HOSTILES_NEAR
+Cannot begin survey: HOSTILES_NEAR

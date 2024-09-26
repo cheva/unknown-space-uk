@@ -1,11 +1,11 @@
 {
   "saveName": "Choven",
-  "saveFile": "Choven",
+  "saveFile": "Choven_240926200131",
   "gameId": "cb75ef9b22df4931a7b9e724cae245e3",
-  "saveTime": "2024-09-26T20:59:29.7909242+03:00",
-  "playTime": 8723.885,
+  "saveTime": "2024-09-26T20:01:31.2024837+03:00",
+  "playTime": 5252.084,
   "buildNumber": 17321,
   "buildName": "Kepler",
-  "autosave": false,
+  "autosave": true,
   "isPresave": false
 }
