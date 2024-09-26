@@ -10,11 +10,11 @@ Direct3D:
     VRAM:     8119 MB
     Driver:   31.0.101.2115
 Begin MonoManager ReloadAssembly
-- Completed reload, in  0.110 seconds
+- Completed reload, in  0.108 seconds
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 0.708400 ms
+UnloadTime: 1.871100 ms
 Preloader started, build Kepler (17321)
 Async progress 90%, attempting scene activation...
 Build Number: 17321
@@ -35,5 +35,5 @@ Preloading BEYOND
 Preloading REMNANT_SPACE
 Steam knows about 0 achievements
 Setting up 2 worker threads for Enlighten.
-  Thread -> id: 2450 -> priority: 1 
-  Thread -> id: 1d0c -> priority: 1 
+  Thread -> id: 1364 -> priority: 1 
+  Thread -> id: 295c -> priority: 1 

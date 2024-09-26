@@ -2469,7 +2469,7 @@
     {
       "symbol": "OPTIONS_UI_STATIC->CONTROLLER_HELP",
       "original": "<color=#ff7585><b>Controller support is partial and may not work for all functions, such as text input fields. Give feedback on Controller input in the <u><link=\"https://steamcommunity.com/app/1750770/discussions/\">discussion forums.</link></u></b></color>\r\n\r\nSteering:\r\nLeft joystick to set desired direction. Hold for 5 seconds to enable cruise control.\r\n\r\nTurbo:\r\nLeft joystick down to toggle turbo thrust.\r\n\r\nWeapons:\r\nRight joystick to manually fire plasma turrets, right trigger to autofire plasma turrets. \nLeft trigger to autofire secondary weapon.\n\r\nInteract:\r\nA Button\r\n\r\nToggle Map:\r\nY Button\r\n\r\nPan map, Gateway Select:\r\nRight joystick\r\n\r\nToggle Ship Status:\r\nX Button\r\n\nActivate Power-up (if available):\nB Button\n\r\nCycle Secondary Weapon (if secondary weapons installed):\r\nD-Pad Up/Down\r\n\r\nCycle Power-ups (if available):\r\nD-Pad Right/Left\r",
-      "translation": "<color=#ff7585><b>Підтримка контролера є частковою та може працювати не для всіх функцій, таких як поля введення тексту. Надішліть відгук про дані контролера на <u><link=\"https://steamcommunity.com/app/1750770/discussions/\">форумах для обговорень.</link></u></b></color>\r\n<small><b>Кермове управління:</b>\r\nЛівий джойстик для встановлення потрібного напрямку. Утримуйте 5 секунд, щоб увімкнути круїз-контроль.\r\n<b>Турбо:</b>\r\nЛівий джойстик вниз для перемикання турботяги.\r\n<b>Зброя:</b>\r\nПравий джойстик, щоб вручну стріляти плазмовими вежами, правий курок, щоб автоматично запускати плазмові вежі.\r\nЛівий курок для автоматичного стрільби з додаткової зброї.\r\n<b>Взаємодія:</b>\r\nКнопка\r\n<b>Переключити карту:</b>\r\nКнопка Y\r\n<b>Панорамна карта, вибір шлюзу:</b>\r\nПравий джойстик\r\n<b>Перемкнути статус корабля:</b>\r\nКнопка X\r\n<b>Активуйте Power-up (якщо доступно):</b>\r\nКнопка B\r\n<b>Цикл вторинної зброї (якщо встановлено додаткову зброю):</b>\r\nD-Pad вгору/вниз\r\n<b>Цикл бонусів (якщо є):</b>\r\nD-Pad вправо/вліво<small>",
+      "translation": "<color=#ff7585><b>Підтримка контролера є частковою та може працювати не для всіх функцій, таких як поля введення тексту. Надішліть відгук про дані контролера на <u><link=\"https://steamcommunity.com/app/1750770/discussions/\">форумах для обговорень.</link></u></b></color>\r\n\r\n<b>Кермове управління:</b>\r\nЛівий джойстик для встановлення потрібного напрямку. Утримуйте 5 секунд, щоб увімкнути круїз-контроль.\r\n<b>Турбо:</b>\r\nЛівий джойстик вниз для перемикання турботяги.\r\n<b>Зброя:</b>\r\nПравий джойстик, щоб вручну стріляти плазмовими вежами, правий курок, щоб автоматично запускати плазмові вежі.\r\nЛівий курок для автоматичного стрільби з додаткової зброї.\r\n<b>Взаємодія:</b>\r\nКнопка\r\n<b>Переключити карту:</b>\r\nКнопка Y\r\n<b>Панорамна карта, вибір шлюзу:</b>\r\nПравий джойстик\r\n<b>Перемкнути статус корабля:</b>\r\nКнопка X\r\n<b>Активуйте Power-up (якщо доступно):</b>\r\nКнопка B\r\n<b>Цикл вторинної зброї (якщо встановлено додаткову зброю):</b>\r\nD-Pad вгору/вниз\r\n<b>Цикл бонусів (якщо є):</b>\r\nD-Pad вправо/вліво",
       "priority": 0,
       "reviewed": false
     },
@@ -2700,7 +2700,7 @@
     {
       "symbol": "SAVES->LOAD_PROGRESS_5",
       "original": "Navigating Warp Topology",
-      "translation": "Навігація Warp Topology",
+      "translation": "Варп-стрибок",
       "priority": 0,
       "reviewed": false
     },
@@ -2714,14 +2714,14 @@
     {
       "symbol": "SAVES->LOAD_PROGRESS_7",
       "original": "Preparing to Exit Warp",
-      "translation": "Підготовка до виходу з Warp",
+      "translation": "Підготовка до виходу з варпу",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "SAVES->LOAD_PROGRESS_8",
       "original": "Awaiting Warpfield Collapse",
-      "translation": "В очікуванні Warpfield Collapse",
+      "translation": "В пiслястрибкоае охолодження",
       "priority": 0,
       "reviewed": false
     },
@@ -2735,7 +2735,7 @@
     {
       "symbol": "TITLE_SCREEN->LOCALIZE_NEWS",
       "original": "Greetings Commander!\r\n\r\nStarcom: Unknown Space has quite a lot of text and was originally written in \r\nEnglish, the only language I am fluent in. Some languages have been translated \r\nprofessionally or by volunteers. Other languages were translated automatically \r\nvia machine learning. In either case, because the game is still being updated \r\nby me at the time of translation, there may be text that does not read \r\ncorrectly, or has display issues.\r\n\r\nIf you encounter issues with a translation, please visit the game's \r\nu><link=\"https://steamcommunity.com/app/1750770/discussions/1/\">Localization Sub-forum on Steam</link></u> and let me know.\r\n\r\nThank you for playing!\r\n\r\n- Kevin\r\n",
-      "translation": "Вітаю командира!\r\n\r\nStarcom: Unknown Space має досить багато тексту, і він був спочатку написаний \r\nАнглійська, єдина мова, якою я вільно володію. Деякі мови були перекладені \r\nпрофесійно або волонтерами. Інші мови були перекладені автоматично \r\nза допомогою машинного навчання. У будь-якому випадку, тому що гра все ще оновлюється \r\nмною на момент перекладу може бути текст, який не читається \r\nправильно, або має проблеми з відображенням.\r\n\r\nЯкщо у вас виникли проблеми з перекладом, відвідайте сторінку гри \r\n<u><link=\"https://steamcommunity.com/app/1750770/discussions/1/\">Підфорум про локалізацію в Steam тут</link></u> і дайте мені знати.\r\n\r\nДякую за гру!\r\n\r\n- Кевін\r\n\r\nДякую за гру, Кевін!\r\nЯ трошки пофіксив переклад.\r\n\r\n- Чева\r\n",
+      "translation": "Вітаю командира!\r\n\r\nStarcom: Unknown Space має досить багато тексту, і він був спочатку написаний \r\nАнглійською, єдиною мовою, якою я вільно володію. Деякі мови були перекладені \r\nпрофесійно або волонтерами. Інші мови були перекладені автоматично \r\nза допомогою машинного навчання. У будь-якому випадку, тому що гра все ще оновлюється \r\nмною на момент перекладу може бути текст, який не читається \r\nправильно, або має проблеми з відображенням.\r\n\r\nЯкщо у вас виникли проблеми з перекладом, відвідайте сторінку гри \r\n<u><link=\"https://steamcommunity.com/app/1750770/discussions/1/\">Підфорум про локалізацію в Steam тут</link></u> і дайте мені знати.\r\n\r\nДякую за гру!\r\n\r\n- Кевін\r\n\r\nДякую за гру, Кевін!\r\nЯ трошки пофіксив переклад.\r\n\r\n- Чева\r\n",
       "priority": 0,
       "reviewed": false
     },
