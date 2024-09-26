@@ -2273,7 +2273,7 @@
     {
       "symbol": "OPTIONS_UI_STATIC->MASTER_",
       "original": "Master:",
-      "translation": "Загальна:",
+      "translation": "Загально:",
       "priority": 0,
       "reviewed": false
     },
@@ -2308,7 +2308,7 @@
     {
       "symbol": "OPTIONS_UI_STATIC->GRAPHICS_QUALITY_",
       "original": "Graphics Quality:",
-      "translation": "Якість графіки:",
+      "translation": "Загальний рівень:",
       "priority": 0,
       "reviewed": false
     },
@@ -2336,7 +2336,7 @@
     {
       "symbol": "OPTIONS_UI_STATIC->FULL_SCREEN_",
       "original": "Full Screen:",
-      "translation": "Повноекранний:",
+      "translation": "Повноий екран:",
       "priority": 0,
       "reviewed": false
     },
@@ -2385,14 +2385,14 @@
     {
       "symbol": "OPTIONS_UI_STATIC->MOUSE_STEER",
       "original": "Mouse Steer",
-      "translation": "Мишка кермує:",
+      "translation": "Кермо мишей:",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "OPTIONS_UI_STATIC->MAP_ZOOM_TO_MOUSE_",
       "original": "Map zoom to mouse:",
-      "translation": "Масштаб карти:",
+      "translation": "Збільшення мишей:",
       "priority": 0,
       "reviewed": false
     },
@@ -2420,7 +2420,7 @@
     {
       "symbol": "OPTIONS_UI_STATIC->HIGH_CONTRAST_RETICULE_",
       "original": "High Contrast Reticule:",
-      "translation": "Контраст сітки:",
+      "translation": "Контраст курсора:",
       "priority": 0,
       "reviewed": false
     },
@@ -2469,7 +2469,7 @@
     {
       "symbol": "OPTIONS_UI_STATIC->CONTROLLER_HELP",
       "original": "<color=#ff7585><b>Controller support is partial and may not work for all functions, such as text input fields. Give feedback on Controller input in the <u><link=\"https://steamcommunity.com/app/1750770/discussions/\">discussion forums.</link></u></b></color>\r\n\r\nSteering:\r\nLeft joystick to set desired direction. Hold for 5 seconds to enable cruise control.\r\n\r\nTurbo:\r\nLeft joystick down to toggle turbo thrust.\r\n\r\nWeapons:\r\nRight joystick to manually fire plasma turrets, right trigger to autofire plasma turrets. \nLeft trigger to autofire secondary weapon.\n\r\nInteract:\r\nA Button\r\n\r\nToggle Map:\r\nY Button\r\n\r\nPan map, Gateway Select:\r\nRight joystick\r\n\r\nToggle Ship Status:\r\nX Button\r\n\nActivate Power-up (if available):\nB Button\n\r\nCycle Secondary Weapon (if secondary weapons installed):\r\nD-Pad Up/Down\r\n\r\nCycle Power-ups (if available):\r\nD-Pad Right/Left\r",
-      "translation": "<color=#ff7585><b>Підтримка контролера є частковою та може працювати не для всіх функцій, таких як поля введення тексту. Надішліть відгук про дані контролера на <u><link=\"https://steamcommunity.com/app/1750770/discussions/\">форумах для обговорень.</link></u></b></color>\r\n\r\nКермове управління:\r\nЛівий джойстик для встановлення потрібного напрямку. Утримуйте 5 секунд, щоб увімкнути круїз-контроль.\r\n\r\nТурбо:\r\nЛівий джойстик вниз для перемикання турботяги.\r\n\r\nЗброя:\r\nПравий джойстик, щоб вручну стріляти плазмовими вежами, правий курок, щоб автоматично запускати плазмові вежі. \nЛівий курок для автоматичного стрільби з додаткової зброї.\n\r\nВзаємодіяти:\r\nКнопка\r\n\r\nПереключити карту:\r\nКнопка Y\r\n\r\nПанорамна карта, вибір шлюзу:\r\nПравий джойстик\r\n\r\nПеремкнути статус корабля:\r\nКнопка X\r\n\nАктивуйте Power-up (якщо доступно):\nКнопка B\n\r\nЦикл вторинної зброї (якщо встановлено додаткову зброю):\r\nD-Pad вгору/вниз\r\n\r\nЦикл бонусів (якщо є):\r\nD-Pad вправо/вліво\r",
+      "translation": "<color=#ff7585><b>Підтримка контролера є частковою та може працювати не для всіх функцій, таких як поля введення тексту. Надішліть відгук про дані контролера на <u><link=\"https://steamcommunity.com/app/1750770/discussions/\">форумах для обговорень.</link></u></b></color>\r\n\r\n<b>Кермове управління:</b>\r\nЛівий джойстик для встановлення потрібного напрямку. Утримуйте 5 секунд, щоб увімкнути круїз-контроль.\r\n<b>Турбо:</b>\r\nЛівий джойстик вниз для перемикання турботяги.\r\n<b>Зброя:</b>\r\nПравий джойстик, щоб вручну стріляти плазмовими вежами, правий курок, щоб автоматично запускати плазмові вежі.\r\nЛівий курок для автоматичного стрільби з додаткової зброї.\r\n<b>Взаємодія:</b>\r\nКнопка\r\n<b>Переключити карту:</b>\r\nКнопка Y\r\n<b>Панорамна карта, вибір шлюзу:</b>\r\nПравий джойстик\r\n<b>Перемкнути статус корабля:</b>\r\nКнопка X\r\n<b>Активуйте Power-up (якщо доступно):</b>\r\nКнопка B\r\n<b>Цикл вторинної зброї (якщо встановлено додаткову зброю):</b>\r\nD-Pad вгору/вниз\r\n<b>Цикл бонусів (якщо є):</b>\r\nD-Pad вправо/вліво\r",
       "priority": 0,
       "reviewed": false
     },
@@ -6053,7 +6053,7 @@
     {
       "symbol": "INPUT->STRAFE_RIGHT_NAME",
       "original": "Strafe Right",
-      "translation": "Strafe Right",
+      "translation": "Стрейф праворуч",
       "priority": 0,
       "reviewed": false
     },
@@ -6074,14 +6074,14 @@
     {
       "symbol": "INPUT->TURBO_COMMENT",
       "original": "Turbo thrust (when held down)",
-      "translation": "Турботяга (при утриманні)",
+      "translation": "Турбо (при утриманні)",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "INPUT->TURBO_TOGGLE_NAME",
       "original": "Toggle Turbo Thrust",
-      "translation": "Перемкнути Turbo Thrust",
+      "translation": "Перемкнути Turbo",
       "priority": 0,
       "reviewed": false
     },
@@ -6123,7 +6123,7 @@
     {
       "symbol": "INPUT->FIRE_SECONDARY_NAME",
       "original": "Fire Secondary",
-      "translation": "Пожежа вторинна",
+      "translation": "Постріл вторинний",
       "priority": 0,
       "reviewed": false
     },
@@ -6137,7 +6137,7 @@
     {
       "symbol": "INPUT->PLASMA_AUTOFIRE_NAME",
       "original": "Plasma Autofire",
-      "translation": "Плазмовий автоматичний вогонь",
+      "translation": "Плазмовий автовогонь",
       "priority": 0,
       "reviewed": false
     },
@@ -6165,7 +6165,7 @@
     {
       "symbol": "INPUT->ZOOM_IN_NAME",
       "original": "Zoom In",
-      "translation": "Збільшувати",
+      "translation": "Збільшення",
       "priority": 0,
       "reviewed": false
     },
@@ -6186,7 +6186,7 @@
     {
       "symbol": "INPUT->FIRE_FIXED_NAME",
       "original": "Fire Fixed Guns",
-      "translation": "Вогнепальна фіксована зброя",
+      "translation": "Фіксована зброя",
       "priority": 0,
       "reviewed": false
     },
@@ -6200,7 +6200,7 @@
     {
       "symbol": "INPUT->FIRE_BEAMS_NAME",
       "original": "Fire Lasers",
-      "translation": "Вогняні лазери",
+      "translation": "Вогонь лазерами",
       "priority": 0,
       "reviewed": false
     },

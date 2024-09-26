@@ -20,3 +20,7 @@ Local path: "Starcom Unknown Space\Starcom Unknown Space_Data\StreamingAssets\Lo
 З Кораблями від Steam не пробував, гру ще не купив.
 
 Слава Україні!  ![Слава Україні!]( https://raw.githubusercontent.com/cheva/unknown-space-uk/refs/heads/initial/Starcom%20-%20Невідомий%20Простір.png "Слава Україні!")  
+
+______________
+
+- Fix update Main menu Start new game Diffoculty 2.0(hard)
