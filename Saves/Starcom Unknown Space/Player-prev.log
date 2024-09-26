@@ -10,11 +10,11 @@ Direct3D:
     VRAM:     8119 MB
     Driver:   31.0.101.2115
 Begin MonoManager ReloadAssembly
-- Completed reload, in  0.134 seconds
+- Completed reload, in  0.114 seconds
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 2.881500 ms
+UnloadTime: 1.691500 ms
 Preloader started, build Kepler (17321)
 Async progress 90%, attempting scene activation...
 Build Number: 17321
@@ -34,17 +34,54 @@ Preloading ARRIVAL
 Preloading BEYOND
 Preloading REMNANT_SPACE
 Steam knows about 0 achievements
+Bootstrapped story 'DEFAULT'
+Bootstrapped story 'ARRIVAL'
+Bootstrapped story 'ALPHA'
+Bootstrapped story 'PATCH'
+Bootstrapped story 'HELP'
+Bootstrapped story 'REMNANT_SPACE'
+Bootstrapped story 'BEYOND'
+Bootstrapped story 'YU_PROGRESS'
+Bootstrapped story 'VOID'
+Bootstrapped story 'SCAN_DISCOVERIES'
+Bootstrapped story 'COMETS'
+Bootstrapped story 'DEVOUT'
+Bootstrapped story 'HERETICS'
+Bootstrapped story 'CELAENO_DEFENSE'
+Bootstrapped story 'LOCOAN'
+Bootstrapped story 'FALLEN'
+Bootstrapped story 'STALKERS'
+Bootstrapped story 'PIRATES'
+Bootstrapped story 'DUMP'
+Bootstrapped story 'CONFLICT'
+Bootstrapped story 'GOD_BONES'
+Bootstrapped story 'WISKAMUG'
+Bootstrapped story 'LEGACY'
+Bootstrapped story 'DMZ'
+Bootstrapped story 'RED_REVISIT'
+Bootstrapped story 'NORTHERN'
+Bootstrapped story 'SEPHARIAL'
+Attempted to placed region 'Region (WISKAMUG.MEMORY_LAB)' near 'sector_0_-1x-3 0 x 0', actually placed at 'sector_0_0x-5 0 x 0', dist 11180.34
+Bootstrapped story 'OUTLIERS'
+Bootstrapped story 'REFINERY'
+Bootstrapped story 'HARD_RADIATION'
+Bootstrapped story 'DEVOUT_WAR'
+Bootstrapped story 'SOUTHERN'
+#15000 493.1401 sec: FPS: 29.90509 Mission Update: 0.00260743
 StoryId was null
 No starting story found: ''
 No starting location
-Bootstrapped story 'EMISSARY'
-Survey module does not exist.
-Expanded MissionSave-DEFAULT.MISSILES to 3 lanes
-Expanded MissionSave-ARRIVAL.POLYHEDRAL to 8 lanes
-Expanded MissionSave-REMNANT_SPACE.BOOTSTRAP to 5 lanes
-Expanded MissionSave-DEFAULT.MISSILES to 3 lanes
-Expanded MissionSave-ARRIVAL.POLYHEDRAL to 8 lanes
-Expanded MissionSave-REMNANT_SPACE.BOOTSTRAP to 5 lanes
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 11)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 11)
+Module collision with MISSILES_2 (ShipModule) and ENGINE_6 (ShipModule) at HexCoord (-1,-5) in DEFAULT.REMNANT_CRUISER
+Module collision with MISSILES_2 (ShipModule) and ENGINE_6 (ShipModule) at HexCoord (-1,-6) in DEFAULT.REMNANT_CRUISER
+Attacking ALPHA.MAIA
+Attempted to trigger an unknown Steam Achievement: 'UNKNOWN'
+#28406 951.2314 sec: FPS: 29.82162 Mission Update: 0.00227586
+No installed module, aborting
+#37359 1251.242 sec: FPS: 29.90873 Mission Update: 0.00081221
+#45926 1551.262 sec: FPS: 26.07533 Mission Update: 0.00251179
 Setting up 2 worker threads for Enlighten.
-  Thread -> id: 2510 -> priority: 1 
-  Thread -> id: 2de8 -> priority: 1 
+  Thread -> id: a34 -> priority: 1 
+  Thread -> id: 1668 -> priority: 1 

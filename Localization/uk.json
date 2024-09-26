@@ -180,7 +180,7 @@
     {
       "symbol": "SHIP_STATION_UI->REVERT",
       "original": "Revert",
-      "translation": "Назад",
+      "translation": "Відновити ",
       "priority": 0,
       "reviewed": false
     },
