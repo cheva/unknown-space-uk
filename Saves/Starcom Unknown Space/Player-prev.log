@@ -10,11 +10,11 @@ Direct3D:
     VRAM:     8119 MB
     Driver:   31.0.101.2115
 Begin MonoManager ReloadAssembly
-- Completed reload, in  0.205 seconds
+- Completed reload, in  0.173 seconds
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 1.188400 ms
+UnloadTime: 1.458300 ms
 Preloader started, build Kepler (17321)
 Async progress 90%, attempting scene activation...
 Build Number: 17321
@@ -32,74 +32,16 @@ WwiseUnity: Wwise(R) SDK Version 2021.1.9 Build 7847.
 WwiseUnity: Setting Plugin DLL path to: C:/Games/Starcom Unknown Space/Starcom Unknown Space_Data\Plugins\x86_64
 WwiseUnity: Sound engine initialized successfully.
 Preloading DEFAULT
+Steam knows about 0 achievements
 Preloading ALPHA
 Preloading ARRIVAL
 Preloading BEYOND
 Preloading REMNANT_SPACE
-Steam knows about 0 achievements
+Can not play a disabled audio source
 StoryId was null
 No starting story found: ''
 No starting location
-Duplicate log entry, skipping
-#9625 379.4583 sec: FPS: 29.86783 Mission Update: 0.00215498
-Cannot interact while scan in progress
-Duplicate log entry, skipping
-#17836 679.4913 sec: FPS: 29.97622 Mission Update: 0.0019367
-#26341 979.5018 sec: FPS: 29.66862 Mission Update: 0.00235663
-Attempting to set item tradeable that player has, but allowTakeFromPlayer is false DEFAULT.SHIELDS_1
-Duplicate log entry, skipping
-Task scheduler exceeded 1500ms
-Task scheduler exceeded 1500ms
-Task scheduler exceeded 1500ms
-#30141 1748.044 sec: FPS: 0.04718781 Mission Update: 0.00148802
-Task scheduler exceeded 1500ms
-Task scheduler exceeded 1500ms
-Task scheduler exceeded 1500ms
-Task scheduler exceeded 1500ms
-Task scheduler exceeded 1500ms
-Task scheduler exceeded 1500ms
-Task scheduler exceeded 1500ms
-Task scheduler exceeded 1500ms
-Task scheduler exceeded 1500ms
-Task scheduler exceeded 1500ms
-Task scheduler exceeded 1500ms
-Task scheduler exceeded 1500ms
-Task scheduler exceeded 1500ms
-Task scheduler exceeded 1500ms
-Task scheduler exceeded 1500ms
-Task scheduler exceeded 1500ms
-Task scheduler exceeded 1500ms
-Duplicate log entry, skipping
-Duplicate log entry, skipping
-#38932 2048.058 sec: FPS: 29.93058 Mission Update: 0.00161987
-#47694 2348.083 sec: FPS: 28.98797 Mission Update: 0.00272962
-Task scheduler exceeded 1500ms
-Task scheduler exceeded 1500ms
-Task scheduler exceeded 1500ms
-#56104 2648.112 sec: FPS: 28.75059 Mission Update: 0.0029577
-Task scheduler exceeded 1500ms
-Task scheduler exceeded 1500ms
-Task scheduler exceeded 1500ms
-#64821 2948.139 sec: FPS: 29.68833 Mission Update: 0.00249326
-Bootstrapped story 'ROGUE'
-#72450 3248.154 sec: FPS: 29.75303 Mission Update: 0.00378143
-#80646 3548.16 sec: FPS: 29.86148 Mission Update: 0.00296962
-Activating emissary for 'EmissaryDestination'
-Adding active THE_EMISSARY
-Flag not satisfied, normal advance
-#89272 3848.184 sec: FPS: 29.83248 Mission Update: 0.00204075
-Cannot interact while scan in progress
-#97728 4148.197 sec: FPS: 29.89781 Mission Update: 0.00172232
-Material ProgressFill doesn't have _Stencil property
-Material ProgressFill(Clone) doesn't have _Stencil property
-Material ProgressFill(Clone) doesn't have _Stencil property
-Material ProgressFill(Clone) doesn't have _Stencil property
-Material ProgressFill(Clone) doesn't have _Stencil property
-#106658 4448.203 sec: FPS: 28.96747 Mission Update: 0.00115651
-#115600 4748.212 sec: FPS: 29.82524 Mission Update: 0.00165534
-StoryId was null
-No starting story found: ''
-No starting location
+#10183 388.7928 sec: FPS: 29.7918 Mission Update: 0.00266714
 Setting up 2 worker threads for Enlighten.
-  Thread -> id: 1150 -> priority: 1 
-  Thread -> id: 2fe0 -> priority: 1 
+  Thread -> id: 1918 -> priority: 1 
+  Thread -> id: 2d3c -> priority: 1 
