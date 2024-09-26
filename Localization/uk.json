@@ -8923,7 +8923,7 @@
     {
       "symbol": "ARRIVAL->MISSIONS->RESEARCH_LAB->NODES->4->ACTOR->MESSAGE",
       "original": "This interface shows research technologies available. Use it to direct our computer's research.\n\nI recommend at least researching \"Turbo Thrust\". It'll speed up your exploration significantly.",
-      "translation": "Цей інтерфейс показує доступні дослідницькі технології. Використовуйте його, щоб керувати дослідженнями нашого комп’ютера.\n\nЯ рекомендую принаймні дослідити \"Turbo Thrust\". Це значно пришвидшить ваше дослідження.",
+      "translation": "Цей інтерфейс показує доступні дослідницькі технології. Використовуйте його, щоб керувати дослідженнями нашого комп’ютера.\n\nЯ рекомендую принаймні дослідити \"Турбо Тягу\". Це значно пришвидшить ваше дослідження.",
       "priority": 0,
       "reviewed": false
     },
