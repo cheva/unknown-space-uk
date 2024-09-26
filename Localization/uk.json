@@ -9126,14 +9126,14 @@
     {
       "symbol": "ARRIVAL->MISSIONS->STATION_NEWS->NODES->0->NEWS->ALL_PERSONEL_TO__11104->TEXT",
       "original": "ALL PERSONEL TO BATTLE STATIONS. THIS IS NOT A DRILL. Non-critical suspend, emergency stations.",
-      "translation": "КОМАНДА ОСОБОВИЙ НА БОЙОВІ МІСЦЯ! ЦЕ НЕ НАВЧАННЯ! Некритичні призупинення.",
+      "translation": "ВСI НА БОЙОВІ МІСЦЯ! ЦЕ НЕ НАВЧАННЯ! Некритичні призупинення.",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "ARRIVAL->MISSIONS->STATION_NEWS->NODES->0->NEWS->COMMAND__EMERGENCY_->ANNOUNCER",
       "original": "Command (Emergency)",
-      "translation": "Командування (надзвичайна ситуація)",
+      "translation": "Команда (надзвичайно)",
       "priority": 0,
       "reviewed": false
     },
