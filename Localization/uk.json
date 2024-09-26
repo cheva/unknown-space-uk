@@ -124,7 +124,7 @@
     {
       "symbol": "SHIP_STATION_UI->HULL",
       "original": "Hull",
-      "translation": "Халл",
+      "translation": "Корпус",
       "priority": 0,
       "reviewed": false
     },
@@ -3547,7 +3547,7 @@
     {
       "symbol": "STAT->HULL_POINTS_MAX_NAME",
       "original": "Max Hull Health",
-      "translation": "Здоров'я Макса Халла",
+      "translation": "Стан судна",
       "priority": 0,
       "reviewed": false
     },
@@ -3561,7 +3561,7 @@
     {
       "symbol": "STAT->REPAIR_RATE_NAME",
       "original": "Repair Rate",
-      "translation": "Ставка ремонту",
+      "translation": "Швидкiсть ремонту",
       "priority": 0,
       "reviewed": false
     },
@@ -3575,7 +3575,7 @@
     {
       "symbol": "STAT->HULL_POINTS_COLLAPSE_NAME",
       "original": "Hull Collapse",
-      "translation": "Розвал корпусу",
+      "translation": "Колапс корпусу",
       "priority": 0,
       "reviewed": false
     },
@@ -3757,35 +3757,35 @@
     {
       "symbol": "STAT->ENGINE_MAX_DRAW_NAME",
       "original": "Engines Draw",
-      "translation": "Двигуни Draw",
+      "translation": "Споживана потужність",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "STAT->ENGINE_MAX_DRAW_TIP",
       "original": "Engines energy consumption (normal burn)",
-      "translation": "Енергоспоживання двигунів (нормальний спалювання)",
+      "translation": "Енергоспоживання двигунів (нормальа швикiсть)",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "STAT->ENGINE_TURBO_MAX_DRAW_NAME",
       "original": "Engines Turbo Draw",
-      "translation": "Двигуни Turbo Draw",
+      "translation": "Споживана турбопотужність",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "STAT->ENGINE_TURBO_MAX_DRAW_TIP",
       "original": "Engines energy consumption (turbo burn)",
-      "translation": "Енергоспоживання двигунів (turbo burn)",
+      "translation": "Енергоспоживання двигунів (турбопотужність)",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "STAT->PLASMA_ENERGY_DRAW_NAME",
       "original": "Plasma Draw",
-      "translation": "Plasma Draw",
+      "translation": "Споживання плазмометiв",
       "priority": 0,
       "reviewed": false
     },
@@ -3827,7 +3827,7 @@
     {
       "symbol": "STAT->BEAM_RECRUIT_NAME",
       "original": "Laser Recruit Time",
-      "translation": "Лазерний час вербування",
+      "translation": "Час ревербування",
       "priority": 0,
       "reviewed": false
     },
@@ -3841,7 +3841,7 @@
     {
       "symbol": "STAT->BEAM_ENERGY_DRAW_NAME",
       "original": "Laser Draw",
-      "translation": "Лазерне малювання",
+      "translation": "Споживання лазерiв",
       "priority": 0,
       "reviewed": false
     },
@@ -3855,7 +3855,7 @@
     {
       "symbol": "STAT->ENERGY_PEAK_DRAW_NAME",
       "original": "Peak Draw",
-      "translation": "Пікова нічия",
+      "translation": "Пік",
       "priority": 0,
       "reviewed": false
     },
@@ -3869,56 +3869,56 @@
     {
       "symbol": "STAT->FIXED_DPS_NAME",
       "original": "Fixed DPS",
-      "translation": "Виправлено DPS",
+      "translation": "DPS фіксованої зброї",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "STAT->FIXED_DPS_TIP",
       "original": "Fixed gun damage per second",
-      "translation": "Виправлено пошкодження гармати за секунду",
+      "translation": "Пошкодження фіксованої зброї за секунду",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "STAT->FIXED_ENERGY_DRAW_NAME",
       "original": "Fixed Draw",
-      "translation": "Виправлена нічия",
+      "translation": "Споживання фіксованої зброї",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "STAT->FIXED_ENERGY_DRAW_TIP",
       "original": "Total fixed gun energy consumption at full fire",
-      "translation": "Загальне фіксоване енергоспоживання гармати при повному стрільбі",
+      "translation": "Загальне енергоспоживання фіксованої зброї при стрільбі",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "STAT->FIXED_RANGE_NAME",
       "original": "Fixed Range",
-      "translation": "Фіксований діапазон",
+      "translation": "Діапазон фіксованої зброї",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "STAT->FIXED_RANGE_TIP",
       "original": "Maximum effective range of fixed guns",
-      "translation": "Максимальна ефективна дальність стрільби стаціонарних гармат",
+      "translation": "Максимальна ефективна дальність стрільби фіксованої зброї",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "STAT->FIXED_PUNCH_THRU_NAME",
       "original": "Fixed Punchthru",
-      "translation": "Виправлено Punchthru",
+      "translation": "Punchthru",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "STAT->FIXED_PUNCH_THRU_TIP",
       "original": "Maximum target health percent that our fixed \nguns can punch thru.",
-      "translation": "Зафіксований максимальний цільовий відсоток здоров’я\nгармати можуть пробивати наскрізь.",
+      "translation": "Зафіксований максимальний цільовий відсоток здоров’я\nPunchthru можуть пробивати наскрізь.",
       "priority": 0,
       "reviewed": false
     },
@@ -3981,14 +3981,14 @@
     {
       "symbol": "STAT->FIGHTERS_DPS_NAME",
       "original": "Drone DPS",
-      "translation": "Дрон ДПС",
+      "translation": "Дроновий ДПС",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "STAT->FIGHTERS_DPS_TIP",
       "original": "Peak damage each fighter can deal per second",
-      "translation": "Максимальна шкода, яку кожен боєць може завдати за секунду",
+      "translation": "Максимальна шкода, яку кожен дрон може завдати за секунду",
       "priority": 0,
       "reviewed": false
     },
@@ -4002,7 +4002,7 @@
     {
       "symbol": "STAT->FIGHTERS_SPEED_TIP",
       "original": "Fighter drone flight speed",
-      "translation": "Швидкість польоту винищувача",
+      "translation": "Швидкість польоту",
       "priority": 0,
       "reviewed": false
     },
@@ -4023,14 +4023,14 @@
     {
       "symbol": "STAT->FIGHTERS_MAX_NAME",
       "original": "Max Drones",
-      "translation": "Макс Дрони",
+      "translation": "Макс Дронiв",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "STAT->FIGHTERS_MAX_TIP",
       "original": "Total maximum number of drones our launchers\ncan carry.",
-      "translation": "Загальна максимальна кількість безпілотників наших пускових установок\nможе нести.",
+      "translation": "Загальна максимальна кількість безпілотників наших пускових установок.",
       "priority": 0,
       "reviewed": false
     },
