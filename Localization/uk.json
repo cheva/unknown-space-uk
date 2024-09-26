@@ -2441,7 +2441,7 @@
     {
       "symbol": "OPTIONS_UI_STATIC->ADDITIONAL_CONTROLS",
       "original": "The following are additional control not part of the key mapping schema:\n\nAutopilot: CTRL + Left-click\nAutopilot, Direct Route: CTRL + ALT + Left-click\nTarget Selection: Right-click\nDev Console: F11",
-      "translation": "Нижче наведено додатковий елемент керування, який не входить до схеми зіставлення ключів:\n\nАвтопілот: CTRL + клацання лівою кнопкою миші\nАвтопілот, прямий маршрут: CTRL + ALT + клацання лівою кнопкою миші\nВибір цілі: клацніть правою кнопкою миші\nКонсоль розробника: F11",
+      "translation": "Нижче наведено додаткове керування, яке не входить до схеми:\n\nАВТОПIЛОТ: CTRL + клацання лівою кнопкою миші\n\nАВТОПIЛОТ, прямий маршрут: CTRL + ALT + клацання лівою кнопкою миші\n\nВИБIР ЦIЛI: клацніть правою кнопкою миші\n\nКОНСОЛЬ: F11",
       "priority": 0,
       "reviewed": false
     },
@@ -2469,7 +2469,7 @@
     {
       "symbol": "OPTIONS_UI_STATIC->CONTROLLER_HELP",
       "original": "<color=#ff7585><b>Controller support is partial and may not work for all functions, such as text input fields. Give feedback on Controller input in the <u><link=\"https://steamcommunity.com/app/1750770/discussions/\">discussion forums.</link></u></b></color>\r\n\r\nSteering:\r\nLeft joystick to set desired direction. Hold for 5 seconds to enable cruise control.\r\n\r\nTurbo:\r\nLeft joystick down to toggle turbo thrust.\r\n\r\nWeapons:\r\nRight joystick to manually fire plasma turrets, right trigger to autofire plasma turrets. \nLeft trigger to autofire secondary weapon.\n\r\nInteract:\r\nA Button\r\n\r\nToggle Map:\r\nY Button\r\n\r\nPan map, Gateway Select:\r\nRight joystick\r\n\r\nToggle Ship Status:\r\nX Button\r\n\nActivate Power-up (if available):\nB Button\n\r\nCycle Secondary Weapon (if secondary weapons installed):\r\nD-Pad Up/Down\r\n\r\nCycle Power-ups (if available):\r\nD-Pad Right/Left\r",
-      "translation": "<color=#ff7585><b>Підтримка контролера є частковою та може працювати не для всіх функцій, таких як поля введення тексту. Надішліть відгук про дані контролера на <u><link=\"https://steamcommunity.com/app/1750770/discussions/\">форумах для обговорень.</link></u></b></color>\r\n\r\n<b>Кермове управління:</b>\r\nЛівий джойстик для встановлення потрібного напрямку. Утримуйте 5 секунд, щоб увімкнути круїз-контроль.\r\n<b>Турбо:</b>\r\nЛівий джойстик вниз для перемикання турботяги.\r\n<b>Зброя:</b>\r\nПравий джойстик, щоб вручну стріляти плазмовими вежами, правий курок, щоб автоматично запускати плазмові вежі.\r\nЛівий курок для автоматичного стрільби з додаткової зброї.\r\n<b>Взаємодія:</b>\r\nКнопка\r\n<b>Переключити карту:</b>\r\nКнопка Y\r\n<b>Панорамна карта, вибір шлюзу:</b>\r\nПравий джойстик\r\n<b>Перемкнути статус корабля:</b>\r\nКнопка X\r\n<b>Активуйте Power-up (якщо доступно):</b>\r\nКнопка B\r\n<b>Цикл вторинної зброї (якщо встановлено додаткову зброю):</b>\r\nD-Pad вгору/вниз\r\n<b>Цикл бонусів (якщо є):</b>\r\nD-Pad вправо/вліво\r",
+      "translation": "<color=#ff7585><b>Підтримка контролера є частковою та може працювати не для всіх функцій, таких як поля введення тексту. Надішліть відгук про дані контролера на <u><link=\"https://steamcommunity.com/app/1750770/discussions/\">форумах для обговорень.</link></u></b></color>\r\n<small><b>Кермове управління:</b>\r\nЛівий джойстик для встановлення потрібного напрямку. Утримуйте 5 секунд, щоб увімкнути круїз-контроль.\r\n<b>Турбо:</b>\r\nЛівий джойстик вниз для перемикання турботяги.\r\n<b>Зброя:</b>\r\nПравий джойстик, щоб вручну стріляти плазмовими вежами, правий курок, щоб автоматично запускати плазмові вежі.\r\nЛівий курок для автоматичного стрільби з додаткової зброї.\r\n<b>Взаємодія:</b>\r\nКнопка\r\n<b>Переключити карту:</b>\r\nКнопка Y\r\n<b>Панорамна карта, вибір шлюзу:</b>\r\nПравий джойстик\r\n<b>Перемкнути статус корабля:</b>\r\nКнопка X\r\n<b>Активуйте Power-up (якщо доступно):</b>\r\nКнопка B\r\n<b>Цикл вторинної зброї (якщо встановлено додаткову зброю):</b>\r\nD-Pad вгору/вниз\r\n<b>Цикл бонусів (якщо є):</b>\r\nD-Pad вправо/вліво<small>",
       "priority": 0,
       "reviewed": false
     },
@@ -4183,7 +4183,7 @@
     },
     {
       "symbol": "MODULE->BRIDGE_4_DESC",
-      "original": "The nerve center of a starship, the bridge provides baseline energy generation and reserves, crew capacity and other core functions. Critical damage to the bridge will result in total loss of the vessel.\n\nExplorer class vessels can be up to 40 hexes in size.",
+	      "original": "The nerve center of a starship, the bridge provides baseline energy generation and reserves, crew capacity and other core functions. Critical damage to the bridge will result in total loss of the vessel.\n\nExplorer class vessels can be up to 40 hexes in size.",
       "translation": "Нервовий центр зоряного корабля, місток, забезпечує генерацію базової енергії та резерви, місткість екіпажу та інші основні функції. Критичне пошкодження мосту призведе до повної втрати судна.\n\nСудна класу Explorer можуть мати розмір до 40 гексів.",
       "priority": 0,
       "reviewed": false
@@ -6235,7 +6235,7 @@
     {
       "symbol": "INPUT->BATTLESTATIONS_COMMENT",
       "original": "Once researched, activates crew battlestation action.",
-      "translation": "Після дослідження активує бойовий режим команди.",
+      "translation": "Після дослідження активує бойовий режим",
       "priority": 0,
       "reviewed": false
     },
