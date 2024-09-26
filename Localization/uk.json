@@ -2868,7 +2868,7 @@
     {
       "symbol": "RESOURCE->ALUMINUM_SYMBOL",
       "original": "Al",
-      "translation": "Ал",
+      "translation": "Al",
       "priority": 0,
       "reviewed": false
     },
@@ -2952,7 +2952,7 @@
     {
       "symbol": "RESOURCE->YTTRIUM_SYMBOL",
       "original": "Y",
-      "translation": "Ю",
+      "translation": "Y",
       "priority": 0,
       "reviewed": false
     },
@@ -2966,7 +2966,7 @@
     {
       "symbol": "RESOURCE->GOLD_NAME",
       "original": "Gold",
-      "translation": "золото",
+      "translation": "Золото",
       "priority": 0,
       "reviewed": false
     },
@@ -2994,7 +2994,7 @@
     {
       "symbol": "RESOURCE->PLATINUM_SYMBOL",
       "original": "Pt",
-      "translation": "Пт",
+      "translation": "Pt",
       "priority": 0,
       "reviewed": false
     },
@@ -3092,14 +3092,14 @@
     {
       "symbol": "RESOURCE->NEUTRONIUM_NAME",
       "original": "Neutronium",
-      "translation": "нейтроній",
+      "translation": "Нейтроній",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "RESOURCE->NEUTRONIUM_SYMBOL",
       "original": "Nu",
-      "translation": "Ну",
+      "translation": "Nu",
       "priority": 0,
       "reviewed": false
     },
@@ -3162,7 +3162,7 @@
     {
       "symbol": "RESOURCE->METALLIC_HELIUM_SYMBOL",
       "original": "He9",
-      "translation": "Він9",
+      "translation": "He9",
       "priority": 0,
       "reviewed": false
     },
@@ -3176,14 +3176,14 @@
     {
       "symbol": "RESOURCE->ADAMANTINE_NAME",
       "original": "Adamantine",
-      "translation": "адамантинова",
+      "translation": "Адамантін",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "RESOURCE->ADAMANTINE_SYMBOL",
       "original": "Adm",
-      "translation": "адм",
+      "translation": "Adm",
       "priority": 0,
       "reviewed": false
     },
