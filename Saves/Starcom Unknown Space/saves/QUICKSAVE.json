@@ -358,8 +358,7 @@
       "ARRIVAL.RING_DATA",
       "BEYOND.CRASH_SPHERE",
       "DEFAULT.FLINGER",
-      "DEFAULT.NANOREPAIR",
-      "SCAN_DISCOVERIES.DENSE_MESOSPHERE"
+      "DEFAULT.NANOREPAIR"
     ]
   },
   "encounterSaveData": {
@@ -931,7 +930,7 @@
         "DEFAULT.REMNANT": -0.868479133
       },
       "ARRIVAL.RED_RAIDERS": {
-        "DEFAULT.PLAYER": -3.9615128
+        "DEFAULT.PLAYER": -4.99276638
       }
     },
     "damageModifiers": {},
@@ -974,14 +973,14 @@
   },
   "gameVarData": {
     "numberVars": {
-      "DEFAULT.SKILL_TECHS-0_delay": 1020.62738,
-      "DEFAULT.ANALYTICS-2_delay": 120.377922,
+      "DEFAULT.SKILL_TECHS-0_delay": 1002.64154,
+      "DEFAULT.ANALYTICS-2_delay": 102.3919,
       "DEFAULT.ANALYTICS-13_delay": 120.485771,
-      "HELP.VOID-0_lull": 3.927776,
+      "HELP.VOID-0_lull": 3.68452382,
       "ALPHA.STABILIZERS": 2.0,
-      "DEFAULT.DEEP_SPACE-8_lull": 3.927776,
-      "ARRIVAL.GREAT_BEYOND-18_lull": 3.927776,
-      "DEFAULT.DEEP_SPACE-0_lull": 3.927776
+      "DEFAULT.DEEP_SPACE-8_lull": 3.68452382,
+      "ARRIVAL.GREAT_BEYOND-18_lull": 3.68452382,
+      "DEFAULT.DEEP_SPACE-0_lull": 3.68452382
     },
     "flagVars": {
       "SEPHARIAL.LOOP": true,
@@ -2745,7 +2744,7 @@
             "progress": 0,
             "maxProgress": 1,
             "startTime": 936.9943,
-            "age": 105.958183,
+            "age": 74.13699,
             "playerCoord": {
               "universe": 0,
               "ux": 10,
@@ -2808,7 +2807,7 @@
             "progress": 1,
             "maxProgress": 3,
             "startTime": 847.9548,
-            "age": 251.063843,
+            "age": 219.24411,
             "playerCoord": {
               "universe": 0,
               "ux": 10,
@@ -4180,7 +4179,7 @@
             "progress": 0,
             "maxProgress": 1,
             "startTime": 775.7622,
-            "age": 341.858368,
+            "age": 310.038635,
             "playerCoord": {
               "universe": 0,
               "ux": 10,
@@ -4282,12 +4281,12 @@
       "universe": 0,
       "ux": 10,
       "uz": 11,
-      "x": -174.1822,
-      "z": -359.726654
+      "x": -221.78598,
+      "z": -287.225342
     },
     "playerShip": {
       "shipDesignId": "DEFAULT.SMALL_MISSILES",
-      "rotation": 149.074387,
+      "rotation": 312.951843,
       "scale": 0.0,
       "modules": [
         {
@@ -4348,7 +4347,7 @@
           },
           "rot": 0,
           "mirrored": false,
-          "health": 3.0
+          "health": 1.72384334
         },
         {
           "moduleId": "WEDGE_0B",
@@ -4388,7 +4387,7 @@
           },
           "rot": 0,
           "mirrored": false,
-          "health": 6.0
+          "health": 3.1956687
         },
         {
           "moduleId": "ENGINE_1",
@@ -4454,7 +4453,7 @@
       },
       "lastVisibility": 332.5,
       "lastDisposition": 1000.0,
-      "lastActive": 1020.8035357722547,
+      "lastActive": 1003.2024127969053,
       "disabled": false,
       "persistentId": "PLAYER",
       "prefabName": "Ship",
@@ -4462,8 +4461,8 @@
         "universe": 0,
         "ux": 10,
         "uz": 11,
-        "x": -174.1822,
-        "z": -359.726654
+        "x": -221.78598,
+        "z": -287.225342
       },
       "factionId": "DEFAULT.PLAYER",
       "discovered": false
@@ -4494,10 +4493,10 @@
     "battlestationsCooldown": 0.0,
     "shieldCharge": 0.0,
     "havokCharge": 0.0,
-    "researchPoints": 220,
-    "totalResearchPoints": 280,
+    "researchPoints": 210,
+    "totalResearchPoints": 270,
     "anomaliesCompleted": 4,
-    "distanceFlown": 11984.84254357311,
+    "distanceFlown": 11837.672369676613,
     "swatch": {
       "id": "DEFAULT.STARCOM",
       "plating1": {
@@ -4880,7 +4879,7 @@
     }
   },
   "shipLogData": {
-    "index": 49,
+    "index": 48,
     "entries": [
       {
         "id": 1,
@@ -5743,24 +5742,6 @@
         "summary": "<i>На цій забитій метаном планеті мало цікавого. Найбільш розвиненою формою...</i>",
         "intro": "11/17/2641 10:20:00 PM <i>Choven Lander SCS-01</i>\t Planetary Anomaly Report at 10.42 x 11.42 Unknown Space",
         "details": "На цій забитій метаном планеті мало цікавого. Найбільш розвиненою формою життя є гриб, схожий на траву.\n\nАле десь за останні кілька століть хтось бився за цю мокру скелю, про що свідчить напівзатонулий бойовий корабель. Незважаючи на те, що природа позбавила багатьох її ресурсів, деякі турелі все ще мають ітрієві конденсатори.\n\t+3 Ітрій\n"
-      },
-      {
-        "id": 49,
-        "type": 1,
-        "gameTime": 1004,
-        "coord": {
-          "universe": 0,
-          "ux": 10,
-          "uz": 11,
-          "x": -221.427673,
-          "z": -286.27243
-        },
-        "showMapPin": false,
-        "spriteId": "DEFAULT.Portraits/STARCOM_CREW_5",
-        "categoryText": "Cdt. Cassie Pirx (Астронаука)",
-        "summary": "\"<i>Мезосфера цієї планети надзвичайно щільна і тепла через надзвичайно високий...</i>\"",
-        "intro": "<i>Choven</i>: 2641.11.18 00:07 at 10.46 x 11.44 Unknown Space, Crew Log Entry",
-        "details": "Cdt. Cassie Pirx (Астронаука):\n\nМезосфера цієї планети надзвичайно щільна і тепла через надзвичайно високий рівень захоплення космічних променів."
       }
     ]
   },
@@ -8786,7 +8767,7 @@
           {
             "$type": "WarpNexusData, Assembly-CSharp",
             "isOn": true,
-            "sectorExplored": true,
+            "sectorExplored": false,
             "persistentId": "BEYOND.NEXUS_START",
             "tags": "",
             "prefabName": "Warp Nexus",
@@ -8852,7 +8833,7 @@
             "seed": 494205998,
             "scanDiscovery": "SCAN_DISCOVERIES.DENSE_MESOSPHERE",
             "interaction": {
-              "anomalyState": 6,
+              "anomalyState": 1,
               "stationId": "",
               "hasTrade": false,
               "instanceVisits": 0
@@ -8918,7 +8899,7 @@
           {
             "$type": "StarData, Assembly-CSharp",
             "luminosity": 2.0,
-            "explored": true,
+            "explored": false,
             "dragReduced": true,
             "depleted": false,
             "persistentId": "BEYOND.WEST_STAR",
@@ -9031,7 +9012,7 @@
           {
             "$type": "ShipData, Assembly-CSharp",
             "shipDesignId": "ARRIVAL.RAIDER_SCOUT",
-            "rotation": 39.9132233,
+            "rotation": 175.511337,
             "scale": 1.2,
             "modules": [
               {
@@ -9061,7 +9042,7 @@
             "profileType": "AttackRunScout",
             "command": {
               "$type": "AIVisitCommand, Assembly-CSharp",
-              "persistentId": "#Rocky R3_1581040282-2067717734",
+              "persistentId": "#Ice H1_282588856-1461433773",
               "locked": false,
               "ThrottledSpeed": -1.0
             },
@@ -9073,8 +9054,8 @@
               "z": -280.938141
             },
             "lastVisibility": 286.0,
-            "lastDisposition": -7.96151257,
-            "lastActive": 1020.8035357722547,
+            "lastDisposition": -8.992766,
+            "lastActive": 1003.2024127969053,
             "disabled": false,
             "persistentId": "#Ship_1469478927-1588778370",
             "prefabName": "Ship",
@@ -9082,8 +9063,8 @@
               "universe": 0,
               "ux": 10,
               "uz": 11,
-              "x": -522.0197,
-              "z": -689.888
+              "x": -704.1537,
+              "z": -567.1604
             },
             "factionId": "ARRIVAL.RED_RAIDERS",
             "discovered": true
@@ -37640,6 +37621,6 @@
   },
   "startBuild": 17321,
   "gameId": "cb75ef9b22df4931a7b9e724cae245e3",
-  "gameTime": 1021.15509,
-  "playTime": 3157.96973
+  "gameTime": 1003.20239,
+  "playTime": 3125.45166
 }
