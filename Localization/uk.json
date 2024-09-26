@@ -691,14 +691,14 @@
     {
       "symbol": "MISSIONS_UI->FAILED",
       "original": "Failed",
-      "translation": "Не вдалося",
+      "translation": "Невдало",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "MISSIONS_UI->COMPLETE",
       "original": "Complete",
-      "translation": "Повний",
+      "translation": "Виконано",
       "priority": 0,
       "reviewed": false
     },
@@ -5206,7 +5206,7 @@
     {
       "symbol": "MODULE_CATEGORY->UTILITIES",
       "original": "Utilities",
-      "translation": "Комунальні послуги",
+      "translation": "Обладнання",
       "priority": 0,
       "reviewed": false
     },
@@ -16658,7 +16658,7 @@
     {
       "symbol": "DEFAULT->ACTOR->STARCOM->VINCE_YU->NAME",
       "original": "Cdre. Yu",
-      "translation": "Cdre. ю",
+      "translation": "Cdre. Ю",
       "priority": 0,
       "reviewed": false
     },
@@ -42810,7 +42810,7 @@
     {
       "symbol": "YU_PROGRESS->MISSIONS->PLAYER_PROMOTION->NODES->1->NEWS->CDRE__YU->ANNOUNCER",
       "original": "Cdre. Yu",
-      "translation": "Cdre. ю",
+      "translation": "Cdre. Ю",
       "priority": 0,
       "reviewed": false
     },

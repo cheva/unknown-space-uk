@@ -41,3 +41,14 @@ Internal: deleting an allocation that is older than its permitted lifetime of 4 
 Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 8)
 No starting location
 #8448 370.1411 sec: FPS: 29.93332 Mission Update: 0.0007028
+#17405 670.1624 sec: FPS: 29.92694 Mission Update: 0.00072257
+Module collision with MISSILES_2 (ShipModule) and ENGINE_6 (ShipModule) at HexCoord (-1,-5) in DEFAULT.REMNANT_CRUISER
+Module collision with MISSILES_2 (ShipModule) and ENGINE_6 (ShipModule) at HexCoord (-1,-6) in DEFAULT.REMNANT_CRUISER
+#26324 970.1834 sec: FPS: 29.66325 Mission Update: 0.00333375
+Attacking ALPHA.MAIA
+Attempted to trigger an unknown Steam Achievement: 'UNKNOWN'
+#35045 1270.203 sec: FPS: 29.86511 Mission Update: 0.00066695
+#43300 1570.232 sec: FPS: 29.82162 Mission Update: 0.00081881
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 2ed0 -> priority: 1 
+  Thread -> id: 27c4 -> priority: 1 
