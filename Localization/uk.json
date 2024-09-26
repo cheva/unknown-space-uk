@@ -1643,7 +1643,7 @@
     {
       "symbol": "INTERACTIONS->NO_SURVEYOR",
       "original": "Cannot conduct surface survey without Survey Lander",
-      "translation": "Неможливо провести поверхневу зйомку без Survey Lander",
+      "translation": "Неможливо провести поверхневу зйомку без посадкового модуль",
       "priority": 0,
       "reviewed": false
     },
@@ -3799,7 +3799,7 @@
     {
       "symbol": "STAT->BEAM_DPS_NAME",
       "original": "Laser DPS",
-      "translation": "Лазерний ДПС",
+      "translation": "Лазерний DPS",
       "priority": 0,
       "reviewed": false
     },
@@ -3981,7 +3981,7 @@
     {
       "symbol": "STAT->FIGHTERS_DPS_NAME",
       "original": "Drone DPS",
-      "translation": "Дроновий ДПС",
+      "translation": "Дроновий DPS",
       "priority": 0,
       "reviewed": false
     },
@@ -5066,7 +5066,7 @@
     {
       "symbol": "MODULE->SURVEYOR_1_NAME",
       "original": "Survey Lander",
-      "translation": "Survey Lander",
+      "translation": "Оглядовий апарат",
       "priority": 0,
       "reviewed": false
     },

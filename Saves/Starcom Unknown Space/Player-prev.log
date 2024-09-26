@@ -10,11 +10,11 @@ Direct3D:
     VRAM:     8119 MB
     Driver:   31.0.101.2115
 Begin MonoManager ReloadAssembly
-- Completed reload, in  0.111 seconds
+- Completed reload, in  0.119 seconds
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 2.204800 ms
+UnloadTime: 2.306900 ms
 Preloader started, build Kepler (17321)
 Async progress 90%, attempting scene activation...
 Build Number: 17321
@@ -29,51 +29,15 @@ WwiseUnity: Wwise(R) SDK Version 2021.1.9 Build 7847.
 WwiseUnity: Setting Plugin DLL path to: C:/Games/Starcom Unknown Space/Starcom Unknown Space_Data\Plugins\x86_64
 WwiseUnity: Sound engine initialized successfully.
 Preloading DEFAULT
+Steam knows about 0 achievements
 Preloading ALPHA
 Preloading ARRIVAL
 Preloading BEYOND
 Preloading REMNANT_SPACE
-Steam knows about 0 achievements
-Bootstrapped story 'DEFAULT'
-Bootstrapped story 'ARRIVAL'
-Bootstrapped story 'ALPHA'
-Bootstrapped story 'PATCH'
-Bootstrapped story 'HELP'
-Bootstrapped story 'REMNANT_SPACE'
-Bootstrapped story 'BEYOND'
-Bootstrapped story 'YU_PROGRESS'
-Bootstrapped story 'VOID'
-Bootstrapped story 'SCAN_DISCOVERIES'
-Bootstrapped story 'COMETS'
-Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
-Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 5)
-Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 5)
-Bootstrapped story 'DEVOUT'
-Bootstrapped story 'HERETICS'
-Bootstrapped story 'CELAENO_DEFENSE'
-Bootstrapped story 'LOCOAN'
-Bootstrapped story 'FALLEN'
-Bootstrapped story 'STALKERS'
-Bootstrapped story 'PIRATES'
-Bootstrapped story 'DUMP'
-Bootstrapped story 'CONFLICT'
-Bootstrapped story 'GOD_BONES'
-Bootstrapped story 'WISKAMUG'
-Bootstrapped story 'LEGACY'
-Bootstrapped story 'DMZ'
-Bootstrapped story 'RED_REVISIT'
-Bootstrapped story 'NORTHERN'
-Bootstrapped story 'SEPHARIAL'
-Attempted to placed region 'Region (WISKAMUG.MEMORY_LAB)' near 'sector_0_-1x-3 0 x 0', actually placed at 'sector_0_-2x-4 0 x 0', dist 7071.068
-Bootstrapped story 'OUTLIERS'
-Bootstrapped story 'REFINERY'
-Bootstrapped story 'HARD_RADIATION'
-Bootstrapped story 'DEVOUT_WAR'
-Bootstrapped story 'SOUTHERN'
-#8072 410.9497 sec: FPS: 16.29546 Mission Update: 0.00368733
-#12885 710.9776 sec: FPS: 15 Mission Update: 0.00313428
-Task scheduler exceeded 1500ms
-#17571 1011.003 sec: FPS: 16.58691 Mission Update: 0.00381354
+Can not play a disabled audio source
+StoryId was null
+No starting story found: ''
+No starting location
 Setting up 2 worker threads for Enlighten.
-  Thread -> id: 2514 -> priority: 1 
-  Thread -> id: 269c -> priority: 1 
+  Thread -> id: 2ec8 -> priority: 1 
+  Thread -> id: 868 -> priority: 1 
