@@ -25,7 +25,7 @@ ______________
 - Update Beginning text
 - Update Seleno menues, inventory and other Beginning texts
 - Continue journey and translations
-- Change Difficulty to 1.8 because 1.6 was too easy
+- Change Difficulty to 1.6
 ______________
 
 ### Слава Україні! ![Слава Україні!]( https://raw.githubusercontent.com/cheva/unknown-space-uk/refs/heads/initial/Starcom%20-%20Невідомий%20Простір.png "Слава Україні!")
