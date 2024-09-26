@@ -72,8 +72,7 @@
         "actorId": "DEFAULT.STARCOM:VINCE_YU",
         "activeIntros": [
           "DEFAULT.YU_DEFAULT",
-          "ARRIVAL.YU_RESCUE_COMPLETE",
-          "ARRIVAL.YU_RAIDERS"
+          "ARRIVAL.YU_RESCUE_COMPLETE"
         ],
         "activeTopics": [
           "ARRIVAL.PLAYER_YU_CLASSIFIED"
@@ -93,8 +92,7 @@
       {
         "actorId": "DEFAULT.STARCOM:DR_RAMA",
         "activeIntros": [
-          "DEFAULT.RAMA_DEFAULT",
-          "ARRIVAL.RAMA_RESEARCH"
+          "DEFAULT.RAMA_DEFAULT"
         ],
         "activeTopics": []
       },
@@ -219,126 +217,14 @@
     ],
     "seenConvos": [
       "ALPHA.SCHELL_WORMHOLE",
-      "ARRIVAL.YU_ARRIVAL",
-      "ARRIVAL.YU_RESCUE_COMPLETE",
-      "ARRIVAL.RAMA_RESEARCH",
-      "ARRIVAL.YU_RAIDERS"
+      "ARRIVAL.YU_ARRIVAL"
     ]
   },
   "crewData": {
     "totalXP": 0,
     "unspentPoints": 0,
     "currentTeamLevel": 0,
-    "crew": [
-      {
-        "firstName": "Alex",
-        "lastName": "Triton",
-        "portraitId": "DEFAULT.Portraits/STARCOM_CREW_4",
-        "state": 0,
-        "rank": 0,
-        "healthPercent": 1.0,
-        "expertise": 20,
-        "skills": {
-          "XENOCULTURE": 2,
-          "TACTICS": 0,
-          "OBSERVATION": 0,
-          "ENGINEERING": 0,
-          "BIOMED": 1,
-          "ASTRO": 0
-        },
-        "tags": []
-      },
-      {
-        "firstName": "Martina",
-        "lastName": "Kepler",
-        "portraitId": "DEFAULT.Portraits/STARCOM_CREW_2",
-        "state": 0,
-        "rank": 0,
-        "healthPercent": 1.0,
-        "expertise": 40,
-        "skills": {
-          "XENOCULTURE": 0,
-          "TACTICS": 0,
-          "OBSERVATION": 2,
-          "ENGINEERING": 0,
-          "BIOMED": 0,
-          "ASTRO": 1
-        },
-        "tags": []
-      },
-      {
-        "firstName": "James",
-        "lastName": "Rhea",
-        "portraitId": "DEFAULT.Portraits/STARCOM_CREW_3",
-        "state": 0,
-        "rank": 0,
-        "healthPercent": 1.0,
-        "expertise": 60,
-        "skills": {
-          "XENOCULTURE": 0,
-          "TACTICS": 1,
-          "OBSERVATION": 0,
-          "ENGINEERING": 0,
-          "BIOMED": 2,
-          "ASTRO": 0
-        },
-        "tags": []
-      },
-      {
-        "firstName": "Cassie",
-        "lastName": "Pirx",
-        "portraitId": "DEFAULT.Portraits/STARCOM_CREW_5",
-        "state": 0,
-        "rank": 0,
-        "healthPercent": 1.0,
-        "expertise": 70,
-        "skills": {
-          "XENOCULTURE": 0,
-          "TACTICS": 0,
-          "OBSERVATION": 0,
-          "ENGINEERING": 1,
-          "BIOMED": 0,
-          "ASTRO": 2
-        },
-        "tags": []
-      },
-      {
-        "firstName": "Jennifer",
-        "lastName": "Cygnus-Lee",
-        "portraitId": "DEFAULT.Portraits/STARCOM_CREW_1",
-        "state": 0,
-        "rank": 0,
-        "healthPercent": 1.0,
-        "expertise": 30,
-        "skills": {
-          "XENOCULTURE": 1,
-          "TACTICS": 2,
-          "OBSERVATION": 0,
-          "ENGINEERING": 0,
-          "BIOMED": 0,
-          "ASTRO": 0
-        },
-        "tags": []
-      },
-      {
-        "firstName": "Mark",
-        "lastName": "Gliese",
-        "portraitId": "DEFAULT.Portraits/STARCOM_CREW_6",
-        "state": 0,
-        "rank": 0,
-        "healthPercent": 1.0,
-        "expertise": 50,
-        "skills": {
-          "XENOCULTURE": 0,
-          "TACTICS": 0,
-          "OBSERVATION": 1,
-          "ENGINEERING": 2,
-          "BIOMED": 0,
-          "ASTRO": 0
-        },
-        "tags": []
-      }
-    ],
+    "crew": [],
     "supportCrew": 0
   },
   "discoverySaveData": {
@@ -911,7 +797,7 @@
         "DEFAULT.REMNANT": -1.320757
       },
       "ARRIVAL.RED_RAIDERS": {
-        "DEFAULT.STARCOM": -0.4324154
+        "DEFAULT.STARCOM": -0.458164245
       }
     },
     "damageModifiers": {},
@@ -954,14 +840,12 @@
   },
   "gameVarData": {
     "numberVars": {
-      "DEFAULT.SKILL_TECHS-0_delay": 1086.46338,
-      "DEFAULT.ANALYTICS-2_delay": 186.336914,
+      "DEFAULT.SKILL_TECHS-0_delay": 1084.62146,
+      "DEFAULT.ANALYTICS-2_delay": 184.494858,
       "DEFAULT.ANALYTICS-13_delay": 37.48986,
-      "HELP.VOID-0_lull": 1.38963,
+      "HELP.VOID-0_lull": 139.998856,
       "ALPHA.STABILIZERS": 2.0,
-      "HELP.CONTROLS_HELP-1_lull": 1.38963,
-      "DEFAULT.DEEP_SPACE-8_lull": 1.38963,
-      "ARRIVAL.RED_RAIDERS-19_lull": 1.38963
+      "DEFAULT.DEEP_SPACE-8_lull": 79.89768
     },
     "flagVars": {
       "SEPHARIAL.LOOP": true,
@@ -971,7 +855,8 @@
       "ALPHA.STABILIZER_1_ACTIVATED": true,
       "ALPHA.REMNANT": true,
       "ALPHA.SHOCKDONE": true,
-      "DEFAULT.ALLOW_REPAIR_DROP": true,
+      "DEFAULT.RESEARCH_UI_DISABLE": true,
+      "DEFAULT.STARCOM:DR_RAMA-UI_DISABLE": true,
       "ARRIVAL.RESCUED": true,
       "DEFAULT.NEXUS_DISABLED": true,
       "ALPHA.COMPLETE": true
@@ -984,10 +869,7 @@
     "hintsSeen": [],
     "nodesSeen": [
       "ALPHA.SCHELL_WORMHOLE[1]",
-      "ARRIVAL.YU_ARRIVAL[23]",
-      "ARRIVAL.YU_RESCUE_COMPLETE[1]",
-      "ARRIVAL.RAMA_RESEARCH[1]",
-      "ARRIVAL.YU_RAIDERS[2]"
+      "ARRIVAL.YU_ARRIVAL[23]"
     ],
     "skillsChecked": [],
     "anomaliesSeen": [
@@ -2358,7 +2240,7 @@
         "stopped": false,
         "details": [],
         "activeNodeIndices": [
-          1
+          0
         ]
       },
       {
@@ -2372,7 +2254,7 @@
         "details": [],
         "activeNodeIndices": [
           0,
-          1
+          0
         ]
       },
       {
@@ -3802,11 +3684,11 @@
       },
       {
         "appearInLog": true,
-        "collapsed": true,
+        "collapsed": false,
         "missionId": "ARRIVAL.RESCUE",
-        "state": 10,
+        "state": 1,
         "priority": 1,
-        "progressTime": 1085.5685217840364,
+        "progressTime": 945.117171712569,
         "stopped": false,
         "details": [
           {
@@ -3843,10 +3725,10 @@
             "missionId": "ARRIVAL.RESCUE",
             "id": "RETURN",
             "description": "Ми повинні повернути екіпаж аванпосту в Селено для оцінки та підведення підсумків.",
-            "progress": 1,
+            "progress": 0,
             "maxProgress": 1,
             "startTime": 934.9903,
-            "age": 305.373962,
+            "age": 262.225739,
             "playerCoord": {
               "universe": 0,
               "ux": 5,
@@ -3889,70 +3771,9 @@
           }
         ],
         "activeNodeIndices": [
-          6,
+          4,
           2,
           1
-        ]
-      },
-      {
-        "appearInLog": false,
-        "collapsed": false,
-        "missionId": "ARRIVAL.RESEARCH_LAB",
-        "state": 1,
-        "priority": 0,
-        "progressTime": 1085.5685217840364,
-        "stopped": false,
-        "details": [],
-        "activeNodeIndices": [
-          5,
-          3
-        ]
-      },
-      {
-        "appearInLog": true,
-        "collapsed": false,
-        "missionId": "ARRIVAL.RED_RAIDERS",
-        "state": 1,
-        "priority": 1,
-        "progressTime": 1085.5685217840364,
-        "stopped": false,
-        "details": [
-          {
-            "missionId": "ARRIVAL.RED_RAIDERS",
-            "id": "PLANET",
-            "description": "Cdre. Ю хоче, щоб ми дослідили планету в [COORD], де було виявлено активність.",
-            "progress": 0,
-            "maxProgress": 1,
-            "startTime": 1085.56848,
-            "age": 89.63108,
-            "playerCoord": {
-              "universe": 0,
-              "ux": 5,
-              "uz": 5,
-              "x": -0.115470052,
-              "z": 0.8
-            },
-            "goal": {
-              "goalId": "ARRIVAL.RAIDER_PLANET",
-              "clearProximity": -1.0,
-              "lastKnown": {
-                "universe": 0,
-                "ux": 5,
-                "uz": 5,
-                "x": 718.997131,
-                "z": -351.214752
-              },
-              "mapTracked": true
-            },
-            "priority": 20,
-            "HasGoal": true
-          }
-        ],
-        "activeNodeIndices": [
-          3,
-          0,
-          1,
-          0
         ]
       }
     ],
@@ -3971,12 +3792,12 @@
       "universe": 0,
       "ux": 5,
       "uz": 5,
-      "x": -31.4324474,
-      "z": -761.499451
+      "x": -31.11863,
+      "z": -761.32196
     },
     "playerShip": {
       "shipDesignId": "DEFAULT.SMALL_MISSILES",
-      "rotation": 238.852814,
+      "rotation": 238.9032,
       "scale": 0.0,
       "modules": [
         {
@@ -4133,7 +3954,7 @@
       },
       "lastVisibility": 320.0,
       "lastDisposition": 1000.0,
-      "lastActive": 1086.6100461530732,
+      "lastActive": 1085.1493887725519,
       "disabled": false,
       "persistentId": "PLAYER",
       "prefabName": "Ship",
@@ -4141,31 +3962,30 @@
         "universe": 0,
         "ux": 5,
         "uz": 5,
-        "x": -31.4324474,
-        "z": -761.499451
+        "x": -31.11863,
+        "z": -761.32196
       },
       "factionId": "DEFAULT.PLAYER",
       "discovered": false
     },
     "playerResources": {
-      "ALUMINUM": 155,
+      "ALUMINUM": 5,
       "PLATINUM": 11,
-      "COPPER": 8,
+      "COPPER": 0,
       "SILVER": 0,
       "TITANIUM": 0,
-      "YTTRIUM": 6,
+      "YTTRIUM": 0,
       "GOLD": 0,
       "URANIUM": 0,
       "IRIDIUM": 0,
       "DIBERYLLIUM": 0,
-      "CHIRALITE": 1,
+      "CHIRALITE": 0,
       "NEUTRONIUM": 0,
       "ETHERINE": 0,
       "XENIUM": 0,
       "METALLIC_HELIUM": 0,
       "ADAMANTINE": 0
     },
-    "targetDesignId": "Choven-18",
     "missiles": 0,
     "potentialMissiles": 0,
     "fighters": 0,
@@ -4173,7 +3993,7 @@
     "battlestationsCooldown": 0.0,
     "shieldCharge": 0.0,
     "havokCharge": 0.0,
-    "researchPoints": 10,
+    "researchPoints": 70,
     "totalResearchPoints": 70,
     "anomaliesCompleted": 1,
     "distanceFlown": 7753.8727935539891,
@@ -4292,7 +4112,7 @@
   "phenomenaData": {
     "emissaryData": {
       "destinations": [],
-      "timer": 1090.23083
+      "timer": 1088.82581
     }
   },
   "proceduralData": {
@@ -4559,7 +4379,7 @@
     }
   },
   "shipLogData": {
-    "index": 31,
+    "index": 25,
     "entries": [
       {
         "id": 1,
@@ -5008,114 +4828,6 @@
         "summary": "\"<i>Команда прагне дізнатися більше про знайдений артефакт</i>\"",
         "intro": "<i>Choven</i>: 2641.11.17 18:55 at 5.45 x 5.47 Unknown Space, Crew Log Entry",
         "details": "Лейтенант Евері:\n\nКоманда прагне дізнатися більше про знайдений артефакт.\n\nВи можете замовити аналіз у вкладці «Вантаж» дисплея статусу судна."
-      },
-      {
-        "id": 26,
-        "type": 4,
-        "gameTime": 1085,
-        "coord": {
-          "universe": 0,
-          "ux": 5,
-          "uz": 5,
-          "x": -0.115470052,
-          "z": 0.8
-        },
-        "showMapPin": false,
-        "spriteId": "DEFAULT.Portraits/STARCOM_VINCE_YU",
-        "categoryText": "Comms Log: Cdre. Ю",
-        "summary": "<i>Cdre. Ю: \"Молодець, Cheva</i>",
-        "intro": "11/18/2641 6:50:00 AM <i>Choven</i>\t Comms Log Transcript",
-        "details": "Cdre. Ю: \"Молодець, Cheva.\n\nВраховуючи нестачу суден Starcom тут, вам і вашому кораблю потрібно буде взяти на себе більшу роль для вашого досвіду.\"\n\nCdre. Ю: \"Поки Starcom знову не відкриє червоточину та не надішле підкріплення, створення форпосту є нижчим пріоритетом, ніж зміцнення нашого захисту.\n\nЯ дозволяю вам повністю використовувати ресурси, вилучені з форпосту, щоб спорядити Choven.\n\nЯ також поговорю з нашим керівником досліджень, щоб отримати вам доступ до лабораторії.\"\n\n\t+150 Алюміній\n\n\t+8 Мідь\n\n\t+6 Ітрій\n\n\t+1 Хіраліт\n\nCdre. Ю: \"Якщо немає нічого іншого, я поінформую вас про наші наступні кроки після того, як ви матимете можливість оновити Choven.\"\n\n<i>Cmd Cheva: No further questions.</i>\n"
-      },
-      {
-        "id": 27,
-        "type": 1,
-        "gameTime": 1085,
-        "coord": {
-          "universe": 0,
-          "ux": 5,
-          "uz": 5,
-          "x": -0.115470052,
-          "z": 0.8
-        },
-        "showMapPin": false,
-        "spriteId": "DEFAULT.Portraits/STARCOM_ENGINEER",
-        "categoryText": "Лейтенант Мілтон",
-        "summary": "\"<i>У режимі планування верфі ви можете спроектувати корабель за межі ваших...</i>\"",
-        "intro": "<i>Choven</i>: 2641.11.18 06:52 at 5.50 x 5.50 Unknown Space, Crew Log Entry",
-        "details": "Лейтенант Мілтон:\n\nУ режимі планування верфі ви можете спроектувати корабель за межі ваших поточних ресурсів. Потім ви можете зберегти цей дизайн для майбутнього планування.\n\nЯкщо ви поставите дизайн як ціль створення, ви зможете побачити, скільки ресурсів вам ще потрібно під час торгівлі."
-      },
-      {
-        "id": 28,
-        "type": 4,
-        "gameTime": 1085,
-        "coord": {
-          "universe": 0,
-          "ux": 5,
-          "uz": 5,
-          "x": -0.115470052,
-          "z": 0.8
-        },
-        "showMapPin": false,
-        "spriteId": "DEFAULT.Portraits/STARCOM_DR_RAMA",
-        "categoryText": "Comms Log: Доктор Рама",
-        "summary": "<i>Доктор Рама: \"Я доктор Рама. Я керівник дослідницьких проектів Celaeno. Ми...</i>",
-        "intro": "11/18/2641 6:50:00 AM <i>Choven</i>\t Comms Log Transcript",
-        "details": "Доктор Рама: \"Я доктор Рама. Я керівник дослідницьких проектів Celaeno. Ми витратили останній місяць, вивчаючи сусідній артефакт і шукаючи підказки щодо його роботи на сусідніх планетах.\n\nКапітан Ю щойно повідомив мене, що з міркувань «оборони» ми змінюємо наші пріоритети, і я маю надати свою лабораторію у ваше розпорядження.\n\nДо речі, це фігура мови, нічого не ламай.\"\n\n<i>Cmd Cheva: I'll do my best.</i>\n\nДоктор Рама: \"Я б волів, щоб ти взагалі нічого не робив, але твого найкращого буде достатньо.\"\n\nДоктор Рама: \"З огляду на мої нові вказівки, виявлений об’єкт дав нам деякі дослідницькі дані, які ви можете використати в роботі.\n\nЯкщо ви зустрінетесь зі мною в лабораторії, я можу навчити вас про наші засоби.\"\n\n<i>Cmd Cheva: Will do.</i>\n"
-      },
-      {
-        "id": 29,
-        "type": 1,
-        "gameTime": 1085,
-        "coord": {
-          "universe": 0,
-          "ux": 5,
-          "uz": 5,
-          "x": -0.115470052,
-          "z": 0.8
-        },
-        "showMapPin": false,
-        "spriteId": "DEFAULT.Portraits/STARCOM_DR_RAMA",
-        "categoryText": "Доктор Рама",
-        "summary": "\"<i>Цей інтерфейс показує доступні дослідницькі технології. Використовуйте його,...</i>\"",
-        "intro": "<i>Choven</i>: 2641.11.18 06:52 at 5.50 x 5.50 Unknown Space, Crew Log Entry",
-        "details": "Доктор Рама:\n\nЦей інтерфейс показує доступні дослідницькі технології. Використовуйте його, щоб керувати дослідженнями нашого комп’ютера.\n\nЯ рекомендую принаймні дослідити \"Turbo Thrust\". Це значно пришвидшить ваше дослідження."
-      },
-      {
-        "id": 30,
-        "type": 1,
-        "gameTime": 1085,
-        "coord": {
-          "universe": 0,
-          "ux": 5,
-          "uz": 5,
-          "x": -0.115470052,
-          "z": 0.8
-        },
-        "showMapPin": false,
-        "spriteId": "DEFAULT.Portraits/STARCOM_DR_RAMA",
-        "categoryText": "Доктор Рама",
-        "summary": "\"<i>Вражає. Ви нічого не зламали.</i>\"",
-        "intro": "<i>Choven</i>: 2641.11.18 06:52 at 5.50 x 5.50 Unknown Space, Crew Log Entry",
-        "details": "Доктор Рама:\n\nВражає. Ви нічого не зламали."
-      },
-      {
-        "id": 31,
-        "type": 4,
-        "gameTime": 1085,
-        "coord": {
-          "universe": 0,
-          "ux": 5,
-          "uz": 5,
-          "x": -0.115470052,
-          "z": 0.8
-        },
-        "showMapPin": false,
-        "spriteId": "DEFAULT.Portraits/STARCOM_VINCE_YU",
-        "categoryText": "Comms Log: Cdre. Ю",
-        "summary": "<i>Cdre. Ю: \"Якщо Choven — одне з наших єдиних суден у цьому космосі, вам...</i>",
-        "intro": "11/18/2641 6:50:00 AM <i>Choven</i>\t Comms Log Transcript",
-        "details": "Cdre. Ю: \"Якщо Choven — одне з наших єдиних суден у цьому космосі, вам знадобиться повний командний екіпаж для максимальної ефективності та проведення досліджень планети.\"\n\nCdre. Ю: \"Дехто з членів команди, яких ви евакуювали з аванпосту, зголосився.\n\nЇх додано до списку вашої команди, який ви можете переглянути будь-коли.\n\nПравда, вони трохи зелені, але я думаю, що з деяким досвідом вони швидко стануть офіцерським матеріалом.\n\nЯкщо говорити про досвід...\"\n\nCdre. Ю: \"Ми помітили рух корабля навколо сусіднього газового гіганта. Також, здається, на поверхні одного з його супутників спостерігається певна активність.\n\nЯ хочу, щоб ви це перевірили. Кораблі мають такі ж показники енергії, як і Червоні рейдери, тому використовуйте ці ресурси, щоб підготувати Choven до бою.\"\n\n<i>Cmd Cheva: Will do.</i>\n"
       }
     ]
   },
@@ -5241,9 +4953,7 @@
         "DEFAULT.PLASMA_1",
         "DEFAULT.REACTOR_1",
         "DEFAULT.XENO",
-        "DEFAULT.CREW_SKILLS",
-        "DEFAULT.ENGINES_TURBO",
-        "DEFAULT.TRACOR_SPLIT_1"
+        "DEFAULT.CREW_SKILLS"
       ],
       "PIRATES.BROGIDAR": [
         "DEFAULT.FIXED_PUNCHTHRU_1"
@@ -5260,13 +4970,7 @@
       "DEFAULT.STARCOM": "DEFAULT.PLAYER",
       "ARRIVAL.ALETHEIA": "DEFAULT.PLAYER"
     },
-    "techsSeen": [
-      "DEFAULT.THERMAL_VIS",
-      "DEFAULT.ENGINES_TURBO",
-      "DEFAULT.TRACOR_SPLIT_1",
-      "DEFAULT.TRACTOR_BOOST_1",
-      "DEFAULT.ENERGY_STORAGE_1"
-    ]
+    "techsSeen": []
   },
   "tradeSaveData": {
     "factionTradeDatas": {}
@@ -5571,7 +5275,7 @@
           {
             "$type": "ShipData, Assembly-CSharp",
             "shipDesignId": "DEFAULT.STARCOM_BASE",
-            "rotation": 196.1253,
+            "rotation": 200.2839,
             "scale": 2.3,
             "modules": [
               {
@@ -5888,9 +5592,9 @@
               "hasTrade": false,
               "instanceVisits": 0
             },
-            "lastVisibility": 700.0,
+            "lastVisibility": 5000.0,
             "lastDisposition": 999.0,
-            "lastActive": 1086.6100461530732,
+            "lastActive": 1085.1493887725519,
             "disabled": false,
             "persistentId": "ARRIVAL.CELAENO",
             "prefabName": "Ship",
@@ -5903,134 +5607,6 @@
             },
             "factionId": "DEFAULT.STARCOM",
             "discovered": true
-          },
-          {
-            "$type": "ShipData, Assembly-CSharp",
-            "shipDesignId": "ARRIVAL.RAIDER_BASE",
-            "rotation": 60.162262,
-            "scale": 1.5,
-            "modules": [
-              {
-                "moduleId": "DETECTOR_1",
-                "origin": {
-                  "x": 0,
-                  "y": 0
-                },
-                "rot": 0,
-                "mirrored": false,
-                "health": 1.0
-              },
-              {
-                "moduleId": "REACTOR_3",
-                "origin": {
-                  "x": 1,
-                  "y": -1
-                },
-                "rot": 2,
-                "mirrored": false,
-                "health": 4.0
-              },
-              {
-                "moduleId": "PLASMA_2",
-                "origin": {
-                  "x": -1,
-                  "y": 0
-                },
-                "rot": 0,
-                "mirrored": false,
-                "health": 3.0
-              },
-              {
-                "moduleId": "BULKHEAD_1",
-                "origin": {
-                  "x": 0,
-                  "y": 1
-                },
-                "rot": 0,
-                "mirrored": false,
-                "health": 3.0
-              },
-              {
-                "moduleId": "POINTY_3",
-                "origin": {
-                  "x": 0,
-                  "y": 3
-                },
-                "rot": 0,
-                "mirrored": false,
-                "health": 3.0
-              },
-              {
-                "moduleId": "POINTY_3",
-                "origin": {
-                  "x": 3,
-                  "y": -2
-                },
-                "rot": 2,
-                "mirrored": false,
-                "health": 3.0
-              },
-              {
-                "moduleId": "POINTY_3",
-                "origin": {
-                  "x": -3,
-                  "y": -2
-                },
-                "rot": -2,
-                "mirrored": false,
-                "health": 3.0
-              },
-              {
-                "moduleId": "BUMPERS_2",
-                "origin": {
-                  "x": 1,
-                  "y": 1
-                },
-                "rot": 2,
-                "mirrored": false,
-                "health": 11.0
-              },
-              {
-                "moduleId": "BUMPERS_2",
-                "origin": {
-                  "x": 1,
-                  "y": -2
-                },
-                "rot": -2,
-                "mirrored": false,
-                "health": 11.0
-              }
-            ],
-            "moduleHealthMultiplier": 0.225000009,
-            "maxHealth": 42.0,
-            "maxSize": 17.0,
-            "profileType": "StationAgent",
-            "command": {
-              "$type": "AIAttackCommand, Assembly-CSharp",
-              "ThrottledSpeed": -1.0
-            },
-            "spawnOrigin": {
-              "universe": 0,
-              "ux": 5,
-              "uz": 5,
-              "x": 718.9965,
-              "z": -351.214417
-            },
-            "lastVisibility": 377.5,
-            "lastDisposition": -4.0,
-            "lastActive": 1086.6100461530732,
-            "disabled": false,
-            "persistentId": "#Ship_1042187728-1090345258",
-            "prefabName": "Ship",
-            "coordinates": {
-              "universe": 0,
-              "ux": 5,
-              "uz": 5,
-              "x": 719.0527,
-              "z": -351.478851
-            },
-            "factionId": "ARRIVAL.RED_RAIDERS",
-            "discovered": false
           }
         ]
       },
@@ -37284,6 +36860,6 @@
   },
   "startBuild": 17321,
   "gameId": "9977d3cca4fe43699194bfdf23d3beee",
-  "gameTime": 1086.95813,
-  "playTime": 3266.465
+  "gameTime": 1085.14941,
+  "playTime": 2836.21118
 }
