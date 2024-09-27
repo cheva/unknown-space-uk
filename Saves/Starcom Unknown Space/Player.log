@@ -1,0 +1,90 @@
+Mono path[0] = 'C:/Games/Starcom Unknown Space/Starcom Unknown Space_Data/Managed'
+Mono config path = 'C:/Games/Starcom Unknown Space/MonoBleedingEdge/etc'
+Initialize engine version: 2020.3.46f1 (18bc01a066b4)
+[Subsystems] Discovering subsystems at path C:/Games/Starcom Unknown Space/Starcom Unknown Space_Data/UnitySubsystems
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) HD Graphics 520 (ID=0x1916)
+    Vendor:   
+    VRAM:     8119 MB
+    Driver:   31.0.101.2115
+Begin MonoManager ReloadAssembly
+- Completed reload, in  0.347 seconds
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 2.448600 ms
+Preloader started, build Kepler (17321)
+Async progress 90%, attempting scene activation...
+Build Number: 17321
+Curl error 6: Could not resolve host: lab.wx3.com
+Found announce override, using instead of server supplied news.
+Steamworks initialized successfully for 1750770, Branch: 
+Creating presave for C:\Games\Starcom Unknown Space\Starcom Unknown Space_Data\StreamingAssets\Content\Kepler\Presaves\Arrival_Complete_info.json
+Creating presave for C:\Games\Starcom Unknown Space\Starcom Unknown Space_Data\StreamingAssets\Content\Kepler\Presaves\Post_Prologue_info.json
+Localizing to uk
+Total localization targets: 0, total symbols: 6103
+Cannot resolve destination host
+Server unexpected response: 
+Activating Wwise
+WwiseUnity: Wwise(R) SDK Version 2021.1.9 Build 7847.
+WwiseUnity: Setting Plugin DLL path to: C:/Games/Starcom Unknown Space/Starcom Unknown Space_Data\Plugins\x86_64
+WwiseUnity: Sound engine initialized successfully.
+Steam knows about 0 achievements
+Preloading DEFAULT
+Preloading ALPHA
+Preloading ARRIVAL
+Preloading BEYOND
+Preloading REMNANT_SPACE
+StoryId was null
+No starting story found: ''
+Task scheduler exceeded 1500ms
+Task scheduler exceeded 1500ms
+Task scheduler exceeded 1500ms
+Task scheduler exceeded 1500ms
+Task scheduler exceeded 1500ms
+Task scheduler exceeded 1500ms
+Task scheduler exceeded 1500ms
+Task scheduler exceeded 1500ms
+Task scheduler exceeded 1500ms
+Task scheduler exceeded 1500ms
+Task scheduler exceeded 1500ms
+Task scheduler exceeded 1500ms
+Task scheduler exceeded 1500ms
+No starting location
+Cannot set command without ship
+#9650 373.4636 sec: FPS: 29.91601 Mission Update: 0.00133536
+Activating emissary for 'EmissaryDestination'
+Removing inactive emissary
+Adding active THE_EMISSARY
+#18451 673.4885 sec: FPS: 29.79812 Mission Update: 0.0025909
+Task scheduler exceeded 1500ms
+Task scheduler exceeded 1500ms
+Task scheduler exceeded 1500ms
+Task scheduler exceeded 1500ms
+Task scheduler exceeded 1500ms
+Task scheduler exceeded 1500ms
+#26579 973.4985 sec: FPS: 29.66862 Mission Update: 0.00281902
+#34946 1273.519 sec: FPS: 29.68833 Mission Update: 0.00262471
+Adding active REMNANT_SPACE.LUMINOUS_ETHER
+Adding active REMNANT_SPACE.LUMINOUS_ETHER
+No such detail 'CLUE' in 'LOCOAN.LOCOAN'
+Cannot interact without Anomaly
+#42402 1573.551 sec: FPS: 29.34448 Mission Update: 0.00277392
+Duplicate log entry, skipping
+Duplicate log entry, skipping
+#50530 1873.571 sec: FPS: 29.89781 Mission Update: 0.00200978
+Duplicate log entry, skipping
+#58622 2173.584 sec: FPS: 29.74582 Mission Update: 0.00314997
+Cannot interact while scan in progress
+#66865 2473.594 sec: FPS: 29.86148 Mission Update: 0.00264316
+Material ProgressFill doesn't have _Stencil property
+Material ProgressFill(Clone) doesn't have _Stencil property
+Material ProgressFill(Clone) doesn't have _Stencil property
+Material ProgressFill(Clone) doesn't have _Stencil property
+Material ProgressFill(Clone) doesn't have _Stencil property
+Material ProgressFill(Clone) doesn't have _Stencil property
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: bcc -> priority: 1 
+  Thread -> id: 2070 -> priority: 1 
