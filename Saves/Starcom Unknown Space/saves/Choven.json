@@ -62,10 +62,15 @@
         "actorId": "ARRIVAL.ALETHEIA:DEFAULT",
         "activeIntros": [
           "ARRIVAL.ALETHEIA_DEFAULT",
-          "ARRIVAL.ALETHEIA_RETURNS"
+          "ARRIVAL.ALETHEIA_RETURNS",
+          "DOLSON.DOLSON_ARCHIVES"
         ],
         "activeTopics": [
-          "ARRIVAL.PLAYER_DOLSON_HISTORY"
+          "ARRIVAL.PLAYER_DOLSON_HISTORY",
+          "DOLSON.PLAYER_DOLSON_MINOR_FACTIONS",
+          "DOLSON.PLAYER_DOLSON_DEVOUT_1",
+          "DOLSON.PLAYER_DOLSON_HERETICS",
+          "WISKAMUG.PLAYER_DOLSON_WISKAMUG"
         ]
       },
       {
@@ -338,7 +343,11 @@
       "ARRIVAL.ALETHEIA_RETURNS",
       "ARRIVAL.PLAYER_DOLSON_HISTORY",
       "YU_PROGRESS.YU_PROMOTION_1",
-      "CEPHEID.RAMA_CEPHEID"
+      "CEPHEID.RAMA_CEPHEID",
+      "DOLSON.DOLSON_ARCHIVES",
+      "DOLSON.PLAYER_DOLSON_DEVOUT_1",
+      "WISKAMUG.PLAYER_DOLSON_WISKAMUG",
+      "DOLSON.PLAYER_DOLSON_MINOR_FACTIONS"
     ]
   },
   "crewData": {
@@ -495,7 +504,8 @@
       "LOCOAN.SCHISM",
       "LOCOAN.DEMOGRAPHICS",
       "REFINERY.CLEVER_PETS",
-      "REMNANTS_2.IMPERIAL_ARCHAEOLOGY"
+      "REMNANTS_2.IMPERIAL_ARCHAEOLOGY",
+      "DOLSON.EMPIRE_ARCHIVES"
     ]
   },
   "encounterSaveData": {
@@ -1255,18 +1265,20 @@
       "DEFAULT.ERMYR": 7.349221,
       "DEVOUT.DEVOUT": 796.4966,
       "STALKERS.STALKER_VICTIM": 175.151062,
-      "HERETICS.REDOUBT": 32.2837372
+      "HERETICS.REDOUBT": 32.2837372,
+      "DEFAULT.STARCOM": 2.41115713
     },
     "playerDamageReceived": {
       "ARRIVAL.RED_RAIDERS": 512.8035,
       "DEFAULT.OBSTACLE": 41.5623627,
-      "DEFAULT.PLAYER": 51.969368,
+      "DEFAULT.PLAYER": 60.564888,
       "ARRIVAL.ALETHEIA": 3.0,
       "DEFAULT.ERMYR": 7.513108,
       "DEVOUT.DEVOUT": 1464.85144,
       "STALKERS.STALKER_VICTIM": 24.6281128,
       "HERETICS.REDOUBT": 304.439178,
-      "REMNANT_SPACE.DERELICT": 3.0
+      "REMNANT_SPACE.DERELICT": 3.0,
+      "DEFAULT.STARCOM": 2.0
     },
     "factionsMet": [
       "DEFAULT.STARCOM",
@@ -1320,10 +1332,10 @@
   },
   "gameVarData": {
     "numberVars": {
-      "WISKAMUG.WISKAMUG-23_delay": 392.6213,
+      "WISKAMUG.WISKAMUG-23_delay": 443.825775,
       "DISPATCHES.DISPATCHES": 7251.834,
       "ALPHA.STABILIZERS": 2.0,
-      "DEFAULT.DEEP_SPACE-9_lull": 39.591198,
+      "DEFAULT.DEEP_SPACE-9_lull": 24.912487,
       "REMNANT_SPACE.RANDOMS": 2.0,
       "REMNANT_SPACE.RAMA_SCIENCE_POINTS": 435.0,
       "REMNANT_SPACE.RAMA_SCIENCE_QUESTIONS": 1.0,
@@ -1337,13 +1349,13 @@
       "FALLEN.EMPIRE_RUINS": 1.0,
       "CONFLICT.MOISTURE_MODIFIER": 2.0,
       "PIRATES.SUBSCRIPTION": 8037.34863,
-      "PIRATES.BROGIDAR-24_delay": 3276.873,
+      "PIRATES.BROGIDAR-24_delay": 3328.08081,
       "ARRIVAL.ALETHEIA_RETURNS-14_anomalies": 0.0,
       "REMNANT_SPACE.VOID_RANDOM": 8710.432,
-      "DOLSON.DOLSON_CONVOS-0_lull": 39.591198,
-      "REFINERY.REFINERY_REPAIR-21_delay": 425.139252,
-      "CXTA.CXTA_FREIGHTERS-2_delay": 16.4328251,
-      "BEYOND.FIXED_GUN-3_delay": 0.0
+      "DOLSON.DOLSON_CONVOS-2_anomalies": 60.0,
+      "REFINERY.REFINERY_REPAIR-21_delay": 476.343719,
+      "CXTA.CXTA_FREIGHTERS-2_delay": 67.63729,
+      "CELAENO_DEFENSE.ALLIANCE-10_delay": 3.92570353
     },
     "flagVars": {
       "SEPHARIAL.LOOP": true,
@@ -1514,7 +1526,15 @@
       "DEVOUT.DEVOUT_DESERT[12]",
       "DEVOUT.DEVOUT_DESERT[20]",
       "REFINERY.REFINERY[1]",
-      "REFINERY.FLINGER_TOWER[1]"
+      "REFINERY.FLINGER_TOWER[1]",
+      "DOLSON.DOLSON_ARCHIVES[1]",
+      "DOLSON.PLAYER_DOLSON_DEVOUT_1[1]",
+      "WISKAMUG.PLAYER_DOLSON_WISKAMUG[1]",
+      "DOLSON.PLAYER_DOLSON_MINOR_FACTIONS[2]",
+      "DOLSON.PLAYER_DOLSON_MINOR_FACTIONS[8]",
+      "DOLSON.PLAYER_DOLSON_MINOR_FACTIONS[1]",
+      "DOLSON.PLAYER_DOLSON_MINOR_FACTIONS[4]",
+      "DOLSON.PLAYER_DOLSON_MINOR_FACTIONS[13]"
     ],
     "skillsChecked": [],
     "anomaliesSeen": [
@@ -3119,7 +3139,7 @@
             "progress": 2,
             "maxProgress": 3,
             "startTime": 8848.208,
-            "age": 4722.29639,
+            "age": 5474.06152,
             "playerCoord": {
               "universe": 0,
               "ux": 20,
@@ -3342,7 +3362,7 @@
             "progress": 0,
             "maxProgress": 1,
             "startTime": 5662.643,
-            "age": 8710.248,
+            "age": 9464.218,
             "playerCoord": {
               "universe": 0,
               "ux": 7,
@@ -3909,7 +3929,7 @@
         ],
         "activeNodeIndices": [
           6,
-          0
+          1
         ]
       },
       {
@@ -4154,7 +4174,7 @@
             "progress": 0,
             "maxProgress": 1,
             "startTime": 10141.7959,
-            "age": 2325.47266,
+            "age": 3077.23779,
             "playerCoord": {
               "universe": 0,
               "ux": -1,
@@ -4347,7 +4367,7 @@
             "progress": 0,
             "maxProgress": 1,
             "startTime": 9130.578,
-            "age": 4284.058,
+            "age": 5035.823,
             "playerCoord": {
               "universe": 0,
               "ux": 22,
@@ -4765,7 +4785,7 @@
             "progress": 0,
             "maxProgress": 1,
             "startTime": 11069.62,
-            "age": 1244.77332,
+            "age": 1997.0896,
             "playerCoord": {
               "universe": 0,
               "ux": 9,
@@ -5885,7 +5905,7 @@
             "progress": 0,
             "maxProgress": 1,
             "startTime": 2742.718,
-            "age": 13402.3945,
+            "age": 14156.3643,
             "playerCoord": {
               "universe": 0,
               "ux": 8,
@@ -6026,7 +6046,7 @@
           2,
           0,
           0,
-          1,
+          2,
           1,
           0,
           0,
@@ -6451,7 +6471,7 @@
             "progress": 0,
             "maxProgress": 1,
             "startTime": 10338.1953,
-            "age": 2036.74658,
+            "age": 2788.52,
             "playerCoord": {
               "universe": 0,
               "ux": -4,
@@ -6602,7 +6622,7 @@
         "details": [],
         "activeNodeIndices": [
           1,
-          0,
+          1,
           0,
           0
         ]
@@ -6630,7 +6650,7 @@
         "stopped": false,
         "details": [],
         "activeNodeIndices": [
-          0
+          2
         ]
       }
     ],
@@ -6649,12 +6669,12 @@
       "universe": 0,
       "ux": 5,
       "uz": 5,
-      "x": -51.97779,
-      "z": -796.4962
+      "x": -27.4579525,
+      "z": -597.8173
     },
     "playerShip": {
       "shipDesignId": "DEFAULT.SMALL_MISSILES",
-      "rotation": 276.368835,
+      "rotation": 82.94176,
       "scale": 0.0,
       "modules": [
         {
@@ -6668,14 +6688,94 @@
           "health": 15.0
         },
         {
-          "moduleId": "SURVEYOR_1",
+          "moduleId": "PLASMA_2",
+          "origin": {
+            "x": -1,
+            "y": 3
+          },
+          "rot": 0,
+          "mirrored": false,
+          "health": 12.0
+        },
+        {
+          "moduleId": "PLASMA_2",
           "origin": {
             "x": 1,
+            "y": 3
+          },
+          "rot": 0,
+          "mirrored": false,
+          "health": 12.0
+        },
+        {
+          "moduleId": "REACTOR_1",
+          "origin": {
+            "x": -2,
+            "y": 2
+          },
+          "rot": 0,
+          "mirrored": false,
+          "health": 5.0
+        },
+        {
+          "moduleId": "ENGINE_2",
+          "origin": {
+            "x": 2,
             "y": 0
           },
-          "rot": 1,
+          "rot": 0,
+          "mirrored": false,
+          "health": 28.0
+        },
+        {
+          "moduleId": "ENGINE_2",
+          "origin": {
+            "x": -2,
+            "y": 0
+          },
+          "rot": 0,
+          "mirrored": false,
+          "health": 28.0
+        },
+        {
+          "moduleId": "DETECTOR_1",
+          "origin": {
+            "x": 2,
+            "y": 1
+          },
+          "rot": 0,
+          "mirrored": false,
+          "health": 5.0
+        },
+        {
+          "moduleId": "BATTERY_1",
+          "origin": {
+            "x": -2,
+            "y": 1
+          },
+          "rot": 0,
+          "mirrored": false,
+          "health": 5.0
+        },
+        {
+          "moduleId": "SURVEYOR_1",
+          "origin": {
+            "x": 0,
+            "y": -1
+          },
+          "rot": 3,
           "mirrored": false,
           "health": 3.0
+        },
+        {
+          "moduleId": "CREW_2",
+          "origin": {
+            "x": 1,
+            "y": 1
+          },
+          "rot": 0,
+          "mirrored": false,
+          "health": 35.0
         },
         {
           "moduleId": "ENGINE_1",
@@ -6686,12 +6786,235 @@
           "rot": 0,
           "mirrored": false,
           "health": 8.0
+        },
+        {
+          "moduleId": "PLASMA_1",
+          "origin": {
+            "x": -2,
+            "y": 3
+          },
+          "rot": 0,
+          "mirrored": false,
+          "health": 6.0
+        },
+        {
+          "moduleId": "CREW_2",
+          "origin": {
+            "x": -1,
+            "y": 1
+          },
+          "rot": 0,
+          "mirrored": false,
+          "health": 35.0
+        },
+        {
+          "moduleId": "ENGINE_1",
+          "origin": {
+            "x": -1,
+            "y": -1
+          },
+          "rot": 0,
+          "mirrored": false,
+          "health": 8.0
+        },
+        {
+          "moduleId": "REACTOR_2",
+          "origin": {
+            "x": 0,
+            "y": 3
+          },
+          "rot": 0,
+          "mirrored": false,
+          "health": 10.0
+        },
+        {
+          "moduleId": "REACTOR_1",
+          "origin": {
+            "x": 2,
+            "y": 2
+          },
+          "rot": 0,
+          "mirrored": false,
+          "health": 5.0
+        },
+        {
+          "moduleId": "PLASMA_1",
+          "origin": {
+            "x": 2,
+            "y": 3
+          },
+          "rot": 0,
+          "mirrored": false,
+          "health": 6.0
+        },
+        {
+          "moduleId": "PLASMA_1",
+          "origin": {
+            "x": 0,
+            "y": 4
+          },
+          "rot": 0,
+          "mirrored": false,
+          "health": 6.0
+        },
+        {
+          "moduleId": "HEX_SLOPE_1",
+          "origin": {
+            "x": -1,
+            "y": 4
+          },
+          "rot": 0,
+          "mirrored": false,
+          "health": 12.0
+        },
+        {
+          "moduleId": "HEX_SLOPE_1",
+          "origin": {
+            "x": 1,
+            "y": 4
+          },
+          "rot": 0,
+          "mirrored": false,
+          "health": 12.0
+        },
+        {
+          "moduleId": "WING_4",
+          "origin": {
+            "x": 2,
+            "y": 5
+          },
+          "rot": -2,
+          "mirrored": false,
+          "health": 15.0
+        },
+        {
+          "moduleId": "WING_4",
+          "origin": {
+            "x": -2,
+            "y": 5
+          },
+          "rot": 2,
+          "mirrored": true,
+          "health": 15.0
+        },
+        {
+          "moduleId": "FIXED_1",
+          "origin": {
+            "x": -1,
+            "y": 5
+          },
+          "rot": 0,
+          "mirrored": false,
+          "health": 8.0
+        },
+        {
+          "moduleId": "FIXED_1",
+          "origin": {
+            "x": 1,
+            "y": 5
+          },
+          "rot": 0,
+          "mirrored": false,
+          "health": 8.0
+        },
+        {
+          "moduleId": "HEX_SLOPE_1",
+          "origin": {
+            "x": 0,
+            "y": 5
+          },
+          "rot": 0,
+          "mirrored": false,
+          "health": 12.0
+        },
+        {
+          "moduleId": "FIXED_1",
+          "origin": {
+            "x": 0,
+            "y": 6
+          },
+          "rot": 0,
+          "mirrored": false,
+          "health": 8.0
+        },
+        {
+          "moduleId": "LATERAL_0",
+          "origin": {
+            "x": 3,
+            "y": 0
+          },
+          "rot": 0,
+          "mirrored": false,
+          "health": 2.0
+        },
+        {
+          "moduleId": "LATERAL_0",
+          "origin": {
+            "x": -3,
+            "y": 0
+          },
+          "rot": 0,
+          "mirrored": true,
+          "health": 2.0
+        },
+        {
+          "moduleId": "WEDGE_0B",
+          "origin": {
+            "x": 3,
+            "y": 2
+          },
+          "rot": 0,
+          "mirrored": false,
+          "health": 3.0
+        },
+        {
+          "moduleId": "WEDGE_0B",
+          "origin": {
+            "x": -3,
+            "y": 2
+          },
+          "rot": 3,
+          "mirrored": false,
+          "health": 3.0
+        },
+        {
+          "moduleId": "LATERAL_0",
+          "origin": {
+            "x": 3,
+            "y": 1
+          },
+          "rot": 0,
+          "mirrored": false,
+          "health": 2.0
+        },
+        {
+          "moduleId": "LATERAL_0",
+          "origin": {
+            "x": -3,
+            "y": 1
+          },
+          "rot": 0,
+          "mirrored": true,
+          "health": 2.0
         }
       ],
       "moduleHealthMultiplier": 1.0,
-      "maxHealth": 26.0,
-      "maxSize": 6.0,
+      "maxHealth": 336.0,
+      "maxSize": 39.5,
       "profileType": "SimpleAgent",
+      "command": {
+        "$type": "AIPlayerAutopilotCommand, Assembly-CSharp",
+        "destination": {
+          "universe": 0,
+          "ux": 0,
+          "uz": 0,
+          "x": 0.0,
+          "z": 0.0
+        },
+        "targetId": "ARRIVAL.GATEWAY",
+        "ThrottledSpeed": -1.0,
+        "UseTurbo": true
+      },
       "spawnOrigin": {
         "universe": 0,
         "ux": 999,
@@ -6699,9 +7022,9 @@
         "x": 0.0,
         "z": 0.0
       },
-      "lastVisibility": 280.0,
+      "lastVisibility": 447.5,
       "lastDisposition": 1000.0,
-      "lastActive": 11395.076119797304,
+      "lastActive": 11446.146270897938,
       "disabled": false,
       "persistentId": "PLAYER",
       "prefabName": "Ship",
@@ -6709,8 +7032,8 @@
         "universe": 0,
         "ux": 5,
         "uz": 5,
-        "x": -51.97779,
-        "z": -796.4962
+        "x": -27.4579525,
+        "z": -597.8173
       },
       "factionId": "DEFAULT.PLAYER",
       "discovered": false
@@ -6741,10 +7064,10 @@
     "battlestationsCooldown": 0.0,
     "shieldCharge": 0.0,
     "havokCharge": 0.0,
-    "researchPoints": 0,
-    "totalResearchPoints": 2675,
+    "researchPoints": 100,
+    "totalResearchPoints": 2775,
     "anomaliesCompleted": 55,
-    "distanceFlown": 511951.51789711934,
+    "distanceFlown": 512167.55604029662,
     "swatch": {
       "id": "DEFAULT.STARCOM",
       "plating1": {
@@ -6855,7 +7178,7 @@
     "fixedType": 0
   },
   "playerControllerData": {
-    "activeSecondaryId": 0
+    "activeSecondaryId": 1
   },
   "phenomenaData": {
     "emissaryData": {
@@ -6865,7 +7188,7 @@
           "priority": 1.0
         }
       ],
-      "timer": 696.325562
+      "timer": 748.838562
     }
   },
   "proceduralData": {
@@ -7283,7 +7606,7 @@
     }
   },
   "shipLogData": {
-    "index": 229,
+    "index": 232,
     "entries": [
       {
         "id": 1,
@@ -11404,6 +11727,60 @@
         "summary": "\"<i>Я думаю, що дані, що передаються, є координатами антени. Це має бути режим...</i>\"",
         "intro": "<i>Choven</i>: 2641.12.22 22:53 at 9.37 x -0.45 Unknown Space, Crew Log Entry",
         "details": "Ens. Mark Gliese (Інженерія):\n\nЯ думаю, що дані, що передаються, є координатами антени. Це має бути режим відмови, який перенаправляє Flinger у відоме місце."
+      },
+      {
+        "id": 230,
+        "type": 1,
+        "gameTime": 11396,
+        "coord": {
+          "universe": 0,
+          "ux": 5,
+          "uz": 5,
+          "x": -54.332756,
+          "z": -796.233337
+        },
+        "showMapPin": false,
+        "spriteId": "DEFAULT.Portraits/STARCOM_FIRST_OFFICER",
+        "categoryText": "Лейтенант Евері",
+        "summary": "\"<i>Природа фіксованої зброї ускладнює прицілювання. Коли потенційна ціль...</i>\"",
+        "intro": "<i>Choven</i>: 2641.12.24 02:08 at 5.49 x 5.34 Unknown Space, Crew Log Entry",
+        "details": "Лейтенант Евері:\n\nПрирода фіксованої зброї ускладнює прицілювання. Коли потенційна ціль знаходиться близько до зони дії, я вмикаю вогняні трасувальники, які підсвічуватимуть, коли ймовірне попадання."
+      },
+      {
+        "id": 231,
+        "type": 1,
+        "gameTime": 11421,
+        "coord": {
+          "universe": 0,
+          "ux": 5,
+          "uz": 5,
+          "x": -30.3502026,
+          "z": -598.8325
+        },
+        "showMapPin": false,
+        "spriteId": "DEFAULT.Portraits/STARCOM_CREW_4",
+        "categoryText": "Ens. Alex Triton (Ксенокультура)",
+        "summary": "\"<i>Об’єднані дані допомагають нам поставити багато наших попередніх відкриттів...</i>\"",
+        "intro": "<i>Choven</i>: 2641.12.24 04:13 at 5.49 x 5.38 Unknown Space, Crew Log Entry",
+        "details": "Ens. Alex Triton (Ксенокультура):\n\nОб’єднані дані допомагають нам поставити багато наших попередніх відкриттів у ширший контекст."
+      },
+      {
+        "id": 232,
+        "type": 4,
+        "gameTime": 11421,
+        "coord": {
+          "universe": 0,
+          "ux": 5,
+          "uz": 5,
+          "x": -30.3502026,
+          "z": -598.8325
+        },
+        "showMapPin": false,
+        "spriteId": "ARRIVAL.Portraits/ALETHEIA_DEFAULT",
+        "categoryText": "Comms Log: Командир Долсон",
+        "summary": "<i>Командир Долсон: \"Моя команда завершила процес об’єднання наших архівів із...</i>",
+        "intro": "12/24/2641 4:10:00 AM <i>Choven</i>\t Comms Log Transcript",
+        "details": "Командир Долсон: \"Моя команда завершила процес об’єднання наших архівів із журналами ваших опитувань.\n\nЄ багато уривчастих даних, але ми починаємо складати кращу картину історії цього простору.\n\n\"\n\n<i>Cmd Cheva: Have you discovered anything more about the Devout?</i>\n\nКомандир Долсон: \"Наскільки я можу судити, вони були «релігійним пробудженням», яке виникло в кінці періоду занепалої імперії. Їхні точні вірування дещо заплутані — вони явно поклонялися артефактам Залишків, але конкретні вірування важко визначити. Згодом вони ставали все більш фанатиками, але їх на диво не хвилювала ортодоксія. Більшість фанатичних груп досить суворо дотримуються певного набору вірувань.\"\n\n<i>Cmd Cheva: Have you encountered any references to a \"Wiskamug\" in your research?</i>\n\nКомандир Долсон: \"Може бути.\n\nНагадуємо, що універсальний перекладач генерує ідентифікатори власних імен на основі контексту тощо. Розгляд базових мовних матриць є складним завданням навіть для експерта Xeno.\"\n\nКомандир Долсон: \"Є деякі посилання на сутність, яка може відповідати \"Віскамугу\", але я позначив їх як очевидний фольклор. Персонаж їздив по зірках на гігантському рожевому коні, змагався з кігтями на руках і кинув виклик чорній дірі на змагання з випивки. Такі речі.\n\nІсторії сягають часів ранньої імперії, тому, здається, навряд чи їх навіть приблизно навіяла істота, яка живе сьогодні.\"\n\nКомандир Долсон: \"Будь-що інше?\"\n\n<i>Cmd Cheva: Have you found any references to the Ermyr?</i>\n\nКомандир Долсон: \"До речі, я якраз читав цікаву базу даних про Ермир.\r\n\nЕрмири були домінуючим видом імперської армії. Оскільки в імперії не було військових суперників, важко оцінити їхню силу. Здається, було кілька легіонів, найпотужнішим був Перший, за ним йшов Другий і так далі. Нелегіон Ермир був схожий на місцеву поліцію.\r\n\"\n\nКомандир Долсон: \"Перший легіон командував імперськими «Колісницями» і не згадується в жодних пост-імперських звітах. Другий легіон все ще стверджує, що служить Імперії, хоча на їхньому діалекті слова «гроші» та «Імперія» взаємозамінні.\r\"\n\n<i>Cmd Cheva: Have you found anything regarding the Goryr?</i>\n\nКомандир Долсон: \"Наразі в нашому дослідженні вони не згадуються, хоча зрозуміло, що існує багато другорядних видів і фракцій без достатньої кількості деталей, щоб пов’язати їх із сучасною фракцією.\"\n\n<i>Cmd Cheva: Have you found any references to the Locoan?</i>\n\nКомандир Долсон: \"Є деякі згадки про расу зміїв, яка була особливо «незалежною», але зрештою була налякана Колісницями Імперії.\n\nОднак незрозуміло, чи це та сама фракція.\"\n\n<i>Cmd Cheva: Have you found any references to the Brogidar?</i>\n\nКомандир Долсон: \"Я розумію, що спочатку вони були регіональною поліцейською силою, сформованою наприкінці періоду імперії для боротьби зі зростаючим беззаконням у прикордонних регіонах.\n\nСпочатку фінансуючись консорціумом місцевих органів влади, після розвалу вони стали більш «самодостатніми».\"\n\n<i>Cmd Cheva: What have you learned about the CXTA?</i>\n\nКомандир Долсон: \"Вони були основною фракцією, відповідальною за логістику під час правління Імперії: транспортування сировини, низькотехнологічних товарів тощо між світами, які не виробляли їх на місці.\"\n\nКомандир Долсон: \"Це було на відміну від Імперської торгової гільдії, яка могла купувати та продавати «імперські товари».\n\n«Імперські товари» — це особливий термін для настільки передових технологій, що покупець не міг їх переробити.\"\n"
       }
     ]
   },
@@ -12571,7 +12948,7 @@
           {
             "$type": "ShipData, Assembly-CSharp",
             "shipDesignId": "DEFAULT.STARCOM_BASE",
-            "rotation": 124.184067,
+            "rotation": 333.6172,
             "scale": 2.3,
             "modules": [
               {
@@ -12890,7 +13267,7 @@
             },
             "lastVisibility": 700.0,
             "lastDisposition": 999.0,
-            "lastActive": 11395.076119797304,
+            "lastActive": 11446.146270897938,
             "disabled": false,
             "persistentId": "ARRIVAL.CELAENO",
             "prefabName": "Ship",
@@ -12898,8 +13275,8 @@
               "universe": 0,
               "ux": 5,
               "uz": 5,
-              "x": -87.6118,
-              "z": -795.622
+              "x": -88.626564,
+              "z": -791.912354
             },
             "factionId": "DEFAULT.STARCOM",
             "discovered": true
@@ -12907,7 +13284,7 @@
           {
             "$type": "ShipData, Assembly-CSharp",
             "shipDesignId": "GORYR.GORYR_RESEARCHER",
-            "rotation": 241.0136,
+            "rotation": 255.2225,
             "scale": 1.5,
             "modules": [
               {
@@ -13140,7 +13517,7 @@
             },
             "lastVisibility": 497.5,
             "lastDisposition": 0.0,
-            "lastActive": 11395.076119797304,
+            "lastActive": 11446.146270897938,
             "disabled": false,
             "persistentId": "GORYR.GORYR_VISITOR",
             "prefabName": "Ship",
@@ -13148,8 +13525,8 @@
               "universe": 0,
               "ux": 5,
               "uz": 5,
-              "x": 385.712952,
-              "z": -534.9536
+              "x": 376.278381,
+              "z": -643.7095
             },
             "factionId": "GORYR.GORYR",
             "discovered": true
@@ -13157,7 +13534,7 @@
           {
             "$type": "ShipData, Assembly-CSharp",
             "shipDesignId": "ARRIVAL.ALETHEIA",
-            "rotation": 97.5963745,
+            "rotation": 61.12758,
             "scale": 0.0,
             "modules": [
               {
@@ -13450,7 +13827,7 @@
             },
             "lastVisibility": 472.5,
             "lastDisposition": 99.0,
-            "lastActive": 11395.076119797304,
+            "lastActive": 11446.146270897938,
             "disabled": false,
             "persistentId": "ARRIVAL.ALETHEIA2",
             "prefabName": "Ship",
@@ -13458,8 +13835,8 @@
               "universe": 0,
               "ux": 5,
               "uz": 5,
-              "x": -125.720139,
-              "z": -211.889526
+              "x": 170.430542,
+              "z": -653.8698
             },
             "factionId": "ARRIVAL.ALETHEIA",
             "discovered": true
@@ -48550,6 +48927,6 @@
   },
   "startBuild": 17321,
   "gameId": "cb75ef9b22df4931a7b9e724cae245e3",
-  "gameTime": 11395.4277,
-  "playTime": 20210.1543
+  "gameTime": 11446.6318,
+  "playTime": 20969.9746
 }
