@@ -10,217 +10,153 @@ Direct3D:
     VRAM:     8119 MB
     Driver:   31.0.101.2115
 Begin MonoManager ReloadAssembly
-- Completed reload, in  0.123 seconds
+- Completed reload, in  0.395 seconds
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 1.427800 ms
+UnloadTime: 5.732500 ms
 Preloader started, build Kepler (17321)
 Async progress 90%, attempting scene activation...
 Build Number: 17321
+Curl error 6: Could not resolve host: lab.wx3.com
 Found announce override, using instead of server supplied news.
 Steamworks initialized successfully for 1750770, Branch: 
 Creating presave for C:\Games\Starcom Unknown Space\Starcom Unknown Space_Data\StreamingAssets\Content\Kepler\Presaves\Arrival_Complete_info.json
 Creating presave for C:\Games\Starcom Unknown Space\Starcom Unknown Space_Data\StreamingAssets\Content\Kepler\Presaves\Post_Prologue_info.json
 Localizing to uk
 Total localization targets: 0, total symbols: 6103
+Cannot resolve destination host
+Server unexpected response: 
 Activating Wwise
 WwiseUnity: Wwise(R) SDK Version 2021.1.9 Build 7847.
 WwiseUnity: Setting Plugin DLL path to: C:/Games/Starcom Unknown Space/Starcom Unknown Space_Data\Plugins\x86_64
 WwiseUnity: Sound engine initialized successfully.
+Steam knows about 0 achievements
 Preloading DEFAULT
 Preloading ALPHA
 Preloading ARRIVAL
 Preloading BEYOND
 Preloading REMNANT_SPACE
-Steam knows about 0 achievements
 StoryId was null
 No starting story found: ''
 No starting location
-Story 'BEYOND' already started
-Bootstrapped story 'GORYR'
-#10298 340.452 sec: FPS: 29.55089 Mission Update: 0.00203293
-#19170 640.4821 sec: FPS: 28.29869 Mission Update: 0.00187664
-#27880 940.4969 sec: FPS: 29.69192 Mission Update: 0.00144205
 Task scheduler exceeded 1500ms
 Task scheduler exceeded 1500ms
-Bootstrapped story 'ASTEROIDS'
+Task scheduler exceeded 1500ms
+Task scheduler exceeded 1500ms
+Task scheduler exceeded 1500ms
+Task scheduler exceeded 1500ms
+Task scheduler exceeded 1500ms
+Task scheduler exceeded 1500ms
+#9227 371.539 sec: FPS: 16.45696 Mission Update: 0.00416842
+Activating emissary for 'EmissaryDestination'
+Adding active THE_EMISSARY
+#16320 671.5684 sec: FPS: 29.65609 Mission Update: 0.00305556
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 7)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 7)
+Cannot begin survey: SURVEYOR_AWAY
+Task scheduler exceeded 1500ms
+#24618 971.5919 sec: FPS: 29.89236 Mission Update: 0.00242704
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 6)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 6)
+#32803 1271.619 sec: FPS: 29.73143 Mission Update: 0.00256262
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 9)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 9)
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 6)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 6)
+Bootstrapped story 'REMNANTS_2'
+Bootstrapped story 'HELLO'
+#41176 1571.641 sec: FPS: 29.26411 Mission Update: 0.00252632
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 6)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 6)
+Bootstrapped story 'DISPATCHES'
+#48904 1871.643 sec: FPS: 29.88327 Mission Update: 0.00242103
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 9)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 9)
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 10)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 10)
+Adding active DISPATCHES.DISPATCH
+Activating emissary for 'EmissaryDestination'
+Adding active THE_EMISSARY
+Bootstrapped story 'CEPHEID'
+Attempted to trigger an unknown Steam Achievement: 'EMISSARY'
+#56989 2171.656 sec: FPS: 29.876 Mission Update: 0.00148978
 Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
 Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 5)
 Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 5)
-#36534 1240.506 sec: FPS: 29.00165 Mission Update: 0.00193848
-Attempted to trigger an unknown Steam Achievement: 'ERMYR_BRIBE'
-Bootstrapped story 'CODEX_SHAPE'
-#45058 1540.522 sec: FPS: 29.81077 Mission Update: 0.00314993
-Cannot interact while scan in progress
-Cannot interact while scan in progress
-Cannot interact while scan in progress
-Cannot interact while scan in progress
+#65129 2471.669 sec: FPS: 29.83973 Mission Update: 0.00165898
+#73377 2771.683 sec: FPS: 29.89054 Mission Update: 0.00287662
+#81750 3071.684 sec: FPS: 29.78187 Mission Update: 0.00258677
 Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
-Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 7)
-Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 7)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 8)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 8)
+#90143 3371.705 sec: FPS: 29.83973 Mission Update: 0.00311241
 Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
-Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 7)
-Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 7)
-Cannot begin survey: HOSTILES_NEAR
-#53891 1840.533 sec: FPS: 29.92694 Mission Update: 0.00149807
-Cannot begin survey: HOSTILES_NEAR
-Cannot begin survey: HOSTILES_NEAR
-Cannot begin survey: HOSTILES_NEAR
-Cannot begin survey: HOSTILES_NEAR
-Cannot begin survey: HOSTILES_NEAR
-Cannot begin survey: HOSTILES_NEAR
-Cannot begin survey: HOSTILES_NEAR
-Cannot begin survey: HOSTILES_NEAR
-Cannot begin survey: HOSTILES_NEAR
-Cannot begin survey: HOSTILES_NEAR
-Cannot begin survey: HOSTILES_NEAR
-Cannot begin survey: HOSTILES_NEAR
-Cannot begin survey: HOSTILES_NEAR
-Cannot begin survey: HOSTILES_NEAR
-Cannot begin survey: HOSTILES_NEAR
-Cannot begin survey: HOSTILES_NEAR
-Cannot begin survey: HOSTILES_NEAR
-Cannot begin survey: HOSTILES_NEAR
-Cannot begin survey: HOSTILES_NEAR
-Cannot begin survey: HOSTILES_NEAR
-Cannot begin survey: HOSTILES_NEAR
-Cannot interact while scan in progress
-Cannot interact while scan in progress
-Cannot begin survey: HOSTILES_NEAR
-Cannot begin survey: HOSTILES_NEAR
-Cannot begin survey: HOSTILES_NEAR
-Cannot begin survey: HOSTILES_NEAR
-Cannot begin survey: HOSTILES_NEAR
-Cannot begin survey: HOSTILES_NEAR
-Cannot begin survey: HOSTILES_NEAR
-Cannot begin survey: HOSTILES_NEAR
-Cannot begin survey: HOSTILES_NEAR
-Cannot begin survey: HOSTILES_NEAR
-Attempted to trigger an unknown Steam Achievement: 'EXPLORER_1'
-Cannot begin survey: HOSTILES_NEAR
-#62752 2140.553 sec: FPS: 29.78187 Mission Update: 0.00177312
-Cannot begin survey: HOSTILES_NEAR
-Cannot begin survey: HOSTILES_NEAR
-Cannot begin survey: HOSTILES_NEAR
-Cannot begin survey: HOSTILES_NEAR
-Cannot begin survey: HOSTILES_NEAR
-Cannot begin survey: HOSTILES_NEAR
-Cannot begin survey: HOSTILES_NEAR
-Cannot begin survey: HOSTILES_NEAR
-Cannot begin survey: HOSTILES_NEAR
-#71448 2440.563 sec: FPS: 29.94882 Mission Update: 0.00148842
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 5)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 5)
+#98322 3671.714 sec: FPS: 29.83248 Mission Update: 0.00271893
+No such discovery: 'DEVOUT.GLOSSOLALIA'
+#106914 3971.725 sec: FPS: 29.82524 Mission Update: 0.00177115
 Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
-Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 7)
-Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 7)
-#79914 2740.602 sec: FPS: 15.7842 Mission Update: 0.00394459
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 6)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 6)
+Attempting to set item tradeable that player has, but allowTakeFromPlayer is false DEFAULT.MISSILE_GUIDANCE
+#114952 4271.754 sec: FPS: 15.06621 Mission Update: 0.00337734
+#122064 4571.776 sec: FPS: 29.92694 Mission Update: 0.00232404
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 6)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 6)
+Bootstrapped story 'LAST_TALONIAN'
+Adding topic links instead of child nodes
+Attempted to placed region 'Region (CEPHEID.CEPHEID)' near 'sector_0_2x12 0 x 0', actually placed at 'sector_0_2x13 0 x 0', dist 5000
 Material ProgressFill doesn't have _Stencil property
 Material ProgressFill(Clone) doesn't have _Stencil property
 Material ProgressFill(Clone) doesn't have _Stencil property
 Material ProgressFill(Clone) doesn't have _Stencil property
 Material ProgressFill(Clone) doesn't have _Stencil property
-Material ProgressFill(Clone) doesn't have _Stencil property
-Material ProgressFill(Clone) doesn't have _Stencil property
-#88343 3040.616 sec: FPS: 29.70986 Mission Update: 0.00103201
-#94495 3464.247 sec: FPS: 0.1450377 Mission Update: 0.00102627
-Bootstrapped story 'FOREST'
-Bootstrapped story 'CXTA'
-#103276 3764.282 sec: FPS: 29.818 Mission Update: 0.00138041
-Duplicate log entry, skipping
-#111843 4064.298 sec: FPS: 29.51009 Mission Update: 0.0009258
+#130894 4871.8 sec: FPS: 29.83973 Mission Update: 0.00124588
 Material ProgressFill(Clone) doesn't have _Stencil property
 Material ProgressFill(Clone) doesn't have _Stencil property
 Material ProgressFill(Clone) doesn't have _Stencil property
 Material ProgressFill(Clone) doesn't have _Stencil property
 Material ProgressFill(Clone) doesn't have _Stencil property
-#120376 4364.328 sec: FPS: 29.86874 Mission Update: 0.00104142
-#128925 4664.336 sec: FPS: 29.92694 Mission Update: 0.00101809
-Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
-Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 8)
-Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 8)
-#137269 4964.337 sec: FPS: 29.49592 Mission Update: 0.00232619
-Binding Input2 (KeybindButton)
-Binding Input1 (KeybindButton)
-Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
-Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 6)
-Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 6)
-Bootstrapped story 'EMISSARY'
+Material ProgressFill(Clone) doesn't have _Stencil property
+#139678 5171.803 sec: FPS: 29.89781 Mission Update: 0.00158729
+#148610 5471.829 sec: FPS: 29.75303 Mission Update: 0.00187787
+Task scheduler exceeded 1500ms
+Task scheduler exceeded 1500ms
+#152180 6066.31 sec: FPS: 0.06365507 Mission Update: 0.00923286
+#160259 6366.314 sec: FPS: 29.94152 Mission Update: 0.00231835
 Activating emissary for 'EmissaryDestination'
 Adding active THE_EMISSARY
-#145774 5264.358 sec: FPS: 29.89781 Mission Update: 0.00161602
-Cannot interact while scan in progress
-Cannot interact while scan in progress
-Cannot interact while scan in progress
-Cannot interact while scan in progress
-Cannot interact while scan in progress
-Cannot interact while scan in progress
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 5)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 5)
+#167820 6666.338 sec: FPS: 29.91236 Mission Update: 0.00143055
+Bootstrapped story 'DOLSON'
+#176643 6966.367 sec: FPS: 29.95612 Mission Update: 0.00151379
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 5)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 5)
+#185139 7266.376 sec: FPS: 29.97073 Mission Update: 0.00166652
 Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
 Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 7)
 Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 7)
-#154635 5564.363 sec: FPS: 29.83973 Mission Update: 0.00120023
-Already objective with id MILTON
-Material ProgressFill(Clone) doesn't have _Stencil property
-Material ProgressFill(Clone) doesn't have _Stencil property
-Material ProgressFill(Clone) doesn't have _Stencil property
-#163375 5864.39 sec: FPS: 29.53846 Mission Update: 0.00134724
-#172165 6164.413 sec: FPS: 29.86874 Mission Update: 0.00132598
-Attempted to trigger an unknown Steam Achievement: 'RAIDER_FACTORY'
-#180890 6464.444 sec: FPS: 26.90018 Mission Update: 0.00178892
-Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
-Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 5)
-Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 5)
-Attempted to trigger an unknown Steam Achievement: 'POLYHEDRAL'
-#188590 6764.455 sec: FPS: 28.13187 Mission Update: 0.0041407
+Attempted to trigger an unknown Steam Achievement: 'EXPLORER_2'
+#193250 7566.394 sec: FPS: 15.98751 Mission Update: 0.00400397
+#202093 7866.423 sec: FPS: 29.88327 Mission Update: 0.00202399
 Activating emissary for 'EmissaryDestination'
 Adding active THE_EMISSARY
-StoryId was null
-No starting story found: ''
-No starting location
 Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
-Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 8)
-Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 8)
-Cannot interact while scan in progress
-Cannot interact while scan in progress
-Cannot interact while scan in progress
-Cannot interact while scan in progress
-Cannot interact while scan in progress
-Cannot interact while scan in progress
-#201912 7220.769 sec: FPS: 29.78187 Mission Update: 0.00127656
-Cannot interact while scan in progress
-Cannot interact while scan in progress
-Cannot interact while scan in progress
-Cannot interact while scan in progress
-Cannot interact while scan in progress
-Cannot interact while scan in progress
-Cannot interact while scan in progress
-Cannot interact while scan in progress
-Cannot interact while scan in progress
-Cannot interact while scan in progress
-Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
-Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 5)
-Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 5)
-Cannot interact while scan in progress
-Cannot interact while scan in progress
-Cannot interact while scan in progress
-Cannot interact while scan in progress
-#210500 7520.798 sec: FPS: 28.53692 Mission Update: 0.00204296
-Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
-Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 8)
-Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 8)
-Material ProgressFill doesn't have _Stencil property
-Material ProgressFill(Clone) doesn't have _Stencil property
-#219216 7820.809 sec: FPS: 29.97073 Mission Update: 0.00110861
-Task scheduler exceeded 1500ms
-Task scheduler exceeded 1500ms
-#227711 8120.879 sec: FPS: 27.93997 Mission Update: 0.0028856
-Material ProgressFill(Clone) doesn't have _Stencil property
-Material ProgressFill(Clone) doesn't have _Stencil property
-Material ProgressFill(Clone) doesn't have _Stencil property
-#236553 8420.907 sec: FPS: 29.70986 Mission Update: 0.00129267
-Survey module does not exist.
-#245116 8720.929 sec: FPS: 29.62392 Mission Update: 0.0016957
-Bootstrapped story 'REMNANT_MINIS'
-#253548 9020.947 sec: FPS: 29.68116 Mission Update: 0.00195028
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 7)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 7)
 Setting up 2 worker threads for Enlighten.
-  Thread -> id: 2dcc -> priority: 1 
-  Thread -> id: 1c9c -> priority: 1 
+  Thread -> id: 2780 -> priority: 1 
+  Thread -> id: 240 -> priority: 1 
