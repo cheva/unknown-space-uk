@@ -1,5 +1,5 @@
 {
-  "id": "Hex-535",
+  "id": "Choven-40m",
   "description": "",
   "custom": false,
   "defaultFactionId": "DEFAULT.PLAYER",
@@ -16,6 +16,36 @@
       "health": 15.0
     },
     {
+      "moduleId": "PLASMA_2",
+      "origin": {
+        "x": -1,
+        "y": 3
+      },
+      "rot": 0,
+      "mirrored": false,
+      "health": 12.0
+    },
+    {
+      "moduleId": "PLASMA_2",
+      "origin": {
+        "x": 1,
+        "y": 3
+      },
+      "rot": 0,
+      "mirrored": false,
+      "health": 12.0
+    },
+    {
+      "moduleId": "REACTOR_1",
+      "origin": {
+        "x": -2,
+        "y": 2
+      },
+      "rot": 0,
+      "mirrored": false,
+      "health": 5.0
+    },
+    {
       "moduleId": "ENGINE_2",
       "origin": {
         "x": 2,
@@ -36,47 +66,7 @@
       "health": 28.0
     },
     {
-      "moduleId": "CREW_2",
-      "origin": {
-        "x": 1,
-        "y": 1
-      },
-      "rot": 0,
-      "mirrored": false,
-      "health": 35.0
-    },
-    {
-      "moduleId": "CREW_2",
-      "origin": {
-        "x": -1,
-        "y": 1
-      },
-      "rot": 0,
-      "mirrored": false,
-      "health": 35.0
-    },
-    {
-      "moduleId": "ENGINE_2",
-      "origin": {
-        "x": -1,
-        "y": -1
-      },
-      "rot": 0,
-      "mirrored": false,
-      "health": 28.0
-    },
-    {
-      "moduleId": "ENGINE_2",
-      "origin": {
-        "x": 1,
-        "y": -1
-      },
-      "rot": 0,
-      "mirrored": false,
-      "health": 28.0
-    },
-    {
-      "moduleId": "REACTOR_1",
+      "moduleId": "DETECTOR_1",
       "origin": {
         "x": 2,
         "y": 1
@@ -86,77 +76,7 @@
       "health": 5.0
     },
     {
-      "moduleId": "WING_2",
-      "origin": {
-        "x": 3,
-        "y": 0
-      },
-      "rot": 0,
-      "mirrored": true,
-      "health": 4.0
-    },
-    {
-      "moduleId": "WEDGE_0B",
-      "origin": {
-        "x": 3,
-        "y": 1
-      },
-      "rot": 0,
-      "mirrored": false,
-      "health": 3.0
-    },
-    {
-      "moduleId": "PLASMA_2",
-      "origin": {
-        "x": 2,
-        "y": 5
-      },
-      "rot": 0,
-      "mirrored": false,
-      "health": 12.0
-    },
-    {
-      "moduleId": "WING_4",
-      "origin": {
-        "x": 3,
-        "y": 3
-      },
-      "rot": -2,
-      "mirrored": false,
-      "health": 15.0
-    },
-    {
-      "moduleId": "PLASMA_2",
-      "origin": {
-        "x": -2,
-        "y": 5
-      },
-      "rot": 0,
-      "mirrored": false,
-      "health": 12.0
-    },
-    {
-      "moduleId": "WING_4",
-      "origin": {
-        "x": -3,
-        "y": 3
-      },
-      "rot": 2,
-      "mirrored": true,
-      "health": 15.0
-    },
-    {
-      "moduleId": "SLOPED_2",
-      "origin": {
-        "x": 2,
-        "y": 6
-      },
-      "rot": 2,
-      "mirrored": false,
-      "health": 30.0
-    },
-    {
-      "moduleId": "REACTOR_1",
+      "moduleId": "BATTERY_1",
       "origin": {
         "x": -2,
         "y": 1
@@ -166,134 +86,64 @@
       "health": 5.0
     },
     {
-      "moduleId": "WING_2",
-      "origin": {
-        "x": -3,
-        "y": 0
-      },
-      "rot": 0,
-      "mirrored": false,
-      "health": 4.0
-    },
-    {
-      "moduleId": "WEDGE_0B",
-      "origin": {
-        "x": -3,
-        "y": 1
-      },
-      "rot": 3,
-      "mirrored": false,
-      "health": 3.0
-    },
-    {
-      "moduleId": "ENGINE_2",
+      "moduleId": "SURVEYOR_1",
       "origin": {
         "x": 0,
         "y": -1
       },
-      "rot": 0,
-      "mirrored": false,
-      "health": 28.0
-    },
-    {
-      "moduleId": "WEDGE_0B",
-      "origin": {
-        "x": 3,
-        "y": 4
-      },
-      "rot": 0,
-      "mirrored": false,
-      "health": 3.0
-    },
-    {
-      "moduleId": "WEDGE_0B",
-      "origin": {
-        "x": 3,
-        "y": 5
-      },
-      "rot": 0,
-      "mirrored": false,
-      "health": 3.0
-    },
-    {
-      "moduleId": "WEDGE_0B",
-      "origin": {
-        "x": -3,
-        "y": 5
-      },
       "rot": 3,
       "mirrored": false,
       "health": 3.0
     },
     {
-      "moduleId": "WEDGE_0B",
+      "moduleId": "CREW_2",
       "origin": {
-        "x": -3,
-        "y": 4
+        "x": 1,
+        "y": 1
       },
-      "rot": 3,
+      "rot": 0,
       "mirrored": false,
-      "health": 3.0
+      "health": 35.0
     },
     {
-      "moduleId": "PLASMA_2",
+      "moduleId": "ENGINE_1",
+      "origin": {
+        "x": 1,
+        "y": -1
+      },
+      "rot": 0,
+      "mirrored": false,
+      "health": 8.0
+    },
+    {
+      "moduleId": "PLASMA_1",
+      "origin": {
+        "x": -2,
+        "y": 3
+      },
+      "rot": 0,
+      "mirrored": false,
+      "health": 6.0
+    },
+    {
+      "moduleId": "CREW_2",
       "origin": {
         "x": -1,
-        "y": 5
+        "y": 1
       },
       "rot": 0,
       "mirrored": false,
-      "health": 12.0
+      "health": 35.0
     },
     {
-      "moduleId": "MISSILES_2",
+      "moduleId": "ENGINE_1",
       "origin": {
-        "x": 2,
-        "y": 3
+        "x": -1,
+        "y": -1
       },
       "rot": 0,
       "mirrored": false,
-      "health": 10.0
-    },
-    {
-      "moduleId": "PLASMA_2",
-      "origin": {
-        "x": 1,
-        "y": 5
-      },
-      "rot": 0,
-      "mirrored": false,
-      "health": 12.0
-    },
-    {
-      "moduleId": "MISSILES_2",
-      "origin": {
-        "x": 1,
-        "y": 3
-      },
-      "rot": 0,
-      "mirrored": false,
-      "health": 10.0
-    },
-    {
-      "moduleId": "MISSILES_2",
-      "origin": {
-        "x": -2,
-        "y": 3
-      },
-      "rot": 0,
-      "mirrored": false,
-      "health": 10.0
-    },
-    {
-      "moduleId": "SLOPED_2",
-      "origin": {
-        "x": -2,
-        "y": 6
-      },
-      "rot": 4,
-      "mirrored": true,
-      "health": 30.0
+      "health": 8.0
     },
     {
       "moduleId": "REACTOR_2",
@@ -308,52 +158,162 @@
     {
       "moduleId": "REACTOR_1",
       "origin": {
+        "x": 2,
+        "y": 2
+      },
+      "rot": 0,
+      "mirrored": false,
+      "health": 5.0
+    },
+    {
+      "moduleId": "PLASMA_1",
+      "origin": {
+        "x": 2,
+        "y": 3
+      },
+      "rot": 0,
+      "mirrored": false,
+      "health": 6.0
+    },
+    {
+      "moduleId": "PLASMA_1",
+      "origin": {
         "x": 0,
         "y": 4
       },
       "rot": 0,
       "mirrored": false,
-      "health": 5.0
+      "health": 6.0
     },
     {
-      "moduleId": "REACTOR_1",
+      "moduleId": "LATERAL_0",
       "origin": {
-        "x": 0,
-        "y": 5
+        "x": 3,
+        "y": 0
       },
       "rot": 0,
       "mirrored": false,
-      "health": 5.0
+      "health": 2.0
     },
     {
-      "moduleId": "REACTOR_1",
+      "moduleId": "LATERAL_0",
       "origin": {
-        "x": 0,
-        "y": 6
+        "x": -3,
+        "y": 0
       },
       "rot": 0,
-      "mirrored": false,
-      "health": 5.0
+      "mirrored": true,
+      "health": 2.0
     },
     {
-      "moduleId": "SURVEYOR_1",
+      "moduleId": "WEDGE_0B",
       "origin": {
-        "x": 0,
-        "y": 7
+        "x": 3,
+        "y": 2
       },
       "rot": 0,
       "mirrored": false,
       "health": 3.0
     },
     {
+      "moduleId": "WEDGE_0B",
+      "origin": {
+        "x": -3,
+        "y": 2
+      },
+      "rot": 3,
+      "mirrored": false,
+      "health": 3.0
+    },
+    {
+      "moduleId": "LATERAL_0",
+      "origin": {
+        "x": 3,
+        "y": 1
+      },
+      "rot": 0,
+      "mirrored": false,
+      "health": 2.0
+    },
+    {
+      "moduleId": "LATERAL_0",
+      "origin": {
+        "x": -3,
+        "y": 1
+      },
+      "rot": 0,
+      "mirrored": true,
+      "health": 2.0
+    },
+    {
       "moduleId": "MISSILES_2",
       "origin": {
-        "x": -1,
-        "y": 3
+        "x": 1,
+        "y": 5
       },
       "rot": 0,
       "mirrored": false,
       "health": 10.0
+    },
+    {
+      "moduleId": "MISSILES_2",
+      "origin": {
+        "x": -1,
+        "y": 5
+      },
+      "rot": 0,
+      "mirrored": false,
+      "health": 10.0
+    },
+    {
+      "moduleId": "MISSILES_2",
+      "origin": {
+        "x": 0,
+        "y": 6
+      },
+      "rot": 0,
+      "mirrored": false,
+      "health": 10.0
+    },
+    {
+      "moduleId": "WING_4",
+      "origin": {
+        "x": 2,
+        "y": 5
+      },
+      "rot": -2,
+      "mirrored": false,
+      "health": 15.0
+    },
+    {
+      "moduleId": "WING_4",
+      "origin": {
+        "x": -2,
+        "y": 5
+      },
+      "rot": -4,
+      "mirrored": true,
+      "health": 15.0
+    },
+    {
+      "moduleId": "WEDGE_0B",
+      "origin": {
+        "x": 1,
+        "y": 6
+      },
+      "rot": -1,
+      "mirrored": false,
+      "health": 3.0
+    },
+    {
+      "moduleId": "WEDGE_0B",
+      "origin": {
+        "x": -1,
+        "y": 6
+      },
+      "rot": -2,
+      "mirrored": false,
+      "health": 3.0
     }
   ],
   "scale": 0.0,

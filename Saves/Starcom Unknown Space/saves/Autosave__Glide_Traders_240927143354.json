@@ -1071,7 +1071,7 @@
         "maxRange": 100.0,
         "rechargeTime": 300.0,
         "canChargeActive": false,
-        "currentCharge": 41.6299362,
+        "currentCharge": 46.63072,
         "currentActiveLevel": 6.716209,
         "spawnedShips": [],
         "hasSpawned": true
@@ -1229,26 +1229,26 @@
       },
       "CXTA.CXTA": {
         "DEFAULT.PLAYER": 0.0,
-        "DEVOUT.DEVOUT": -2.61383128
+        "DEVOUT.DEVOUT": -2.07394576
       },
       "WISKAMUG.WISKAMUG": {
         "DEFAULT.PLAYER": 0.0
       },
       "DEVOUT.DEVOUT": {
-        "DEFAULT.PLAYER": -12.087553,
+        "DEFAULT.PLAYER": -9.590876,
         "WISKAMUG.WISKAMUG": -4.411921E-15,
-        "PIRATES.BROGIDAR": -0.659757733,
+        "PIRATES.BROGIDAR": -0.5234851,
         "DEFAULT.OBSTACLE": -0.33
       },
       "PIRATES.BROGIDAR": {
-        "DEFAULT.PLAYER": -2.74381137,
-        "DEVOUT.DEVOUT": -1.29419911
+        "DEFAULT.PLAYER": -2.17707849,
+        "DEVOUT.DEVOUT": -1.02688289
       },
       "REFINERY.REFINERY": {
         "DEFAULT.PLAYER": 0.0
       },
       "HERETICS.REDOUBT": {
-        "DEFAULT.PLAYER": -0.0599685758
+        "DEFAULT.PLAYER": -0.0475820974
       }
     },
     "damageModifiers": {
@@ -1331,10 +1331,10 @@
   },
   "gameVarData": {
     "numberVars": {
-      "WISKAMUG.WISKAMUG-23_delay": 902.288147,
+      "WISKAMUG.WISKAMUG-23_delay": 917.261841,
       "DISPATCHES.DISPATCHES": 7251.834,
       "ALPHA.STABILIZERS": 2.0,
-      "DEFAULT.DEEP_SPACE-9_lull": 24.437521,
+      "DEFAULT.DEEP_SPACE-9_lull": 0.0596018434,
       "REMNANT_SPACE.RANDOMS": 2.0,
       "REMNANT_SPACE.RAMA_SCIENCE_POINTS": 435.0,
       "REMNANT_SPACE.RAMA_SCIENCE_QUESTIONS": 1.0,
@@ -1352,10 +1352,10 @@
       "ARRIVAL.ALETHEIA_RETURNS-14_anomalies": 0.0,
       "REMNANT_SPACE.VOID_RANDOM": 8710.432,
       "DOLSON.DOLSON_CONVOS-2_anomalies": 60.0,
-      "REFINERY.REFINERY_REPAIR-21_delay": 934.8067,
-      "CXTA.CXTA_FREIGHTERS-2_delay": 526.1006,
-      "PIRATES.BROGIDAR-20_delay": 129.438,
-      "PIRATES.BROGIDAR-24_delay": 67.06582
+      "REFINERY.REFINERY_REPAIR-21_delay": 949.7804,
+      "CXTA.CXTA_FREIGHTERS-2_delay": 541.0743,
+      "PIRATES.BROGIDAR-20_delay": 144.411728,
+      "PIRATES.BROGIDAR-24_delay": 82.0395355
     },
     "flagVars": {
       "SEPHARIAL.LOOP": true,
@@ -3141,7 +3141,7 @@
             "progress": 2,
             "maxProgress": 3,
             "startTime": 8848.208,
-            "age": 5288.909,
+            "age": 5527.84229,
             "playerCoord": {
               "universe": 0,
               "ux": 20,
@@ -3364,7 +3364,7 @@
             "progress": 0,
             "maxProgress": 1,
             "startTime": 5662.643,
-            "age": 9278.522,
+            "age": 9518.156,
             "playerCoord": {
               "universe": 0,
               "ux": 7,
@@ -4176,7 +4176,7 @@
             "progress": 0,
             "maxProgress": 1,
             "startTime": 10141.7959,
-            "age": 2892.08545,
+            "age": 3131.01855,
             "playerCoord": {
               "universe": 0,
               "ux": -1,
@@ -4369,7 +4369,7 @@
             "progress": 0,
             "maxProgress": 1,
             "startTime": 9130.578,
-            "age": 4850.671,
+            "age": 5089.604,
             "playerCoord": {
               "universe": 0,
               "ux": 22,
@@ -4787,7 +4787,7 @@
             "progress": 0,
             "maxProgress": 1,
             "startTime": 11069.62,
-            "age": 1811.80151,
+            "age": 2050.90771,
             "playerCoord": {
               "universe": 0,
               "ux": 9,
@@ -5907,7 +5907,7 @@
             "progress": 0,
             "maxProgress": 1,
             "startTime": 2742.718,
-            "age": 13970.6689,
+            "age": 14210.3027,
             "playerCoord": {
               "universe": 0,
               "ux": 8,
@@ -6671,12 +6671,12 @@
       "universe": 0,
       "ux": 12,
       "uz": 4,
-      "x": -160.2886,
-      "z": -158.314514
+      "x": 464.154541,
+      "z": -433.889557
     },
     "playerShip": {
       "shipDesignId": "DEFAULT.SMALL_MISSILES",
-      "rotation": 72.36849,
+      "rotation": 122.007851,
       "scale": 0.0,
       "modules": [
         {
@@ -7004,18 +7004,6 @@
       "maxHealth": 336.0,
       "maxSize": 39.5,
       "profileType": "SimpleAgent",
-      "command": {
-        "$type": "AIPlayerAutopilotCommand, Assembly-CSharp",
-        "destination": {
-          "universe": 0,
-          "ux": 12,
-          "uz": 4,
-          "x": 446.2783,
-          "z": -425.312866
-        },
-        "ThrottledSpeed": -1.0,
-        "UseTurbo": true
-      },
       "spawnOrigin": {
         "universe": 0,
         "ux": 999,
@@ -7025,7 +7013,7 @@
       },
       "lastVisibility": 447.500031,
       "lastDisposition": 1000.0,
-      "lastActive": 11905.162240238511,
+      "lastActive": 11920.119996106951,
       "disabled": false,
       "persistentId": "PLAYER",
       "prefabName": "Ship",
@@ -7033,23 +7021,23 @@
         "universe": 0,
         "ux": 12,
         "uz": 4,
-        "x": -160.2886,
-        "z": -158.314514
+        "x": 464.154541,
+        "z": -433.889557
       },
       "factionId": "DEFAULT.PLAYER",
       "discovered": false
     },
     "playerResources": {
-      "ALUMINUM": 2032,
+      "ALUMINUM": 1000,
       "PLATINUM": 52,
       "YTTRIUM": 102,
       "CHIRALITE": 10,
-      "TITANIUM": 397,
-      "GOLD": 62,
+      "TITANIUM": 600,
+      "GOLD": 70,
       "COPPER": 90,
-      "IRIDIUM": 50,
-      "SILVER": 159,
-      "URANIUM": 9,
+      "IRIDIUM": 30,
+      "SILVER": 84,
+      "URANIUM": 80,
       "DIBERYLLIUM": 1,
       "NEUTRONIUM": 2,
       "ETHERINE": 0,
@@ -7062,13 +7050,13 @@
     "potentialMissiles": 0,
     "fighters": 0,
     "potentialFighters": 0,
-    "battlestationsCooldown": 59.20937,
+    "battlestationsCooldown": 44.23569,
     "shieldCharge": 0.0,
     "havokCharge": 0.0,
     "researchPoints": 125,
     "totalResearchPoints": 2800,
     "anomaliesCompleted": 56,
-    "distanceFlown": 540712.28506480111,
+    "distanceFlown": 541400.11027622479,
     "swatch": {
       "id": "DEFAULT.STARCOM",
       "plating1": {
@@ -7189,7 +7177,7 @@
           "priority": 1.0
         }
       ],
-      "timer": 8.354313
+      "timer": 23.6494884
     }
   },
   "proceduralData": {
@@ -12627,101 +12615,101 @@
         "tradeData": {
           "ALUMINUM": {
             "resource": 5,
-            "currentSupply": 517,
+            "currentSupply": 1549,
             "targetSupply": 922,
             "naturalSupply": 517,
-            "unitPriceFloor": 0.0
+            "unitPriceFloor": 2.78957343
           },
           "COPPER": {
             "resource": 10,
             "currentSupply": 584,
             "targetSupply": 323,
             "naturalSupply": 584,
-            "unitPriceFloor": 0.0
+            "unitPriceFloor": 2.20548654
           },
           "SILVER": {
             "resource": 15,
             "currentSupply": 622,
             "targetSupply": 510,
             "naturalSupply": 622,
-            "unitPriceFloor": 0.0
+            "unitPriceFloor": 4.485187
           },
           "TITANIUM": {
             "resource": 20,
-            "currentSupply": 228,
+            "currentSupply": 25,
             "targetSupply": 0,
             "naturalSupply": 228,
-            "unitPriceFloor": 0.0
+            "unitPriceFloor": 7.726628
           },
           "YTTRIUM": {
             "resource": 45,
             "currentSupply": 159,
             "targetSupply": 298,
             "naturalSupply": 159,
-            "unitPriceFloor": 0.0
+            "unitPriceFloor": 11.5486851
           },
           "GOLD": {
             "resource": 50,
-            "currentSupply": 67,
+            "currentSupply": 59,
             "targetSupply": 84,
             "naturalSupply": 67,
-            "unitPriceFloor": 0.0
+            "unitPriceFloor": 12.9374294
           },
           "PLATINUM": {
             "resource": 55,
             "currentSupply": 98,
             "targetSupply": 68,
             "naturalSupply": 98,
-            "unitPriceFloor": 0.0
+            "unitPriceFloor": 16.2415257
           },
           "URANIUM": {
             "resource": 25,
-            "currentSupply": 126,
+            "currentSupply": 55,
             "targetSupply": 74,
             "naturalSupply": 126,
-            "unitPriceFloor": 0.0
+            "unitPriceFloor": 15.3072538
           },
           "IRIDIUM": {
             "resource": 35,
-            "currentSupply": 47,
+            "currentSupply": 67,
             "targetSupply": 45,
             "naturalSupply": 47,
-            "unitPriceFloor": 0.0
+            "unitPriceFloor": 47.1397629
           },
           "DIBERYLLIUM": {
             "resource": 40,
             "currentSupply": 24,
             "targetSupply": 30,
             "naturalSupply": 24,
-            "unitPriceFloor": 0.0
+            "unitPriceFloor": 78.72459
           },
           "CHIRALITE": {
             "resource": 60,
             "currentSupply": 23,
             "targetSupply": 23,
             "naturalSupply": 23,
-            "unitPriceFloor": 0.0
+            "unitPriceFloor": 81.67651
           },
           "NEUTRONIUM": {
             "resource": 75,
             "currentSupply": 5,
             "targetSupply": 10,
             "naturalSupply": 5,
-            "unitPriceFloor": 0.0
+            "unitPriceFloor": 184.124817
           },
           "ETHERINE": {
             "resource": 65,
             "currentSupply": 3,
             "targetSupply": 12,
             "naturalSupply": 3,
-            "unitPriceFloor": 0.0
+            "unitPriceFloor": 299.6581
           },
           "XENIUM": {
             "resource": 80,
             "currentSupply": 4,
             "targetSupply": 4,
             "naturalSupply": 4,
-            "unitPriceFloor": 0.0
+            "unitPriceFloor": 324.830536
           },
           "METALLIC_HELIUM": {
             "resource": 85,
@@ -12735,7 +12723,7 @@
             "currentSupply": 1,
             "targetSupply": 2,
             "naturalSupply": 1,
-            "unitPriceFloor": 0.0
+            "unitPriceFloor": 1022.91565
           }
         }
       }
@@ -20931,7 +20919,7 @@
               "anomalyId": "HERETICS.ISLAND_TRADERS",
               "stationId": "",
               "hasTrade": true,
-              "instanceVisits": 1
+              "instanceVisits": 2
             },
             "procAnomalyCandidate": false,
             "placementPadding": 0.0,
@@ -20950,7 +20938,7 @@
           {
             "$type": "StarData, Assembly-CSharp",
             "luminosity": 1.0,
-            "explored": false,
+            "explored": true,
             "dragReduced": true,
             "depleted": false,
             "persistentId": "#White Star_390451374-1178266815",
@@ -21013,7 +21001,7 @@
           {
             "$type": "ShipData, Assembly-CSharp",
             "shipDesignId": "CXTA.CXTA_HAULER",
-            "rotation": 100.760437,
+            "rotation": 95.60612,
             "scale": 2.0,
             "modules": [
               {
@@ -21156,7 +21144,7 @@
             },
             "lastVisibility": 530.0,
             "lastDisposition": 2.0,
-            "lastActive": 11905.162240238511,
+            "lastActive": 11920.119996106951,
             "disabled": false,
             "persistentId": "#Ship_773349226-598335589",
             "prefabName": "Ship",
@@ -21164,8 +21152,8 @@
               "universe": 0,
               "ux": 12,
               "uz": 4,
-              "x": -117.271355,
-              "z": -266.029358
+              "x": 19.3677425,
+              "z": -286.357117
             },
             "factionId": "CXTA.CXTA",
             "discovered": true
@@ -21175,9 +21163,7 @@
             "visitTargets": [
               "#Oceanic O1_32706445-1540484976",
               "#Desert D1_791065805-675174602",
-              "HERETICS.TRAIL3GAS",
-              "#Lunar L1_1874237210-332935769",
-              "#Rocky R2_1749735630-593305443"
+              "#Lunar L1_1874237210-332935769"
             ],
             "destinationId": "LAST_TALONIAN.START_GATEWAY",
             "persistentId": "THE_EMISSARY",
@@ -21186,10 +21172,10 @@
               "universe": 0,
               "ux": 12,
               "uz": 4,
-              "x": 123.600159,
-              "z": 944.5298
+              "x": 669.8786,
+              "z": 77.49939
             },
-            "discovered": false
+            "discovered": true
           }
         ]
       },
@@ -49046,6 +49032,6 @@
   },
   "startBuild": 17321,
   "gameId": "cb75ef9b22df4931a7b9e724cae245e3",
-  "gameTime": 11905.1621,
-  "playTime": 20791.5781
+  "gameTime": 11920.12,
+  "playTime": 21032.3652
 }
