@@ -17512,7 +17512,7 @@
     {
       "symbol": "DEFAULT->TECHS->HULL_SIZE_2_NAME",
       "original": "Module Logistics",
-      "translation": "Модуль Логістика",
+      "translation": "Корпус логіста",
       "priority": 0,
       "reviewed": false
     },
@@ -17540,7 +17540,7 @@
     {
       "symbol": "DEFAULT->TECHS->HULL_SIZE_3_NAME",
       "original": "Advanced Logistics",
-      "translation": "Передова логістика",
+      "translation": "Корпус транспорта",
       "priority": 0,
       "reviewed": false
     },
@@ -17554,7 +17554,7 @@
     {
       "symbol": "DEFAULT->TECHS->DREADNOUGHT_NAME",
       "original": "Dreadnought Hull",
-      "translation": "Дредноут Халл",
+      "translation": "Корпус дредноута",
       "priority": 0,
       "reviewed": false
     },
@@ -17680,7 +17680,7 @@
     {
       "symbol": "DEFAULT->TECHS->SWATCH_NAME",
       "original": "Chromaplate",
-      "translation": "Хромапластинка",
+      "translation": "Фарбування",
       "priority": 0,
       "reviewed": false
     },
@@ -17890,7 +17890,7 @@
     {
       "symbol": "DEFAULT->TECHS->HANDLING_2_NAME",
       "original": "Advanced Handling",
-      "translation": "Advanced Handling",
+      "translation": "Розширене керування",
       "priority": 0,
       "reviewed": false
     },
@@ -18674,7 +18674,7 @@
     {
       "symbol": "DEFAULT->TECHS->VIEWPORT_1_NAME",
       "original": "Byrol Resolver",
-      "translation": "Байрол Резолвер",
+      "translation": "Поширювач Байрола",
       "priority": 0,
       "reviewed": false
     },
@@ -18730,7 +18730,7 @@
     {
       "symbol": "DEFAULT->TECHS->FIXED_RANGE_2_NAME",
       "original": "Lunar Waneshafts",
-      "translation": "Місячні вани",
+      "translation": "Місячні шахти",
       "priority": 0,
       "reviewed": false
     },
