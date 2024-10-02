@@ -1,0 +1,471 @@
+{
+  "id": "Choven-88",
+  "description": "",
+  "custom": false,
+  "defaultFactionId": "DEFAULT.PLAYER",
+  "normalCost": 0.0,
+  "modules": [
+    {
+      "moduleId": "BRIDGE_6",
+      "origin": {
+        "x": 0,
+        "y": 0
+      },
+      "rot": 0,
+      "mirrored": false,
+      "health": 75.0
+    },
+    {
+      "moduleId": "BATTERY_1",
+      "origin": {
+        "x": 0,
+        "y": -1
+      },
+      "rot": 0,
+      "mirrored": false,
+      "health": 5.0
+    },
+    {
+      "moduleId": "ENGINE_2",
+      "origin": {
+        "x": -1,
+        "y": -2
+      },
+      "rot": 0,
+      "mirrored": false,
+      "health": 28.0
+    },
+    {
+      "moduleId": "ENGINE_2",
+      "origin": {
+        "x": 0,
+        "y": -2
+      },
+      "rot": 0,
+      "mirrored": false,
+      "health": 28.0
+    },
+    {
+      "moduleId": "ENGINE_2",
+      "origin": {
+        "x": 1,
+        "y": -2
+      },
+      "rot": 0,
+      "mirrored": false,
+      "health": 28.0
+    },
+    {
+      "moduleId": "ENGINE_2",
+      "origin": {
+        "x": -2,
+        "y": 0
+      },
+      "rot": 0,
+      "mirrored": false,
+      "health": 28.0
+    },
+    {
+      "moduleId": "ENGINE_2",
+      "origin": {
+        "x": 2,
+        "y": 0
+      },
+      "rot": 0,
+      "mirrored": false,
+      "health": 28.0
+    },
+    {
+      "moduleId": "WING_4",
+      "origin": {
+        "x": -3,
+        "y": 0
+      },
+      "rot": 0,
+      "mirrored": false,
+      "health": 15.0
+    },
+    {
+      "moduleId": "WING_4",
+      "origin": {
+        "x": 3,
+        "y": 0
+      },
+      "rot": 0,
+      "mirrored": true,
+      "health": 15.0
+    },
+    {
+      "moduleId": "MISSILES_2",
+      "origin": {
+        "x": 3,
+        "y": 2
+      },
+      "rot": 0,
+      "mirrored": false,
+      "health": 10.0
+    },
+    {
+      "moduleId": "MISSILES_2",
+      "origin": {
+        "x": -3,
+        "y": 2
+      },
+      "rot": 0,
+      "mirrored": false,
+      "health": 10.0
+    },
+    {
+      "moduleId": "MISSILES_2",
+      "origin": {
+        "x": 2,
+        "y": 3
+      },
+      "rot": 0,
+      "mirrored": false,
+      "health": 10.0
+    },
+    {
+      "moduleId": "MISSILES_2",
+      "origin": {
+        "x": -2,
+        "y": 3
+      },
+      "rot": 0,
+      "mirrored": false,
+      "health": 10.0
+    },
+    {
+      "moduleId": "REACTOR_2",
+      "origin": {
+        "x": 1,
+        "y": 2
+      },
+      "rot": 0,
+      "mirrored": false,
+      "health": 10.0
+    },
+    {
+      "moduleId": "REACTOR_2",
+      "origin": {
+        "x": -1,
+        "y": 2
+      },
+      "rot": 0,
+      "mirrored": false,
+      "health": 10.0
+    },
+    {
+      "moduleId": "MISSILES_2",
+      "origin": {
+        "x": -4,
+        "y": 3
+      },
+      "rot": 0,
+      "mirrored": false,
+      "health": 10.0
+    },
+    {
+      "moduleId": "MISSILES_2",
+      "origin": {
+        "x": 4,
+        "y": 3
+      },
+      "rot": 0,
+      "mirrored": false,
+      "health": 10.0
+    },
+    {
+      "moduleId": "PLASMA_2",
+      "origin": {
+        "x": -1,
+        "y": 4
+      },
+      "rot": 0,
+      "mirrored": false,
+      "health": 12.0
+    },
+    {
+      "moduleId": "PLASMA_2",
+      "origin": {
+        "x": 1,
+        "y": 4
+      },
+      "rot": 0,
+      "mirrored": false,
+      "health": 12.0
+    },
+    {
+      "moduleId": "PLASMA_2",
+      "origin": {
+        "x": 0,
+        "y": 3
+      },
+      "rot": 0,
+      "mirrored": false,
+      "health": 12.0
+    },
+    {
+      "moduleId": "PLASMA_2",
+      "origin": {
+        "x": 0,
+        "y": 5
+      },
+      "rot": 0,
+      "mirrored": false,
+      "health": 12.0
+    },
+    {
+      "moduleId": "REACTOR_1",
+      "origin": {
+        "x": 2,
+        "y": 1
+      },
+      "rot": 0,
+      "mirrored": false,
+      "health": 5.0
+    },
+    {
+      "moduleId": "REACTOR_1",
+      "origin": {
+        "x": -2,
+        "y": 1
+      },
+      "rot": 0,
+      "mirrored": false,
+      "health": 5.0
+    },
+    {
+      "moduleId": "FIGHTERS_7",
+      "origin": {
+        "x": 3,
+        "y": 4
+      },
+      "rot": 0,
+      "mirrored": false,
+      "health": 40.0
+    },
+    {
+      "moduleId": "FIGHTERS_7",
+      "origin": {
+        "x": -3,
+        "y": 4
+      },
+      "rot": 0,
+      "mirrored": false,
+      "health": 40.0
+    },
+    {
+      "moduleId": "SLOPED_2",
+      "origin": {
+        "x": -5,
+        "y": 2
+      },
+      "rot": 0,
+      "mirrored": false,
+      "health": 30.0
+    },
+    {
+      "moduleId": "SLOPED_2",
+      "origin": {
+        "x": -5,
+        "y": 4
+      },
+      "rot": 0,
+      "mirrored": false,
+      "health": 30.0
+    },
+    {
+      "moduleId": "SLOPED_2",
+      "origin": {
+        "x": 5,
+        "y": 2
+      },
+      "rot": 0,
+      "mirrored": true,
+      "health": 30.0
+    },
+    {
+      "moduleId": "SLOPED_2",
+      "origin": {
+        "x": 5,
+        "y": 4
+      },
+      "rot": 0,
+      "mirrored": true,
+      "health": 30.0
+    },
+    {
+      "moduleId": "DEFLECTOR_FORWARD",
+      "origin": {
+        "x": -3,
+        "y": 6
+      },
+      "rot": 0,
+      "mirrored": false,
+      "health": 45.0
+    },
+    {
+      "moduleId": "DEFLECTOR_FORWARD",
+      "origin": {
+        "x": 3,
+        "y": 6
+      },
+      "rot": 0,
+      "mirrored": false,
+      "health": 45.0
+    },
+    {
+      "moduleId": "WEDGE_0B",
+      "origin": {
+        "x": 5,
+        "y": 5
+      },
+      "rot": -1,
+      "mirrored": false,
+      "health": 3.0
+    },
+    {
+      "moduleId": "WEDGE_0B",
+      "origin": {
+        "x": -5,
+        "y": 5
+      },
+      "rot": -2,
+      "mirrored": false,
+      "health": 3.0
+    },
+    {
+      "moduleId": "CREW_2",
+      "origin": {
+        "x": 1,
+        "y": 6
+      },
+      "rot": 0,
+      "mirrored": false,
+      "health": 35.0
+    },
+    {
+      "moduleId": "CREW_2",
+      "origin": {
+        "x": -1,
+        "y": 6
+      },
+      "rot": 0,
+      "mirrored": false,
+      "health": 35.0
+    },
+    {
+      "moduleId": "DETECTOR_1",
+      "origin": {
+        "x": 0,
+        "y": 6
+      },
+      "rot": 0,
+      "mirrored": false,
+      "health": 5.0
+    },
+    {
+      "moduleId": "EXHAUST_1",
+      "origin": {
+        "x": 0,
+        "y": 7
+      },
+      "rot": 0,
+      "mirrored": false,
+      "health": 15.0
+    },
+    {
+      "moduleId": "DEFLECTOR_FORWARD",
+      "origin": {
+        "x": 0,
+        "y": 8
+      },
+      "rot": 0,
+      "mirrored": false,
+      "health": 45.0
+    },
+    {
+      "moduleId": "SLOPED_2",
+      "origin": {
+        "x": 3,
+        "y": 7
+      },
+      "rot": 7,
+      "mirrored": false,
+      "health": 30.0
+    },
+    {
+      "moduleId": "SLOPED_2",
+      "origin": {
+        "x": -3,
+        "y": 7
+      },
+      "rot": -1,
+      "mirrored": true,
+      "health": 30.0
+    },
+    {
+      "moduleId": "HALF_0",
+      "origin": {
+        "x": -4,
+        "y": 7
+      },
+      "rot": 2,
+      "mirrored": false,
+      "health": 7.0
+    },
+    {
+      "moduleId": "HALF_0",
+      "origin": {
+        "x": 4,
+        "y": 7
+      },
+      "rot": -2,
+      "mirrored": false,
+      "health": 7.0
+    },
+    {
+      "moduleId": "ENGINE_2",
+      "origin": {
+        "x": 3,
+        "y": -1
+      },
+      "rot": 0,
+      "mirrored": false,
+      "health": 28.0
+    },
+    {
+      "moduleId": "ENGINE_2",
+      "origin": {
+        "x": -3,
+        "y": -1
+      },
+      "rot": 0,
+      "mirrored": false,
+      "health": 28.0
+    },
+    {
+      "moduleId": "SURVEYOR_1",
+      "origin": {
+        "x": 4,
+        "y": -1
+      },
+      "rot": 3,
+      "mirrored": false,
+      "health": 3.0
+    },
+    {
+      "moduleId": "EXHAUST_WEDGE_0B",
+      "origin": {
+        "x": -4,
+        "y": -1
+      },
+      "rot": 3,
+      "mirrored": false,
+      "health": 6.0
+    }
+  ],
+  "scale": 0.0,
+  "steamFileId": 0
+}
