@@ -10,11 +10,11 @@ Direct3D:
     VRAM:     8119 MB
     Driver:   31.0.101.2115
 Begin MonoManager ReloadAssembly
-- Completed reload, in  0.502 seconds
+- Completed reload, in  0.404 seconds
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 3.112700 ms
+UnloadTime: 4.058100 ms
 Preloader started, build Kepler (17321)
 Async progress 90%, attempting scene activation...
 Build Number: 17321
@@ -50,145 +50,146 @@ Task scheduler exceeded 1500ms
 Task scheduler exceeded 1500ms
 Task scheduler exceeded 1500ms
 Task scheduler exceeded 1500ms
-Task scheduler exceeded 1500ms
-Task scheduler exceeded 1500ms
+Player does not have weapon for ALL
 No starting location
-Cannot interact while scan in progress
-Task scheduler exceeded 1500ms
-Task scheduler exceeded 1500ms
-#12484 360.8384 sec: FPS: 9.51636 Mission Update: 0.00141231
-Material ProgressFill doesn't have _Stencil property
-Material ProgressFill(Clone) doesn't have _Stencil property
-Material ProgressFill(Clone) doesn't have _Stencil property
-Material ProgressFill(Clone) doesn't have _Stencil property
-Material ProgressFill(Clone) doesn't have _Stencil property
-Material ProgressFill(Clone) doesn't have _Stencil property
-Material ProgressFill(Clone) doesn't have _Stencil property
-Material ProgressFill(Clone) doesn't have _Stencil property
-#20671 660.861 sec: FPS: 29.90691 Mission Update: 0.00123141
-Material ProgressFill(Clone) doesn't have _Stencil property
+#16508 449.2832 sec: FPS: 29.55711 Mission Update: 0.00234344
+#25015 749.2851 sec: FPS: 13.95333 Mission Update: 0.00420754
+d3d11: failed to create buffer (target 0x5 mode 0 size 46848) [0x887A0005]
+d3d11: failed to create buffer (target 0x2 mode 0 size 5856) [0x887A0005]
+d3d11: failed to create staging 2D texture w=512 h=512 d3dfmt=28 [887a0005]
+d3d11: failed to create staging 2D texture w=256 h=256 d3dfmt=28 [887a0005]
+d3d11: failed to create staging 2D texture w=128 h=128 d3dfmt=28 [887a0005]
+d3d11: failed to create staging 2D texture w=64 h=64 d3dfmt=28 [887a0005]
+d3d11: failed to create staging 2D texture w=32 h=32 d3dfmt=28 [887a0005]
+d3d11: failed to create staging 2D texture w=16 h=16 d3dfmt=28 [887a0005]
+d3d11: failed to create staging 2D texture w=8 h=8 d3dfmt=28 [887a0005]
+d3d11: failed to create staging 2D texture w=4 h=4 d3dfmt=28 [887a0005]
+d3d11: failed to create staging 2D texture w=2 h=2 d3dfmt=28 [887a0005]
+d3d11: failed to create staging 2D texture w=1 h=1 d3dfmt=28 [887a0005]
 Crash!!!
 SymInit: Symbol-SearchPath: '.;C:\Games\Starcom Unknown Space;C:\Games\Starcom Unknown Space;C:\WINDOWS;C:\WINDOWS\system32;', symOptions: 534, UserName: 'dmytr'
 OS-Version: 10.0.0
-C:\Games\Starcom Unknown Space\Starcom Unknown Space.exe:Starcom Unknown Space.exe (00007FF7D79C0000), size: 675840 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2020.3.46.48129
-C:\WINDOWS\SYSTEM32\ntdll.dll:ntdll.dll (00007FFE77830000), size: 2064384 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4522
-C:\WINDOWS\System32\KERNEL32.DLL:KERNEL32.DLL (00007FFE76780000), size: 790528 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4717
-C:\WINDOWS\System32\KERNELBASE.dll:KERNELBASE.dll (00007FFE75310000), size: 3133440 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4717
-C:\WINDOWS\SYSTEM32\apphelp.dll:apphelp.dll (00007FFE70CA0000), size: 606208 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4717
-C:\Games\Starcom Unknown Space\UnityPlayer.dll:UnityPlayer.dll (00007FFE3DDA0000), size: 29433856 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2020.3.46.48129
-C:\WINDOWS\System32\USER32.dll:USER32.dll (00007FFE76F40000), size: 1691648 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4717
-C:\WINDOWS\System32\win32u.dll:win32u.dll (00007FFE75230000), size: 139264 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4717
-C:\WINDOWS\System32\GDI32.dll:GDI32.dll (00007FFE76E30000), size: 176128 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4474
-C:\WINDOWS\System32\gdi32full.dll:gdi32full.dll (00007FFE74F80000), size: 1142784 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4717
-C:\WINDOWS\System32\msvcp_win.dll:msvcp_win.dll (00007FFE74EE0000), size: 643072 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
-C:\WINDOWS\System32\ucrtbase.dll:ucrtbase.dll (00007FFE750A0000), size: 1048576 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
-C:\WINDOWS\System32\ole32.dll:ole32.dll (00007FFE769A0000), size: 1224704 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4355
-C:\WINDOWS\System32\RPCRT4.dll:RPCRT4.dll (00007FFE75A50000), size: 1191936 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4597
-C:\WINDOWS\System32\combase.dll:combase.dll (00007FFE75B80000), size: 3485696 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4717
-C:\WINDOWS\System32\SHLWAPI.dll:SHLWAPI.dll (00007FFE76C20000), size: 348160 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4355
-C:\WINDOWS\System32\msvcrt.dll:msvcrt.dll (00007FFE76900000), size: 647168 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 7.0.19041.3636
-C:\WINDOWS\System32\SETUPAPI.dll:SETUPAPI.dll (00007FFE77380000), size: 4644864 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4355
-C:\WINDOWS\System32\cfgmgr32.dll:cfgmgr32.dll (00007FFE75680000), size: 319488 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3996
-C:\WINDOWS\System32\bcrypt.dll:bcrypt.dll (00007FFE756D0000), size: 159744 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
-C:\WINDOWS\System32\ADVAPI32.dll:ADVAPI32.dll (00007FFE76850000), size: 720896 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4597
-C:\WINDOWS\System32\sechost.dll:sechost.dll (00007FFE75870000), size: 655360 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4597
-C:\WINDOWS\System32\SHELL32.dll:SHELL32.dll (00007FFE76010000), size: 7794688 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4717
-C:\WINDOWS\System32\OLEAUT32.dll:OLEAUT32.dll (00007FFE77200000), size: 839680 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
-C:\WINDOWS\System32\IMM32.dll:IMM32.dll (00007FFE76E60000), size: 192512 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4474
-C:\WINDOWS\System32\CRYPT32.dll:CRYPT32.dll (00007FFE75700000), size: 1433600 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4597
-C:\WINDOWS\System32\WS2_32.dll:WS2_32.dll (00007FFE76BB0000), size: 438272 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
-C:\WINDOWS\SYSTEM32\VERSION.dll:VERSION.dll (00007FFE6C8D0000), size: 40960 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
-C:\WINDOWS\SYSTEM32\OPENGL32.dll:OPENGL32.dll (00007FFE5CFF0000), size: 1212416 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4717
-C:\WINDOWS\SYSTEM32\WINMM.dll:WINMM.dll (00007FFE5E630000), size: 159744 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
-C:\WINDOWS\SYSTEM32\WINHTTP.dll:WINHTTP.dll (00007FFE6D8C0000), size: 1101824 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4717
-C:\WINDOWS\SYSTEM32\dwmapi.dll:dwmapi.dll (00007FFE72720000), size: 192512 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4355
-C:\WINDOWS\SYSTEM32\GLU32.dll:GLU32.dll (00007FFE5DDC0000), size: 180224 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
-C:\WINDOWS\SYSTEM32\HID.DLL:HID.DLL (00007FFE73590000), size: 53248 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
-C:\WINDOWS\SYSTEM32\kernel.appcore.dll:kernel.appcore.dll (00007FFE736F0000), size: 73728 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3758
-C:\WINDOWS\System32\bcryptPrimitives.dll:bcryptPrimitives.dll (00007FFE751A0000), size: 532480 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
-C:\WINDOWS\system32\uxtheme.dll:uxtheme.dll (00007FFE72440000), size: 647168 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4529
-C:\WINDOWS\System32\shcore.dll:shcore.dll (00007FFE76E90000), size: 708608 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4522
-C:\WINDOWS\SYSTEM32\windows.storage.dll:windows.storage.dll (00007FFE72DF0000), size: 7991296 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4717
-C:\WINDOWS\SYSTEM32\Wldp.dll:Wldp.dll (00007FFE74900000), size: 188416 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4597
-C:\WINDOWS\SYSTEM32\profapi.dll:profapi.dll (00007FFE74E10000), size: 147456 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4355
-C:\Games\Starcom Unknown Space\MonoBleedingEdge\EmbedRuntime\mono-2.0-bdwgc.dll:mono-2.0-bdwgc.dll (00007FFE3D620000), size: 7860224 (result: 0), SymType: '-deferred-', PDB: ''
-C:\WINDOWS\System32\PSAPI.DLL:PSAPI.DLL (00007FFE77370000), size: 32768 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
-C:\WINDOWS\SYSTEM32\iphlpapi.dll:iphlpapi.dll (00007FFE742F0000), size: 241664 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
-C:\WINDOWS\System32\MSCTF.dll:MSCTF.dll (00007FFE770E0000), size: 1130496 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4717
-C:\WINDOWS\SYSTEM32\d3d11.dll:d3d11.dll (00007FFE6E870000), size: 2502656 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4355
-C:\WINDOWS\SYSTEM32\dxgi.dll:dxgi.dll (00007FFE73760000), size: 1007616 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4717
-C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_b53c057d22ce6f37\igd10iumd64.dll:igd10iumd64.dll (00007FFE6AFB0000), size: 675840 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 31.0.101.2115
-C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_b53c057d22ce6f37\igd10um64gen11.DLL:igd10um64gen11.DLL (00007FFE6A890000), size: 7421952 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 31.0.101.2115
-C:\WINDOWS\SYSTEM32\ncrypt.dll:ncrypt.dll (00007FFE74970000), size: 167936 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4412
-C:\WINDOWS\SYSTEM32\NTASN1.dll:NTASN1.dll (00007FFE74930000), size: 241664 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
-C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_b53c057d22ce6f37\igdgmm64.dll:igdgmm64.dll (00007FFE6A480000), size: 4231168 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 31.0.101.2115
-C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_b53c057d22ce6f37\igc64.dll:igc64.dll (00007FFE66CE0000), size: 58277888 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 31.0.101.2115
-C:\WINDOWS\SYSTEM32\dxcore.dll:dxcore.dll (00007FFE6B0B0000), size: 241664 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4474
-C:\WINDOWS\System32\clbcatq.dll:clbcatq.dll (00007FFE75EE0000), size: 692224 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2001.12.10941.16384
-C:\WINDOWS\system32\wbem\wbemprox.dll:wbemprox.dll (00007FFE53AF0000), size: 69632 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4474
-C:\WINDOWS\SYSTEM32\wbemcomn.dll:wbemcomn.dll (00007FFE56C80000), size: 589824 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4355
-C:\WINDOWS\system32\wbem\wbemsvc.dll:wbemsvc.dll (00007FFE532B0000), size: 81920 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4474
-C:\WINDOWS\system32\wbem\fastprox.dll:fastprox.dll (00007FFE52C50000), size: 1097728 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4355
-C:\WINDOWS\SYSTEM32\amsi.dll:amsi.dll (00007FFE52570000), size: 126976 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4355
-C:\WINDOWS\SYSTEM32\USERENV.dll:USERENV.dll (00007FFE74D80000), size: 188416 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4355
-C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.24080.9-0\MpOav.dll:MpOav.dll (00007FFE52440000), size: 528384 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 4.18.24080.9
-C:\WINDOWS\System32\MMDevApi.dll:MMDevApi.dll (00007FFE6B9E0000), size: 544768 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4355
-C:\WINDOWS\System32\DEVOBJ.dll:DEVOBJ.dll (00007FFE74C60000), size: 208896 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4355
-C:\WINDOWS\SYSTEM32\AUDIOSES.DLL:AUDIOSES.DLL (00007FFE5E4A0000), size: 1576960 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4355
-C:\WINDOWS\SYSTEM32\powrprof.dll:powrprof.dll (00007FFE74410000), size: 307200 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
-C:\WINDOWS\SYSTEM32\UMPDC.dll:UMPDC.dll (00007FFE742D0000), size: 73728 (result: 0), SymType: '-deferred-', PDB: ''
-C:\WINDOWS\SYSTEM32\resourcepolicyclient.dll:resourcepolicyclient.dll (00007FFE72620000), size: 81920 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4355
+C:\Games\Starcom Unknown Space\Starcom Unknown Space.exe:Starcom Unknown Space.exe (00007FF7E2750000), size: 675840 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2020.3.46.48129
+C:\WINDOWS\SYSTEM32\ntdll.dll:ntdll.dll (00007FFEC5B70000), size: 2064384 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4522
+C:\WINDOWS\System32\KERNEL32.DLL:KERNEL32.DLL (00007FFEC4B70000), size: 790528 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4717
+C:\WINDOWS\System32\KERNELBASE.dll:KERNELBASE.dll (00007FFEC38A0000), size: 3133440 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4717
+C:\WINDOWS\SYSTEM32\apphelp.dll:apphelp.dll (00007FFEBF1D0000), size: 606208 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4717
+C:\Games\Starcom Unknown Space\UnityPlayer.dll:UnityPlayer.dll (00007FFE882D0000), size: 29433856 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2020.3.46.48129
+C:\WINDOWS\System32\USER32.dll:USER32.dll (00007FFEC4610000), size: 1691648 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4717
+C:\WINDOWS\System32\win32u.dll:win32u.dll (00007FFEC33E0000), size: 139264 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4717
+C:\WINDOWS\System32\GDI32.dll:GDI32.dll (00007FFEC5620000), size: 176128 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4474
+C:\WINDOWS\System32\gdi32full.dll:gdi32full.dll (00007FFEC36F0000), size: 1142784 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4717
+C:\WINDOWS\System32\msvcp_win.dll:msvcp_win.dll (00007FFEC3220000), size: 643072 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\WINDOWS\System32\ucrtbase.dll:ucrtbase.dll (00007FFEC3410000), size: 1048576 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\WINDOWS\System32\ole32.dll:ole32.dll (00007FFEC4D10000), size: 1224704 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4355
+C:\WINDOWS\System32\RPCRT4.dll:RPCRT4.dll (00007FFEC4E40000), size: 1191936 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4597
+C:\WINDOWS\System32\combase.dll:combase.dll (00007FFEC5650000), size: 3485696 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4717
+C:\WINDOWS\SYSTEM32\VERSION.dll:VERSION.dll (00007FFEBB930000), size: 40960 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\WINDOWS\System32\SHLWAPI.dll:SHLWAPI.dll (00007FFEC4FD0000), size: 348160 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4355
+C:\WINDOWS\System32\msvcrt.dll:msvcrt.dll (00007FFEC5A60000), size: 647168 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 7.0.19041.3636
+C:\WINDOWS\System32\SETUPAPI.dll:SETUPAPI.dll (00007FFEC5100000), size: 4644864 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4355
+C:\WINDOWS\System32\cfgmgr32.dll:cfgmgr32.dll (00007FFEC36A0000), size: 319488 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3996
+C:\WINDOWS\System32\bcrypt.dll:bcrypt.dll (00007FFEC3510000), size: 159744 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\WINDOWS\System32\ADVAPI32.dll:ADVAPI32.dll (00007FFEC43B0000), size: 720896 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4597
+C:\WINDOWS\System32\sechost.dll:sechost.dll (00007FFEC3BA0000), size: 655360 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4597
+C:\WINDOWS\System32\SHELL32.dll:SHELL32.dll (00007FFEC3C40000), size: 7794688 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4717
+C:\WINDOWS\System32\OLEAUT32.dll:OLEAUT32.dll (00007FFEC4C40000), size: 839680 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\WINDOWS\System32\IMM32.dll:IMM32.dll (00007FFEC4890000), size: 192512 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4474
+C:\WINDOWS\SYSTEM32\OPENGL32.dll:OPENGL32.dll (00007FFEA7700000), size: 1212416 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4717
+C:\WINDOWS\System32\CRYPT32.dll:CRYPT32.dll (00007FFEC3540000), size: 1433600 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4597
+C:\WINDOWS\System32\WS2_32.dll:WS2_32.dll (00007FFEC5030000), size: 438272 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\WINDOWS\SYSTEM32\WINMM.dll:WINMM.dll (00007FFEB4870000), size: 159744 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\WINDOWS\SYSTEM32\WINHTTP.dll:WINHTTP.dll (00007FFEBBDE0000), size: 1101824 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4717
+C:\WINDOWS\SYSTEM32\HID.DLL:HID.DLL (00007FFEC19D0000), size: 53248 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\WINDOWS\SYSTEM32\dwmapi.dll:dwmapi.dll (00007FFEC0A60000), size: 192512 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4355
+C:\WINDOWS\SYSTEM32\GLU32.dll:GLU32.dll (00007FFEA8AE0000), size: 180224 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\WINDOWS\SYSTEM32\kernel.appcore.dll:kernel.appcore.dll (00007FFEC1A30000), size: 73728 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3758
+C:\WINDOWS\System32\bcryptPrimitives.dll:bcryptPrimitives.dll (00007FFEC3810000), size: 532480 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\WINDOWS\system32\uxtheme.dll:uxtheme.dll (00007FFEC0820000), size: 647168 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4529
+C:\WINDOWS\System32\shcore.dll:shcore.dll (00007FFEC59B0000), size: 708608 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4522
+C:\WINDOWS\SYSTEM32\windows.storage.dll:windows.storage.dll (00007FFEC1130000), size: 7991296 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4717
+C:\WINDOWS\SYSTEM32\Wldp.dll:Wldp.dll (00007FFEC2C40000), size: 188416 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4597
+C:\WINDOWS\SYSTEM32\profapi.dll:profapi.dll (00007FFEC3150000), size: 147456 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4355
+C:\Games\Starcom Unknown Space\MonoBleedingEdge\EmbedRuntime\mono-2.0-bdwgc.dll:mono-2.0-bdwgc.dll (00007FFE8A7E0000), size: 7860224 (result: 0), SymType: '-deferred-', PDB: ''
+C:\WINDOWS\System32\PSAPI.DLL:PSAPI.DLL (00007FFEC5B00000), size: 32768 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\WINDOWS\SYSTEM32\iphlpapi.dll:iphlpapi.dll (00007FFEC2630000), size: 241664 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\WINDOWS\System32\MSCTF.dll:MSCTF.dll (00007FFEC4460000), size: 1130496 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4717
+C:\WINDOWS\SYSTEM32\d3d11.dll:d3d11.dll (00007FFEBDC60000), size: 2502656 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4355
+C:\WINDOWS\SYSTEM32\dxgi.dll:dxgi.dll (00007FFEC1AA0000), size: 1007616 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4717
+C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_b53c057d22ce6f37\igd10iumd64.dll:igd10iumd64.dll (00007FFEB8E20000), size: 675840 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 31.0.101.2115
+C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_b53c057d22ce6f37\igd10um64gen11.DLL:igd10um64gen11.DLL (00007FFEB8700000), size: 7421952 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 31.0.101.2115
+C:\WINDOWS\SYSTEM32\ncrypt.dll:ncrypt.dll (00007FFEC2CB0000), size: 167936 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4412
+C:\WINDOWS\SYSTEM32\NTASN1.dll:NTASN1.dll (00007FFEC2C70000), size: 241664 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_b53c057d22ce6f37\igdgmm64.dll:igdgmm64.dll (00007FFEB8160000), size: 4231168 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 31.0.101.2115
+C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_b53c057d22ce6f37\igc64.dll:igc64.dll (00007FFEB48A0000), size: 58277888 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 31.0.101.2115
+C:\WINDOWS\SYSTEM32\dxcore.dll:dxcore.dll (00007FFEB8ED0000), size: 241664 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4474
+C:\WINDOWS\System32\clbcatq.dll:clbcatq.dll (00007FFEC5570000), size: 692224 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2001.12.10941.16384
+C:\WINDOWS\system32\wbem\wbemprox.dll:wbemprox.dll (00007FFEA27A0000), size: 69632 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4474
+C:\WINDOWS\SYSTEM32\wbemcomn.dll:wbemcomn.dll (00007FFEA32E0000), size: 589824 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4355
+C:\WINDOWS\system32\wbem\wbemsvc.dll:wbemsvc.dll (00007FFEA1350000), size: 81920 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4474
+C:\WINDOWS\system32\wbem\fastprox.dll:fastprox.dll (00007FFEA0F00000), size: 1097728 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4355
+C:\WINDOWS\SYSTEM32\amsi.dll:amsi.dll (00007FFEA0980000), size: 126976 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4355
+C:\WINDOWS\SYSTEM32\USERENV.dll:USERENV.dll (00007FFEC30C0000), size: 188416 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4355
+C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.24080.9-0\MpOav.dll:MpOav.dll (00007FFEA07A0000), size: 528384 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 4.18.24080.9
+C:\WINDOWS\System32\MMDevApi.dll:MMDevApi.dll (00007FFEBA930000), size: 544768 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4355
+C:\WINDOWS\System32\DEVOBJ.dll:DEVOBJ.dll (00007FFEC2FA0000), size: 208896 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4355
+C:\WINDOWS\SYSTEM32\AUDIOSES.DLL:AUDIOSES.DLL (00007FFEB8570000), size: 1576960 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4355
+C:\WINDOWS\SYSTEM32\powrprof.dll:powrprof.dll (00007FFEC2790000), size: 307200 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\WINDOWS\SYSTEM32\UMPDC.dll:UMPDC.dll (00007FFEC2610000), size: 73728 (result: 0), SymType: '-deferred-', PDB: ''
+C:\WINDOWS\SYSTEM32\resourcepolicyclient.dll:resourcepolicyclient.dll (00007FFEC0960000), size: 81920 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4355
 C:\WINDOWS\SYSTEM32\xinput1_3.dll:xinput1_3.dll (0000000000400000), size: 122880 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 9.18.944.0
-C:\WINDOWS\SYSTEM32\textinputframework.dll:textinputframework.dll (00007FFE5EE50000), size: 1019904 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4651
-C:\WINDOWS\SYSTEM32\CoreUIComponents.dll:CoreUIComponents.dll (00007FFE6F8F0000), size: 3518464 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
-C:\WINDOWS\SYSTEM32\CoreMessaging.dll:CoreMessaging.dll (00007FFE6FD40000), size: 991232 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4355
-C:\WINDOWS\SYSTEM32\wintypes.dll:wintypes.dll (00007FFE718D0000), size: 1404928 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4717
-C:\WINDOWS\SYSTEM32\ntmarta.dll:ntmarta.dll (00007FFE74050000), size: 208896 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
-C:\WINDOWS\SYSTEM32\dcomp.dll:dcomp.dll (00007FFE6F0A0000), size: 1982464 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4597
-C:\WINDOWS\SYSTEM32\CRYPTSP.dll:CRYPTSP.dll (00007FFE74850000), size: 98304 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
-C:\WINDOWS\system32\rsaenh.dll:rsaenh.dll (00007FFE73F10000), size: 212992 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
-C:\WINDOWS\SYSTEM32\CRYPTBASE.dll:CRYPTBASE.dll (00007FFE74870000), size: 49152 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
-C:\WINDOWS\System32\NSI.dll:NSI.dll (00007FFE75860000), size: 32768 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
-C:\WINDOWS\SYSTEM32\dhcpcsvc6.DLL:dhcpcsvc6.DLL (00007FFE6DFE0000), size: 94208 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
-C:\WINDOWS\SYSTEM32\dhcpcsvc.DLL:dhcpcsvc.DLL (00007FFE6F840000), size: 118784 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
-C:\WINDOWS\system32\mswsock.dll:mswsock.dll (00007FFE74660000), size: 434176 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
-C:\WINDOWS\SYSTEM32\DNSAPI.dll:DNSAPI.dll (00007FFE74340000), size: 827392 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4474
-C:\Windows\System32\rasadhlp.dll:rasadhlp.dll (00007FFE65960000), size: 40960 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
-C:\Games\Starcom Unknown Space\Starcom Unknown Space_Data\Plugins\x86_64\steam_api64.dll:steam_api64.dll (00007FFE3B3D0000), size: 2936832 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 1.2.12.0
-C:\Games\Starcom Unknown Space\Starcom Unknown Space_Data\Plugins\x86_64\Galaxy64.dll:Galaxy64.dll (00007FFE3A5F0000), size: 14495744 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 1.152.10.0
-C:\WINDOWS\SYSTEM32\WININET.dll:WININET.dll (00007FFE60CA0000), size: 5079040 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 11.0.19041.4717
-C:\WINDOWS\system32\napinsp.dll:napinsp.dll (00007FFE70770000), size: 94208 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
-C:\WINDOWS\system32\pnrpnsp.dll:pnrpnsp.dll (00007FFE70750000), size: 110592 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
-C:\WINDOWS\system32\wshbth.dll:wshbth.dll (00007FFE4B1F0000), size: 86016 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
-C:\WINDOWS\system32\NLAapi.dll:NLAapi.dll (00007FFE71220000), size: 118784 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4123
-C:\WINDOWS\System32\winrnr.dll:winrnr.dll (00007FFE70730000), size: 73728 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
-C:\WINDOWS\SYSTEM32\secur32.dll:secur32.dll (00007FFE58CB0000), size: 49152 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
-C:\WINDOWS\SYSTEM32\SSPICLI.DLL:SSPICLI.DLL (00007FFE74DB0000), size: 204800 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4239
-C:\Games\Starcom Unknown Space\Starcom Unknown Space_Data\Plugins\x86_64\AkSoundEngine.dll:AkSoundEngine.dll (00007FFE3B720000), size: 3633152 (result: 0), SymType: '-deferred-', PDB: ''
-C:\WINDOWS\SYSTEM32\dbghelp.dll:dbghelp.dll (00007FFE638C0000), size: 1982464 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
-C:\Games\Starcom Unknown Space\Starcom Unknown Space_Data\Plugins\x86_64\AkMotion.dll:AkMotion.dll (00007FFE714A0000), size: 225280 (result: 0), SymType: '-deferred-', PDB: ''
-C:\Windows\System32\dinput8.dll:dinput8.dll (00007FFE4D520000), size: 282624 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1
-C:\WINDOWS\SYSTEM32\inputhost.dll:inputhost.dll (00007FFE5D5F0000), size: 1384448 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4355
-C:\WINDOWS\SYSTEM32\PROPSYS.dll:PROPSYS.dll (00007FFE735A0000), size: 1007616 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 7.0.19041.4597
-C:\WINDOWS\System32\WINTRUST.dll:WINTRUST.dll (00007FFE75610000), size: 430080 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4717
-C:\WINDOWS\SYSTEM32\MSASN1.dll:MSASN1.dll (00007FFE74A90000), size: 73728 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
-C:\Windows\System32\Windows.UI.dll:Windows.UI.dll (00007FFE50FD0000), size: 1306624 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4355
-C:\Windows\System32\WindowManagementAPI.dll:WindowManagementAPI.dll (00007FFE6CE30000), size: 659456 (result: 0), SymType: '-deferred-', PDB: ''
-C:\Windows\System32\twinapi.appcore.dll:twinapi.appcore.dll (00007FFE6F290000), size: 2109440 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4597
-C:\WINDOWS\SYSTEM32\TextShaping.dll:TextShaping.dll (00007FFE4E130000), size: 704512 (result: 0), SymType: '-deferred-', PDB: ''
+C:\WINDOWS\SYSTEM32\textinputframework.dll:textinputframework.dll (00007FFEB42A0000), size: 1019904 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4651
+C:\WINDOWS\SYSTEM32\CoreUIComponents.dll:CoreUIComponents.dll (00007FFEBE710000), size: 3518464 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\WINDOWS\SYSTEM32\CoreMessaging.dll:CoreMessaging.dll (00007FFEBED70000), size: 991232 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4355
+C:\WINDOWS\SYSTEM32\ntmarta.dll:ntmarta.dll (00007FFEC2390000), size: 208896 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\WINDOWS\SYSTEM32\wintypes.dll:wintypes.dll (00007FFEBFCC0000), size: 1404928 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4717
+C:\WINDOWS\SYSTEM32\dcomp.dll:dcomp.dll (00007FFEBE110000), size: 1982464 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4597
+C:\WINDOWS\SYSTEM32\CRYPTSP.dll:CRYPTSP.dll (00007FFEC2B90000), size: 98304 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\WINDOWS\system32\rsaenh.dll:rsaenh.dll (00007FFEC2250000), size: 212992 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\WINDOWS\SYSTEM32\CRYPTBASE.dll:CRYPTBASE.dll (00007FFEC2BB0000), size: 49152 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\WINDOWS\System32\NSI.dll:NSI.dll (00007FFEC4B00000), size: 32768 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\WINDOWS\SYSTEM32\dhcpcsvc6.DLL:dhcpcsvc6.DLL (00007FFEBC750000), size: 94208 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\WINDOWS\SYSTEM32\dhcpcsvc.DLL:dhcpcsvc.DLL (00007FFEBDF10000), size: 118784 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\WINDOWS\system32\mswsock.dll:mswsock.dll (00007FFEC29A0000), size: 434176 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\WINDOWS\SYSTEM32\DNSAPI.dll:DNSAPI.dll (00007FFEC2670000), size: 827392 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4474
+C:\Windows\System32\rasadhlp.dll:rasadhlp.dll (00007FFEB1250000), size: 40960 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\Games\Starcom Unknown Space\Starcom Unknown Space_Data\Plugins\x86_64\steam_api64.dll:steam_api64.dll (00007FFE8BB30000), size: 2936832 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 1.2.12.0
+C:\Games\Starcom Unknown Space\Starcom Unknown Space_Data\Plugins\x86_64\Galaxy64.dll:Galaxy64.dll (00007FFE816E0000), size: 14495744 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 1.152.10.0
+C:\WINDOWS\SYSTEM32\WININET.dll:WININET.dll (00007FFEADF70000), size: 5079040 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 11.0.19041.4717
+C:\WINDOWS\system32\napinsp.dll:napinsp.dll (00007FFEBA570000), size: 94208 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\WINDOWS\system32\pnrpnsp.dll:pnrpnsp.dll (00007FFEB3170000), size: 110592 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\WINDOWS\system32\wshbth.dll:wshbth.dll (00007FFE97730000), size: 86016 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\WINDOWS\system32\NLAapi.dll:NLAapi.dll (00007FFEBF360000), size: 118784 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4123
+C:\WINDOWS\System32\winrnr.dll:winrnr.dll (00007FFEB3150000), size: 73728 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\WINDOWS\SYSTEM32\secur32.dll:secur32.dll (00007FFEA2A80000), size: 49152 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\WINDOWS\SYSTEM32\SSPICLI.DLL:SSPICLI.DLL (00007FFEC30F0000), size: 204800 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4239
+C:\Games\Starcom Unknown Space\Starcom Unknown Space_Data\Plugins\x86_64\AkSoundEngine.dll:AkSoundEngine.dll (00007FFE87F50000), size: 3633152 (result: 0), SymType: '-deferred-', PDB: ''
+C:\WINDOWS\SYSTEM32\dbghelp.dll:dbghelp.dll (00007FFEB0E20000), size: 1982464 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\Games\Starcom Unknown Space\Starcom Unknown Space_Data\Plugins\x86_64\AkMotion.dll:AkMotion.dll (00007FFEB3110000), size: 225280 (result: 0), SymType: '-deferred-', PDB: ''
+C:\Windows\System32\dinput8.dll:dinput8.dll (00007FFEB23F0000), size: 282624 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1
+C:\WINDOWS\SYSTEM32\inputhost.dll:inputhost.dll (00007FFEB4140000), size: 1384448 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4355
+C:\WINDOWS\SYSTEM32\PROPSYS.dll:PROPSYS.dll (00007FFEC18D0000), size: 1007616 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 7.0.19041.4597
+C:\WINDOWS\System32\WINTRUST.dll:WINTRUST.dll (00007FFEC32C0000), size: 430080 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4717
+C:\WINDOWS\SYSTEM32\MSASN1.dll:MSASN1.dll (00007FFEC2DD0000), size: 73728 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\Windows\System32\Windows.UI.dll:Windows.UI.dll (00007FFEB43A0000), size: 1306624 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4355
+C:\Windows\System32\WindowManagementAPI.dll:WindowManagementAPI.dll (00007FFEBA9C0000), size: 659456 (result: 0), SymType: '-deferred-', PDB: ''
+C:\WINDOWS\SYSTEM32\twinapi.appcore.dll:twinapi.appcore.dll (00007FFEBC400000), size: 2109440 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4597
+C:\WINDOWS\SYSTEM32\TextShaping.dll:TextShaping.dll (00007FFE9B370000), size: 704512 (result: 0), SymType: '-deferred-', PDB: ''
 
 ========== OUTPUTTING STACK TRACE ==================
 
-0x00007FFE6A993922 (igd10um64gen11) OpenAdapter10_2
-0x00007FFE6A8C07C6 (igd10um64gen11) OpenAdapter10_2
-0x00007FFE6E9D0671 (d3d11) CreateDirect3D11SurfaceFromDXGISurface
-0x00007FFE3E1915AB (UnityPlayer) GfxDeviceD3D11Base::CopyComputeBufferCount
-0x00007FFE3EC0BCB1 (UnityPlayer) GfxDeviceWorker::RunCommand
-0x00007FFE3EC11E3B (UnityPlayer) GfxDeviceWorker::RunExt
-0x00007FFE3EC11F09 (UnityPlayer) GfxDeviceWorker::RunGfxDeviceWorker
-0x00007FFE3E59CED8 (UnityPlayer) Thread::RunThreadWrapper
-0x00007FFE76797374 (KERNEL32) BaseThreadInitThunk
-0x00007FFE7787CC91 (ntdll) RtlUserThreadStart
+0x00007FFE884E2A09 (UnityPlayer) VFXReadbackBuffer::ReadbackInvokeCallback
+0x00007FFE88920DFA (UnityPlayer) `AsyncGPUReadbackManager::InitializeClass'::`2'::EarlyUpdateUpdateAsyncReadbackManagerRegistrator::Forward
+0x00007FFE88A0560A (UnityPlayer) ExecutePlayerLoop
+0x00007FFE88A056B0 (UnityPlayer) ExecutePlayerLoop
+0x00007FFE88A09948 (UnityPlayer) PlayerLoop
+0x00007FFE887C6C9A (UnityPlayer) PerformMainLoop
+0x00007FFE887C516B (UnityPlayer) MainMessageLoop
+0x00007FFE887CA202 (UnityPlayer) UnityMainImpl
+0x00007FFE887CB3AB (UnityPlayer) UnityMain
+0x00007FF7E27511F2 (Starcom Unknown Space) __scrt_common_main_seh
+0x00007FFEC4B87374 (KERNEL32) BaseThreadInitThunk
+0x00007FFEC5BBCC91 (ntdll) RtlUserThreadStart
 
 ========== END OF STACKTRACE ===========
 
