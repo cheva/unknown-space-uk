@@ -29,5 +29,3 @@ ______________
 ______________
 
 ### Слава Україні! ![Слава Україні!]( https://raw.githubusercontent.com/cheva/unknown-space-uk/refs/heads/initial/Starcom%20-%20Невідомий%20Простір.png "Слава Україні!")
-
-
