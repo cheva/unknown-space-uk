@@ -10,11 +10,11 @@ Direct3D:
     VRAM:     8119 MB
     Driver:   31.0.101.2115
 Begin MonoManager ReloadAssembly
-- Completed reload, in  0.194 seconds
+- Completed reload, in  0.187 seconds
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 1.512700 ms
+UnloadTime: 1.148900 ms
 Preloader started, build Kepler (17321)
 Async progress 90%, attempting scene activation...
 Build Number: 17321
@@ -34,48 +34,42 @@ WwiseUnity: Sound engine initialized successfully.
 Preloading DEFAULT
 Preloading ALPHA
 Preloading ARRIVAL
-Steam knows about 0 achievements
 Preloading BEYOND
 Preloading REMNANT_SPACE
-StoryId was null
-No starting story found: ''
-Player does not have weapon for ALL
-No starting location
-Flag not satisfied, normal advance
-Task scheduler exceeded 1500ms
-Task scheduler exceeded 1500ms
-Task scheduler exceeded 1500ms
-Task scheduler exceeded 1500ms
-Task scheduler exceeded 1500ms
-Task scheduler exceeded 1500ms
-Task scheduler exceeded 1500ms
-Task scheduler exceeded 1500ms
-Task scheduler exceeded 1500ms
-Task scheduler exceeded 1500ms
-Task scheduler exceeded 1500ms
-#8801 349.4042 sec: FPS: 29.23278 Mission Update: 0.00233464
-Cannot interact while scan in progress
-Cannot interact while scan in progress
-Cannot interact while scan in progress
-Cannot interact while scan in progress
-Cannot interact while scan in progress
-Cannot interact while scan in progress
-Cannot interact while scan in progress
-Cannot interact while scan in progress
-Cannot interact while scan in progress
-Cannot interact while scan in progress
-Cannot interact while scan in progress
-#16265 649.4454 sec: FPS: 16.0073 Mission Update: 0.00122068
-Material ProgressFill doesn't have _Stencil property
-Material ProgressFill(Clone) doesn't have _Stencil property
-Material ProgressFill(Clone) doesn't have _Stencil property
-Material ProgressFill(Clone) doesn't have _Stencil property
-Material ProgressFill(Clone) doesn't have _Stencil property
-Material ProgressFill(Clone) doesn't have _Stencil property
-Material ProgressFill(Clone) doesn't have _Stencil property
-Material ProgressFill(Clone) doesn't have _Stencil property
-Material ProgressFill(Clone) doesn't have _Stencil property
-Material ProgressFill(Clone) doesn't have _Stencil property
+Steam knows about 0 achievements
+Bootstrapped story 'DEFAULT'
+Bootstrapped story 'ARRIVAL'
+Bootstrapped story 'ALPHA'
+Bootstrapped story 'PATCH'
+Bootstrapped story 'HELP'
+Bootstrapped story 'REMNANT_SPACE'
+Bootstrapped story 'BEYOND'
+Bootstrapped story 'YU_PROGRESS'
+Bootstrapped story 'VOID'
+Bootstrapped story 'SCAN_DISCOVERIES'
+Bootstrapped story 'COMETS'
+Bootstrapped story 'DEVOUT'
+Bootstrapped story 'HERETICS'
+Bootstrapped story 'CELAENO_DEFENSE'
+Bootstrapped story 'LOCOAN'
+Bootstrapped story 'FALLEN'
+Bootstrapped story 'STALKERS'
+Bootstrapped story 'PIRATES'
+Bootstrapped story 'DUMP'
+Bootstrapped story 'CONFLICT'
+Bootstrapped story 'GOD_BONES'
+Bootstrapped story 'WISKAMUG'
+Bootstrapped story 'LEGACY'
+Bootstrapped story 'DMZ'
+Bootstrapped story 'RED_REVISIT'
+Bootstrapped story 'NORTHERN'
+Bootstrapped story 'SEPHARIAL'
+Attempted to placed region 'Region (WISKAMUG.MEMORY_LAB)' near 'sector_0_-1x-3 0 x 0', actually placed at 'sector_0_0x-5 0 x 0', dist 11180.34
+Bootstrapped story 'OUTLIERS'
+Bootstrapped story 'REFINERY'
+Bootstrapped story 'HARD_RADIATION'
+Bootstrapped story 'DEVOUT_WAR'
+Bootstrapped story 'SOUTHERN'
 Setting up 2 worker threads for Enlighten.
-  Thread -> id: 27b0 -> priority: 1 
-  Thread -> id: 2204 -> priority: 1 
+  Thread -> id: 910 -> priority: 1 
+  Thread -> id: 604 -> priority: 1 
