@@ -2,7 +2,7 @@
 ## Fixed Ukrainian localization of the game
 ### unknown-space-uk GitHub repo by Cheva
 
-## november'24 under airstrike
+## 07'november'24 under airstrike
 * Game updated and... UA translation is TOO BAD
 * Restore my UK translation because UA is TERRIBLE
 ______________
