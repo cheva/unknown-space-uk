@@ -739,8 +739,8 @@
     },
     {
       "symbol": "MISSIONS_UI->OBJECTIVE_ACTIONABLE_LOW_HINT",
-      "original": "Objective with an associated location. Click to toggle map tracking.",
-      "translation": "연결된 위치가 있는 목표입니다. 지도 추적을 전환하려면 클릭하세요.",
+      "original": "Non-critical priority objective.",
+      "translation": "비중요 우선 목표.",
       "priority": 0,
       "reviewed": false
     },
@@ -1033,8 +1033,8 @@
     },
     {
       "symbol": "TRADE_UI->FACTION_BODY",
-      "original": "The [FACTION] have agreed to trade with us. Use the fields on the left to set desired transfers. When ready click \"Execute Trades\". The [FACTION] use [CURRENCY] as their reserve currency, so any excess profits/costs will adjust our [CURRENCY] supply. Any artifacts available for sale are list on the right.",
-      "translation": "[FACTION]이 우리와 거래하기로 합의했습니다. 원하는 전송을 설정하려면 왼쪽 필드를 사용하세요. 준비가 되면 \"거래 실행\"을 클릭하세요. [FACTION]은 [CURRENCY]를 예비 통화로 사용하므로 초과 이익/비용이 있으면 [CURRENCY] 공급이 조정됩니다. 판매 가능한 모든 유물은 오른쪽에 나열되어 있습니다.",
+      "original": "The [FACTION] have agreed to trade with us. Use the fields on the left to set desired transfers. When ready click \"Execute Trades\". The [FACTION] use [CURRENCY] as their reserve currency, so any excess profits/costs will adjust our [CURRENCY] supply. Any artifacts available for sale are listed on the right.",
+      "translation": "[FACTION]은 우리와 거래하기로 동의했습니다. 왼쪽의 필드를 사용하여 원하는 전송을 설정하세요. 준비가 되면 \"거래 실행\"을 클릭하세요. [FACTION]은 [CURRENCY]를 준비 통화로 사용하므로 초과 수익/비용은 [CURRENCY] 공급을 조정합니다. 판매 가능한 모든 유물은 오른쪽에 나열되어 있습니다.",
       "priority": 0,
       "reviewed": false
     },
@@ -1084,6 +1084,13 @@
       "symbol": "MAP_HUD_STATIC->MAP_CONTROL_TIPS",
       "original": "Mousewheel: Zoom to Center\nCTRL+ Mousewheel: to Zoom to Cursor\nCTRL+ Click: Autopilot\nCTRL+ALT+ Click: Direct Autopilot\nRight-Click: Create Log Entry",
       "translation": "마우스휠: 가운데로 확대/축소\nCTRL+마우스휠: 커서 확대/축소\nCTRL+클릭: 자동 조종 장치\nCTRL+ALT+ 클릭: 직접 자동 조종 장치\n마우스 오른쪽 버튼 클릭: 로그 항목 생성",
+      "priority": 0,
+      "reviewed": false
+    },
+    {
+      "symbol": "MAP_HUD_STATIC->MAP_CONTROL_TIPS_GAMEPAD",
+      "original": "Right joystick: Pan map\nRight joystick depress: Set autopilot\n",
+      "translation": "오른쪽 조이스틱: 팬 맵\n오른쪽 조이스틱 누름: 자동 조종 설정\n",
       "priority": 0,
       "reviewed": false
     },
@@ -1383,8 +1390,8 @@
     },
     {
       "symbol": "BLUEPRINT_LOAD_UI->INSUFFICIENT_RESOURCES",
-      "original": "Insufficient resources:",
-      "translation": "리소스 부족:",
+      "original": "Insufficient resources (shows how much more is needed):",
+      "translation": "리소스가 부족합니다(얼마나 더 필요한지 보여줍니다):",
       "priority": 0,
       "reviewed": false
     },
@@ -1907,6 +1914,34 @@
       "reviewed": false
     },
     {
+      "symbol": "SHIP_LOG->PLANET_ANOMALY",
+      "original": "Planet Anomaly",
+      "translation": "행성 이상 현상",
+      "priority": 0,
+      "reviewed": false
+    },
+    {
+      "symbol": "SHIP_LOG->PLANET_ANOMALY_INTRO",
+      "original": "[DATE_TIME] <i>[SHIP_NAME] Lander SCS-01</i>\tPlanetary Anomaly Report at [COORD]",
+      "translation": "[DATE_TIME] <i>[SHIP_NAME] 착륙선 SCS-01</i> [COORD]에서의 행성 이상 현상 보고",
+      "priority": 0,
+      "reviewed": false
+    },
+    {
+      "symbol": "SHIP_LOG->CELESTIAL_ANOMALY",
+      "original": "EV Investigation",
+      "translation": "EV 조사",
+      "priority": 0,
+      "reviewed": false
+    },
+    {
+      "symbol": "SHIP_LOG->CELESTIAL_ANOMALY_INTRO",
+      "original": "[DATE_TIME] <i>[SHIP_NAME]</i>\tSpaced-based Anomaly Report at [COORD]",
+      "translation": "[DATE_TIME] <i>[SHIP_NAME]</i> [COORD]에서의 공간 기반 이상 보고서",
+      "priority": 0,
+      "reviewed": false
+    },
+    {
       "symbol": "TITLE_MENU->NEW_GAME_BUTTON",
       "original": "New Game",
       "translation": "새로운 게임",
@@ -2181,8 +2216,8 @@
     },
     {
       "symbol": "LOAD_GAME_UI_STATIC->SELECT_A_SAVE_TO_LOAD_FROM_BELOW",
-      "original": "Select a save to load from below. If you don't see your save, don't worry! It hasn't been deleted, <u><link=\"\nhttp://wx3.com/early-access-updates-and-save-games/\">see this post on how to rollback your build.</link></u> (Link should open in browser)",
-      "translation": "아래에서 로드할 저장 항목을 선택하세요. 저장한 내용이 보이지 않더라도 걱정하지 마세요! 삭제되지 않았습니다. <u><link=\"\nhttp://wx3.com/early-access-updates-and-save-games/\">빌드를 롤백하는 방법은 이 게시물을 참조하세요.</link></u> (링크는 브라우저에서 열립니다.)",
+      "original": "Select a save to load from below.",
+      "translation": "아래에서 로드할 저장을 선택하세요.",
       "priority": 0,
       "reviewed": false
     },
@@ -2209,8 +2244,8 @@
     },
     {
       "symbol": "LOAD_GAME_UI->DEFAULT_TEXT",
-      "original": "Select a save to load from below. If you don't see your save, don't worry! It hasn't been deleted, <u><link=\" http://wx3.com/early-access-updates-and-save-games/\">see this post on how to rollback your build.</link></u> (Link should open in browser)",
-      "translation": "아래에서 로드할 저장 항목을 선택하세요. 저장한 내용이 보이지 않더라도 걱정하지 마세요! 삭제되지 않았습니다. <u><link=\" http://wx3.com/early-access-updates-and-save-games/\">빌드를 롤백하는 방법은 이 게시물을 참조하세요.</link> </u> (링크는 브라우저에서 열려야 함)",
+      "original": "Select a save to load from below. ",
+      "translation": "아래에서 로드할 저장을 선택하세요.",
       "priority": 0,
       "reviewed": false
     },
@@ -2446,16 +2481,9 @@
       "reviewed": false
     },
     {
-      "symbol": "OPTIONS_UI_STATIC->RESET_TO_DEFAULTS",
-      "original": "Reset to Defaults",
-      "translation": "기본값으로 재설정",
-      "priority": 0,
-      "reviewed": false
-    },
-    {
-      "symbol": "OPTIONS_UI_STATIC->GAMEPAD_HEADER",
-      "original": "Game Pad",
-      "translation": "게임패드",
+      "symbol": "OPTIONS_UI_STATIC->CONTROLLER_HELP",
+      "original": "<color=#ff7585><b>Controller support is partial and may not work for all functions, such as text input fields. Give feedback on Controller input in the <u><link=\"https://steamcommunity.com/app/1750770/discussions/\">discussion forums.</link></u></b></color>\r\n\r\nSteering:\r\nLeft joystick to set desired direction. Hold for 5 seconds to enable cruise control.\r\n\r\nTurbo:\r\nLeft joystick down to toggle turbo thrust.\r\n\r\nWeapons:\r\nRight joystick to manually fire plasma turrets, right trigger to autofire plasma turrets. \nLeft trigger to autofire secondary weapon.\n\r\nInteract:\r\nA Button\r\n\r\nToggle Map:\r\nY Button\r\n\r\nPan map, Gateway Select:\r\nRight joystick\r\n\r\nToggle Ship Status:\r\nX Button\r\n\nActivate Power-up (if available):\nB Button\n\r\nCycle Secondary Weapon (if secondary weapons installed):\r\nD-Pad Up/Down\r\n\r\nCycle Power-ups (if available):\r\nD-Pad Right/Left\r",
+      "translation": "<color=#ff7585><b>컨트롤러 지원은 일부적이며 텍스트 입력 필드와 같은 모든 기능에서 작동하지 않을 수 있습니다. <u><link=\"https://steamcommunity.com/app/1750770/discussions/\">토론 포럼</link></u></b></color>에서 컨트롤러 입력에 대한 피드백을 제공하세요. \n\n조향: \n왼쪽 조이스틱으로 원하는 방향을 설정합니다. 5초 동안 누르면 크루즈 컨트롤이 활성화됩니다. \n\n터보: \n왼쪽 조이스틱을 아래로 내리면 터보 추력이 켜집니다. \n\n무기: \n오른쪽 조이스틱으로 플라스마 포탑을 수동으로 발사하고, 오른쪽 트리거로 플라스마 포탑을 자동 발사합니다. \n왼쪽 트리거로 보조 무기를 자동 발사합니다.\n\n상호 작용: \nA 버튼 \n\n지도 전환: \nY 버튼 \n\n지도 이동, 게이트웨이 선택: \n오른쪽 조이스틱 \n\n선박 상태 전환: \nX 버튼 \n\n파워업 활성화(사용 가능한 경우):\nB 버튼\n\n보조 무기 순환(보조 무기가 설치된 경우): \nD-패드 위/아래 \n\n파워업 순환(사용 가능한 경우): \nD-패드 오른쪽/왼쪽",
       "priority": 0,
       "reviewed": false
     },
@@ -2463,13 +2491,6 @@
       "symbol": "OPTIONS_UI_STATIC->AUTODETECT_GAMEPAD",
       "original": "Autodetect Gamepad",
       "translation": "게임패드 자동 감지",
-      "priority": 0,
-      "reviewed": false
-    },
-    {
-      "symbol": "OPTIONS_UI_STATIC->CONTROLLER_HELP",
-      "original": "<color=#ff7585><b>Controller support is partial and may not work for all functions, such as text input fields. Give feedback on Controller input in the <u><link=\"https://steamcommunity.com/app/1750770/discussions/\">discussion forums.</link></u></b></color>\r\n\r\nSteering:\r\nLeft joystick to set desired direction. Hold for 5 seconds to enable cruise control.\r\n\r\nTurbo:\r\nLeft joystick down to toggle turbo thrust.\r\n\r\nWeapons:\r\nRight joystick to manually fire plasma turrets, right trigger to autofire plasma turrets. \nLeft trigger to autofire secondary weapon.\n\r\nInteract:\r\nA Button\r\n\r\nToggle Map:\r\nY Button\r\n\r\nPan map, Gateway Select:\r\nRight joystick\r\n\r\nToggle Ship Status:\r\nX Button\r\n\nActivate Power-up (if available):\nB Button\n\r\nCycle Secondary Weapon (if secondary weapons installed):\r\nD-Pad Up/Down\r\n\r\nCycle Power-ups (if available):\r\nD-Pad Right/Left\r",
-      "translation": "<color=#ff7585><b>컨트롤러 지원은 일부적이며 텍스트 입력 필드와 같은 모든 기능에서 작동하지 않을 수 있습니다. <u><link=\"https://steamcommunity.com/app/1750770/discussions/\">토론 포럼</link></u></b></color>에서 컨트롤러 입력에 대한 피드백을 제공하세요. \n\n조향: \n왼쪽 조이스틱으로 원하는 방향을 설정합니다. 5초 동안 누르면 크루즈 컨트롤이 활성화됩니다. \n\n터보: \n왼쪽 조이스틱을 아래로 내리면 터보 추력이 켜집니다. \n\n무기: \n오른쪽 조이스틱으로 플라스마 포탑을 수동으로 발사하고, 오른쪽 트리거로 플라스마 포탑을 자동 발사합니다. \n왼쪽 트리거로 보조 무기를 자동 발사합니다.\n\n상호 작용: \nA 버튼 \n\n지도 전환: \nY 버튼 \n\n지도 이동, 게이트웨이 선택: \n오른쪽 조이스틱 \n\n선박 상태 전환: \nX 버튼 \n\n파워업 활성화(사용 가능한 경우):\nB 버튼\n\n보조 무기 순환(보조 무기가 설치된 경우): \nD-패드 위/아래 \n\n파워업 순환(사용 가능한 경우): \nD-패드 오른쪽/왼쪽",
       "priority": 0,
       "reviewed": false
     },
@@ -9120,13 +9141,6 @@
       "symbol": "ARRIVAL->MISSIONS->STATION_NEWS->NODES->0->NEWS->COMMAND->ANNOUNCER",
       "original": "Command",
       "translation": "명령",
-      "priority": 0,
-      "reviewed": false
-    },
-    {
-      "symbol": "ARRIVAL->MISSIONS->STATION_NEWS->NODES->0->NEWS->ALL_PERSONEL_TO__11104->TEXT",
-      "original": "ALL PERSONEL TO BATTLE STATIONS. THIS IS NOT A DRILL. Non-critical suspend, emergency stations.",
-      "translation": "모든 인원이 전투 스테이션으로 이동합니다. 이것은 훈련이 아닙니다. 중요하지 않은 정지, 비상 스테이션.",
       "priority": 0,
       "reviewed": false
     },

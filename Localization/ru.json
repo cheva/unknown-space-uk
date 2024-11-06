@@ -38,6 +38,13 @@
       "reviewed": false
     },
     {
+      "symbol": "CREW->MAX_LEVEL",
+      "original": "Max Level Reached",
+      "translation": "Достигнут максимальный уровень",
+      "priority": 0,
+      "reviewed": false
+    },
+    {
       "symbol": "CREW->UNSPENT_SKILL_POINTS",
       "original": "Unspent Skill Points: [0]",
       "translation": "Неизрасходованные очки навыков: [0]",
@@ -69,6 +76,13 @@
       "symbol": "CREW->FIRST_OFFICER_NOTIFICATION",
       "original": "[0], First Officer",
       "translation": "[0], Первый помощник",
+      "priority": 0,
+      "reviewed": false
+    },
+    {
+      "symbol": "CREW->GAMEPAD_SKILL_HINT",
+      "original": "Adjust Skill Point Assignments with Right Joystick",
+      "translation": "Настройка назначения очков умений с помощью правого джойстика",
       "priority": 0,
       "reviewed": false
     },
@@ -206,13 +220,6 @@
       "reviewed": false
     },
     {
-      "symbol": "SHIP_STATION_UI->THERMAL_LEGEND",
-      "original": "Simulating realtime maximum heat production with all systems at maximum output. \n\n<color=#ccff00>Green/yellow: Systems nominal</color>\n<color=#ffcc00>Amber: Moderate efficiency loss (0-20%)</color>\n<color=#ff4353>Red: Significant efficiency loss (20-40%)</color>",
-      "translation": "Моделирование максимального производства тепла в реальном времени со всеми системами на максимальной мощности.\n\n<color=#ccff00>Зеленый/желтый: номинал системы</color>\n<color=#ffcc00>Желтый: умеренная потеря эффективности (0–20%)</color>\n<color=#ff4353>Красный: значительная потеря эффективности (20–40%)</color>",
-      "priority": 0,
-      "reviewed": false
-    },
-    {
       "symbol": "SHIP_STATION_UI->MISSION_GOAL_HEADER",
       "original": "First Officer Notes:",
       "translation": "Примечания первого офицера:",
@@ -244,6 +251,13 @@
       "symbol": "SHIP_STATION_UI->ANALYSIS_",
       "original": "Analysis:",
       "translation": "Анализ:",
+      "priority": 0,
+      "reviewed": false
+    },
+    {
+      "symbol": "SHIP_STATION_UI->ANALYZE_ARTIFACT",
+      "original": "Analyze Artifact",
+      "translation": "Анализировать артефакт",
       "priority": 0,
       "reviewed": false
     },
@@ -549,6 +563,20 @@
       "reviewed": false
     },
     {
+      "symbol": "RESEARCH_UI->TECH_RESEARCHED",
+      "original": "Researched",
+      "translation": "Исследовано",
+      "priority": 0,
+      "reviewed": false
+    },
+    {
+      "symbol": "RESEARCH_UI->TECH_UNRESEARCHED",
+      "original": "Unresearched",
+      "translation": "Неисследованное",
+      "priority": 0,
+      "reviewed": false
+    },
+    {
       "symbol": "SHIPYARD_UI->HEXES",
       "original": "Hexes",
       "translation": "шестиугольники",
@@ -682,6 +710,20 @@
       "reviewed": false
     },
     {
+      "symbol": "SHIPYARD_UI->THERMAL_LEGEND",
+      "original": "Simulating realtime maximum heat production with all systems at maximum output. \n\n<color=#ccff00>Green/yellow: Systems nominal</color>\n<color=#ffcc00>Amber: Moderate efficiency loss (0-20%)</color>\n<color=#ff4353>Red: Significant efficiency loss (20-40%)</color>",
+      "translation": "Симуляция максимального производства тепла в реальном времени при максимальной производительности всех систем.\n\n<color=#ccff00>Зеленый/желтый: Системы в номинальном режиме</color\n<color=#ffcc00>Янтарный: Умеренная потеря эффективности (0-20%)</color\n<color=#ff4353>Красный: Значительная потеря эффективности (20-40%)</color",
+      "priority": 0,
+      "reviewed": false
+    },
+    {
+      "symbol": "SHIPYARD_UI->THERMAL_LEGEND_COLORBLIND",
+      "original": "Simulating realtime maximum heat production with all systems at maximum output. \n\nColor-blind mode: Red/brightness indicates thermal levels.",
+      "translation": "Симуляция максимального производства тепла в реальном времени при максимальной производительности всех систем.\n\nРежим цветовой слепоты: Красный/яркость указывает на тепловые уровни.",
+      "priority": 0,
+      "reviewed": false
+    },
+    {
       "symbol": "MISSIONS_UI->IN_PROGRESS",
       "original": "In Progress",
       "translation": "В ходе выполнения",
@@ -739,8 +781,8 @@
     },
     {
       "symbol": "MISSIONS_UI->OBJECTIVE_ACTIONABLE_LOW_HINT",
-      "original": "Objective with an associated location. Click to toggle map tracking.",
-      "translation": "Цель с соответствующим местоположением. Нажмите, чтобы переключить отслеживание карты.",
+      "original": "Non-critical priority objective.",
+      "translation": "Некритическая приоритетная цель.",
       "priority": 0,
       "reviewed": false
     },
@@ -1025,6 +1067,13 @@
       "reviewed": false
     },
     {
+      "symbol": "TRADE_UI_STATIC->NEED_TOOLTIP",
+      "original": "If you've set a ship design goal in the Shipyard,\nthe total resource shortfall is shown here. I.e., how\nmuch we need in cargo to be able to build.",
+      "translation": "Если вы поставили цель создать корабль в \"Верфи\",\nто здесь отображается общая нехватка ресурсов. То есть, сколько\nсколько нам нужно груза для строительства.",
+      "priority": 0,
+      "reviewed": false
+    },
+    {
       "symbol": "TRADE_UI->FACTION_HEADER",
       "original": "[FACTION] Trade Currency: [CURRENCY] ([SYMBOL])",
       "translation": "[ФРАКЦИЯ] Торговая валюта: [ВАЛЮТА] ([СИМВОЛ])",
@@ -1033,8 +1082,8 @@
     },
     {
       "symbol": "TRADE_UI->FACTION_BODY",
-      "original": "The [FACTION] have agreed to trade with us. Use the fields on the left to set desired transfers. When ready click \"Execute Trades\". The [FACTION] use [CURRENCY] as their reserve currency, so any excess profits/costs will adjust our [CURRENCY] supply. Any artifacts available for sale are list on the right.",
-      "translation": "[ФРАКЦИЯ] согласилась торговать с нами. Используйте поля слева для установки желаемых переводов. Когда все будет готово, нажмите «Выполнить сделку». [ФРАКЦИЯ] использует [ВАЛЮТУ] в качестве своей резервной валюты, поэтому любые сверхприбыли/затраты будут корректировать наш запас [ВАЛЮТЫ]. Все артефакты, доступные для продажи, перечислены справа.",
+      "original": "The [FACTION] have agreed to trade with us. Use the fields on the left to set desired transfers. When ready click \"Execute Trades\". The [FACTION] use [CURRENCY] as their reserve currency, so any excess profits/costs will adjust our [CURRENCY] supply. Any artifacts available for sale are listed on the right.",
+      "translation": "[FACTION] согласились торговать с нами. Используйте поля слева, чтобы задать желаемые переводы. Когда будете готовы, нажмите «Выполнить сделки». [FACTION] использует [CURRENCY] в качестве своей резервной валюты, поэтому любые избыточные прибыли/расходы будут корректировать наше предложение [CURRENCY]. Все артефакты, доступные для продажи, перечислены справа.",
       "priority": 0,
       "reviewed": false
     },
@@ -1067,6 +1116,13 @@
       "reviewed": false
     },
     {
+      "symbol": "TRADE_UI->GAMEPAD_HINT",
+      "original": "Right Joystick to adjust trade quantities",
+      "translation": "Правый джойстик для регулировки количества товаров",
+      "priority": 0,
+      "reviewed": false
+    },
+    {
       "symbol": "MAP_HUD_STATIC->HIGHLIGHT_INVESTIGATE_",
       "original": "Highlight Investigate:",
       "translation": "Выделите исследование:",
@@ -1084,6 +1140,13 @@
       "symbol": "MAP_HUD_STATIC->MAP_CONTROL_TIPS",
       "original": "Mousewheel: Zoom to Center\nCTRL+ Mousewheel: to Zoom to Cursor\nCTRL+ Click: Autopilot\nCTRL+ALT+ Click: Direct Autopilot\nRight-Click: Create Log Entry",
       "translation": "Колесо мыши: приблизить к центру\nCTRL+Колесо мыши: приблизить курсор к курсору\nCTRL+ Нажмите: Автопилот.\nCTRL+ALT+ Нажмите: Прямой автопилот.\nЩелкните правой кнопкой мыши: создать запись журнала.",
+      "priority": 0,
+      "reviewed": false
+    },
+    {
+      "symbol": "MAP_HUD_STATIC->MAP_CONTROL_TIPS_GAMEPAD",
+      "original": "Right joystick: Pan map\nRight joystick depress: Set autopilot\n",
+      "translation": "Правый джойстик: панорамирование карты\nНажатие правого джойстика: включение автопилота\n",
       "priority": 0,
       "reviewed": false
     },
@@ -1231,6 +1294,13 @@
       "symbol": "HUD->BATTLESTATIONS_UNREADY",
       "original": "Crew not ready for battlestations",
       "translation": "Экипаж не готов к боевым постам",
+      "priority": 0,
+      "reviewed": false
+    },
+    {
+      "symbol": "HUD->BATTLESTATIONS_UNNECESSARY",
+      "original": "Battlestations unnecessary: no threats detected and ship hull at full strength",
+      "translation": "Битвы не нужны: угроз не обнаружено, корпус корабля полностью прочен",
       "priority": 0,
       "reviewed": false
     },
@@ -1383,8 +1453,8 @@
     },
     {
       "symbol": "BLUEPRINT_LOAD_UI->INSUFFICIENT_RESOURCES",
-      "original": "Insufficient resources:",
-      "translation": "Недостаточно ресурсов:",
+      "original": "Insufficient resources (shows how much more is needed):",
+      "translation": "Недостаточно ресурсов (показывает, насколько больше необходимо):",
       "priority": 0,
       "reviewed": false
     },
@@ -1907,6 +1977,34 @@
       "reviewed": false
     },
     {
+      "symbol": "SHIP_LOG->PLANET_ANOMALY",
+      "original": "Planet Anomaly",
+      "translation": "Аномалия планеты",
+      "priority": 0,
+      "reviewed": false
+    },
+    {
+      "symbol": "SHIP_LOG->PLANET_ANOMALY_INTRO",
+      "original": "[DATE_TIME] <i>[SHIP_NAME] Lander SCS-01</i>\tPlanetary Anomaly Report at [COORD]",
+      "translation": "[DATE_TIME] <i>[SHIP_NAME] Посадочный модуль SCS-01</i> Отчет о планетарной аномалии в [COORD]",
+      "priority": 0,
+      "reviewed": false
+    },
+    {
+      "symbol": "SHIP_LOG->CELESTIAL_ANOMALY",
+      "original": "EV Investigation",
+      "translation": "Расследование электромобилей",
+      "priority": 0,
+      "reviewed": false
+    },
+    {
+      "symbol": "SHIP_LOG->CELESTIAL_ANOMALY_INTRO",
+      "original": "[DATE_TIME] <i>[SHIP_NAME]</i>\tSpaced-based Anomaly Report at [COORD]",
+      "translation": "[DATE_TIME] <i>[SHIP_NAME]</i> Отчет об аномалиях на основе интервалов в [COORD]",
+      "priority": 0,
+      "reviewed": false
+    },
+    {
       "symbol": "TITLE_MENU->NEW_GAME_BUTTON",
       "original": "New Game",
       "translation": "Новая игра",
@@ -2145,6 +2243,13 @@
       "reviewed": false
     },
     {
+      "symbol": "SAVE_GAME_UI_STATIC->DELETE_OLD_AUTOSAVES",
+      "original": "Delete Old Autosaves",
+      "translation": "Удаление старых автосохранений",
+      "priority": 0,
+      "reviewed": false
+    },
+    {
       "symbol": "SAVE_GAME_UI_STATIC->CANCEL",
       "original": "Cancel",
       "translation": "Отмена",
@@ -2181,8 +2286,8 @@
     },
     {
       "symbol": "LOAD_GAME_UI_STATIC->SELECT_A_SAVE_TO_LOAD_FROM_BELOW",
-      "original": "Select a save to load from below. If you don't see your save, don't worry! It hasn't been deleted, <u><link=\"\nhttp://wx3.com/early-access-updates-and-save-games/\">see this post on how to rollback your build.</link></u> (Link should open in browser)",
-      "translation": "Выберите сохранение для загрузки снизу. Если вы не видите свое сохранение, не волнуйтесь! Он не был удален, <u><link=\"\nhttp://wx3.com/early-access-updates-and-save-games/\">о том, как откатить сборку, см. в этом посте.</link></u> (ссылка должна открыться в браузере)",
+      "original": "Select a save to load from below.",
+      "translation": "Выберите сохранение для загрузки ниже.",
       "priority": 0,
       "reviewed": false
     },
@@ -2201,6 +2306,13 @@
       "reviewed": false
     },
     {
+      "symbol": "LOAD_GAME_UI_STATIC->DELETE_OLD_AUTOSAVES",
+      "original": "Delete Old Autosaves",
+      "translation": "Удаление старых автосохранений",
+      "priority": 0,
+      "reviewed": false
+    },
+    {
       "symbol": "LOAD_GAME_UI_STATIC->CANCEL",
       "original": "Cancel",
       "translation": "Отмена",
@@ -2209,8 +2321,8 @@
     },
     {
       "symbol": "LOAD_GAME_UI->DEFAULT_TEXT",
-      "original": "Select a save to load from below. If you don't see your save, don't worry! It hasn't been deleted, <u><link=\" http://wx3.com/early-access-updates-and-save-games/\">see this post on how to rollback your build.</link></u> (Link should open in browser)",
-      "translation": "Выберите сохранение для загрузки снизу. Если вы не видите свое сохранение, не волнуйтесь! Он не был удален. <u><link=\" http://wx3.com/early-access-updates-and-save-games/\">см. этот пост о том, как откатить сборку.</link> </u> (Ссылка должна открыться в браузере)",
+      "original": "Select a save to load from below. ",
+      "translation": "Выберите сохранение для загрузки ниже.",
       "priority": 0,
       "reviewed": false
     },
@@ -2446,16 +2558,16 @@
       "reviewed": false
     },
     {
-      "symbol": "OPTIONS_UI_STATIC->RESET_TO_DEFAULTS",
-      "original": "Reset to Defaults",
-      "translation": "Сброс к настройкам по умолчанию",
+      "symbol": "OPTIONS_UI_STATIC->RESET_ALL_CONTROLS_TO_DEFAULT",
+      "original": "Reset All Controls to Default",
+      "translation": "Сбросить все настройки по умолчанию",
       "priority": 0,
       "reviewed": false
     },
     {
-      "symbol": "OPTIONS_UI_STATIC->GAMEPAD_HEADER",
-      "original": "Game Pad",
-      "translation": "Геймпад",
+      "symbol": "OPTIONS_UI_STATIC->CONTROLLER_HELP",
+      "original": "<color=#ff7585><b>Controller support is partial and may not work for all functions, such as text input fields. Give feedback on Controller input in the <u><link=\"https://steamcommunity.com/app/1750770/discussions/\">discussion forums.</link></u></b></color>\r\n\r\nSteering:  Left joystick to set desired direction. In map mode, use Right joystick to pan or set destination.\r",
+      "translation": "<color=#ff7585><b>Поддержка контроллера является частичной и может работать не для всех функций, например, для полей ввода текста. Оставляйте отзывы о работе контроллера на <u><link=\"https://steamcommunity.com/app/1750770/discussions/\">форумах для обсуждения.</link></u></b></color>.\r\n\r\nРулевое управление:  Левый джойстик для задания нужного направления. В режиме карты используйте правый джойстик для панорамирования или установки пункта назначения.",
       "priority": 0,
       "reviewed": false
     },
@@ -2467,9 +2579,30 @@
       "reviewed": false
     },
     {
-      "symbol": "OPTIONS_UI_STATIC->CONTROLLER_HELP",
-      "original": "<color=#ff7585><b>Controller support is partial and may not work for all functions, such as text input fields. Give feedback on Controller input in the <u><link=\"https://steamcommunity.com/app/1750770/discussions/\">discussion forums.</link></u></b></color>\r\n\r\nSteering:\r\nLeft joystick to set desired direction. Hold for 5 seconds to enable cruise control.\r\n\r\nTurbo:\r\nLeft joystick down to toggle turbo thrust.\r\n\r\nWeapons:\r\nRight joystick to manually fire plasma turrets, right trigger to autofire plasma turrets. \nLeft trigger to autofire secondary weapon.\n\r\nInteract:\r\nA Button\r\n\r\nToggle Map:\r\nY Button\r\n\r\nPan map, Gateway Select:\r\nRight joystick\r\n\r\nToggle Ship Status:\r\nX Button\r\n\nActivate Power-up (if available):\nB Button\n\r\nCycle Secondary Weapon (if secondary weapons installed):\r\nD-Pad Up/Down\r\n\r\nCycle Power-ups (if available):\r\nD-Pad Right/Left\r",
-      "translation": "<color=#ff7585><b>Поддержка контроллера частичная и может не работать для всех функций, таких как поля ввода текста. Оставьте отзыв о вводе с контроллера на <u><link=\"https://steamcommunity.com/app/1750770/discussions/\">форумах обсуждений.</link></u></b></color> \n\nРулевое управление: \nЛевый джойстик для установки желаемого направления. Удерживайте в течение 5 секунд, чтобы включить круиз-контроль. \n\nТурбо: \nЛевый джойстик вниз для переключения турботяги. \n\nОружие: \nПравый джойстик для ручного запуска плазменных турелей, правый триггер для автоматического запуска плазменных турелей. \nЛевый триггер для автоматического запуска дополнительного оружия.\n\nВзаимодействие: \nКнопка A \n\nПереключение карты: \nКнопка Y \n\nПанорамирование карты, выбор шлюза: \nПравый джойстик \n\nПереключение статуса корабля: \nКнопка X \n\nАктивация усиления (если доступно): \nКнопка B \n\nЦикл вторичного оружия (если установлено вторичное оружие): \nD-Pad вверх/вниз \n\nЦикл усилений (если доступно): \nD-Pad вправо/влево",
+      "symbol": "OPTIONS_UI_STATIC->DIRECT-DRIVE_STEERING",
+      "original": "Direct-drive steering",
+      "translation": "Рулевое управление с прямым приводом",
+      "priority": 0,
+      "reviewed": false
+    },
+    {
+      "symbol": "OPTIONS_UI_STATIC->CRUISE_DELAY_",
+      "original": "Cruise Delay:",
+      "translation": "Круизная задержка:",
+      "priority": 0,
+      "reviewed": false
+    },
+    {
+      "symbol": "OPTIONS_UI_STATIC->NEVER",
+      "original": "Never",
+      "translation": "Никогда",
+      "priority": 0,
+      "reviewed": false
+    },
+    {
+      "symbol": "OPTIONS_UI_STATIC->EXIT",
+      "original": "Exit",
+      "translation": "Выход",
       "priority": 0,
       "reviewed": false
     },
@@ -2586,6 +2719,13 @@
       "reviewed": false
     },
     {
+      "symbol": "OPTIONS_UI->NEVER",
+      "original": "Never",
+      "translation": "Никогда",
+      "priority": 0,
+      "reviewed": false
+    },
+    {
       "symbol": "CREDITS_UI->CREDITS",
       "original": "Credits",
       "translation": "Кредиты",
@@ -2624,6 +2764,20 @@
       "symbol": "CREDITS_UI->PLAYTESTERS",
       "original": "Playtesters",
       "translation": "Тестеры",
+      "priority": 0,
+      "reviewed": false
+    },
+    {
+      "symbol": "SAVES->DELETE_AUTOSAVE_MESSAGE",
+      "original": "This will delete [X] autosaves older than 24 hours. This action cannot be undone!",
+      "translation": "Это удалит [X] автосохранений старше 24 часов. Это действие нельзя отменить!",
+      "priority": 0,
+      "reviewed": false
+    },
+    {
+      "symbol": "SAVES->DELETE_AUTOSAVE_CONFIRM",
+      "original": "Delete Autosaves",
+      "translation": "Удалить автосохранения",
       "priority": 0,
       "reviewed": false
     },
@@ -6121,6 +6275,13 @@
       "reviewed": false
     },
     {
+      "symbol": "INPUT->CYCLE_SECONDARY_WEAPON_DOWN_NAME",
+      "original": "Cycle Secondary Back",
+      "translation": "Цикл Вторичное возвращение",
+      "priority": 0,
+      "reviewed": false
+    },
+    {
       "symbol": "INPUT->FIRE_SECONDARY_NAME",
       "original": "Fire Secondary",
       "translation": "Пожарный вторичный",
@@ -6222,6 +6383,48 @@
       "symbol": "INPUT->FIRE_FIGHTERS_NAME",
       "original": "Launch Fighters",
       "translation": "Запуск истребителей",
+      "priority": 0,
+      "reviewed": false
+    },
+    {
+      "symbol": "INPUT->CYCLE_POWERUP_UP_NAME",
+      "original": "Next Power Up",
+      "translation": "Next Power Up",
+      "priority": 0,
+      "reviewed": false
+    },
+    {
+      "symbol": "INPUT->CYCLE_POWERUP_UP_COMMENT",
+      "original": "Switch to next power up, if any",
+      "translation": "Переход к следующему включению, если таковое имеется",
+      "priority": 0,
+      "reviewed": false
+    },
+    {
+      "symbol": "INPUT->CYCLE_POWERUP_DOWN_NAME",
+      "original": "Previous Power Up Down",
+      "translation": "Предыдущая Мощность Вверх Вниз",
+      "priority": 0,
+      "reviewed": false
+    },
+    {
+      "symbol": "INPUT->CYCLE_POWERUP_DOWN_COMMENT",
+      "original": "Switch to previous power up, if any",
+      "translation": "Переход к предыдущему включению, если таковое имело место",
+      "priority": 0,
+      "reviewed": false
+    },
+    {
+      "symbol": "INPUT->ACTIVATE_POWERUP_NAME",
+      "original": "Activate Power Up",
+      "translation": "Активировать питание",
+      "priority": 0,
+      "reviewed": false
+    },
+    {
+      "symbol": "INPUT->ACTIVATE_POWERUP_COMMENT",
+      "original": "Activates current power up, if any",
+      "translation": "Активирует текущее включение, если таковое имеется",
       "priority": 0,
       "reviewed": false
     },
@@ -6394,9 +6597,30 @@
       "reviewed": false
     },
     {
-      "symbol": "OPTIONS_TIPS->GAMEPAD",
+      "symbol": "OPTIONS_TIPS->AUTODETECT",
       "original": "Game controller support is currently experimental. If are not using a controller and experience odd co",
-      "translation": "Поддержка игровых контроллеров в настоящее время является экспериментальной. Если вы не используете контроллер и испытываете странные проблемы",
+      "translation": "Поддержка игровых контроллеров в настоящее время является экспериментальной. Если вы не используете контроллер и испытываете странные ко",
+      "priority": 0,
+      "reviewed": false
+    },
+    {
+      "symbol": "OPTIONS_TIPS->STEERING",
+      "original": "Game controller support is currently experimental. If are not using a controller and experience odd co",
+      "translation": "Поддержка игровых контроллеров в настоящее время является экспериментальной. Если вы не используете контроллер и испытываете странные ко",
+      "priority": 0,
+      "reviewed": false
+    },
+    {
+      "symbol": "OPTIONS_TIPS->TEXT__TMP_",
+      "original": "If set, player will directly control the ship's turning and thrust \nwith the joystick, rather than setting intended direction.",
+      "translation": "Если установлено, игрок будет напрямую управлять поворотом и тягой корабля\nс помощью джойстика, а не задавать направление движения.",
+      "priority": 0,
+      "reviewed": false
+    },
+    {
+      "symbol": "OPTIONS_TIPS->CRUISE_DELAY",
+      "original": "Turn on autocruise after this many seconds.",
+      "translation": "Включить автокруиз через столько-то секунд.",
       "priority": 0,
       "reviewed": false
     },
@@ -6453,6 +6677,13 @@
       "symbol": "UNITS->SEC",
       "original": "SEC",
       "translation": "SEC",
+      "priority": 0,
+      "reviewed": false
+    },
+    {
+      "symbol": "UNITS->SECONDS",
+      "original": "Seconds",
+      "translation": "Секунды",
       "priority": 0,
       "reviewed": false
     },
@@ -7067,15 +7298,15 @@
     },
     {
       "symbol": "ALPHA->MISSIONS->CARGO_SPILL->NODES->12->FIRST_OFFICER->EXTRA",
-      "original": "Press [Z] to open the ship console",
-      "translation": "Нажмите [Z], чтобы открыть консоль корабля.",
+      "original": "Press [SHIP_INFO] to open the ship console",
+      "translation": "Нажмите [SHIP_INFO], чтобы открыть консоль корабля.",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "ALPHA->MISSIONS->CARGO_SPILL->NODES->12->FIRST_OFFICER->GAMEPAD_EXTRA",
-      "original": "Press [Gamepad X] to open the ship console",
-      "translation": "Нажмите [Gamepad X], чтобы открыть консоль корабля.",
+      "original": "Press [SHIP_INFO] to open the ship console",
+      "translation": "Нажмите [SHIP_INFO], чтобы открыть консоль корабля.",
       "priority": 0,
       "reviewed": false
     },
@@ -8396,6 +8627,20 @@
       "reviewed": false
     },
     {
+      "symbol": "ARRIVAL->MISSIONS->ALETHEIA->NODES->17->FIRST_OFFICER->MESSAGE",
+      "original": "Might be worth re-investigating the area near the Polyhedral Artifact. It's possible we missed something.",
+      "translation": "Возможно, стоит заново исследовать область возле Многогранного артефакта. Возможно, мы что-то упустили.",
+      "priority": 0,
+      "reviewed": false
+    },
+    {
+      "symbol": "ARRIVAL->MISSIONS->ALETHEIA->NODES->17->MISSION_DETAIL_ALETHEIA_REVISIT_HINT",
+      "original": "Lt. Avery thinks we should revisit the area near [COORD].",
+      "translation": "Лейтенант Эйвери считает, что нам следует еще раз осмотреть район возле [КООРД].",
+      "priority": 0,
+      "reviewed": false
+    },
+    {
       "symbol": "ARRIVAL->MISSIONS->ALETHEIA->NODES->9->MISSION_DETAIL_INFORM_YU",
       "original": "We found The Aletheia. They were taken off guard in an attack by The Devout, but report that they are safe. We should let Cdre Yu know.",
       "translation": "Мы нашли Алетейю. Они были застигнуты врасплох атакой Благочестивых, но сообщают, что они в безопасности. Мы должны сообщить командиру Ю.",
@@ -8662,6 +8907,20 @@
       "reviewed": false
     },
     {
+      "symbol": "ARRIVAL->MISSIONS->MISSION_HELP->NODES->0->FIRST_OFFICER->MESSAGE",
+      "original": "As a reminder, you can keep track of current objectives in our Missions list. \n\nI'll highlight those that I think may be critical to our overall goals.",
+      "translation": "Напоминаем, что вы можете следить за текущими целями в нашем списке миссий.\n\nЯ выделю те, которые, по моему мнению, могут быть важны для достижения наших общих целей.",
+      "priority": 0,
+      "reviewed": false
+    },
+    {
+      "symbol": "ARRIVAL->MISSIONS->MISSION_HELP->NODES->0->FIRST_OFFICER->EXTRA",
+      "original": "[SHIP_INFO] to open Ship Status",
+      "translation": "[SHIP_INFO], чтобы открыть статус корабля",
+      "priority": 0,
+      "reviewed": false
+    },
+    {
       "symbol": "ARRIVAL->MISSIONS->POLYHEDRAL->NAME",
       "original": "Deep Space Gravity",
       "translation": "Глубокая космическая гравитация",
@@ -8824,8 +9083,8 @@
     },
     {
       "symbol": "ARRIVAL->MISSIONS->RED_RAIDERS->NODES->19->FIRST_OFFICER->EXTRA",
-      "original": "Press [M] or [MIDDLE_MOUSE] to toggle map view.",
-      "translation": "Нажмите [M] или [MIDDLE_MOUSE], чтобы переключить вид карты.",
+      "original": "Press [MAP_TOGGLE] or [MIDDLE_MOUSE] to toggle map view.",
+      "translation": "Нажмите [MAP_TOGGLE] или [MIDDLE_MOUSE], чтобы переключить вид карты.",
       "priority": 0,
       "reviewed": false
     },
@@ -8893,6 +9152,13 @@
       "reviewed": false
     },
     {
+      "symbol": "ARRIVAL->MISSIONS->RESCUE->NODES->7->FIRST_OFFICER->GAMEPAD_EXTRA",
+      "original": "[SHIP_INFO] to open the ship status.",
+      "translation": "[SHIP_INFO], чтобы открыть статус корабля.",
+      "priority": 0,
+      "reviewed": false
+    },
+    {
       "symbol": "ARRIVAL->MISSIONS->RESCUE->NODES->4->FIRST_OFFICER->MESSAGE",
       "original": "Hostile ships detected. Weapons ready.",
       "translation": "Обнаружены вражеские корабли. Оружие готово.",
@@ -8935,6 +9201,13 @@
       "reviewed": false
     },
     {
+      "symbol": "ARRIVAL->MISSIONS->RESEARCH_LAB->NODES->9->FIRST_OFFICER->MESSAGE",
+      "original": "Dr. Rama's condescending attitude not withstanding, I still think we should return to Celaeno Station and follow her directions to research Turbo Thrust in the Lab.",
+      "translation": "Несмотря на снисходительное отношение доктора Рамы, я все равно считаю, что мы должны вернуться на станцию Селаэно и следовать ее указаниям по исследованию Турбоусиления в лаборатории.",
+      "priority": 0,
+      "reviewed": false
+    },
+    {
       "symbol": "ARRIVAL->MISSIONS->SHIPYARD_TUTORIAL->NAME",
       "original": "Shipyard Tutorial",
       "translation": "Учебное пособие по верфи",
@@ -8964,8 +9237,8 @@
     },
     {
       "symbol": "ARRIVAL->MISSIONS->SHIPYARD_TUTORIAL->NODES->6->ACTOR->MESSAGE",
-      "original": "You can rotate a module prior to placement by pressing [A/D]. Asymmetric modules can be mirrored by pressing [X].",
-      "translation": "Вы можете повернуть модуль перед размещением, нажав [A/D]. Асимметричные модули можно отзеркалить, нажав [X].",
+      "original": "You can rotate a module prior to placement by pressing [A/D]. Asymmetric modules can be mirrored by pressing [INTERACT].",
+      "translation": "Вы можете повернуть модуль перед размещением, нажав [A/D]. Асимметричные модули можно зеркально отобразить, нажав [INTERACT].",
       "priority": 0,
       "reviewed": false
     },
@@ -9124,9 +9397,9 @@
       "reviewed": false
     },
     {
-      "symbol": "ARRIVAL->MISSIONS->STATION_NEWS->NODES->0->NEWS->ALL_PERSONEL_TO__11104->TEXT",
-      "original": "ALL PERSONEL TO BATTLE STATIONS. THIS IS NOT A DRILL. Non-critical suspend, emergency stations.",
-      "translation": "ВЕСЬ ПЕРСОНАЛ НА БОЕВЫЕ СТАНЦИИ. ЭТО НЕ ДРЕЛЬ. Некритическая остановка, аварийные станции.",
+      "symbol": "ARRIVAL->MISSIONS->STATION_NEWS->NODES->0->NEWS->ALL_PERSONNEL_TO_67941->TEXT",
+      "original": "ALL PERSONNEL TO BATTLE STATIONS. THIS IS NOT A DRILL. Non-critical suspend, emergency stations.",
+      "translation": "ВЕСЬ ПЕРСОНАЛ НА БОЕВЫЕ ПОСТЫ. ЭТО НЕ УЧЕНИЯ. Некритические приостановлены, аварийные станции.",
       "priority": 0,
       "reviewed": false
     },
@@ -9769,8 +10042,8 @@
     },
     {
       "symbol": "ASTEROIDS->DISCOVERIES->SHATTERED_MOON_DESC",
-      "original": "Data from the various strange objects we've found in these asteroids strongly points to this not being an natural field, but a small planetoid that was destroyed by some cataclysmic force.",
-      "translation": "Данные о различных странных объектах, которые мы нашли на этих астероидах, убедительно указывают на то, что это не естественное поле, а небольшой планетоид, разрушенный какой-то катастрофической силой.",
+      "original": "Data from the various strange objects we've found in these asteroids strongly points to this not being a natural field, but a small planetoid that was destroyed by some cataclysmic force.",
+      "translation": "Данные о различных странных объектах, найденных нами в этих астероидах, убедительно указывают на то, что это не природное месторождение, а небольшой планетоид, разрушенный какой-то катаклизмической силой.",
       "priority": 0,
       "reviewed": false
     },
@@ -10139,6 +10412,13 @@
       "reviewed": false
     },
     {
+      "symbol": "BEYOND->ANOMALY->BATTLEGROUND->DIALOGUE->10_NPC",
+      "original": "The old battleground remains unchanged since the team's previous visit.",
+      "translation": "Старое поле боя остается неизменным с момента предыдущего визита команды.",
+      "priority": 0,
+      "reviewed": false
+    },
+    {
       "symbol": "BEYOND->ANOMALY->BAUXITE_CLIFFS->NAME",
       "original": "Bauxite Cliffs",
       "translation": "Бокситовые скалы",
@@ -10448,8 +10728,8 @@
     },
     {
       "symbol": "BEYOND->ANOMALY->RAIDER_FACTORY->DIALOGUE->1_NPC",
-      "original": "What looked like a small spaceport from low orbit turn out to be a fully automated manufacturing facility. Tracked robots carry ore from the nearby hills into a refinery connected to the main structure.\n\nA partially assembled \"red raider\" drone is being assembled on the launch pad.",
-      "translation": "То, что с низкой орбиты выглядело как небольшой космодром, оказалось полностью автоматизированным производственным комплексом. Гусеничные роботы доставляют руду с близлежащих холмов на нефтеперерабатывающий завод, соединенный с основным сооружением.\n\nНа стартовой площадке собираются частично собранный дрон «красный рейдер».",
+      "original": "What looked like a small spaceport from low orbit turns out to be a fully automated manufacturing facility. Tracked robots carry ore from the nearby hills into a refinery connected to the main structure.\n\nA partially assembled \"red raider\" drone is being assembled on the launch pad.",
+      "translation": "То, что с низкой орбиты выглядело как небольшой космодром, на деле оказалось полностью автоматизированным производственным комплексом. Гусеничные роботы доставляют руду с близлежащих холмов в рафинировочный цех, соединенный с главной структурой.\n\nНа стартовой площадке идет сборка частично собранного дрона \"Красный рейдер\".",
       "priority": 0,
       "reviewed": false
     },
@@ -11833,6 +12113,13 @@
       "reviewed": false
     },
     {
+      "symbol": "CEPHEID->MISSIONS->STARLANCE->NODES->18->ACTOR->MESSAGE",
+      "original": "Cpt. Dolson has given us access to the Starlance Equation in the Lab.\n\nHas the word \"equation\" deterred you from investigating this possible path forward?",
+      "translation": "Капитан Долсон предоставил нам доступ к уравнению Старланса в лаборатории.\n\nУдерживает ли вас слово \"уравнение\" от изучения этого возможного пути?",
+      "priority": 0,
+      "reviewed": false
+    },
+    {
       "symbol": "CEPHEID->MISSIONS->STARLANCE_TEST->NAME",
       "original": "Starlance Test",
       "translation": "Испытание Звездного Копья",
@@ -11995,8 +12282,8 @@
     },
     {
       "symbol": "CEPHEID2->ANOMALY->CEPHEID_OBSERVERS->DIALOGUE->1_NPC",
-      "original": "Millenia ago, [CREW_ASTRO] explains, this planet had a large amount of water that cycled between frozen, liquid and gaseous states depending on the activity of the local star.\n\nBut during one of the prolonged extremes, the moisture was boiled off entirely, never to recover.",
-      "translation": "Тысячелетия назад, объясняет [CREW_ASTRO], на этой планете было большое количество воды, которая переходила из замороженного состояния в жидкое и газообразное в зависимости от активности местной звезды.\n\nНо во время одного из продолжительных экстремальных явлений влага полностью испарилась и больше не восстановилась.",
+      "original": "Millennia ago, [CREW_ASTRO] explains, this planet had a large amount of water that cycled between frozen, liquid and gaseous states depending on the activity of the local star.\n\nBut during one of the prolonged extremes, the moisture was boiled off entirely, never to recover.",
+      "translation": "Тысячелетия назад, объясняет [CREW_ASTRO], на этой планете было большое количество воды, которая циркулировала между замороженным, жидким и газообразным состояниями в зависимости от активности местной звезды.\n\nНо во время одного из затяжных экстремумов влага полностью выкипела и больше не восстанавливалась.",
       "priority": 0,
       "reviewed": false
     },
@@ -12044,8 +12331,8 @@
     },
     {
       "symbol": "CEPHEID2->DISCOVERIES->CEPHEID_LIFE_DESC",
-      "original": "Given the lifeforms' complexity and the erratic environment, these creatures must have evolved the ability to survive being frozen solid, as well as completely dehyrdated.",
-      "translation": "Учитывая сложность форм жизни и изменчивую окружающую среду, эти существа, должно быть, выработали способность выживать в условиях замерзания, а также полного обезвоживания.",
+      "original": "Given the lifeforms' complexity and the erratic environment, these creatures must have evolved the ability to survive being frozen solid, as well as completely dehydrated.",
+      "translation": "Учитывая сложность форм жизни и нестабильность окружающей среды, эти существа должны были выработать способность выживать в условиях твердой заморозки, а также полного обезвоживания.",
       "priority": 0,
       "reviewed": false
     },
@@ -12562,8 +12849,8 @@
     },
     {
       "symbol": "COLLAPSAR->ANOMALY->LOST_GORYR->DIALOGUE->1_NPC",
-      "original": "We are glad to see [SHIP_NAME] and not another Devout Purger.\n\nMany of our systems were damaged by a mine impact. Without navigation or our fleet encoder, we've been a drift here.",
-      "translation": "Мы рады видеть [SHIP_NAME], а не еще одного Devout Purger.\n\nМногие из наших систем были повреждены в результате взрыва мины. Без навигации и нашего кодировщика мы здесь застряли.",
+      "original": "We are glad to see [SHIP_NAME] and not another Devout Purger.\n\nMany of our systems were damaged by a mine impact. Without navigation or our fleet encoder, we've been adrift here.",
+      "translation": "Мы рады видеть [SHIP_NAME], а не очередного Devout Purger.\n\nМногие наши системы были повреждены в результате попадания мины. Без навигации и кодировщика флота мы дрейфуем здесь.",
       "priority": 0,
       "reviewed": false
     },
@@ -12956,6 +13243,34 @@
       "symbol": "COLLAPSAR->MISSIONS->STRANGE_MATTER->NODES->27->FIRST_OFFICER->MESSAGE",
       "original": "Congratulations on the promotion, captain.",
       "translation": "Поздравляю с повышением, капитан.",
+      "priority": 0,
+      "reviewed": false
+    },
+    {
+      "symbol": "COLLAPSAR->MISSIONS->STRANGE_MATTER->NODES->34->CREW_SKILL_NOTIFY->MESSAGE",
+      "original": "If there's nothing urgent, I noticed a pretty nebula a while ago.",
+      "translation": "Если нет ничего срочного, то некоторое время назад я заметил симпатичную туманность.",
+      "priority": 0,
+      "reviewed": false
+    },
+    {
+      "symbol": "COLLAPSAR->MISSIONS->STRANGE_MATTER->NODES->34->MISSION_DETAIL_PRETTY_NEBULA",
+      "original": "[CREW_ASTRO] wants us to check out a nebula near [COORD] because it's pretty.",
+      "translation": "[CREW_ASTRO] хочет, чтобы мы проверили туманность возле [COORD], потому что она красивая.",
+      "priority": 0,
+      "reviewed": false
+    },
+    {
+      "symbol": "COLLAPSAR->MISSIONS->STRANGE_MATTER->NODES->36->CREW_SKILL_NOTIFY->MESSAGE",
+      "original": "Ummm, we're supposed to be looking for Strange Matter to save our universe.",
+      "translation": "Предполагается, что мы должны искать Странную Материю, чтобы спасти нашу вселенную.",
+      "priority": 0,
+      "reviewed": false
+    },
+    {
+      "symbol": "COLLAPSAR->MISSIONS->STRANGE_MATTER->NODES->37->CREW_SKILL_NOTIFY->MESSAGE",
+      "original": "It was *pretty* lucky we decided to investigate this nebula.",
+      "translation": "Нам очень повезло, что мы решили исследовать эту туманность.",
       "priority": 0,
       "reviewed": false
     },
@@ -13556,8 +13871,8 @@
     },
     {
       "symbol": "CONFLICT->CONVO->NIMION_ALLY->DIALOGUE->11_NPC",
-      "original": "You have yet to re-earn our trust. Help us destroy the Kyrnan that threaten our space.\n\nFor now, be brief.",
-      "translation": "Вам еще предстоит вновь заслужить наше доверие. Помогите нам уничтожить кирнанов, угрожающих нашему пространству.\n\nА пока будьте кратки.",
+      "original": "You have yet to re-earn our trust. The Kyrnan still have a significant force nearby. Help us hunt and destroy them.\n\nFor now, be brief.",
+      "translation": "Вам еще предстоит заново завоевать наше доверие. Кирнан по-прежнему располагает значительными силами поблизости. Помогите нам найти и уничтожить их.\n\nА пока будьте кратки.",
       "priority": 0,
       "reviewed": false
     },
@@ -14081,8 +14396,8 @@
     },
     {
       "symbol": "CONFLICT->CONVO->PLAYER_KYRNAN_SPIKE->DIALOGUE->9_NPC",
-      "original": "We thank you. We our transmitting the coordinates and treaty now.",
-      "translation": "Мы благодарим Вас. Сейчас мы передаем координаты и договор.",
+      "original": "We thank you. We are transmitting the coordinates and treaty now.",
+      "translation": "Мы благодарим вас. Мы передаем координаты и договор.",
       "priority": 0,
       "reviewed": false
     },
@@ -14466,8 +14781,8 @@
     },
     {
       "symbol": "CONFLICT->ANOMALY->GRAZERS->DIALOGUE->1_NPC",
-      "original": "The entire planet is a nearly homogenous biome of grasslands and sparse glades. \n\nThe only large fauna are large herds of roving horned ungulates.\n\nThere are a number of automated monitoring stations that appear to be studying these creatures.",
-      "translation": "Вся планета представляет собой почти однородный биом лугов и редких полян.\n\nЕдинственной крупной фауной являются большие стада кочующих рогатых копытных.\n\nСуществует ряд автоматизированных станций мониторинга, которые, судя по всему, изучают этих существ.",
+      "original": "The entire planet is a nearly homogeneous biome of grasslands and sparse glades. \n\nThe only large fauna are large herds of roving horned ungulates.\n\nThere are a number of automated monitoring stations that appear to be studying these creatures.",
+      "translation": "Вся планета представляет собой практически однородный биом, состоящий из лугов и редких полян.\n\nЕдинственная крупная фауна - большие стада бродячих рогатых копытных.\n\nЗдесь есть несколько автоматических станций мониторинга, которые, судя по всему, изучают этих существ.",
       "priority": 0,
       "reviewed": false
     },
@@ -14501,8 +14816,8 @@
     },
     {
       "symbol": "CONFLICT->ANOMALY->KYRNAN_SCUTTLE->DIALOGUE->2_NPC",
-      "original": "Futher investigation shows that the ship is old, it was recently rehabilitated, at least to the point of being spaceworthy.\n\nWhile the most valuable upgrades have been stripped out, it was a rushed job leaving some resources.",
-      "translation": "Дальнейшее расследование показывает, что корабль старый, его недавно реабилитировали, по крайней мере, до такой степени, что он готов к полету.\n\nХотя наиболее ценные обновления были удалены, это была спешная работа, оставившая некоторые ресурсы.",
+      "original": "Further investigation shows that the ship is old, it was recently rehabilitated, at least to the point of being spaceworthy.\n\nWhile the most valuable upgrades have been stripped out, it was a rushed job leaving some resources.",
+      "translation": "Дальнейшее расследование показывает, что корабль старый, он был недавно восстановлен, по крайней мере, до состояния пригодного для полетов.\n\nХотя самые ценные обновления были удалены, это была спешная работа, оставившая некоторые ресурсы.",
       "priority": 0,
       "reviewed": false
     },
@@ -14766,16 +15081,23 @@
       "reviewed": false
     },
     {
+      "symbol": "CONFLICT->MISSIONS->DEEP_LAB->NODES->4->MISSION_DETAIL_SPIKE_QUESTION_REMINDER",
+      "original": "Lt. Avery thinks we should ask the Kyrnan about the artifact they sold us.",
+      "translation": "Лейтенант Эйвери считает, что мы должны расспросить кырнанцев об артефакте, который они нам продали.",
+      "priority": 0,
+      "reviewed": false
+    },
+    {
       "symbol": "CONFLICT->MISSIONS->DEEP_LAB->NODES->10->CREW_SKILL_NOTIFY->MESSAGE",
-      "original": "Assuming it was the Kyrnan who took the Remnant item perhaps talking to them again might be fruitful?",
-      "translation": "Если предположить, что это Кирнан забрал предмет Остатка, возможно, повторный разговор с ними может быть плодотворным?",
+      "original": "Assuming it was the Kyrnan who took the Remnant item perhaps talking to them again might be fruitful? Perhaps they'd be willing to part with it.",
+      "translation": "Если предположить, что именно кырнанцы забрали предмет Остатка, возможно, разговор с ними снова принесет свои плоды? Возможно, они захотят с ним расстаться.",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "CONFLICT->MISSIONS->DEEP_LAB->NODES->10->MISSION_DETAIL_LAB_HINT",
-      "original": "[CREW_OBSERVATION] suggests talking to the Kyrnan again.",
-      "translation": "[CREW_OBSERVATION] предлагает еще раз поговорить с Кирнаном.",
+      "original": "[CREW_OBSERVATION] suggests talking to the Kyrnan again. If they have the artifact, they may be willing to sell it.",
+      "translation": "[CREW_OBSERVATION] предлагает снова поговорить с Кырнаном. Если артефакт у них, они, возможно, захотят его продать.",
       "priority": 0,
       "reviewed": false
     },
@@ -14921,15 +15243,22 @@
     },
     {
       "symbol": "CONFLICT->MISSIONS->MISSING_DIPLOMAT->NODES->28->CREW_SKILL_NOTIFY->MESSAGE",
-      "original": "It might be worth re-visiting the sector where the Nimion diplomat was last known to be. We might have missed something.",
-      "translation": "Возможно, стоит еще раз посетить сектор, где, как известно, в последний раз находился дипломат Нимиона. Возможно, мы что-то упустили.",
+      "original": "It might be worth re-visiting the sector where the Nimion diplomat was last known to be. We might have missed something.\n\nEven if the ship were destroyed, there might still be some debris.",
+      "translation": "Возможно, стоит повторно посетить сектор, где в последний раз находился дипломат Нимиона. Возможно, мы что-то упустили.\n\nДаже если корабль был уничтожен, там могут остаться какие-то обломки.",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "CONFLICT->MISSIONS->MISSING_DIPLOMAT->NODES->28->MISSION_DETAIL_REVISIT_HINT",
-      "original": "[CREW_OBSERVATION] thinks we might have missed something in the sector where the Guild last reported the missing diplomat.",
-      "translation": "[CREW_OBSERVATION] считает, что мы, возможно, что-то упустили в том секторе, где Гильдия в последний раз сообщила о пропавшем дипломате.",
+      "original": "[CREW_OBSERVATION] thinks we might have missed something in the sector where the Guild last reported the missing diplomat.\n\nIf the ship were destroyed, there might still be debris nearby.",
+      "translation": "[CREW_OBSERVATION] считает, что мы могли что-то упустить в секторе, где Гильдия в последний раз сообщала о пропаже дипломата.\n\nЕсли корабль был уничтожен, поблизости могут быть обломки.",
+      "priority": 0,
+      "reviewed": false
+    },
+    {
+      "symbol": "CONFLICT->MISSIONS->MISSING_DIPLOMAT->NODES->28->MISSION_DETAIL_REVISIT_GATEWAY_HINT",
+      "original": "The gateway coordinates were at [COORD].",
+      "translation": "Координаты шлюза находились по адресу [COORD].",
       "priority": 0,
       "reviewed": false
     },
@@ -14956,8 +15285,8 @@
     },
     {
       "symbol": "CONFLICT->MISSIONS->NIMION_ALLY->NODES->2->MISSION_DETAIL_CLEAR",
-      "original": "The Nimion have asked us to help defeat the Kyrnan fleet occupying their region.",
-      "translation": "Нимионы попросили нас помочь победить кирнанский флот, оккупировавший их регион.",
+      "original": "The Nimion have asked us to help defeat the Kyrnan ships occupying the systems near their homeworld.",
+      "translation": "Нимионцы попросили нас помочь победить корабли Кырнана, оккупировавшие системы вблизи их родного мира.",
       "priority": 0,
       "reviewed": false
     },
@@ -16642,6 +16971,216 @@
       "reviewed": false
     },
     {
+      "symbol": "DEEP_SEARCH->FACTION->DEVOUT_DERELICT",
+      "original": "Devout Derelict",
+      "translation": "Devout Derelict",
+      "priority": 0,
+      "reviewed": false
+    },
+    {
+      "symbol": "DEEP_SEARCH->CONVO->MILTON_TAU_NEUTRINOS->DIALOGUE->1_NPC",
+      "original": "During your last refit, I was discussing ways to improve [SHIP_NAME]’s tactical sensors with [CREW_ENGINEERING]. We got to talking about the crew's recent adventures and an incident with a supposed derelict station came up. Apparently it had been configured to measure Tau-type Neutrinos?\r\n\r\nDue to clearance restrictions, I couldn’t reveal this information to them, but Starcom has been experimenting with using these particles to detect ships beyond the range of our normal sensors. Nothing practical has come out of it to my knowledge, but maybe the operators of that station figured it out.\r",
+      "translation": "Во время вашего последнего ремонта я обсуждал с [CREW_ENGINEERING] способы улучшения тактических сенсоров [SHIP_NAME]. Мы заговорили о недавних приключениях экипажа, и тут всплыл инцидент с предполагаемой бесхозной станцией. Очевидно, она была настроена на измерение нейтрино тау-типа?\r\n\r\nИз-за ограничений по допуску я не мог раскрыть им эту информацию, но Старком экспериментировал с использованием этих частиц для обнаружения кораблей за пределами действия наших обычных сенсоров. Насколько мне известно, ничего практического из этого не вышло, но, возможно, операторы той станции догадались об этом.",
+      "priority": 0,
+      "reviewed": false
+    },
+    {
+      "symbol": "DEEP_SEARCH->CONVO->MILTON_TAU_NEUTRINOS->DIALOGUE->2_NPC",
+      "original": "There was nothing in the derelict ship’s logs to shed light, but they were sending the data somewhere. They did a good job of hiding the target, but I think they adjusted their signal strength to account for nearby energy sources.\r\n\r\nIf you return to the location of the derelict, [CREW_OBSERVATION] *might* be able to pinpoint the location with a local background scan.",
+      "translation": "В журналах заброшенного корабля не было ничего, что могло бы пролить свет, но они куда-то отправляли данные. Они хорошо постарались, чтобы скрыть цель, но, думаю, они корректировали силу сигнала, чтобы учесть близлежащие источники энергии.\r\n\r\nЕсли вы вернетесь к месту нахождения бесхозного корабля, [CREW_OBSERVATION] *возможно* сможет определить его местоположение с помощью сканирования местного фона.",
+      "priority": 0,
+      "reviewed": false
+    },
+    {
+      "symbol": "DEEP_SEARCH->CONVO->MILTON_TAU_NEUTRINOS->DIALOGUE->4_PC",
+      "original": "I think the derelict might have been destroyed.",
+      "translation": "Я думаю, что бесхозный корабль мог быть уничтожен.",
+      "priority": 0,
+      "reviewed": false
+    },
+    {
+      "symbol": "DEEP_SEARCH->CONVO->MILTON_TAU_NEUTRINOS->DIALOGUE->6_NPC",
+      "original": "Well, I don’t blame you. No point leaving valuable salvage behind. \r\n\nBut you only need to find where the derelict was to get the measurement. You should be able to find it in your Ship's Logs.",
+      "translation": "Что ж, я вас не виню. Нет смысла оставлять ценные останки.\r\n\nНо вам нужно только найти место, где находился бесхозный корабль, чтобы получить измерения. Вы должны найти его в корабельном журнале.",
+      "priority": 0,
+      "reviewed": false
+    },
+    {
+      "symbol": "DEEP_SEARCH->CONVO->MILTON_TAU_NEUTRINOS->DIALOGUE->5_PC",
+      "original": "I believe the derelict is still out there.",
+      "translation": "Я верю, что бесхозный корабль все еще на свободе.",
+      "priority": 0,
+      "reviewed": false
+    },
+    {
+      "symbol": "DEEP_SEARCH->CONVO->MILTON_TAU_NEUTRINOS->DIALOGUE->7_NPC",
+      "original": "Good. You should be able to find its last location in your ship’s logs.",
+      "translation": "Хорошо. Вы должны быть в состоянии найти его последнее местоположение в журнале вашего корабля.",
+      "priority": 0,
+      "reviewed": false
+    },
+    {
+      "symbol": "DEEP_SEARCH->ANOMALY->DEEP_MONITOR->NAME",
+      "original": "Deep Monitor",
+      "translation": "Глубокий монитор",
+      "priority": 0,
+      "reviewed": false
+    },
+    {
+      "symbol": "DEEP_SEARCH->ANOMALY->DEEP_MONITOR->DIALOGUE->1_NPC",
+      "original": "At first inspection, this is an antiquated communication relay that probably was recently pulled into this sector's gravity well.\n\nBut [CREW_ENGINEERING] notices power emission levels are above what the decaying reactor should be producing.",
+      "translation": "На первый взгляд, это устаревший коммуникационный ретранслятор, который, вероятно, был недавно затянут в гравитационный колодец этого сектора.\n\nНо [CREW_ENGINEERING] замечает, что уровень энерговыделения превышает тот, который должен вырабатывать разлагающийся реактор.",
+      "priority": 0,
+      "reviewed": false
+    },
+    {
+      "symbol": "DEEP_SEARCH->ANOMALY->DEEP_MONITOR->DIALOGUE->2_NPC",
+      "original": "A further search reveals that while the station is indeed old, *someone* has modified it fairly recently with covert monitoring equipment powered by hidden batteries.\n\nAfter tearing out the old relay network, [CREW_OBSERVATION] spies some hidden transmitters and data logs.",
+      "translation": "Дальнейший поиск показывает, что, хотя станция действительно старая, *кто-то* совсем недавно модифицировал ее, установив оборудование для скрытого наблюдения, питающееся от скрытых батарей.\n\nРазрушив старую ретрансляционную сеть, [CREW_OBSERVATION] обнаруживает несколько скрытых передатчиков и журналов данных.",
+      "priority": 0,
+      "reviewed": false
+    },
+    {
+      "symbol": "DEEP_SEARCH->ANOMALY->DEEP_MONITOR->DIALOGUE->3_NPC",
+      "original": "A search of the old station reveals nothing further of interest.\n\n[CREW_ENGINEERING] suggests breaking it apart for salvage.",
+      "translation": "Обыск старой станции не выявил ничего интересного.\n\n[CREW_ENGINEERING] предлагает разобрать ее на части для спасения.",
+      "priority": 0,
+      "reviewed": false
+    },
+    {
+      "symbol": "DEEP_SEARCH->ANOMALY->DEEP_RESEARCH->NAME",
+      "original": "Ocean Lab",
+      "translation": "Океаническая лаборатория",
+      "priority": 0,
+      "reviewed": false
+    },
+    {
+      "symbol": "DEEP_SEARCH->ANOMALY->DEEP_RESEARCH->DIALOGUE->1_NPC",
+      "original": "Below the water’s glittering surface, the team can make out the shadowy outline of a submerged structure. After [CREW_TACTICS] conducts a discreet reconnaissance dive, the full team enters the facility, which is apparently fully automated, but the access displays show Devout markings.\r\n\n\nAfter a lengthy investigation, [CREW_ENGINEERING] concludes this structure has been processing tau neutrino signals collected from various monitoring stations. The data is being used to measure the statistical difference between background neutrinos and those generated by Chiralite in reactors.\r",
+      "translation": "Под сверкающей поверхностью воды команда может различить теневые очертания подводного сооружения. После того как [CREW_TACTICS] проведет незаметное разведывательное погружение, команда в полном составе входит в сооружение, которое, судя по всему, полностью автоматизировано, но на дисплеях доступа видны отметки Devout.\r\n\n\nПосле длительного исследования [CREW_ENGINEERING] приходит к выводу, что эта структура обрабатывает сигналы тау-нейтрино, собранные с различных станций мониторинга. Эти данные используются для измерения статистической разницы между фоновыми нейтрино и теми, что генерируются Хиралитом в реакторах.",
+      "priority": 0,
+      "reviewed": false
+    },
+    {
+      "symbol": "DEEP_SEARCH->ANOMALY->DEEP_RESEARCH->DIALOGUE->2_NPC",
+      "original": "The most recently analyzed sample contains additional information decoded as:\r\n\n\"Sample XXD99, designation '[SHIP_NAME]'. Priority target. Disseminate to Elite for Blessing.\"\n\nAfter extracting all data from the systems, the team dismantles the facilities key components.\r",
+      "translation": "Последний проанализированный образец содержит дополнительную информацию, расшифрованную как:\r\n\n\"Образец XXD99, обозначение '[SHIP_NAME]'. Приоритетная цель. Распространить среди элиты для благословения\".\n\nПосле извлечения всех данных из систем команда разбирает ключевые компоненты объекта.",
+      "priority": 0,
+      "reviewed": false
+    },
+    {
+      "symbol": "DEEP_SEARCH->MISSIONS->DEEP_SEARCH->NAME",
+      "original": "Derelict Monitor",
+      "translation": "Заброшенный монитор",
+      "priority": 0,
+      "reviewed": false
+    },
+    {
+      "symbol": "DEEP_SEARCH->MISSIONS->DEEP_SEARCH->DESCRIPTION",
+      "original": "We found a \"derelict\"  monitoring station.",
+      "translation": "Мы нашли \"бесхозную\" станцию мониторинга.",
+      "priority": 0,
+      "reviewed": false
+    },
+    {
+      "symbol": "DEEP_SEARCH->MISSIONS->DEEP_SEARCH->NODES->9->MISSION_DETAIL_SEARCH_LOGS",
+      "original": "Lt. Milton suggested searching our logs for \"Tau Neutrino\" to identify the derelict's last known location.",
+      "translation": "Лейтенант Милтон предложил поискать в наших журналах \"Тау Нейтрино\", чтобы определить последнее известное местонахождение бесхозного корабля.",
+      "priority": 0,
+      "reviewed": false
+    },
+    {
+      "symbol": "DEEP_SEARCH->MISSIONS->DEEP_SEARCH->NODES->9->MISSION_DETAIL_MONITOR_RETURN",
+      "original": "We should return to the location where we investigated the derelict monitoring station.",
+      "translation": "Нам следует вернуться на место, где мы исследовали заброшенную станцию мониторинга.",
+      "priority": 0,
+      "reviewed": false
+    },
+    {
+      "symbol": "DEEP_SEARCH->MISSIONS->DEEP_SEARCH->NODES->13->CREW_SKILL_NOTIFY->MESSAGE",
+      "original": "This is the approximate location that we investigated the neutrino monitoring station.\n\nI'm recalibrating our sensors to determine the transmit path...",
+      "translation": "Примерно в этом месте мы исследовали станцию нейтринного мониторинга.\n\nЯ перекалибрую наши сенсоры, чтобы определить путь передачи...",
+      "priority": 0,
+      "reviewed": false
+    },
+    {
+      "symbol": "DEEP_SEARCH->MISSIONS->DEEP_SEARCH->NODES->15->CREW_SKILL_NOTIFY->MESSAGE",
+      "original": "Got it.\n\nI've marked the location on the nav map.",
+      "translation": "Есть.\n\nЯ отметил место на навигационной карте.",
+      "priority": 0,
+      "reviewed": false
+    },
+    {
+      "symbol": "DEEP_SEARCH->MISSIONS->DEEP_SEARCH->NODES->15->MISSION_DETAIL_DEEP_LOCATION",
+      "original": "[CREW_OBSERVATION] has identified the approximate location the monitoring location was transmitting to: [COORD]",
+      "translation": "[CREW_OBSERVATION] определил приблизительное местоположение, куда передавалось сообщение с места наблюдения: [COORD]",
+      "priority": 0,
+      "reviewed": false
+    },
+    {
+      "symbol": "DEEP_SEARCH->MISSIONS->DEEP_SEARCH->NODES->12->FIRST_OFFICER->MESSAGE",
+      "original": "If you can find the entry referencing the \"Tau Neutrinos\", you can mark it on the map.\n\nThere may be several references-- we want [CREW_ENGINEERING]'s report on the vessel with concealed sensors.\n",
+      "translation": "Если вам удастся найти запись, в которой упоминается \"Тау-нейтрино\", вы сможете отметить ее на карте.\n\nУпоминаний может быть несколько - нам нужен отчет [CREW_ENGINEERING] о судне со скрытыми сенсорами.\n",
+      "priority": 0,
+      "reviewed": false
+    },
+    {
+      "symbol": "DEEP_SEARCH->MISSIONS->DEEP_SEARCH->NODES->12->FIRST_OFFICER->EXTRA",
+      "original": "Select \"!\" icon to toggle log entry tracking.",
+      "translation": "Выберите значок \"!\", чтобы переключить отслеживание записей в журнале.",
+      "priority": 0,
+      "reviewed": false
+    },
+    {
+      "symbol": "DEEP_SEARCH->MISSIONS->DEEP_SEARCH->NODES->12->FIRST_OFFICER->GAMEPAD_EXTRA",
+      "original": "Gamepad Y to track active log entry.",
+      "translation": "Геймпад Y для отслеживания активной записи в журнале.",
+      "priority": 0,
+      "reviewed": false
+    },
+    {
+      "symbol": "DEEP_SEARCH->MISSIONS->DEEP_SEARCH->NODES->17->MISSION_DETAIL_RESEARCH_TECH",
+      "original": "We can now research Deep Detection in the lab.",
+      "translation": "Теперь мы можем исследовать Deep Detection в лаборатории.",
+      "priority": 0,
+      "reviewed": false
+    },
+    {
+      "symbol": "DEEP_SEARCH->DISCOVERIES->DEEP_DETECTION_NAME",
+      "original": "Deep Detection",
+      "translation": "Глубокое обнаружение",
+      "priority": 0,
+      "reviewed": false
+    },
+    {
+      "symbol": "DEEP_SEARCH->DISCOVERIES->DEEP_DETECTION_DESC",
+      "original": "Well, that’s not great news, but there is a silver lining besides the actual silver. \n\nUsing this data we can now research \"Deep Detection\" in the lab, which may aid in detecting ships outside normal sensor range.",
+      "translation": "Что ж, это не самая лучшая новость, но, помимо собственно серебра, есть и положительная сторона.\n\nИспользуя эти данные, мы можем исследовать \"Глубинное обнаружение\" в лаборатории, что может помочь обнаружить корабли за пределами обычного диапазона сенсоров.",
+      "priority": 0,
+      "reviewed": false
+    },
+    {
+      "symbol": "DEEP_SEARCH->DISCOVERIES->MONITOR_EMISSIONS_NAME",
+      "original": "Tau Neutrinos",
+      "translation": "Нейтрино Тау",
+      "priority": 0,
+      "reviewed": false
+    },
+    {
+      "symbol": "DEEP_SEARCH->DISCOVERIES->MONITOR_EMISSIONS_DESC",
+      "original": "The concealed sensors are monitoring Tau Neutrino emissions in the overall background radiation using a method more sophisticated than our own detectors.\n\nBut I'm unclear why someone would go through such lengths to hide a scientific survey.",
+      "translation": "Скрытые датчики отслеживают выбросы тау-нейтрино в общем радиационном фоне с помощью метода, более сложного, чем наши собственные детекторы.\n\nНо мне неясно, зачем кому-то так стараться скрыть научное исследование.",
+      "priority": 0,
+      "reviewed": false
+    },
+    {
+      "symbol": "DEEP_SEARCH->SHIP->DEEP_MONITOR->NAME",
+      "original": "Monitoring Station",
+      "translation": "Станция мониторинга",
+      "priority": 0,
+      "reviewed": false
+    },
+    {
       "symbol": "DEFAULT->ACTOR->STARCOM->AUGUST_LEE->NAME",
       "original": "August Lee",
       "translation": "Август Ли",
@@ -17168,8 +17707,8 @@
     },
     {
       "symbol": "DEFAULT->MISSIONS->CREW_HELP->NODES->2->FIRST_OFFICER->EXTRA",
-      "original": "Press [Z] to open the ship menu.",
-      "translation": "Нажмите [Z], чтобы открыть меню корабля.",
+      "original": "Press [SHIP_INFO] to open the ship menu.",
+      "translation": "Нажмите [SHIP_INFO], чтобы открыть меню корабля.",
       "priority": 0,
       "reviewed": false
     },
@@ -17189,8 +17728,8 @@
     },
     {
       "symbol": "DEFAULT->MISSIONS->DEEP_SPACE->NODES->2->FIRST_OFFICER->EXTRA",
-      "original": "Press [C] to toggle cruise mode",
-      "translation": "Нажмите [C], чтобы переключить круизный режим.",
+      "original": "Press [CRUISE_TOGGLE] to toggle cruise mode",
+      "translation": "Нажмите [CRUISE_TOGGLE], чтобы переключить крейсерский режим",
       "priority": 0,
       "reviewed": false
     },
@@ -18654,6 +19193,20 @@
       "symbol": "DEFAULT->TECHS->SHIP_DETECT_1_DESC",
       "original": "Increases the range at which we can detect other vessels by 30%.",
       "translation": "Увеличивает дальность обнаружения других судов на 30%.",
+      "priority": 0,
+      "reviewed": false
+    },
+    {
+      "symbol": "DEFAULT->TECHS->DEEP_SEARCH_NAME",
+      "original": "Deep Search",
+      "translation": "Глубокий поиск",
+      "priority": 0,
+      "reviewed": false
+    },
+    {
+      "symbol": "DEFAULT->TECHS->DEEP_SEARCH_DESC",
+      "original": "Ships beyond normal sensor range in nearby sectors have a chance of being briefly revealed on the navigation map.",
+      "translation": "Корабли, находящиеся вне зоны действия обычных сенсоров в соседних секторах, имеют шанс на короткое время появиться на навигационной карте.",
       "priority": 0,
       "reviewed": false
     },
@@ -21081,8 +21634,8 @@
     },
     {
       "symbol": "DEVOUT->ANOMALY->ROCKY_LANDER->DIALOGUE->1_NPC",
-      "original": "An old, but otherwise full-intact lander sits amidst a boulder field. \n\nAfter a cautious approach, [CREW_TACTICS] concludes that it doesn't appear to be a trap. \n\nWhile there's no sign of the crew, the pilot's log offers some clues:",
-      "translation": "Старый, но в остальном полностью неповрежденный посадочный модуль стоит посреди поля валунов.\n\nПосле осторожного подхода [CREW_TACTICS] приходит к выводу, что это не похоже на ловушку.\n\nХотя никаких признаков экипажа не обнаружено, в журнале пилота есть некоторые подсказки:",
+      "original": "An old, but otherwise fully-intact lander sits amidst a boulder field. \n\nAfter a cautious approach, [CREW_TACTICS] concludes that it doesn't appear to be a trap. \n\nWhile there's no sign of the crew, the pilot's log offers some clues:",
+      "translation": "Старый, но в остальном полностью исправный лендер сидит среди поля валунов.\n\nПосле осторожного подхода [CREW_TACTICS] приходит к выводу, что это не похоже на ловушку.\n\nХотя следов экипажа нет, журнал пилота дает некоторые подсказки:",
       "priority": 0,
       "reviewed": false
     },
@@ -24350,8 +24903,8 @@
     },
     {
       "symbol": "ENDING->CONVO->PLAYER_RAMA_UNKNOWN->DIALOGUE->3_NPC",
-      "original": "I implored Cdre. Yu that he should allow me to commandeer [SHIP_NAME] or The Aletheia to investigate where this wormhole leads.\n\nUnfortunately my request was denied. I have apparently been \"requisitioned\" by the new lab at Groombridge to bring their AI research lab up to speed on our discoveries here.\n\nAt interesting project, but no quite as interesting as another new universe.",
-      "translation": "Я умолял Cdre. Ю, чтобы он позволил мне реквизировать [SHIP_NAME] или «Алетейю», чтобы исследовать, куда ведет эта червоточина.\n\nК сожалению, мой запрос был отклонен. Очевидно, меня «реквизировали» в новую лабораторию в Грумбридже, чтобы я быстрее ознакомил их исследовательскую лабораторию ИИ с нашими открытиями.\n\nИнтересный проект, но не такой интересный, как еще одна новая вселенная.",
+      "original": "I implored Cdre. Yu that he should allow me to commandeer [SHIP_NAME] or The Aletheia to investigate where this wormhole leads.\n\nUnfortunately my request was denied. I have apparently been \"requisitioned\" by the new lab at Groombridge to bring their AI research lab up to speed on our discoveries here.\n\nAt interesting project, but not quite as interesting as another new universe.",
+      "translation": "Я умолял Кд. Ю, чтобы он позволил мне захватить [SHIP_NAME] или \"Алетейю\", чтобы исследовать, куда ведет эта червоточина.\n\nК сожалению, моя просьба была отклонена. По всей видимости, меня \"реквизировали\" в новой лаборатории в Грумбридже, чтобы ввести их исследовательскую лабораторию ИИ в курс дела относительно наших открытий.\n\nИнтересный проект, но не такой интересный, как другая новая вселенная.",
       "priority": 0,
       "reviewed": false
     },
@@ -24707,8 +25260,8 @@
     },
     {
       "symbol": "ENDING->ANOMALY->CHARIOT_TALONIAN->DIALOGUE->37_NPC",
-      "original": "When the unstable wormhole is restored, I will deliver the Arkadians to the universe lies beyond.",
-      "translation": "Когда нестабильная червоточина будет восстановлена, я доставлю аркадианцев во вселенную, лежащую за ее пределами.",
+      "original": "When the unstable wormhole is restored, I will deliver the Arkadians to the universe that lies beyond.",
+      "translation": "Когда нестабильная червоточина будет восстановлена, я доставлю аркадийцев во вселенную, которая лежит за ее пределами.",
       "priority": 0,
       "reviewed": false
     },
@@ -26198,8 +26751,8 @@
     },
     {
       "symbol": "FALLEN->ANOMALY->GUILD_HOMEWORLD->DIALOGUE->1_NPC",
-      "original": "Several millenia ago, this was a planet-wide gigapolis-- a monumental feat of engineering. Any records were erased long ago, although [CREW_XENOCULTURE] notes that the civilization was clearly space-faring and certainly had the means to leave the planet.\r\n\r\nWhoever they were, they were extremely thorough in extracting anything of value from the planet when they departed, including whatever the foundation for the ecosystem was. ",
-      "translation": "Несколько тысячелетий назад это был гигант всей планеты — монументальный инженерный подвиг. Все записи были давно стерты, хотя [CREW_XENOCULTURE] отмечает, что цивилизация явно была космической и определенно имела возможность покинуть планету.\r\n\r\nКем бы они ни были, они чрезвычайно тщательно извлекали с планеты все ценное, когда уходили, включая то, что было основой экосистемы. ",
+      "original": "Several millennia ago, this was a planet-wide gigapolis-- a monumental feat of engineering. Any records were erased long ago, although [CREW_XENOCULTURE] notes that the civilization was clearly space-faring and certainly had the means to leave the planet.\r\n\r\nWhoever they were, they were extremely thorough in extracting anything of value from the planet when they departed, including whatever the foundation for the ecosystem was. ",
+      "translation": "Несколько тысячелетий назад это был гигаполис планетарного масштаба - монументальный инженерный подвиг. Любые записи были давно стерты, хотя [CREW_XENOCULTURE] отмечает, что цивилизация была явно космической и, несомненно, имела средства, чтобы покинуть планету.\r\n\r\nКем бы они ни были, при уходе с планеты они тщательно собирали все ценное, включая основу экосистемы.",
       "priority": 0,
       "reviewed": false
     },
@@ -26254,8 +26807,8 @@
     },
     {
       "symbol": "FALLEN->ANOMALY->PORTAL_CONTROLLER->DIALOGUE->6_NPC",
-      "original": "It takes [CREW_ENGINEERING] a few hours, but the end result is workmanlike.\n\nThe computers are... interesting. Composed of small electromagnetic relays, they have a miniscule fraction of the computing power in a single crew member's survival suit. But they clearly were manufactured with technology ahead of Starcom's.",
-      "translation": "Это занимает [CREW_ENGINEERING] несколько часов, но конечный результат превосходен.\n\nКомпьютеры... интересные. Состоящие из небольших электромагнитных реле, они обладают лишь незначительной долей вычислительной мощности спасательного костюма одного члена экипажа. Но они явно были изготовлены по технологиям, опережающим технологии Starcom.",
+      "original": "It takes [CREW_ENGINEERING] a few hours, but the end result is workmanlike.\n\nThe computers are... interesting. Composed of small electromagnetic relays, they have a minuscule fraction of the computing power in a single crew member's survival suit. But they clearly were manufactured with technology ahead of Starcom's.",
+      "translation": "На [CREW_ENGINEERING] уходит несколько часов, но конечный результат вполне рабочий.\n\nКомпьютеры... интересные. Состоящие из небольших электромагнитных реле, они обладают мизерной долей вычислительной мощности скафандра для выживания одного члена экипажа. Но они явно были изготовлены с использованием технологий, опережающих технологии Старкома.",
       "priority": 0,
       "reviewed": false
     },
@@ -26620,6 +27173,20 @@
       "symbol": "FALLEN->MISSIONS->FALLEN_PORTAL->NODES->7->MISSION_DETAIL_ACTIVATION",
       "original": "Repairing the computer system energized *something* in this star system.",
       "translation": "Ремонт компьютерной системы включил *что-то* в этой звездной системе.",
+      "priority": 0,
+      "reviewed": false
+    },
+    {
+      "symbol": "FALLEN->MISSIONS->FALLEN_PORTAL->NODES->10->MISSION_DETAIL_HERETIC_PORTAL_ENTRY_HINT",
+      "original": "[CREW_ENGINEERING] has resolved the location of whatever \"something\" we activated to [COORD].",
+      "translation": "[CREW_ENGINEERING] определил местоположение того \"чего-то\", что мы активировали на [COORD].",
+      "priority": 0,
+      "reviewed": false
+    },
+    {
+      "symbol": "FALLEN->MISSIONS->FALLEN_PORTAL->NODES->10->CREW_SKILL_NOTIFY->MESSAGE",
+      "original": "Okay, I've run a doppler shift analysis of the activation signal from the pyramid and determined its origin.",
+      "translation": "Хорошо, я провел анализ доплеровского сдвига активационного сигнала от пирамиды и определил его происхождение.",
       "priority": 0,
       "reviewed": false
     },
@@ -28263,8 +28830,8 @@
     },
     {
       "symbol": "HARD_RADIATION->ANOMALY->YELLOW_FOG_EXPERIMENT->DIALOGUE->2_NPC",
-      "original": "What triggered the anomaly reading was a  survey instrument labeled Station 9440.\n\nIt's been too badly corroded by the atmosphere to learning anything from, but it does have some Titanium.",
-      "translation": "Показания аномалии были вызваны исследовательским инструментом с надписью «Станция 9440».\n\nОн слишком сильно разъеден атмосферой, чтобы чему-либо научиться, но немного титана в нем есть.",
+      "original": "What triggered the anomaly reading was a  survey instrument labeled Station 9440.\n\nIt's been too badly corroded by the atmosphere to learn anything from, but it does have some Titanium.",
+      "translation": "Причиной появления аномалии стал прибор для исследования, обозначенный как \"Станция 9440\".\n\nОн слишком сильно проржавел под воздействием атмосферы, чтобы из него можно было что-то извлечь, но в нем есть немного титана.",
       "priority": 0,
       "reviewed": false
     },
@@ -28327,21 +28894,21 @@
     {
       "symbol": "HARD_RADIATION->MISSIONS->DEVOUT_JETSAM->NODES->12->CREW_SKILL_NOTIFY->MESSAGE",
       "original": "The prions that destroyed the Kyrnan habitats have a nearly identical effect on the dendritic structures as those anomalous dead trees we found.",
-      "translation": "Прионы, разрушившие среду обитания кирнанов, оказывают на дендритные структуры почти такое же воздействие, как и те аномальные мертвые деревья, которые мы обнаружили.",
+      "translation": "Прионы, уничтожившие среду обитания кырнанов, оказывают почти такое же воздействие на дендритные структуры, как и те аномальные мертвые деревья, которые мы нашли.",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "HARD_RADIATION->MISSIONS->DEVOUT_JETSAM->NODES->12->CREW_SKILL_NOTIFY->MESSAGE",
       "original": "The prions that destroyed the Kyrnan habitats have a nearly identical effect on the dendritic structures as those anomalous dead trees we found.",
-      "translation": "Прионы, разрушившие среду обитания кирнанов, оказывают на дендритные структуры почти такое же воздействие, как и те аномальные мертвые деревья, которые мы обнаружили.",
+      "translation": "Прионы, уничтожившие среду обитания кырнанов, оказывают почти такое же воздействие на дендритные структуры, как и те аномальные мертвые деревья, которые мы нашли.",
       "priority": 0,
       "reviewed": false
     },
     {
       "symbol": "HARD_RADIATION->MISSIONS->DEVOUT_JETSAM->NODES->12->CREW_SKILL_NOTIFY->MESSAGE",
       "original": "The prions that destroyed the Kyrnan habitats have a nearly identical effect on the dendritic structures as those anomalous dead trees we found.",
-      "translation": "Прионы, разрушившие среду обитания кирнанов, оказывают на дендритные структуры почти такое же воздействие, как и те аномальные мертвые деревья, которые мы обнаружили.",
+      "translation": "Прионы, уничтожившие среду обитания кырнанов, оказывают почти такое же воздействие на дендритные структуры, как и те аномальные мертвые деревья, которые мы нашли.",
       "priority": 0,
       "reviewed": false
     },
@@ -28592,8 +29159,8 @@
     },
     {
       "symbol": "HARD_RADIATION->DISCOVERIES->WEAPONS_RESEARCH_DESC",
-      "original": "This facility was responsible for turning that research into \"practical\" applications. Ominously, it looks the most recent focus was a radiation attack that passed through dense matter but still damaged DNA-like molecules.",
-      "translation": "Этот центр отвечал за превращение этих исследований в «практическое» применение. Зловещим образом выглядит, что самым недавним очагом была радиационная атака, которая прошла сквозь плотную материю, но все же повредила ДНК-подобные молекулы.",
+      "original": "This facility was responsible for turning that research into \"practical\" applications. Ominously, it looks like the most recent focus was a radiation attack that passed through dense matter but still damaged DNA-like molecules.",
+      "translation": "Этот центр отвечал за воплощение этих исследований в \"практические\" приложения. Зловеще, но похоже, что в последнее время речь шла о радиационной атаке, которая проходила сквозь плотную материю, но все же повреждала молекулы, подобные ДНК.",
       "priority": 0,
       "reviewed": false
     },
@@ -29056,6 +29623,20 @@
       "symbol": "HELP->MISSIONS->HELP_SHIELDS->NODES->0->FIRST_OFFICER->EXTRA",
       "original": "Press [SHIELDS] to active",
       "translation": "Нажмите [SHIELDS], чтобы активировать",
+      "priority": 0,
+      "reviewed": false
+    },
+    {
+      "symbol": "HELP->MISSIONS->MISC_HELP->NODES->0->FIRST_OFFICER->MESSAGE",
+      "original": "I can highlight previously discovered planets and celestial artifacts with further investigation possibilities in the navmap.",
+      "translation": "Я могу выделить на навигационной карте ранее обнаруженные планеты и небесные артефакты с возможностью дальнейшего исследования.",
+      "priority": 0,
+      "reviewed": false
+    },
+    {
+      "symbol": "HELP->MISSIONS->MISC_HELP->NODES->0->FIRST_OFFICER->EXTRA",
+      "original": "Toggle \"Highlight Investigate\" in the map.",
+      "translation": "Включите \"Выделить исследование\" на карте.",
       "priority": 0,
       "reviewed": false
     },
@@ -31273,8 +31854,8 @@
     },
     {
       "symbol": "LOCOAN->ANOMALY->WAR_TORN->DIALOGUE->6_NPC",
-      "original": "One area that scavengers spent little time in were the refuse dumps. While they mostly contain heterogenous junk, some small amounts of aluminum had been separated out, presumably for recycling.",
-      "translation": "Одной из областей, где мусорщики проводили мало времени, были свалки. Хотя в основном они содержат разнородный мусор, небольшое количество алюминия было выделено, предположительно для переработки.",
+      "original": "One area that scavengers spent little time in were the refuse dumps. While they mostly contain heterogeneous junk, some small amounts of aluminum had been separated out, presumably for recycling.",
+      "translation": "Одной из областей, где мусорщики проводили мало времени, были свалки. Хотя в основном они содержат разнородный хлам, небольшое количество алюминия было отделено, предположительно для вторичной переработки.",
       "priority": 0,
       "reviewed": false
     },
@@ -32175,6 +32756,41 @@
       "reviewed": false
     },
     {
+      "symbol": "NEW_WORLDS->ANOMALY->ASTROBLEME->NAME",
+      "original": "Astrobleme",
+      "translation": "Astrobleme",
+      "priority": 0,
+      "reviewed": false
+    },
+    {
+      "symbol": "NEW_WORLDS->ANOMALY->ASTROBLEME->DIALOGUE->5_NPC",
+      "original": "A shallow circular depression marks an eroded impact crater. The lander's penetrating radar confirms a buried dense meteorite.",
+      "translation": "Неглубокая круглая впадина обозначает выветрившийся ударный кратер. Проникающий радар посадочной платформы подтверждает наличие погребенного плотного метеорита.",
+      "priority": 0,
+      "reviewed": false
+    },
+    {
+      "symbol": "NEW_WORLDS->ANOMALY->ASTROBLEME->DIALOGUE->6_PC",
+      "original": "Have the team excavate the crater.",
+      "translation": "Пусть команда раскопает кратер.",
+      "priority": 0,
+      "reviewed": false
+    },
+    {
+      "symbol": "NEW_WORLDS->ANOMALY->ASTROBLEME->DIALOGUE->7_NPC",
+      "original": "After several hours alternating between the lander's minining laser and using the stabilizer jets to clear the debris, the team finally uncovers several Iridium rich fragments.",
+      "translation": "После нескольких часов попеременного использования шахтного лазера и струй стабилизатора для расчистки обломков, команда наконец обнаруживает несколько фрагментов, богатых иридием.",
+      "priority": 0,
+      "reviewed": false
+    },
+    {
+      "symbol": "NEW_WORLDS->ANOMALY->ASTROBLEME->DIALOGUE->7_NOTIFY",
+      "original": "Since I never get to chime in with Xenoculture trivia on these surveys, I'm just going to say that an archaic term for an impact crater is *Astrobleme.* Literally \"star wound\".",
+      "translation": "Поскольку мне никогда не удается рассказать о ксенокультуре в ходе этих опросов, я просто скажу, что архаичный термин для обозначения ударного кратера - *Astrobleme.* Буквально \"звездная рана\".",
+      "priority": 0,
+      "reviewed": false
+    },
+    {
       "symbol": "NORTHERN->CONVO->CXTA_CONFLICT->DIALOGUE->1_NPC",
       "original": "The boiling of the Nimion war has been a two faced knife.\n\nDemand for our services within the effect regions has increased exponentially. But both Nimion and Kyrnan take great offense at our deliveries to the other. We lose many ships this way.\n\nNow sometimes we have a delivery to a Kyrnan world and nobody is there to sign for it.",
       "translation": "Кипение войны в Нимионе было обоюдоострым ножом.\n\nСпрос на наши услуги в регионах воздействия вырос в геометрической прогрессии. Но и Нимион, и Кирнан сильно обижаются на наши поставки друг другу. Таким образом мы теряем много кораблей.\n\nИногда у нас есть доставка в мир Кирнан, и никто не подписывает ее.",
@@ -32470,8 +33086,8 @@
     },
     {
       "symbol": "OUTLIERS->ANOMALY->BURST_RELAY->DIALOGUE->1_NPC",
-      "original": "This autonomous relay station is sending out periodic tight beam radio bursts. \n\nIt is targeting a large number of directions making it impossible to conclude in where the true recipient lies. The tight beam allows it much longer range than wide broadcast.",
-      "translation": "Эта автономная ретрансляционная станция периодически посылает радиовсплески узкого луча.\n\nОн нацелен на большое количество направлений, что делает невозможным сделать вывод о том, где находится истинный получатель. Узкий луч обеспечивает гораздо большую дальность действия, чем широкое вещание.",
+      "original": "This autonomous relay station is sending out periodic tight beam radio bursts. \n\nIt is targeting a large number of directions making it impossible to conclude where the true recipient lies. The tight beam allows it much longer range than wide broadcast.",
+      "translation": "Эта автономная ретрансляционная станция периодически посылает радиовсплески с плотным лучом.\n\nОна направлена на большое количество направлений, поэтому невозможно определить, где находится истинный адресат. Благодаря плотному лучу радиус действия станции гораздо больше, чем при широком вещании.",
       "priority": 0,
       "reviewed": false
     },
@@ -33695,8 +34311,8 @@
     },
     {
       "symbol": "PIRATES->ITEMS->CHEST_2_NAME",
-      "original": "Brogidor Chest 2",
-      "translation": "Брогидорский сундук 2",
+      "original": "Brogidar Chest 2",
+      "translation": "Сундук Брогидара 2",
       "priority": 0,
       "reviewed": false
     },
@@ -34383,6 +34999,13 @@
       "symbol": "REFINERY->ANOMALY->REFINERY->DIALOGUE->7_NPC",
       "original": "The refinery is in the same state as when the survey team last visited.",
       "translation": "Нефтеперерабатывающий завод находится в том же состоянии, что и во время последнего посещения исследовательской группой.",
+      "priority": 0,
+      "reviewed": false
+    },
+    {
+      "symbol": "REFINERY->ANOMALY->REFINERY->DIALOGUE->12_NPC",
+      "original": "[CREW_ENGINEERING] reports that the Refinery is slowly, but steadily, extracting resources from the dust clouds.\n\nIt should not need any additional repairs at this point.",
+      "translation": "[CREW_ENGINEERING] сообщает, что НПЗ медленно, но верно извлекает ресурсы из пылевых облаков.\n\nНа данный момент он не нуждается в дополнительном ремонте.",
       "priority": 0,
       "reviewed": false
     },
@@ -35116,8 +35739,8 @@
     },
     {
       "symbol": "REMNANTS_2->ANOMALY->ORDEAL->DIALOGUE->21_NPC",
-      "original": "But the trial, while painful and embarrassing, did reveal some useful information.\n\n[contestant]: \"It seemed impossible, but I think it can be done. The real challenge that it really requires proficiency in Tactics, Biomed and Observation\".",
-      "translation": "Но судебный процесс, хотя и болезненный и смущающий, все же выявил некоторую полезную информацию.\n\n[участник]: «Это казалось невозможным, но я думаю, что это возможно. Настоящая задача заключается в том, что это действительно требует навыков в тактике, биомедицине и наблюдении».",
+      "original": "But the trial, while painful and embarrassing, did reveal some useful information.\n\n[contestant]: \"It seemed impossible, but I think it can be done. The real challenge is that it requires proficiency in Tactics, Biomed and Observation\".",
+      "translation": "Но испытание, хотя и болезненное и неловкое, все же выявило кое-какую полезную информацию.\n\n[участник]: \"Это казалось невозможным, но я думаю, что это можно сделать. Настоящая сложность заключается в том, что для этого необходимо владеть тактикой, биомедициной и наблюдением\".",
       "priority": 0,
       "reviewed": false
     },
@@ -35403,8 +36026,8 @@
     },
     {
       "symbol": "REMNANT_MINIS->ANOMALY->NEURAL_INTERFACE->DIALOGUE->3_NPC",
-      "original": "[CREW_BIOMED] straps in while [CREW_ENGINEERING] connects the lander's external power connector to the alien ship's systems.\n\nThere is an alarming crackling sounds and smell of burning magnesium, but [CREW_BIOMED] reports success.\n\nAs an added bonus, the ship was hauling some raw Chiralite ore.",
-      "translation": "[CREW_BIOMED] пристегивается, а [CREW_ENGINEERING] подключает внешний разъем питания посадочного модуля к системам инопланетного корабля.\n\nРаздаются тревожные потрескивающие звуки и запах горящего магния, но [CREW_BIOMED] сообщает об успехе.\n\nВ качестве дополнительного бонуса корабль перевозил сырую хиралитовую руду.",
+      "original": "[CREW_BIOMED] straps in while [CREW_ENGINEERING] connects the lander's external power connector to the alien ship's systems.\n\nThere is an alarming crackling sound and smell of burning magnesium, but [CREW_BIOMED] reports success.\n\nAs an added bonus, the ship was hauling some raw Chiralite ore.",
+      "translation": "[CREW_BIOMED] пристегивается, в то время как [CREW_ENGINEERING] подключает внешний энергетический разъем лендера к системам инопланетного корабля.\n\nРаздается тревожный треск и запах горящего магния, но [CREW_BIOMED] сообщает об успехе.\n\nВ качестве дополнительного бонуса корабль везет немного сырой хиралитовой руды.",
       "priority": 0,
       "reviewed": false
     },
@@ -36474,8 +37097,8 @@
     },
     {
       "symbol": "REMNANT_SPACE->ANOMALY->PIRATE_DERELICT->DIALOGUE->15_NPC",
-      "original": "The captors obviously anticipated someone might try to release the hostage this way and rigged the hatch the activate the unstable reactor.\n\nBut [CREW_ENGINEERING] anticipated that and placed signal suppressors on the outgoing conduits.",
-      "translation": "Похитители, очевидно, предвидели, что кто-то может попытаться освободить заложника таким образом, и установили люк, чтобы активировать нестабильный реактор.\n\nНо [CREW_ENGINEERING] предвидел это и установил подавители сигналов на исходящих каналах.",
+      "original": "The captors obviously anticipated someone might try to release the hostage this way and rigged the hatch to activate the unstable reactor.\n\nBut [CREW_ENGINEERING] anticipated that and placed signal suppressors on the outgoing conduits.",
+      "translation": "Похитители, очевидно, предполагали, что кто-то попытается освободить заложника таким образом, и задраили люк, чтобы активировать нестабильный реактор.\n\nНо [CREW_ENGINEERING] предвидел это и установил подавители сигналов на выходящих каналах.",
       "priority": 0,
       "reviewed": false
     },
@@ -38378,8 +39001,8 @@
     },
     {
       "symbol": "ROGUE->ANOMALY->COLOSSAL->DIALOGUE->36_NPC",
-      "original": "It takes [CREW_TACTICS] many precious seconds to organize the team into a tactical formation, during which the creatures; mandibles make themselves felt. But once formed, the mindless insectoids are pinned down and dispatched.",
-      "translation": "[CREW_TACTICS] требуется много драгоценных секунд, чтобы организовать команду в тактический строй, в течение которого существа; мандибулы дают о себе знать. Но однажды сформировавшись, безмозглые инсектоиды сковываются и уничтожаются.",
+      "original": "It takes [CREW_TACTICS] many precious seconds to organize the team into a tactical formation, during which the creatures mandibles make themselves felt. But once formed, the mindless insectoids are pinned down and dispatched.",
+      "translation": "На организацию команды в тактический строй [CREW_TACTICS] уходит много драгоценных секунд, в течение которых мандибулы существа дают о себе знать. Но как только они сформированы, безмозглые инсектоиды оказываются прижатыми и уничтоженными.",
       "priority": 0,
       "reviewed": false
     },
@@ -39071,8 +39694,8 @@
     },
     {
       "symbol": "SCAN_DISCOVERIES->DISCOVERIES->ICE_PRISM_DESC",
-      "original": "The upper layers of ice act as a prism, allowing us to better analyze it chemical composition.",
-      "translation": "Верхние слои льда действуют как призма, позволяя лучше анализировать его химический состав.",
+      "original": "The upper layers of ice act as a prism, allowing us to better analyze its chemical composition.",
+      "translation": "Верхние слои льда действуют как призма, позволяя нам лучше анализировать его химический состав.",
       "priority": 0,
       "reviewed": false
     },
@@ -39099,8 +39722,8 @@
     },
     {
       "symbol": "SCAN_DISCOVERIES->DISCOVERIES->MAGNETIC_MONOPOLE_DESC",
-      "original": "This planet appears to have only a south magnetic pole. The cause is not due to any exotic physics, but vortices in planet's magma in the northern hemisphere.",
-      "translation": "Похоже, что у этой планеты есть только южный магнитный полюс. Причина кроется не в какой-то экзотической физике, а в вихрях магмы планеты в северном полушарии.",
+      "original": "This planet appears to have only a south magnetic pole. The cause is not due to any exotic physics, but vortices in the planet's magma in the northern hemisphere.",
+      "translation": "Оказывается, у этой планеты есть только южный магнитный полюс. Причина не в экзотической физике, а в вихрях в магме планеты в северном полушарии.",
       "priority": 0,
       "reviewed": false
     },
@@ -39771,8 +40394,8 @@
     },
     {
       "symbol": "SOUTHERN->CONVO->MILTON_GRAVITY_GUN->DIALOGUE->2_NPC",
-      "original": "We could make something like what they were working on, although I'm not sure what they wanted it for. It might be useful for clearing debris and mines, but it's no super weapon. I've added the model the Research Lab's computer if you find some need for it.",
-      "translation": "Мы могли бы сделать что-то вроде того, над чем они работали, хотя я не уверен, для чего им это нужно. Он может быть полезен для разминирования мусора и мин, но это не супероружие. Я добавил модель компьютера исследовательской лаборатории, если она вам понадобится.",
+      "original": "We could make something like what they were working on, although I'm not sure what they wanted it for. It might be useful for clearing debris and mines, but it's no super weapon. I've added the model to the Research Lab's computer if you find some need for it.",
+      "translation": "Мы могли бы создать нечто подобное тому, над чем они работали, хотя я не уверен, для чего им это нужно. Он может пригодиться для расчистки завалов и мин, но это не супероружие. Я добавил модель в компьютер исследовательской лаборатории, если она вам понадобится.",
       "priority": 0,
       "reviewed": false
     },
@@ -40121,8 +40744,8 @@
     },
     {
       "symbol": "SOUTHERN->MISSIONS->CHARIOT->NODES->8->MISSION_DETAIL_CHARIOT_CORES",
-      "original": "When an unstable core was brough within range of the Chariot, it vanished and the Chariot energized.",
-      "translation": "Когда нестабильное ядро оказалось в пределах досягаемости Колесницы, оно исчезло, и Колесница включилась.",
+      "original": "When an unstable core was brought within range of the Chariot, it vanished and the Chariot energized.",
+      "translation": "Когда нестабильное ядро оказалось в пределах досягаемости Колесницы, оно исчезло, а Колесница зарядилась энергией.",
       "priority": 0,
       "reviewed": false
     },
@@ -40261,8 +40884,8 @@
     },
     {
       "symbol": "SOUTHERN->MISSIONS->DEVOUT_TECH->NODES->8->CREW_SKILL_NOTIFY->MESSAGE",
-      "original": "The good news is that this component solves a key design issue that's prevented us from scaling up our plasma turrets.\n\nWe can know research Mk III class plasma turrets.",
-      "translation": "Хорошей новостью является то, что этот компонент решает ключевую проблему проектирования, которая не позволяла нам масштабировать наши плазменные турели.\n\nМы можем знать исследовательские плазменные турели класса Mk III.",
+      "original": "The good news is that this component solves a key design issue that's prevented us from scaling up our plasma turrets.\n\nWe can now research Mk III class plasma turrets.",
+      "translation": "Хорошая новость заключается в том, что этот компонент решает ключевую проблему дизайна, которая мешала нам увеличить масштаб плазменных турелей.\n\nТеперь мы можем исследовать плазменные турели класса Mk III.",
       "priority": 0,
       "reviewed": false
     },
@@ -42060,8 +42683,8 @@
     },
     {
       "symbol": "WISKAMUG->ANOMALY->LOST_LUGGAGE->DIALOGUE->1_NPC",
-      "original": "Thrust marks have fused the sand where a very large ship once landed. Several old cargo crates  sit nearby, like forgoten luggage.\n\nOne contains a weathered personal recording device, with a partial entry still recoverable:",
-      "translation": "Следы ударов расплавили песок там, где когда-то приземлился очень большой корабль. Рядом лежат несколько старых грузовых ящиков, словно забытый багаж.\n\nВ одном из них находится потрепанное личное записывающее устройство, частичную запись которого еще можно восстановить:",
+      "original": "Thrust marks have fused the sand where a very large ship once landed. Several old cargo crates  sit nearby, like forgotten luggage.\n\nOne contains a weathered personal recording device, with a partial entry still recoverable:",
+      "translation": "Следы от ударов впечатались в песок в том месте, где когда-то приземлился очень большой корабль. Несколько старых грузовых ящиков стоят неподалеку, словно забытый багаж.\n\nВ одном из них лежит обветренное персональное записывающее устройство, на котором еще можно восстановить часть записей:",
       "priority": 0,
       "reviewed": false
     },
@@ -42326,8 +42949,8 @@
     },
     {
       "symbol": "WISKAMUG->ANOMALY->WISKAMUG_FORTRESS->DIALOGUE->48_NPC",
-      "original": "\"As least one of your answers was incorrect. The true Wiskamug is immortal, and has nothing to fear. Anyone else has until this message completes to flee.\"\n\nWith that brief warning, the team was able to avoid annhilation, but not without significant injuries.",
-      "translation": "«По крайней мере один из твоих ответов был неверным. Истинный Вискамуг бессмертен, и ему нечего бояться. Любой другой может бежать, пока это сообщение не завершится».\n\nБлагодаря этому краткому предупреждению команде удалось избежать уничтожения, но не без серьезных травм.",
+      "original": "\"As least one of your answers was incorrect. The true Wiskamug is immortal, and has nothing to fear. Anyone else has until this message completes to flee.\"\n\nWith that brief warning, the team was able to avoid annihilation, but not without significant injuries.",
+      "translation": "\"Как минимум один из ваших ответов был неверным. Истинный Вискамуг бессмертен, и ему нечего бояться. У всех остальных есть время до завершения этого сообщения, чтобы бежать\".\n\nБлагодаря этому краткому предупреждению команде удалось избежать уничтожения, но не без серьезных травм.",
       "priority": 0,
       "reviewed": false
     },

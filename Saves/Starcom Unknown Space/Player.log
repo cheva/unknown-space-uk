@@ -10,20 +10,20 @@ Direct3D:
     VRAM:     8119 MB
     Driver:   31.0.101.2115
 Begin MonoManager ReloadAssembly
-- Completed reload, in  0.209 seconds
+- Completed reload, in  0.460 seconds
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 1.161700 ms
-Preloader started, build Kepler (17321)
+UnloadTime: 4.960000 ms
+Preloader started, build Kepler (17344)
 Async progress 90%, attempting scene activation...
-Build Number: 17321
+Build Number: 17344
 Curl error 6: Could not resolve host: lab.wx3.com
 Found announce override, using instead of server supplied news.
 Steamworks initialized successfully for 1750770, Branch: 
 Creating presave for C:\Games\Starcom Unknown Space\Starcom Unknown Space_Data\StreamingAssets\Content\Kepler\Presaves\Arrival_Complete_info.json
 Creating presave for C:\Games\Starcom Unknown Space\Starcom Unknown Space_Data\StreamingAssets\Content\Kepler\Presaves\Post_Prologue_info.json
-Localizing to uk
+Localizing to ua
 Total localization targets: 0, total symbols: 6103
 Cannot resolve destination host
 Server unexpected response: 
@@ -31,25 +31,65 @@ Activating Wwise
 WwiseUnity: Wwise(R) SDK Version 2021.1.9 Build 7847.
 WwiseUnity: Setting Plugin DLL path to: C:/Games/Starcom Unknown Space/Starcom Unknown Space_Data\Plugins\x86_64
 WwiseUnity: Sound engine initialized successfully.
+Steam knows about 0 achievements
 Preloading DEFAULT
 Preloading ALPHA
 Preloading ARRIVAL
-Steam knows about 0 achievements
 Preloading BEYOND
 Preloading REMNANT_SPACE
+Attempting to delete 6 autosaves...
+Deleting autosave: Arrival_Complete
+Deleting autosave: Dee_241103020116
+Deleting autosave: Dee_241103020513
+Deleting autosave: Dee_241103020659
+Deleting autosave: Dee_241103021831
+Deleting autosave: Post_Prologue
+Deleted 6 autosaves.
+Bootstrapped story 'DEEP_SEARCH'
+Expanded MissionSave-FALLEN.FALL_OF_EMPIRE to 7 lanes
+Expanded MissionSave-FALLEN.FALLEN_PORTAL to 4 lanes
+Expanded MissionSave-ARRIVAL.RESEARCH_LAB to 3 lanes
+Expanded MissionSave-ARRIVAL.ALETHEIA to 6 lanes
 StoryId was null
 No starting story found: ''
+Task scheduler exceeded 1500ms
+Task scheduler exceeded 1500ms
+Task scheduler exceeded 1500ms
+Task scheduler exceeded 1500ms
+Task scheduler exceeded 1500ms
+Task scheduler exceeded 1500ms
+Task scheduler exceeded 1500ms
+Task scheduler exceeded 1500ms
+Task scheduler exceeded 1500ms
+Task scheduler exceeded 1500ms
+Task scheduler exceeded 1500ms
+Task scheduler exceeded 1500ms
+Task scheduler exceeded 1500ms
 No starting location
-Attempted to trigger an unknown Steam Achievement: 'EMISSARY'
+Task scheduler exceeded 1500ms
+Task scheduler exceeded 1500ms
+Task scheduler exceeded 1500ms
+Task scheduler exceeded 1500ms
+Task scheduler exceeded 1500ms
+Task scheduler exceeded 1500ms
+Task scheduler exceeded 1500ms
+Task scheduler exceeded 1500ms
+Task scheduler exceeded 1500ms
+Task scheduler exceeded 1500ms
+Task scheduler exceeded 1500ms
+Task scheduler exceeded 1500ms
+Task scheduler exceeded 1500ms
+Task scheduler exceeded 1500ms
+#8864 366.4183 sec: FPS: 29.99542 Mission Update: 0.00171196
 Material ProgressFill doesn't have _Stencil property
 Material ProgressFill(Clone) doesn't have _Stencil property
 Material ProgressFill(Clone) doesn't have _Stencil property
 Material ProgressFill(Clone) doesn't have _Stencil property
 Material ProgressFill(Clone) doesn't have _Stencil property
 Material ProgressFill(Clone) doesn't have _Stencil property
-StoryId was null
-No starting story found: ''
-No starting location
+Duplicate log entry, skipping
+Dialogue PopUp (UIDialoguePopUp) not found in current list of windows
+Cannot begin survey: SURVEYOR_AWAY
 Setting up 2 worker threads for Enlighten.
-  Thread -> id: 12a4 -> priority: 1 
-  Thread -> id: 6f8 -> priority: 1 
+  Thread -> id: 10f8 -> priority: 1 
+  Thread -> id: 1a40 -> priority: 1 

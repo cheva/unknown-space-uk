@@ -739,8 +739,8 @@
     },
     {
       "symbol": "MISSIONS_UI->OBJECTIVE_ACTIONABLE_LOW_HINT",
-      "original": "Objective with an associated location. Click to toggle map tracking.",
-      "translation": "関連する場所を持つ目標。クリックするとマップの追跡が切り替わります。",
+      "original": "Non-critical priority objective.",
+      "translation": "重要ではない優先目標。",
       "priority": 0,
       "reviewed": false
     },
@@ -1033,8 +1033,8 @@
     },
     {
       "symbol": "TRADE_UI->FACTION_BODY",
-      "original": "The [FACTION] have agreed to trade with us. Use the fields on the left to set desired transfers. When ready click \"Execute Trades\". The [FACTION] use [CURRENCY] as their reserve currency, so any excess profits/costs will adjust our [CURRENCY] supply. Any artifacts available for sale are list on the right.",
-      "translation": "[FACTION] は私たちと取引することに同意しました。左側のフィールドを使用して、希望の転送を設定します。準備ができたら、「取引の実行」をクリックします。 [FACTION] は準備通貨として [CURRENCY] を使用するため、超過利益/コストによって [CURRENCY] の供給が調整されます。販売可能なアーティファクトは右側のリストにあります。",
+      "original": "The [FACTION] have agreed to trade with us. Use the fields on the left to set desired transfers. When ready click \"Execute Trades\". The [FACTION] use [CURRENCY] as their reserve currency, so any excess profits/costs will adjust our [CURRENCY] supply. Any artifacts available for sale are listed on the right.",
+      "translation": "[FACTION] は私たちと取引することに同意しました。 左側のフィールドを使用して、希望する転送を設定します。 準備ができたら、「取引を実行」をクリックします。 [FACTION] は [CURRENCY] を準備通貨として使用しているため、余剰利益/コストがあれば [CURRENCY] の供給が調整されます。 販売可能なアーティファクトは右側にリストされています。",
       "priority": 0,
       "reviewed": false
     },
@@ -1084,6 +1084,13 @@
       "symbol": "MAP_HUD_STATIC->MAP_CONTROL_TIPS",
       "original": "Mousewheel: Zoom to Center\nCTRL+ Mousewheel: to Zoom to Cursor\nCTRL+ Click: Autopilot\nCTRL+ALT+ Click: Direct Autopilot\nRight-Click: Create Log Entry",
       "translation": "マウスホイール: 中央にズーム\nCTRL+ マウスホイール: カーソルにズーム\nCTRL+ クリック: オートパイロット\nCTRL+ALT+ クリック: ダイレクト オートパイロット\n右クリック: ログ エントリの作成",
+      "priority": 0,
+      "reviewed": false
+    },
+    {
+      "symbol": "MAP_HUD_STATIC->MAP_CONTROL_TIPS_GAMEPAD",
+      "original": "Right joystick: Pan map\nRight joystick depress: Set autopilot\n",
+      "translation": "右ジョイスティック: マップをパン\n右ジョイスティックを押す: オートパイロットを設定する\n",
       "priority": 0,
       "reviewed": false
     },
@@ -1383,8 +1390,8 @@
     },
     {
       "symbol": "BLUEPRINT_LOAD_UI->INSUFFICIENT_RESOURCES",
-      "original": "Insufficient resources:",
-      "translation": "リソースが不十分です:",
+      "original": "Insufficient resources (shows how much more is needed):",
+      "translation": "リソースが不足しています（さらにどれだけ必要かを示します）:",
       "priority": 0,
       "reviewed": false
     },
@@ -1907,6 +1914,34 @@
       "reviewed": false
     },
     {
+      "symbol": "SHIP_LOG->PLANET_ANOMALY",
+      "original": "Planet Anomaly",
+      "translation": "惑星の異常",
+      "priority": 0,
+      "reviewed": false
+    },
+    {
+      "symbol": "SHIP_LOG->PLANET_ANOMALY_INTRO",
+      "original": "[DATE_TIME] <i>[SHIP_NAME] Lander SCS-01</i>\tPlanetary Anomaly Report at [COORD]",
+      "translation": "[DATE_TIME] <i>[SHIP_NAME] 着陸船 SCS-01</i> の惑星異常報告 ([COORD])",
+      "priority": 0,
+      "reviewed": false
+    },
+    {
+      "symbol": "SHIP_LOG->CELESTIAL_ANOMALY",
+      "original": "EV Investigation",
+      "translation": "EV調査",
+      "priority": 0,
+      "reviewed": false
+    },
+    {
+      "symbol": "SHIP_LOG->CELESTIAL_ANOMALY_INTRO",
+      "original": "[DATE_TIME] <i>[SHIP_NAME]</i>\tSpaced-based Anomaly Report at [COORD]",
+      "translation": "[DATE_TIME] <i>[SHIP_NAME]</i> の [COORD] における宇宙ベースの異常報告",
+      "priority": 0,
+      "reviewed": false
+    },
+    {
       "symbol": "TITLE_MENU->NEW_GAME_BUTTON",
       "original": "New Game",
       "translation": "新しいゲーム",
@@ -2181,8 +2216,8 @@
     },
     {
       "symbol": "LOAD_GAME_UI_STATIC->SELECT_A_SAVE_TO_LOAD_FROM_BELOW",
-      "original": "Select a save to load from below. If you don't see your save, don't worry! It hasn't been deleted, <u><link=\"\nhttp://wx3.com/early-access-updates-and-save-games/\">see this post on how to rollback your build.</link></u> (Link should open in browser)",
-      "translation": "以下からロードするセーブを選択します。保存したものが表示されない場合でも、心配しないでください。削除されていません。<u><link=\nhttp://wx3.com/early-access-updates-and-save-games/\">ビルドをロールバックする方法については、この投稿を参照してください。</link></u> (リンクはブラウザで開きます)",
+      "original": "Select a save to load from below.",
+      "translation": "以下からロードする保存を選択してください。",
       "priority": 0,
       "reviewed": false
     },
@@ -2209,8 +2244,8 @@
     },
     {
       "symbol": "LOAD_GAME_UI->DEFAULT_TEXT",
-      "original": "Select a save to load from below. If you don't see your save, don't worry! It hasn't been deleted, <u><link=\" http://wx3.com/early-access-updates-and-save-games/\">see this post on how to rollback your build.</link></u> (Link should open in browser)",
-      "translation": "以下からロードするセーブを選択します。保存したものが表示されない場合でも、心配しないでください。まだ削除されていません。<u><link=\" http://wx3.com/early-access-updates-and-save-games/\">ビルドをロールバックする方法については、この投稿を参照してください。</link> </u> (リンクはブラウザで開きます)",
+      "original": "Select a save to load from below. ",
+      "translation": "以下からロードする保存を選択してください。",
       "priority": 0,
       "reviewed": false
     },
@@ -2446,16 +2481,9 @@
       "reviewed": false
     },
     {
-      "symbol": "OPTIONS_UI_STATIC->RESET_TO_DEFAULTS",
-      "original": "Reset to Defaults",
-      "translation": "既定値にリセット",
-      "priority": 0,
-      "reviewed": false
-    },
-    {
-      "symbol": "OPTIONS_UI_STATIC->GAMEPAD_HEADER",
-      "original": "Game Pad",
-      "translation": "ゲームパッド",
+      "symbol": "OPTIONS_UI_STATIC->CONTROLLER_HELP",
+      "original": "<color=#ff7585><b>Controller support is partial and may not work for all functions, such as text input fields. Give feedback on Controller input in the <u><link=\"https://steamcommunity.com/app/1750770/discussions/\">discussion forums.</link></u></b></color>\r\n\r\nSteering:\r\nLeft joystick to set desired direction. Hold for 5 seconds to enable cruise control.\r\n\r\nTurbo:\r\nLeft joystick down to toggle turbo thrust.\r\n\r\nWeapons:\r\nRight joystick to manually fire plasma turrets, right trigger to autofire plasma turrets. \nLeft trigger to autofire secondary weapon.\n\r\nInteract:\r\nA Button\r\n\r\nToggle Map:\r\nY Button\r\n\r\nPan map, Gateway Select:\r\nRight joystick\r\n\r\nToggle Ship Status:\r\nX Button\r\n\nActivate Power-up (if available):\nB Button\n\r\nCycle Secondary Weapon (if secondary weapons installed):\r\nD-Pad Up/Down\r\n\r\nCycle Power-ups (if available):\r\nD-Pad Right/Left\r",
+      "translation": "<color=#ff7585><b>コントローラーのサポートは部分的であり、テキスト入力フィールドなど、すべての機能で機能しない可能性があります。コントローラー入力に関するフィードバックは、<u><link=\"https://steamcommunity.com/app/1750770/discussions/\">ディスカッション フォーラム</link></u></b></color> で提供してください。\n\nステアリング: \n左ジョイスティックで希望の方向を設定します。5 秒間押し続けるとクルーズ コントロールが有効になります。\n\nターボ: \n左ジョイスティックを下にしてターボ スラストを切り替えます。\n\n武器: \n右ジョイスティックでプラズマ タレットを手動で発射し、右トリガーでプラズマ タレットを自動発射します。\n\n左トリガーでセカンダリ武器を自動発射します。\n\nインタラクト: \nA ボタン\n\nマップの切り替え: \nY ボタン\n\nマップのパン、ゲートウェイの選択: \n右ジョイスティック\n\n船の状態の切り替え: \nX ボタン\n\nパワーアップの有効化 (使用可能な場合): \nB ボタン\n\nセカンダリ武器の切り替え (セカンダリ武器がインストールされている場合): \nD パッドの上/下\n\nパワーアップの切り替え (使用可能な場合): \nD パッドの右/左",
       "priority": 0,
       "reviewed": false
     },
@@ -2463,13 +2491,6 @@
       "symbol": "OPTIONS_UI_STATIC->AUTODETECT_GAMEPAD",
       "original": "Autodetect Gamepad",
       "translation": "ゲームパッドの自動検出",
-      "priority": 0,
-      "reviewed": false
-    },
-    {
-      "symbol": "OPTIONS_UI_STATIC->CONTROLLER_HELP",
-      "original": "<color=#ff7585><b>Controller support is partial and may not work for all functions, such as text input fields. Give feedback on Controller input in the <u><link=\"https://steamcommunity.com/app/1750770/discussions/\">discussion forums.</link></u></b></color>\r\n\r\nSteering:\r\nLeft joystick to set desired direction. Hold for 5 seconds to enable cruise control.\r\n\r\nTurbo:\r\nLeft joystick down to toggle turbo thrust.\r\n\r\nWeapons:\r\nRight joystick to manually fire plasma turrets, right trigger to autofire plasma turrets. \nLeft trigger to autofire secondary weapon.\n\r\nInteract:\r\nA Button\r\n\r\nToggle Map:\r\nY Button\r\n\r\nPan map, Gateway Select:\r\nRight joystick\r\n\r\nToggle Ship Status:\r\nX Button\r\n\nActivate Power-up (if available):\nB Button\n\r\nCycle Secondary Weapon (if secondary weapons installed):\r\nD-Pad Up/Down\r\n\r\nCycle Power-ups (if available):\r\nD-Pad Right/Left\r",
-      "translation": "<color=#ff7585><b>コントローラーのサポートは部分的であり、テキスト入力フィールドなど、すべての機能で機能しない可能性があります。コントローラー入力に関するフィードバックは、<u><link=\"https://steamcommunity.com/app/1750770/discussions/\">ディスカッション フォーラム</link></u></b></color> で提供してください。\n\nステアリング: \n左ジョイスティックで希望の方向を設定します。5 秒間押し続けるとクルーズ コントロールが有効になります。\n\nターボ: \n左ジョイスティックを下にしてターボ スラストを切り替えます。\n\n武器: \n右ジョイスティックでプラズマ タレットを手動で発射し、右トリガーでプラズマ タレットを自動発射します。\n\n左トリガーでセカンダリ武器を自動発射します。\n\nインタラクト: \nA ボタン\n\nマップの切り替え: \nY ボタン\n\nマップのパン、ゲートウェイの選択: \n右ジョイスティック\n\n船の状態の切り替え: \nX ボタン\n\nパワーアップの有効化 (使用可能な場合): \nB ボタン\n\nセカンダリ武器の切り替え (セカンダリ武器がインストールされている場合): \nD パッドの上/下\n\nパワーアップの切り替え (使用可能な場合): \nD パッドの右/左",
       "priority": 0,
       "reviewed": false
     },
@@ -9120,13 +9141,6 @@
       "symbol": "ARRIVAL->MISSIONS->STATION_NEWS->NODES->0->NEWS->COMMAND->ANNOUNCER",
       "original": "Command",
       "translation": "指示",
-      "priority": 0,
-      "reviewed": false
-    },
-    {
-      "symbol": "ARRIVAL->MISSIONS->STATION_NEWS->NODES->0->NEWS->ALL_PERSONEL_TO__11104->TEXT",
-      "original": "ALL PERSONEL TO BATTLE STATIONS. THIS IS NOT A DRILL. Non-critical suspend, emergency stations.",
-      "translation": "全員がバトルステーションへ。これはドリルではありません。非クリティカルサスペンド、緊急ステーション。",
       "priority": 0,
       "reviewed": false
     },

@@ -16,6 +16,10 @@
     "language": "Français"
   },
   {
+	"code": "it_deepl",
+	"language": "Italiana"
+  },
+  {
     "code": "pl",
 	"language": "Polski"
   },
@@ -24,11 +28,19 @@
 	"language": "Portugues (BR)"
   },
   {
-    "code": "uk",
-	"language": "Українська"
+    "code": "pseudo",
+	"language": "Progent-A"
+  },
+  {
+    "code": "ru",
+	"language": "Русский"
   },
   {
     "code": "tr",
 	"language": "Türkçe"
+  },
+  {
+    "code": "ua",
+	"language": "українська"
   }
 ]
