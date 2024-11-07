@@ -1,25 +1,25 @@
 {
   "TURBO_TOGGLE": {
     "action": 6,
-    "key1": 113,
+    "key1": 116,
     "key2": 0,
     "gamepadButton": 13
   },
   "CRUISE_TOGGLE": {
     "action": 7,
-    "key1": 101,
+    "key1": 99,
     "key2": 0,
     "gamepadButton": 0
   },
   "STRAFE_LEFT": {
     "action": 62,
-    "key1": 306,
+    "key1": 113,
     "key2": 0,
     "gamepadButton": 0
   },
   "STRAFE_RIGHT": {
     "action": 63,
-    "key1": 308,
+    "key1": 101,
     "key2": 0,
     "gamepadButton": 0
   }

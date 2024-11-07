@@ -10,11 +10,11 @@ Direct3D:
     VRAM:     8119 MB
     Driver:   31.0.101.2115
 Begin MonoManager ReloadAssembly
-- Completed reload, in  0.205 seconds
+- Completed reload, in  0.208 seconds
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 1.112000 ms
+UnloadTime: 4.792800 ms
 Preloader started, build Kepler (17344)
 Async progress 90%, attempting scene activation...
 Build Number: 17344
@@ -43,104 +43,54 @@ WwiseUnity: Sound engine initialized successfully.
 Preloading DEFAULT
 Preloading ALPHA
 Preloading ARRIVAL
-Steam knows about 0 achievements
 Preloading BEYOND
 Preloading REMNANT_SPACE
-StoryId was null
-No starting story found: ''
-Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
-Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 9)
-Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 9)
-No starting location
-Duplicate log entry, skipping
-#10248 343.491 sec: FPS: 29.99908 Mission Update: 0.00404433
-Task scheduler exceeded 1500ms
-Task scheduler exceeded 1500ms
-Task scheduler exceeded 1500ms
-Task scheduler exceeded 1500ms
-Task scheduler exceeded 1500ms
-Task scheduler exceeded 1500ms
-Task scheduler exceeded 1500ms
-Attempted to trigger an unknown Steam Achievement: 'POLYHEDRAL'
-#18237 643.5066 sec: FPS: 29.60072 Mission Update: 0.00243577
-#26562 943.5374 sec: FPS: 29.61499 Mission Update: 0.00291281
-Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and lik#44549 2207.381 sec: FPS: 29.94882 Mission Update: 0.00339835
-#50527 2507.404 sec: FPS: 29.90509 Mission Update: 0.00132343
-#59483 2808.676 sec: FPS: 13.35072 Mission Update: 0.00270351
-#68035 3108.698 sec: FPS: 29.90509 Mission Update: 0.00438488
-Setting up 2 worker threads for Enlighten.
-  Thread -> id: 25bc -> priority: 1 
-  Thread -> id: 18c8 -> priority: 1 
-y found: ''
-No starting location
-Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
-Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 5)
-Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 5)
-Task scheduler exceeded 1500ms
-Task scheduler exceeded 1500ms
-Task scheduler exceeded 1500ms
-Task scheduler exceeded 1500ms
-Task scheduler exceeded 1500ms
-Task scheduler exceeded 1500ms
-Task scheduler exceeded 1500ms
-Task scheduler exceeded 1500ms
-Task scheduler exceeded 1500ms
-Task scheduler exceeded 1500ms
-Task scheduler exceeded 1500ms
-Task scheduler exceeded 1500ms
-Task scheduler exceeded 1500ms
-Task scheduler exceeded 1500ms
-Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
-Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 6)
-Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 6)
-Task scheduler exceeded 1500ms
-Task scheduler exceeded 1500ms
-Task scheduler exceeded 1500ms
-#37796 1450.662 sec: FPS: 0.3784778 Mission Update: 0.00188589
-Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
-Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 7)
-Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 7)
-Activating Deep Search
-Task scheduler exceeded 1500ms
-Task scheduler exceeded 1500ms
-Attempting to set item tradeable that player has, but allowTakeFromPlayer is false DEFAULT.MISSILE_ENGINE
-Attempting to set item tradeable that player has, but allowTakeFromPlayer is false DEFAULT.MISSILE_GUIDANCE
-Bootstrapped story 'REMNANT_MINIS'
-Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
-Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 9)
-Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 9)
-#46325 1750.678 sec: FPS: 29.69192 Mission Update: 0.00244829
-Cannot interact while scan in progress
-Cannot interact while scan in progress
+Steam knows about 0 achievements
+Attempting to delete 2 autosaves...
+Deleting autosave: Arrival_Complete
+Deleting autosave: Post_Prologue
+Deleted 2 autosaves.
 StoryId was null
 No starting story found: ''
 No starting location
-Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+Task scheduler exceeded 1500ms
+Task scheduler exceeded 1500ms
+Task scheduler exceeded 1500ms
+Task scheduler exceeded 1500ms
+Task scheduler exceeded 1500ms
+Task scheduler exceeded 1500ms
+Task scheduler exceeded 1500ms
+Task scheduler exceeded 1500ms
+Flag not satisfied, normal advance
+#10984 358.8502 sec: FPS: 29.46939 Mission Update: 0.00283762
 Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
 Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 6)
 Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 6)
 Cannot interact while scan in progress
-Cannot interact while scan in progress
-Cannot interact while scan in progress
-Cannot interact while scan in progress
-Cannot interact while scan in progress
-Cannot interact while scan in progress
-Cannot interact while scan in progress
-Cannot begin survey: HOSTILES_NEAR
-Cannot begin survey: HOSTILES_NEAR
-Cannot begin survey: HOSTILES_NEAR
-Deep search spawned
-Spawning marker
-#59313 2226.665 sec: FPS: 29.89781 Mission Update: 0.00308384
-StoryId was null
-No starting story found: ''
-No starting location
+#19241 659.6891 sec: FPS: 15.42604 Mission Update: 0.00354718
+Survey module does not exist.
 Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
 Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 10)
 Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 10)
+Survey module does not exist.
 Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
-Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 8)
-Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 8)
-Setting up 2 worker threads for Enlighten.
-  Thread -> id: 5a8 -> priority: 1 
-  Thread -> id: 2428 -> priority: 1 
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 10)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 10)
+#27539 959.7204 sec: FPS: 29.85785 Mission Update: 0.00261949
+StoryId was null
+No starting story found: ''
+No starting location
+d3d11: failed to create buffer (target 0x5 mode 0 size 1344) [0x887A0005]
+d3d11: failed to create buffer (target 0x2 mode 0 size 168) [0x887A0005]
+d3d11: failed to create staging 2D texture w=512 h=512 d3dfmt=28 [887a0005]
+d3d11: failed to create staging 2D texture w=256 h=256 d3dfmt=28 [887a0005]
+d3d11: failed to create staging 2D texture w=128 h=128 d3dfmt=28 [887a0005]
+d3d11: failed to create staging 2D texture w=64 h=64 d3dfmt=28 [887a0005]
+d3d11: failed to create staging 2D texture w=32 h=32 d3dfmt=28 [887a0005]
+d3d11: failed to create staging 2D texture w=16 h=16 d3dfmt=28 [887a0005]
+d3d11: failed to create staging 2D texture w=8 h=8 d3dfmt=28 [887a0005]
+d3d11: failed to create staging 2D texture w=4 h=4 d3dfmt=28 [887a0005]
+d3d11: failed to create staging 2D texture w=2 h=2 d3dfmt=28 [887a0005]
+d3d11: failed to create staging 2D texture w=1 h=1 d3dfmt=28 [887a0005]
+d3d11: failed to create buffer (target 0x5 mode 0 size 1344) [0x887A0005]
+d3d11: failed to create buffer (target 0x2 mode 0 size 168) [0x887A0005]

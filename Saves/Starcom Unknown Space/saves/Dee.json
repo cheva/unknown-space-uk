@@ -301,7 +301,7 @@
     ]
   },
   "crewData": {
-    "totalXP": 31,
+    "totalXP": 32,
     "unspentPoints": 0,
     "currentTeamLevel": 2,
     "crew": [
@@ -1062,12 +1062,12 @@
       },
       "DEFAULT.STARCOM": {
         "DEFAULT.REMNANT": -2.54404831,
-        "ARRIVAL.RED_RAIDERS": -7.05866138E-13
+        "ARRIVAL.RED_RAIDERS": -6.28756162E-13
       },
       "ARRIVAL.RED_RAIDERS": {
-        "DEFAULT.PLAYER": -1.27687585,
-        "DEFAULT.STARCOM": -1.94740253E-12,
-        "DEFAULT.ERMYR": -0.659315765
+        "DEFAULT.PLAYER": -1.13738787,
+        "DEFAULT.STARCOM": -1.734665E-12,
+        "DEFAULT.ERMYR": -0.587291
       },
       "DEFAULT.ERMYR": {
         "DEFAULT.PLAYER": 0.0
@@ -1076,7 +1076,7 @@
         "DEFAULT.PLAYER": 0.0
       },
       "DEVOUT.DEVOUT": {
-        "DEFAULT.PLAYER": -9.01267,
+        "DEFAULT.PLAYER": -8.0281105,
         "WISKAMUG.WISKAMUG": -3.077508E-05,
         "DEFAULT.OBSTACLE": -3.99
       },
@@ -1138,24 +1138,24 @@
   },
   "gameVarData": {
     "numberVars": {
-      "DEFAULT.ANALYTICS-4_delay": 2736.59424,
+      "DEFAULT.ANALYTICS-4_delay": 2746.50269,
       "DEFAULT.ANALYTICS-13_delay": 81.21806,
-      "DEVOUT.DEVOUT_START-3_delay": 3374.82227,
+      "DEVOUT.DEVOUT_START-3_delay": 3384.73071,
       "ALPHA.STABILIZERS": 2.0,
-      "DEFAULT.DEEP_SPACE-9_lull": 38.15325,
+      "DEFAULT.DEEP_SPACE-9_lull": 3.107697,
       "CONFLICT.MOISTURE_MODIFIER": 2.0,
-      "WISKAMUG.WISKAMUG-23_delay": 1116.87634,
-      "ARRIVAL.RESEARCH_LAB-9_delay": 4074.80933,
+      "WISKAMUG.WISKAMUG-23_delay": 1126.784,
+      "ARRIVAL.RESEARCH_LAB-9_delay": 4084.71777,
       "REMNANT_SPACE.RAMA_SCIENCE_POINTS": 760.0,
       "REMNANT_SPACE.RAMA_SCIENCE_QUESTIONS": 1.0,
       "DEFAULT.SCUTTLEBUTT": 6210.43457,
-      "ARRIVAL.POLYHEDRAL-13_delay": 3201.445,
+      "ARRIVAL.POLYHEDRAL-13_delay": 3211.35352,
       "HERETICS.PYRAMIDS": 1.0,
-      "PIRATES.BROGIDAR-28_delay": 793.351746,
+      "PIRATES.BROGIDAR-28_delay": 803.260132,
       "COMETS.COMETS": 1.0,
       "GORYR.GORYR_PATCH-2_delay": 2.36915612,
-      "ARRIVAL.POLYHEDRAL-23_delay": 689.252441,
-      "REMNANT_SPACE.BOOTSTRAP-13_delay": 514.7929
+      "ARRIVAL.POLYHEDRAL-23_delay": 714.7064,
+      "REMNANT_SPACE.BOOTSTRAP-13_delay": 621.6711
     },
     "flagVars": {
       "SEPHARIAL.LOOP": true,
@@ -1207,7 +1207,8 @@
       "REMNANT_SPACE.FALLEN_TECH": true,
       "DISPATCHES.SPAWN": true,
       "DEFAULT.MISSILE_TECH": true,
-      "STALKERS.SPAWN_STALKERS": true
+      "STALKERS.SPAWN_STALKERS": true,
+      "DEVOUT.NIL_ACCEPTED": true
     },
     "stringVars": {
       "DEFAULT.ANOMALY_WHITELIST": "ARRIVAL.CELAENO_OUTPOST"
@@ -1303,7 +1304,8 @@
       "DEVOUT.DARK_CITIES",
       "DEVOUT.DEVOUT_MISSION",
       "ASTEROIDS.REFINERY",
-      "BEYOND.RAIDER_FACTORY"
+      "BEYOND.RAIDER_FACTORY",
+      "DEVOUT.DEVOUT_DESERT"
     ]
   },
   "itemSaveData": {
@@ -3723,7 +3725,7 @@
         "missionId": "DEVOUT.DEVOUT_AGENT",
         "state": 1,
         "priority": 0,
-        "progressTime": 5477.3559061918641,
+        "progressTime": 6344.699963857769,
         "stopped": false,
         "details": [
           {
@@ -3755,10 +3757,40 @@
             },
             "priority": 10,
             "HasGoal": true
+          },
+          {
+            "missionId": "DEVOUT.DEVOUT_AGENT",
+            "id": "RESEARCH_LAB",
+            "description": "Ми взяли на борт пасажира, який стверджує, що зможе надати нам доступ до технології Devout, якщо ми зможемо приземлитися на їхній дослідницькій планеті [COORD].",
+            "progress": 0,
+            "maxProgress": 1,
+            "startTime": 6344.7,
+            "age": 6.8306036,
+            "playerCoord": {
+              "universe": 0,
+              "ux": -1,
+              "uz": 8,
+              "x": 507.5045,
+              "z": -663.9642
+            },
+            "goal": {
+              "goalId": "DEVOUT.HAVOK_PLANET",
+              "clearProximity": 150.0,
+              "lastKnown": {
+                "universe": 0,
+                "ux": -3,
+                "uz": 5,
+                "x": -837.445557,
+                "z": -396.7338
+              },
+              "mapTracked": true
+            },
+            "priority": 10,
+            "HasGoal": true
           }
         ],
         "activeNodeIndices": [
-          4,
+          5,
           0,
           0
         ]
@@ -4094,7 +4126,7 @@
             "progress": 0,
             "maxProgress": 1,
             "startTime": 6253.3125,
-            "age": 96.1286,
+            "age": 125.783951,
             "playerCoord": {
               "universe": 0,
               "ux": -2,
@@ -5210,7 +5242,7 @@
             "progress": 0,
             "maxProgress": 1,
             "startTime": 2505.62329,
-            "age": 4888.46729,
+            "age": 4918.105,
             "playerCoord": {
               "universe": 0,
               "ux": 5,
@@ -5765,8 +5797,8 @@
       "universe": 0,
       "ux": -1,
       "uz": 8,
-      "x": 489.507843,
-      "z": -677.420532
+      "x": 507.760956,
+      "z": -663.772339
     },
     "playerShip": {
       "shipDesignId": "DEFAULT.SMALL_MISSILES",
@@ -6067,7 +6099,7 @@
       },
       "lastVisibility": 397.5,
       "lastDisposition": 1000.0,
-      "lastActive": 6337.9284079846693,
+      "lastActive": 6347.4059796024812,
       "disabled": false,
       "persistentId": "PLAYER",
       "prefabName": "Ship",
@@ -6075,8 +6107,8 @@
         "universe": 0,
         "ux": -1,
         "uz": 8,
-        "x": 489.507843,
-        "z": -677.420532
+        "x": 507.760956,
+        "z": -663.772339
       },
       "factionId": "DEFAULT.PLAYER",
       "discovered": false
@@ -6109,8 +6141,8 @@
     "havokCharge": 0.0,
     "researchPoints": 240,
     "totalResearchPoints": 1780,
-    "anomaliesCompleted": 32,
-    "distanceFlown": 398358.69506836508,
+    "anomaliesCompleted": 33,
+    "distanceFlown": 398381.11203952826,
     "swatch": {
       "id": "DEFAULT.STARCOM",
       "plating1": {
@@ -6226,7 +6258,7 @@
   "phenomenaData": {
     "emissaryData": {
       "destinations": [],
-      "timer": 748.811035
+      "timer": 758.998
     }
   },
   "proceduralData": {
@@ -6644,7 +6676,7 @@
     }
   },
   "shipLogData": {
-    "index": 166,
+    "index": 167,
     "entries": [
       {
         "id": 1,
@@ -9631,6 +9663,24 @@
         "summary": "\"<i>Ми проаналізували достатньо компонентів ракет, щоб ми могли досліджувати власні.</i>\"",
         "intro": "<i>Dee</i>: 2641.12.06 08:40 at -1.33 x 7.65 Unknown Space, Crew Log Entry",
         "details": "Ens. Jennifer Cygnus-Lee (Тактика):\n\nМи проаналізували достатньо компонентів ракет, щоб ми могли досліджувати власні."
+      },
+      {
+        "id": 167,
+        "type": 2,
+        "gameTime": 6344,
+        "coord": {
+          "universe": 0,
+          "ux": -1,
+          "uz": 8,
+          "x": 507.388,
+          "z": -664.051331
+        },
+        "showMapPin": false,
+        "spriteId": "DEVOUT.Anomalies/DesertHouse",
+        "categoryText": "Planet Anomaly: Ніл Амона",
+        "summary": "<i>Єдина кам'яна конструкція без енергетичних викидів, ледве зафіксована...</i>",
+        "intro": "12/6/2641 1:05:00 PM <i>Dee Lander SCS-01</i>\tPlanetary Anomaly Report at -0.40 x 8.37 Unknown Space",
+        "details": "Єдина кам'яна конструкція без енергетичних викидів, ледве зафіксована сканерами, навіть із відомими координатами.\n\nУ цьому житлі команда знаходить самотнього відлюдника, його обличчя вкрите татуюванням і шрамами ікон іконопису Благочестивого.\n\n«Я Ніл з Амона, чому ти заважаєш мені медитувати?»\n\n<i>Cmd Dee's orders: Have the team show Nil the amber skull.</i>\n\nКілька хвилин Ніл пильно розглядає череп, потім вивчає команду.\n\n«Довіреній подрузі було доручено знайти корабель, який міг би доставити мене в космос Благочестивих. Позначки на цьому черепі говорять мені, що вона вас не знала, але вірю, що ви поділяєте нашу ворожнечу до Благочестивих».\n\n«Якщо ви зможете доставити мене вглиб їхньої території, я зможу запропонувати вам цінні технічні дані про їхню зброю».\n\n<i>Cmd Dee's orders: Agree to help Nil.</i>\n"
       }
     ]
   },
@@ -16044,7 +16094,7 @@
           {
             "$type": "ShipData, Assembly-CSharp",
             "shipDesignId": "DEVOUT.ADHERENT",
-            "rotation": 296.631317,
+            "rotation": 299.875824,
             "scale": 1.4,
             "modules": [
               {
@@ -16246,8 +16296,8 @@
               "z": 431.633
             },
             "lastVisibility": 449.5,
-            "lastDisposition": -14.01267,
-            "lastActive": 6337.9284079846693,
+            "lastDisposition": -13.0281105,
+            "lastActive": 6347.4059796024812,
             "disabled": false,
             "persistentId": "#Ship_75325161-1868306180",
             "prefabName": "Ship",
@@ -16255,8 +16305,8 @@
               "universe": 0,
               "ux": -2,
               "uz": 7,
-              "x": 799.6836,
-              "z": 745.9082
+              "x": 673.0508,
+              "z": 836.7759
             },
             "factionId": "DEVOUT.DEVOUT",
             "discovered": true
@@ -16264,7 +16314,7 @@
           {
             "$type": "ShipData, Assembly-CSharp",
             "shipDesignId": "DEVOUT.ACOLYTE",
-            "rotation": 286.628052,
+            "rotation": 298.313049,
             "scale": 1.33,
             "modules": [
               {
@@ -16406,8 +16456,8 @@
               "z": 452.296722
             },
             "lastVisibility": 339.775,
-            "lastDisposition": -14.01267,
-            "lastActive": 6337.9284079846693,
+            "lastDisposition": -13.0281105,
+            "lastActive": 6347.4059796024812,
             "disabled": false,
             "persistentId": "#Ship_1115512395-991999929",
             "prefabName": "Ship",
@@ -16415,8 +16465,8 @@
               "universe": 0,
               "ux": -2,
               "uz": 7,
-              "x": 799.9751,
-              "z": 789.0376
+              "x": 658.4385,
+              "z": 866.731445
             },
             "factionId": "DEVOUT.DEVOUT",
             "discovered": false
@@ -16424,7 +16474,7 @@
           {
             "$type": "ShipData, Assembly-CSharp",
             "shipDesignId": "DEVOUT.FAITHFUL",
-            "rotation": 303.210052,
+            "rotation": 311.846771,
             "scale": 1.33,
             "modules": [
               {
@@ -16616,8 +16666,8 @@
               "z": 402.534
             },
             "lastVisibility": 392.975,
-            "lastDisposition": -14.01267,
-            "lastActive": 6337.9284079846693,
+            "lastDisposition": -13.0281105,
+            "lastActive": 6347.4059796024812,
             "disabled": false,
             "persistentId": "#Ship_913918442-544701244",
             "prefabName": "Ship",
@@ -16625,8 +16675,8 @@
               "universe": 0,
               "ux": -2,
               "uz": 7,
-              "x": 840.6304,
-              "z": 692.973145
+              "x": 739.6279,
+              "z": 779.414063
             },
             "factionId": "DEVOUT.DEVOUT",
             "discovered": true
@@ -16919,7 +16969,7 @@
             "radius": 250.0,
             "currentObstacles": 73,
             "initialized": true,
-            "lastUpdateGametime": 6337.862,
+            "lastUpdateGametime": 6347.77832,
             "persistentId": "#Asteroid Field Titanium_265295338-812401521",
             "prefabName": "Asteroid Field Titanium",
             "coordinates": {
@@ -16952,7 +17002,7 @@
             "radius": 203.9963,
             "currentObstacles": 70,
             "initialized": true,
-            "lastUpdateGametime": 6337.862,
+            "lastUpdateGametime": 6347.77832,
             "persistentId": "#Asteroid Field Titanium_829454096-1666567556",
             "prefabName": "Asteroid Field Titanium",
             "coordinates": {
@@ -16970,7 +17020,7 @@
             "radius": 400.0,
             "currentObstacles": 75,
             "initialized": true,
-            "lastUpdateGametime": 6337.862,
+            "lastUpdateGametime": 6347.77832,
             "persistentId": "#Asteroid Field_1690594542-1483444580",
             "prefabName": "Asteroid Field",
             "coordinates": {
@@ -17058,11 +17108,11 @@
             "size": 73.36018,
             "seed": 441657747,
             "interaction": {
-              "anomalyState": 1,
+              "anomalyState": 6,
               "anomalyId": "DEVOUT.DEVOUT_DESERT",
               "stationId": "",
               "hasTrade": false,
-              "instanceVisits": 0
+              "instanceVisits": 1
             },
             "procAnomalyCandidate": false,
             "placementPadding": 0.0,
@@ -17937,7 +17987,7 @@
           {
             "$type": "ShipData, Assembly-CSharp",
             "shipDesignId": "CXTA.CXTA_HAULER",
-            "rotation": 143.609955,
+            "rotation": 286.367126,
             "scale": 2.0,
             "modules": [
               {
@@ -18067,7 +18117,7 @@
             "profileType": "Freighter",
             "command": {
               "$type": "AIVisitCommand, Assembly-CSharp",
-              "persistentId": "#Terrestrial M1D_425299320-1989151321",
+              "persistentId": "#Desert D2_591165277-919793132",
               "locked": false,
               "ThrottledSpeed": -1.0
             },
@@ -18080,7 +18130,7 @@
             },
             "lastVisibility": 530.0,
             "lastDisposition": 0.0,
-            "lastActive": 6337.9284079846693,
+            "lastActive": 6347.4059796024812,
             "disabled": false,
             "persistentId": "#Ship_1630238010-534007763",
             "prefabName": "Ship",
@@ -18088,8 +18138,8 @@
               "universe": 0,
               "ux": 0,
               "uz": 9,
-              "x": -1098.76514,
-              "z": -905.202637
+              "x": -1106.64111,
+              "z": -942.8916
             },
             "factionId": "CXTA.CXTA",
             "discovered": true
@@ -44682,6 +44732,6 @@
   },
   "startBuild": 17321,
   "gameId": "0c4adb7486444a999e9ce1403f44fadc",
-  "gameTime": 6337.928,
-  "playTime": 8976.745
+  "gameTime": 6347.803,
+  "playTime": 9008.464
 }
