@@ -10,11 +10,11 @@ Direct3D:
     VRAM:     8119 MB
     Driver:   31.0.101.2115
 Begin MonoManager ReloadAssembly
-- Completed reload, in  0.208 seconds
+- Completed reload, in  0.177 seconds
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 4.792800 ms
+UnloadTime: 3.804400 ms
 Preloader started, build Kepler (17344)
 Async progress 90%, attempting scene activation...
 Build Number: 17344
@@ -46,51 +46,76 @@ Preloading ARRIVAL
 Preloading BEYOND
 Preloading REMNANT_SPACE
 Steam knows about 0 achievements
-Attempting to delete 2 autosaves...
-Deleting autosave: Arrival_Complete
-Deleting autosave: Post_Prologue
-Deleted 2 autosaves.
 StoryId was null
 No starting story found: ''
 No starting location
-Task scheduler exceeded 1500ms
-Task scheduler exceeded 1500ms
-Task scheduler exceeded 1500ms
-Task scheduler exceeded 1500ms
-Task scheduler exceeded 1500ms
-Task scheduler exceeded 1500ms
-Task scheduler exceeded 1500ms
-Task scheduler exceeded 1500ms
-Flag not satisfied, normal advance
-#10984 358.8502 sec: FPS: 29.46939 Mission Update: 0.00283762
-Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
-Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 6)
-Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 6)
-Cannot interact while scan in progress
-#19241 659.6891 sec: FPS: 15.42604 Mission Update: 0.00354718
-Survey module does not exist.
-Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
-Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 10)
-Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 10)
-Survey module does not exist.
-Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
-Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 10)
-Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 10)
-#27539 959.7204 sec: FPS: 29.85785 Mission Update: 0.00261949
+#10520 355.2384 sec: FPS: 29.76384 Mission Update: 0.0027272
+#19367 655.263 sec: FPS: 29.33747 Mission Update: 0.00256217
+Bootstrapped story 'REMNANTS_2'
+Bootstrapped story 'HELLO'
+Material ProgressFill doesn't have _Stencil property
+Material ProgressFill(Clone) doesn't have _Stencil property
+Material ProgressFill(Clone) doesn't have _Stencil property
+Material ProgressFill(Clone) doesn't have _Stencil property
+Material ProgressFill(Clone) doesn't have _Stencil property
+Material ProgressFill(Clone) doesn't have _Stencil property
+Material ProgressFill(Clone) doesn't have _Stencil property
+Material ProgressFill(Clone) doesn't have _Stencil property
+Material ProgressFill(Clone) doesn't have _Stencil property
+#27830 955.2859 sec: FPS: 29.92147 Mission Update: 0.00176637
+Material ProgressFill(Clone) doesn't have _Stencil property
+Material ProgressFill(Clone) doesn't have _Stencil property
+Material ProgressFill(Clone) doesn't have _Stencil property
+Material ProgressFill(Clone) doesn't have _Stencil property
+Material ProgressFill(Clone) doesn't have _Stencil property
+Material ProgressFill(Clone) doesn't have _Stencil property
+#36374 1255.314 sec: FPS: 27.9241 Mission Update: 0.00261928
+Can not play a disabled audio source
 StoryId was null
 No starting story found: ''
 No starting location
-d3d11: failed to create buffer (target 0x5 mode 0 size 1344) [0x887A0005]
-d3d11: failed to create buffer (target 0x2 mode 0 size 168) [0x887A0005]
-d3d11: failed to create staging 2D texture w=512 h=512 d3dfmt=28 [887a0005]
-d3d11: failed to create staging 2D texture w=256 h=256 d3dfmt=28 [887a0005]
-d3d11: failed to create staging 2D texture w=128 h=128 d3dfmt=28 [887a0005]
-d3d11: failed to create staging 2D texture w=64 h=64 d3dfmt=28 [887a0005]
-d3d11: failed to create staging 2D texture w=32 h=32 d3dfmt=28 [887a0005]
-d3d11: failed to create staging 2D texture w=16 h=16 d3dfmt=28 [887a0005]
-d3d11: failed to create staging 2D texture w=8 h=8 d3dfmt=28 [887a0005]
-d3d11: failed to create staging 2D texture w=4 h=4 d3dfmt=28 [887a0005]
-d3d11: failed to create staging 2D texture w=2 h=2 d3dfmt=28 [887a0005]
-d3d11: failed to create staging 2D texture w=1 h=1 d3dfmt=28 [887a0005]
-d3d11: failed to create buffer (target 0x5 mode 0 size 1344) [0x887A0005]
-d3d11: failed to create buffer (target 0x2 mode 0 size 168) [0x887A0005]
+Material ProgressFill doesn't have _Stencil property
+Material ProgressFill(Clone) doesn't have _Stencil property
+Material ProgressFill(Clone) doesn't have _Stencil property
+Material ProgressFill(Clone) doesn't have _Stencil property
+Material ProgressFill(Clone) doesn't have _Stencil property
+Material ProgressFill(Clone) doesn't have _Stencil property
+Material ProgressFill(Clone) doesn't have _Stencil property
+Material ProgressFill(Clone) doesn't have _Stencil property
+#48097 1674.892 sec: FPS: 29.37956 Mission Update: 0.00191369
+Material ProgressFill(Clone) doesn't have _Stencil property
+Material ProgressFill(Clone) doesn't have _Stencil property
+Material ProgressFill(Clone) doesn't have _Stencil property
+Material ProgressFill(Clone) doesn't have _Stencil property
+Material ProgressFill(Clone) doesn't have _Stencil property
+Material ProgressFill(Clone) doesn't have _Stencil property
+Material ProgressFill(Clone) doesn't have _Stencil property
+Material ProgressFill(Clone) doesn't have _Stencil property
+Material ProgressFill(Clone) doesn't have _Stencil property
+Material ProgressFill(Clone) doesn't have _Stencil property
+Material ProgressFill(Clone) doesn't have _Stencil property
+Material ProgressFill(Clone) doesn't have _Stencil property
+Material ProgressFill(Clone) doesn't have _Stencil property
+StoryId was null
+No starting story found: ''
+No starting location
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 5)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 5)
+StoryId was null
+No starting story found: ''
+No starting location
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 5)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 5)
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 6)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 6)
+Cannot set command without ship
+#63253 2194.832 sec: FPS: 29.98536 Mission Update: 0.00238693
+Attempted to trigger an unknown Steam Achievement: 'RAIDER_FACTORY'
+Bootstrapped story 'DISPATCHES'
+#71695 2494.845 sec: FPS: 28.92655 Mission Update: 0.00316119
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 1500 -> priority: 1 
+  Thread -> id: 548 -> priority: 1 
