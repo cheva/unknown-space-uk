@@ -10,15 +10,14 @@ Direct3D:
     VRAM:     8119 MB
     Driver:   31.0.101.2115
 Begin MonoManager ReloadAssembly
-- Completed reload, in  0.439 seconds
+- Completed reload, in  0.326 seconds
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 3.655800 ms
+UnloadTime: 5.763400 ms
 Preloader started, build Kepler (17344)
 Async progress 90%, attempting scene activation...
 Build Number: 17344
-Curl error 6: Could not resolve host: lab.wx3.com
 Found announce override, using instead of server supplied news.
 Steamworks initialized successfully for 1750770, Branch: 
 Creating presave for C:\Games\Starcom Unknown Space\Starcom Unknown Space_Data\StreamingAssets\Content\Kepler\Presaves\Arrival_Complete_info.json
@@ -34,8 +33,6 @@ No file: C:/Games/Starcom Unknown Space/Starcom Unknown Space_Data/StreamingAsse
 No file: C:/Games/Starcom Unknown Space/Starcom Unknown Space_Data/StreamingAssets/Localization/pseudo.png
 No file: C:/Games/Starcom Unknown Space/Starcom Unknown Space_Data/StreamingAssets/Localization/ru.png
 No file: C:/Games/Starcom Unknown Space/Starcom Unknown Space_Data/StreamingAssets/Localization/tr.png
-Cannot resolve destination host
-Server unexpected response: 
 Activating Wwise
 WwiseUnity: Wwise(R) SDK Version 2021.1.9 Build 7847.
 WwiseUnity: Setting Plugin DLL path to: C:/Games/Starcom Unknown Space/Starcom Unknown Space_Data\Plugins\x86_64
@@ -48,75 +45,22 @@ Preloading BEYOND
 Preloading REMNANT_SPACE
 StoryId was null
 No starting story found: ''
-Task scheduler exceeded 1500ms
-Task scheduler exceeded 1500ms
-Task scheduler exceeded 1500ms
-Task scheduler exceeded 1500ms
-Task scheduler exceeded 1500ms
-Task scheduler exceeded 1500ms
-Task scheduler exceeded 1500ms
-Task scheduler exceeded 1500ms
-Task scheduler exceeded 1500ms
-Task scheduler exceeded 1500ms
-Task scheduler exceeded 1500ms
-Task scheduler exceeded 1500ms
-Task scheduler exceeded 1500ms
-Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
-Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 7)
-Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 7)
 No starting location
-#11551 360.5959 sec: FPS: 29.96799 Mission Update: 0.00170761
-Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
-Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 5)
-Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 5)
-Bootstrapped story 'CEPHEID'
-Detail already at max progress
-#20333 660.6022 sec: FPS: 29.87419 Mission Update: 0.00181134
-StoryId was null
-No starting story found: ''
-No starting location
-Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
-Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 6)
-Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 6)
-Detail already at max progress
-#32703 1083.397 sec: FPS: 29.93423 Mission Update: 0.00170386
-Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
-Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 6)
-Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 6)
-#40186 1383.402 sec: FPS: 29.85423 Mission Update: 0.00172865
-Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
-Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 6)
-Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 6)
-Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
-Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 5)
-Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 5)
-Attempted to placed region 'Region (CEPHEID.CEPHEID)' near 'sector_0_2x12 0 x 0', actually placed at 'sector_0_3x12 0 x 0', dist 5000
+Bootstrapped story 'LAST_TALONIAN'
+Adding topic links instead of child nodes
 Material ProgressFill doesn't have _Stencil property
 Material ProgressFill(Clone) doesn't have _Stencil property
+#16259 372.9665 sec: FPS: 40.90376 Mission Update: 0.00429957
 Material ProgressFill(Clone) doesn't have _Stencil property
 Material ProgressFill(Clone) doesn't have _Stencil property
 Material ProgressFill(Clone) doesn't have _Stencil property
 Material ProgressFill(Clone) doesn't have _Stencil property
 Material ProgressFill(Clone) doesn't have _Stencil property
-#48100 1683.418 sec: FPS: 29.79632 Mission Update: 0.00187348
-Material ProgressFill(Clone) doesn't have _Stencil property
-StoryId was null
-No starting story found: ''
-No starting location
-Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
-Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 5)
-Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 5)
-Attempted to placed region 'Region (CEPHEID.CEPHEID)' near 'sector_0_2x12 0 x 0', actually placed at 'sector_0_3x13 0 x 0', dist 7071.068
-Material ProgressFill doesn't have _Stencil property
 Material ProgressFill(Clone) doesn't have _Stencil property
 Material ProgressFill(Clone) doesn't have _Stencil property
-Material ProgressFill(Clone) doesn't have _Stencil property
-Material ProgressFill(Clone) doesn't have _Stencil property
-Material ProgressFill(Clone) doesn't have _Stencil property
-#60318 2110.27 sec: FPS: 29.90509 Mission Update: 0.00148901
-#69273 2410.281 sec: FPS: 28.99481 Mission Update: 0.0011991
-#77879 2710.307 sec: FPS: 29.78909 Mission Update: 0.0023812
-#86815 3010.313 sec: FPS: 29.92694 Mission Update: 0.00192096
+#27276 672.9908 sec: FPS: 39.36254 Mission Update: 0.00403587
+#38175 973.0121 sec: FPS: 32.55315 Mission Update: 0.00547891
+#50000 1273.059 sec: FPS: 17.37065 Mission Update: 0.00515006
 Setting up 2 worker threads for Enlighten.
-  Thread -> id: 1df0 -> priority: 1 
-  Thread -> id: 1ef8 -> priority: 1 
+  Thread -> id: 2910 -> priority: 1 
+  Thread -> id: 2f58 -> priority: 1 

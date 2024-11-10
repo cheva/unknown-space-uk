@@ -1,55 +1,25 @@
 {
-  "id": "Hex 30-30",
+  "id": "Hex-310",
   "description": "",
   "custom": false,
   "defaultFactionId": "DEFAULT.PLAYER",
   "normalCost": 0.0,
   "modules": [
     {
-      "moduleId": "BRIDGE_2",
+      "moduleId": "BRIDGE_4",
       "origin": {
         "x": 0,
         "y": 0
       },
       "rot": 0,
       "mirrored": false,
-      "health": 15.0
-    },
-    {
-      "moduleId": "PLASMA_1",
-      "origin": {
-        "x": -2,
-        "y": -1
-      },
-      "rot": 0,
-      "mirrored": false,
-      "health": 6.0
-    },
-    {
-      "moduleId": "LATERAL_0",
-      "origin": {
-        "x": -3,
-        "y": -1
-      },
-      "rot": 0,
-      "mirrored": true,
-      "health": 2.0
-    },
-    {
-      "moduleId": "PLASMA_2",
-      "origin": {
-        "x": 1,
-        "y": 0
-      },
-      "rot": 0,
-      "mirrored": false,
-      "health": 12.0
+      "health": 45.0
     },
     {
       "moduleId": "PLASMA_2",
       "origin": {
         "x": -1,
-        "y": 0
+        "y": -1
       },
       "rot": 0,
       "mirrored": false,
@@ -58,36 +28,6 @@
     {
       "moduleId": "ENGINE_2",
       "origin": {
-        "x": 2,
-        "y": -2
-      },
-      "rot": 0,
-      "mirrored": false,
-      "health": 28.0
-    },
-    {
-      "moduleId": "ENGINE_2",
-      "origin": {
-        "x": -2,
-        "y": -2
-      },
-      "rot": 0,
-      "mirrored": false,
-      "health": 28.0
-    },
-    {
-      "moduleId": "CREW_2",
-      "origin": {
-        "x": 0,
-        "y": -1
-      },
-      "rot": 0,
-      "mirrored": false,
-      "health": 35.0
-    },
-    {
-      "moduleId": "ENGINE_2",
-      "origin": {
         "x": 1,
         "y": -3
       },
@@ -96,157 +36,37 @@
       "health": 28.0
     },
     {
-      "moduleId": "REACTOR_1",
+      "moduleId": "ENGINE_2",
       "origin": {
-        "x": 1,
-        "y": -2
+        "x": -1,
+        "y": -3
       },
       "rot": 0,
       "mirrored": false,
-      "health": 5.0
+      "health": 28.0
     },
     {
-      "moduleId": "PLASMA_1",
-      "origin": {
-        "x": 2,
-        "y": -1
-      },
-      "rot": 0,
-      "mirrored": false,
-      "health": 6.0
-    },
-    {
-      "moduleId": "PLASMA_1",
+      "moduleId": "PLASMA_2",
       "origin": {
         "x": -2,
         "y": 0
       },
       "rot": 0,
       "mirrored": false,
-      "health": 6.0
+      "health": 12.0
     },
     {
-      "moduleId": "HALF_0",
+      "moduleId": "REACTOR_2",
       "origin": {
-        "x": -1,
-        "y": 1
-      },
-      "rot": -4,
-      "mirrored": false,
-      "health": 7.0
-    },
-    {
-      "moduleId": "REACTOR_1",
-      "origin": {
-        "x": -1,
-        "y": -2
-      },
-      "rot": 0,
-      "mirrored": false,
-      "health": 5.0
-    },
-    {
-      "moduleId": "LATERAL_0",
-      "origin": {
-        "x": 3,
+        "x": 0,
         "y": -1
       },
       "rot": 0,
       "mirrored": false,
-      "health": 2.0
+      "health": 10.0
     },
     {
-      "moduleId": "ENGINE_2",
-      "origin": {
-        "x": -1,
-        "y": -3
-      },
-      "rot": 0,
-      "mirrored": false,
-      "health": 28.0
-    },
-    {
-      "moduleId": "WING_2",
-      "origin": {
-        "x": -3,
-        "y": -3
-      },
-      "rot": 0,
-      "mirrored": false,
-      "health": 4.0
-    },
-    {
-      "moduleId": "WING_2",
-      "origin": {
-        "x": 3,
-        "y": -3
-      },
-      "rot": 0,
-      "mirrored": true,
-      "health": 4.0
-    },
-    {
-      "moduleId": "WEDGE_0B",
-      "origin": {
-        "x": 2,
-        "y": 1
-      },
-      "rot": -1,
-      "mirrored": false,
-      "health": 3.0
-    },
-    {
-      "moduleId": "WEDGE_0B",
-      "origin": {
-        "x": -2,
-        "y": 1
-      },
-      "rot": -2,
-      "mirrored": false,
-      "health": 3.0
-    },
-    {
-      "moduleId": "HALF_0",
-      "origin": {
-        "x": 1,
-        "y": 1
-      },
-      "rot": -2,
-      "mirrored": false,
-      "health": 7.0
-    },
-    {
-      "moduleId": "HALF_0",
-      "origin": {
-        "x": 0,
-        "y": 2
-      },
-      "rot": -3,
-      "mirrored": false,
-      "health": 7.0
-    },
-    {
-      "moduleId": "LATERAL_0",
-      "origin": {
-        "x": 3,
-        "y": -2
-      },
-      "rot": 0,
-      "mirrored": false,
-      "health": 2.0
-    },
-    {
-      "moduleId": "LATERAL_0",
-      "origin": {
-        "x": -3,
-        "y": -2
-      },
-      "rot": 0,
-      "mirrored": true,
-      "health": 2.0
-    },
-    {
-      "moduleId": "REACTOR_1",
+      "moduleId": "DETECTOR_1",
       "origin": {
         "x": 0,
         "y": -3
@@ -258,10 +78,220 @@
     {
       "moduleId": "SURVEYOR_1",
       "origin": {
+        "x": 0,
+        "y": -4
+      },
+      "rot": 9,
+      "mirrored": false,
+      "health": 3.0
+    },
+    {
+      "moduleId": "CREW_2",
+      "origin": {
+        "x": 1,
+        "y": -1
+      },
+      "rot": 0,
+      "mirrored": false,
+      "health": 35.0
+    },
+    {
+      "moduleId": "PLASMA_2",
+      "origin": {
         "x": 2,
         "y": 0
       },
-      "rot": 13,
+      "rot": 0,
+      "mirrored": false,
+      "health": 12.0
+    },
+    {
+      "moduleId": "WEDGE_0B",
+      "origin": {
+        "x": 3,
+        "y": -1
+      },
+      "rot": 0,
+      "mirrored": false,
+      "health": 3.0
+    },
+    {
+      "moduleId": "WEDGE_0B",
+      "origin": {
+        "x": -3,
+        "y": -1
+      },
+      "rot": 3,
+      "mirrored": false,
+      "health": 3.0
+    },
+    {
+      "moduleId": "ENGINE_2",
+      "origin": {
+        "x": -2,
+        "y": -3
+      },
+      "rot": 0,
+      "mirrored": false,
+      "health": 28.0
+    },
+    {
+      "moduleId": "LATERAL_0",
+      "origin": {
+        "x": -3,
+        "y": -4
+      },
+      "rot": 0,
+      "mirrored": true,
+      "health": 2.0
+    },
+    {
+      "moduleId": "ENGINE_2",
+      "origin": {
+        "x": 2,
+        "y": -3
+      },
+      "rot": 0,
+      "mirrored": false,
+      "health": 28.0
+    },
+    {
+      "moduleId": "LATERAL_0",
+      "origin": {
+        "x": 3,
+        "y": -4
+      },
+      "rot": 0,
+      "mirrored": false,
+      "health": 2.0
+    },
+    {
+      "moduleId": "PLASMA_1",
+      "origin": {
+        "x": 2,
+        "y": -2
+      },
+      "rot": 0,
+      "mirrored": false,
+      "health": 6.0
+    },
+    {
+      "moduleId": "PLASMA_1",
+      "origin": {
+        "x": -2,
+        "y": -2
+      },
+      "rot": 0,
+      "mirrored": false,
+      "health": 6.0
+    },
+    {
+      "moduleId": "WEDGE_0B",
+      "origin": {
+        "x": 3,
+        "y": -2
+      },
+      "rot": 0,
+      "mirrored": false,
+      "health": 3.0
+    },
+    {
+      "moduleId": "WEDGE_0B",
+      "origin": {
+        "x": -3,
+        "y": -2
+      },
+      "rot": 0,
+      "mirrored": true,
+      "health": 3.0
+    },
+    {
+      "moduleId": "HALF_0",
+      "origin": {
+        "x": -2,
+        "y": 1
+      },
+      "rot": 3,
+      "mirrored": false,
+      "health": 7.0
+    },
+    {
+      "moduleId": "HALF_0",
+      "origin": {
+        "x": 2,
+        "y": 1
+      },
+      "rot": 3,
+      "mirrored": false,
+      "health": 7.0
+    },
+    {
+      "moduleId": "WEDGE_0B",
+      "origin": {
+        "x": 3,
+        "y": 0
+      },
+      "rot": 0,
+      "mirrored": false,
+      "health": 3.0
+    },
+    {
+      "moduleId": "WEDGE_0B",
+      "origin": {
+        "x": -3,
+        "y": 0
+      },
+      "rot": 0,
+      "mirrored": true,
+      "health": 3.0
+    },
+    {
+      "moduleId": "HALF_0",
+      "origin": {
+        "x": 1,
+        "y": 1
+      },
+      "rot": 4,
+      "mirrored": false,
+      "health": 7.0
+    },
+    {
+      "moduleId": "HALF_0",
+      "origin": {
+        "x": -1,
+        "y": 1
+      },
+      "rot": 2,
+      "mirrored": false,
+      "health": 7.0
+    },
+    {
+      "moduleId": "HALF_0",
+      "origin": {
+        "x": 0,
+        "y": 2
+      },
+      "rot": 3,
+      "mirrored": false,
+      "health": 7.0
+    },
+    {
+      "moduleId": "LATERAL_0",
+      "origin": {
+        "x": -3,
+        "y": -3
+      },
+      "rot": 0,
+      "mirrored": true,
+      "health": 2.0
+    },
+    {
+      "moduleId": "WEDGE_0B",
+      "origin": {
+        "x": 3,
+        "y": -3
+      },
+      "rot": 0,
       "mirrored": false,
       "health": 3.0
     }

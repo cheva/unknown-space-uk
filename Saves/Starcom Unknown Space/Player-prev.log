@@ -14,7 +14,7 @@ Begin MonoManager ReloadAssembly
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 3.804400 ms
+UnloadTime: 1.652100 ms
 Preloader started, build Kepler (17344)
 Async progress 90%, attempting scene activation...
 Build Number: 17344
@@ -40,82 +40,105 @@ Activating Wwise
 WwiseUnity: Wwise(R) SDK Version 2021.1.9 Build 7847.
 WwiseUnity: Setting Plugin DLL path to: C:/Games/Starcom Unknown Space/Starcom Unknown Space_Data\Plugins\x86_64
 WwiseUnity: Sound engine initialized successfully.
+Steam knows about 0 achievements
 Preloading DEFAULT
 Preloading ALPHA
 Preloading ARRIVAL
 Preloading BEYOND
 Preloading REMNANT_SPACE
-Steam knows about 0 achievements
 StoryId was null
 No starting story found: ''
+Task scheduler exceeded 1500ms
+Task scheduler exceeded 1500ms
+Task scheduler exceeded 1500ms
+Task scheduler exceeded 1500ms
+Task scheduler exceeded 1500ms
+Task scheduler exceeded 1500ms
+Task scheduler exceeded 1500ms
+Task scheduler exceeded 1500ms
+Task scheduler exceeded 1500ms
+Task scheduler exceeded 1500ms
+Task scheduler exceeded 1500ms
+Task scheduler exceeded 1500ms
+Task scheduler exceeded 1500ms
 No starting location
-#10520 355.2384 sec: FPS: 29.76384 Mission Update: 0.0027272
-#19367 655.263 sec: FPS: 29.33747 Mission Update: 0.00256217
-Bootstrapped story 'REMNANTS_2'
-Bootstrapped story 'HELLO'
-Material ProgressFill doesn't have _Stencil property
-Material ProgressFill(Clone) doesn't have _Stencil property
-Material ProgressFill(Clone) doesn't have _Stencil property
-Material ProgressFill(Clone) doesn't have _Stencil property
-Material ProgressFill(Clone) doesn't have _Stencil property
-Material ProgressFill(Clone) doesn't have _Stencil property
-Material ProgressFill(Clone) doesn't have _Stencil property
-Material ProgressFill(Clone) doesn't have _Stencil property
-Material ProgressFill(Clone) doesn't have _Stencil property
-#27830 955.2859 sec: FPS: 29.92147 Mission Update: 0.00176637
-Material ProgressFill(Clone) doesn't have _Stencil property
-Material ProgressFill(Clone) doesn't have _Stencil property
-Material ProgressFill(Clone) doesn't have _Stencil property
-Material ProgressFill(Clone) doesn't have _Stencil property
-Material ProgressFill(Clone) doesn't have _Stencil property
-Material ProgressFill(Clone) doesn't have _Stencil property
-#36374 1255.314 sec: FPS: 27.9241 Mission Update: 0.00261928
-Can not play a disabled audio source
-StoryId was null
-No starting story found: ''
-No starting location
-Material ProgressFill doesn't have _Stencil property
-Material ProgressFill(Clone) doesn't have _Stencil property
-Material ProgressFill(Clone) doesn't have _Stencil property
-Material ProgressFill(Clone) doesn't have _Stencil property
-Material ProgressFill(Clone) doesn't have _Stencil property
-Material ProgressFill(Clone) doesn't have _Stencil property
-Material ProgressFill(Clone) doesn't have _Stencil property
-Material ProgressFill(Clone) doesn't have _Stencil property
-#48097 1674.892 sec: FPS: 29.37956 Mission Update: 0.00191369
-Material ProgressFill(Clone) doesn't have _Stencil property
-Material ProgressFill(Clone) doesn't have _Stencil property
-Material ProgressFill(Clone) doesn't have _Stencil property
-Material ProgressFill(Clone) doesn't have _Stencil property
-Material ProgressFill(Clone) doesn't have _Stencil property
-Material ProgressFill(Clone) doesn't have _Stencil property
-Material ProgressFill(Clone) doesn't have _Stencil property
-Material ProgressFill(Clone) doesn't have _Stencil property
-Material ProgressFill(Clone) doesn't have _Stencil property
-Material ProgressFill(Clone) doesn't have _Stencil property
-Material ProgressFill(Clone) doesn't have _Stencil property
-Material ProgressFill(Clone) doesn't have _Stencil property
-Material ProgressFill(Clone) doesn't have _Stencil property
-StoryId was null
-No starting story found: ''
-No starting location
-Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
-Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 5)
-Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 5)
-StoryId was null
-No starting story found: ''
-No starting location
-Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
-Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 5)
-Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 5)
+#11778 348.1214 sec: FPS: 29.87237 Mission Update: 0.00185965
+#20500 648.1306 sec: FPS: 29.27806 Mission Update: 0.00118981
+#28185 948.1619 sec: FPS: 29.59538 Mission Update: 0.0028636
 Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
 Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 6)
 Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 6)
-Cannot set command without ship
-#63253 2194.832 sec: FPS: 29.98536 Mission Update: 0.00238693
-Attempted to trigger an unknown Steam Achievement: 'RAIDER_FACTORY'
-Bootstrapped story 'DISPATCHES'
-#71695 2494.845 sec: FPS: 28.92655 Mission Update: 0.00316119
+Attempting to set item tradeable that player has, but allowTakeFromPlayer is false DEFAULT.DRONE_1
+Task scheduler exceeded 1500ms
+Task scheduler exceeded 1500ms
+Task scheduler exceeded 1500ms
+Task scheduler exceeded 1500ms
+Task scheduler exceeded 1500ms
+Task scheduler exceeded 1500ms
+#36574 1248.183 sec: FPS: 20.20388 Mission Update: 0.00211831
+Duplicate log entry, skipping
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 6)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 6)
+#44036 1548.203 sec: FPS: 16.18759 Mission Update: 0.00496771
+Duplicate log entry, skipping
+#47610 1989.505 sec: FPS: 0.09561005 Mission Update: 0.00187611
+Survey module does not exist.
+Survey module does not exist.
+#55862 2289.52 sec: FPS: 29.90509 Mission Update: 0.00170248
+Survey module does not exist.
+Survey module does not exist.
+Survey module does not exist.
+Survey module does not exist.
+Survey module does not exist.
+Survey module does not exist.
+#64308 2589.532 sec: FPS: 29.57401 Mission Update: 0.00211531
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 7)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 7)
+#72411 2889.558 sec: FPS: 29.818 Mission Update: 0.0026247
+#80984 3189.582 sec: FPS: 29.34097 Mission Update: 0.00227358
+Task scheduler exceeded 1500ms
+Task scheduler exceeded 1500ms
+#89730 3489.615 sec: FPS: 30 Mission Update: 0.00243347
+Attempted to trigger an unknown Steam Achievement: 'TAUGHT'
+#97913 3789.622 sec: FPS: 29.84698 Mission Update: 0.00179469
+Duplicate log entry, skipping
+Duplicate log entry, skipping
+Duplicate log entry, skipping
+Duplicate log entry, skipping
+#105509 4089.628 sec: FPS: 29.20846 Mission Update: 0.00339126
+Survey module does not exist.
+Survey module does not exist.
+Attempted to trigger an unknown Steam Achievement: 'EXPLORER_2'
+#114186 4389.657 sec: FPS: 29.22931 Mission Update: 0.00367909
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 6)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 6)
+#122360 4689.681 sec: FPS: 29.86874 Mission Update: 0.00204591
+Cannot interact while scan in progress
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 5)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 5)
+Task scheduler exceeded 1500ms
+Task scheduler exceeded 1500ms
+Task scheduler exceeded 1500ms
+Task scheduler exceeded 1500ms
+Task scheduler exceeded 1500ms
+#130956 4989.692 sec: FPS: 29.35499 Mission Update: 0.00263016
+Bootstrapped story 'LAST_TALONIAN'
+Adding topic links instead of child nodes
+Material ProgressFill doesn't have _Stencil property
+Material ProgressFill(Clone) doesn't have _Stencil property
+Material ProgressFill(Clone) doesn't have _Stencil property
+#139355 5289.713 sec: FPS: 29.88327 Mission Update: 0.00115218
+Material ProgressFill(Clone) doesn't have _Stencil property
+Material ProgressFill(Clone) doesn't have _Stencil property
+Material ProgressFill(Clone) doesn't have _Stencil property
+Material ProgressFill(Clone) doesn't have _Stencil property
+Material ProgressFill(Clone) doesn't have _Stencil property
+Material ProgressFill(Clone) doesn't have _Stencil property
+#148295 5589.736 sec: FPS: 30.10289 Mission Update: 0.00122884
 Setting up 2 worker threads for Enlighten.
-  Thread -> id: 1500 -> priority: 1 
-  Thread -> id: 548 -> priority: 1 
+  Thread -> id: aa0 -> priority: 1 
+  Thread -> id: 2038 -> priority: 1 
