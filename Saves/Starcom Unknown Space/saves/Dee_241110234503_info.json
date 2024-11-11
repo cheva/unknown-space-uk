@@ -1,11 +1,11 @@
 {
   "saveName": "Dee",
-  "saveFile": "Dee",
+  "saveFile": "Dee_241110234503",
   "gameId": "0c4adb7486444a999e9ce1403f44fadc",
-  "saveTime": "2024-11-11T01:02:18.3468674+02:00",
-  "playTime": 24959.3184,
+  "saveTime": "2024-11-10T23:45:03.6828302+02:00",
+  "playTime": 20467.9785,
   "buildNumber": 17344,
   "buildName": "Kepler",
-  "autosave": false,
+  "autosave": true,
   "isPresave": false
 }
