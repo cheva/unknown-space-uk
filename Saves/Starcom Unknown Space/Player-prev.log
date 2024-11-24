@@ -10,11 +10,11 @@ Direct3D:
     VRAM:     8119 MB
     Driver:   31.0.101.2115
 Begin MonoManager ReloadAssembly
-- Completed reload, in  0.175 seconds
+- Completed reload, in  0.305 seconds
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 1.172000 ms
+UnloadTime: 2.441400 ms
 Preloader started, build Kepler (17344)
 Async progress 90%, attempting scene activation...
 Build Number: 17344
@@ -44,66 +44,12 @@ Preloading DEFAULT
 Preloading ALPHA
 Preloading ARRIVAL
 Preloading BEYOND
-Steam knows about 0 achievements
 Preloading REMNANT_SPACE
+Steam knows about 0 achievements
 StoryId was null
 No starting story found: ''
 No starting location
-Duplicate log entry, skipping
-#8714 346.6677 sec: FPS: 18.89009 Mission Update: 0.00256808
-Activating emissary for 'EmissaryDestination'
-Duplicate log entry, skipping
-#16745 646.6866 sec: FPS: 18.54652 Mission Update: 0.00327009
-Survey module does not exist.
-Survey module does not exist.
-#24733 946.7099 sec: FPS: 29.59181 Mission Update: 0.00268282
-Duplicate log entry, skipping
-Duplicate log entry, skipping
-#32218 1246.722 sec: FPS: 29.80354 Mission Update: 0.00397925
-Setting OUTLIERS.PROC_PORTAL_1 active to True
-#40520 1546.756 sec: FPS: 29.85423 Mission Update: 0.00265285
-Task scheduler exceeded 1500ms
-Task scheduler exceeded 1500ms
-Task scheduler exceeded 1500ms
-Task scheduler exceeded 1500ms
-Task scheduler exceeded 1500ms
-Task scheduler exceeded 1500ms
-Task scheduler exceeded 1500ms
-Task scheduler exceeded 1500ms
-#48862 1846.791 sec: FPS: 29.93058 Mission Update: 0.00205647
-#57294 2146.823 sec: FPS: 29.91965 Mission Update: 0.00212202
-Spawn coord isn't active: sector_0_24x-1 1105.64 x -1095.645
-Spawned ship did not exist: #Ship_297860456-1107996841, attempted to spawn at sector_0_24x-1 1105.643 x -1095.645
-Found persistent data: sector_0_24x-1 1105.643 x -1095.645
-Bootstrapped story 'CEPHEID2'
-#65104 2446.851 sec: FPS: 29.876 Mission Update: 0.00137179
-Material ProgressFill doesn't have _Stencil property
-Material ProgressFill(Clone) doesn't have _Stencil property
-Material ProgressFill(Clone) doesn't have _Stencil property
-Material ProgressFill(Clone) doesn't have _Stencil property
-Material ProgressFill(Clone) doesn't have _Stencil property
-Material ProgressFill(Clone) doesn't have _Stencil property
-Material ProgressFill(Clone) doesn't have _Stencil property
-Material ProgressFill(Clone) doesn't have _Stencil property
-#74007 2746.873 sec: FPS: 29.98536 Mission Update: 0.00150469
-WISKAMUG.WISKAMUG was not found in active persistents
-#82469 3046.913 sec: FPS: 15.25512 Mission Update: 0.00335957
-Setting OUTLIERS.POINT_PORTAL_1 active to True
-Duplicate log entry, skipping
-Setting OUTLIERS.FRAGMENT_PORTAL active to True
-Duplicate log entry, skipping
-#90776 3346.917 sec: FPS: 29.76744 Mission Update: 0.00246679
-Setting #Point Portal_2050916060-1088361670 active to True
-Duplicate log entry, skipping
-Survey module does not exist.
-Survey module does not exist.
-Survey module does not exist.
-#98907 3646.952 sec: FPS: 29.72424 Mission Update: 0.00329722
-Bootstrapped story 'RUNAWAY'
-#106286 3946.97 sec: FPS: 24.88457 Mission Update: 0.00146778
-StoryId was null
-No starting story found: ''
-No starting location
+#696 353.1403 sec: FPS: 0.1003186 Mission Update: 0.00215849
 Setting up 2 worker threads for Enlighten.
-  Thread -> id: 3c4 -> priority: 1 
-  Thread -> id: 688 -> priority: 1 
+  Thread -> id: 2118 -> priority: 1 
+  Thread -> id: 1558 -> priority: 1 
