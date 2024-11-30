@@ -2,6 +2,11 @@
 ## Fixed Ukrainian localization of the game
 ### unknown-space-uk GitHub repo by Cheva
 
+## 01'december'24
+- Start new game for Dee with Difficulty 2.0(hard) 
+- Continue my UK translation
+______________
+
 ## 07'november'24 under airstrike
 * Game updated and... UA translation is TOO BAD
 * Restore my UK translation because UA is TERRIBLE
