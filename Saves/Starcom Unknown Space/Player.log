@@ -1,0 +1,92 @@
+Mono path[0] = 'C:/Games/Starcom Unknown Space/Starcom Unknown Space_Data/Managed'
+Mono config path = 'C:/Games/Starcom Unknown Space/MonoBleedingEdge/etc'
+Initialize engine version: 2020.3.46f1 (18bc01a066b4)
+[Subsystems] Discovering subsystems at path C:/Games/Starcom Unknown Space/Starcom Unknown Space_Data/UnitySubsystems
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) HD Graphics 520 (ID=0x1916)
+    Vendor:   
+    VRAM:     8119 MB
+    Driver:   31.0.101.2115
+Begin MonoManager ReloadAssembly
+- Completed reload, in  0.184 seconds
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 1.512900 ms
+Preloader started, build Kepler (17344)
+Async progress 90%, attempting scene activation...
+Build Number: 17344
+Curl error 6: Could not resolve host: lab.wx3.com
+Found announce override, using instead of server supplied news.
+Steamworks initialized successfully for 1750770, Branch: 
+Creating presave for C:\Games\Starcom Unknown Space\Starcom Unknown Space_Data\StreamingAssets\Content\Kepler\Presaves\Arrival_Complete_info.json
+Creating presave for C:\Games\Starcom Unknown Space\Starcom Unknown Space_Data\StreamingAssets\Content\Kepler\Presaves\Post_Prologue_info.json
+Localizing to uk
+Total localization targets: 0, total symbols: 6103
+No file: C:/Games/Starcom Unknown Space/Starcom Unknown Space_Data/StreamingAssets/Localization/en-us.png
+No file: C:/Games/Starcom Unknown Space/Starcom Unknown Space_Data/StreamingAssets/Localization/de.png
+No file: C:/Games/Starcom Unknown Space/Starcom Unknown Space_Data/StreamingAssets/Localization/es.png
+No file: C:/Games/Starcom Unknown Space/Starcom Unknown Space_Data/StreamingAssets/Localization/fr.png
+No file: C:/Games/Starcom Unknown Space/Starcom Unknown Space_Data/StreamingAssets/Localization/pl.png
+No file: C:/Games/Starcom Unknown Space/Starcom Unknown Space_Data/StreamingAssets/Localization/pt-BR.png
+No file: C:/Games/Starcom Unknown Space/Starcom Unknown Space_Data/StreamingAssets/Localization/pseudo.png
+No file: C:/Games/Starcom Unknown Space/Starcom Unknown Space_Data/StreamingAssets/Localization/ru.png
+No file: C:/Games/Starcom Unknown Space/Starcom Unknown Space_Data/StreamingAssets/Localization/tr.png
+Cannot resolve destination host
+Server unexpected response: 
+Activating Wwise
+WwiseUnity: Wwise(R) SDK Version 2021.1.9 Build 7847.
+WwiseUnity: Setting Plugin DLL path to: C:/Games/Starcom Unknown Space/Starcom Unknown Space_Data\Plugins\x86_64
+WwiseUnity: Sound engine initialized successfully.
+Preloading DEFAULT
+Preloading ALPHA
+Preloading ARRIVAL
+Preloading BEYOND
+Preloading REMNANT_SPACE
+Steam knows about 0 achievements
+Bootstrapped story 'DEFAULT'
+Bootstrapped story 'ARRIVAL'
+Bootstrapped story 'ALPHA'
+Bootstrapped story 'PATCH'
+Bootstrapped story 'HELP'
+Bootstrapped story 'REMNANT_SPACE'
+Bootstrapped story 'BEYOND'
+Bootstrapped story 'YU_PROGRESS'
+Bootstrapped story 'VOID'
+Bootstrapped story 'SCAN_DISCOVERIES'
+Bootstrapped story 'COMETS'
+Bootstrapped story 'DEVOUT'
+Bootstrapped story 'HERETICS'
+Bootstrapped story 'CELAENO_DEFENSE'
+Bootstrapped story 'LOCOAN'
+Bootstrapped story 'FALLEN'
+Bootstrapped story 'STALKERS'
+Bootstrapped story 'PIRATES'
+Bootstrapped story 'DUMP'
+Bootstrapped story 'CONFLICT'
+Bootstrapped story 'GOD_BONES'
+Bootstrapped story 'WISKAMUG'
+Bootstrapped story 'LEGACY'
+Bootstrapped story 'DEEP_SEARCH'
+Bootstrapped story 'DMZ'
+Bootstrapped story 'RED_REVISIT'
+Bootstrapped story 'NORTHERN'
+Bootstrapped story 'SEPHARIAL'
+Attempted to placed region 'Region (WISKAMUG.MEMORY_LAB)' near 'sector_0_-1x-3 0 x 0', actually placed at 'sector_0_-2x-4 0 x 0', dist 7071.068
+Bootstrapped story 'OUTLIERS'
+Bootstrapped story 'REFINERY'
+Bootstrapped story 'HARD_RADIATION'
+Bootstrapped story 'DEVOUT_WAR'
+Bootstrapped story 'SOUTHERN'
+#13179 394.1272 sec: FPS: 29.82705 Mission Update: 0.00178466
+Module collision with MISSILES_2 (ShipModule) and ENGINE_6 (ShipModule) at HexCoord (-1,-5) in DEFAULT.REMNANT_CRUISER
+Module collision with MISSILES_2 (ShipModule) and ENGINE_6 (ShipModule) at HexCoord (-1,-6) in DEFAULT.REMNANT_CRUISER
+Attacking ALPHA.MAIA
+Attempted to trigger an unknown Steam Achievement: 'UNKNOWN'
+#22081 694.147 sec: FPS: 28.88575 Mission Update: 0.00117372
+No installed module, aborting
+#31042 994.1597 sec: FPS: 29.88145 Mission Update: 0.00116661
+#40002 1294.188 sec: FPS: 29.95247 Mission Update: 0.00121783
+#48779 1594.224 sec: FPS: 29.85785 Mission Update: 0.00152932
