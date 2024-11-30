@@ -1,5 +1,5 @@
 {
-  "id": "Dee 12-25",
+  "id": "Dee 14-25",
   "description": "",
   "custom": false,
   "defaultFactionId": "DEFAULT.PLAYER",
@@ -96,14 +96,34 @@
       "health": 8.0
     },
     {
+      "moduleId": "WING_2",
+      "origin": {
+        "x": -2,
+        "y": -1
+      },
+      "rot": 0,
+      "mirrored": false,
+      "health": 4.0
+    },
+    {
       "moduleId": "SURVEYOR_1",
+      "origin": {
+        "x": 0,
+        "y": 2
+      },
+      "rot": 0,
+      "mirrored": false,
+      "health": 3.0
+    },
+    {
+      "moduleId": "ENGINE_1",
       "origin": {
         "x": 0,
         "y": -1
       },
-      "rot": 3,
+      "rot": 0,
       "mirrored": false,
-      "health": 3.0
+      "health": 8.0
     }
   ],
   "scale": 0.0,

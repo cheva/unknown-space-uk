@@ -924,12 +924,12 @@
         "DEFAULT.PLAYER": 0.0
       },
       "DEFAULT.STARCOM": {
-        "DEFAULT.REMNANT": -0.0003629722,
-        "ARRIVAL.RED_RAIDERS": -0.00079572387
+        "DEFAULT.REMNANT": -0.000342573156,
+        "ARRIVAL.RED_RAIDERS": -0.000751004147
       },
       "ARRIVAL.RED_RAIDERS": {
-        "DEFAULT.PLAYER": -6.101192,
-        "DEFAULT.STARCOM": -0.001305088
+        "DEFAULT.PLAYER": -5.758305,
+        "DEFAULT.STARCOM": -0.00123174209
       }
     },
     "damageModifiers": {},
@@ -972,16 +972,16 @@
   },
   "gameVarData": {
     "numberVars": {
-      "ARRIVAL.RESEARCH_LAB-9_delay": 312.710327,
-      "DEFAULT.SKILL_TECHS-0_delay": 1045.38525,
-      "DEFAULT.ANALYTICS-2_delay": 145.3281,
+      "ARRIVAL.RESEARCH_LAB-9_delay": 316.274963,
+      "DEFAULT.SKILL_TECHS-0_delay": 1048.94958,
+      "DEFAULT.ANALYTICS-2_delay": 148.892731,
       "DEFAULT.ANALYTICS-13_delay": 93.86854,
-      "HELP.VOID-0_lull": 11.0096407,
+      "HELP.VOID-0_lull": 0.0,
       "ALPHA.STABILIZERS": 2.0,
-      "ARRIVAL.GREAT_BEYOND-23_lull": 11.0096407,
-      "DEFAULT.DEEP_SPACE-8_lull": 11.0096407,
-      "BEYOND.RED_RAIDERS-12_lull": 1.74094784,
-      "ARRIVAL.GREAT_BEYOND-18_lull": 11.0096407
+      "ARRIVAL.GREAT_BEYOND-23_lull": 0.0,
+      "DEFAULT.DEEP_SPACE-8_lull": 0.0,
+      "BEYOND.RED_RAIDERS-12_lull": 0.0,
+      "ARRIVAL.GREAT_BEYOND-18_lull": 0.0
     },
     "flagVars": {
       "SEPHARIAL.LOOP": true,
@@ -4181,7 +4181,7 @@
             "progress": 0,
             "maxProgress": 1,
             "startTime": 967.2679,
-            "age": 81.30093,
+            "age": 106.624596,
             "playerCoord": {
               "universe": 0,
               "ux": 10,
@@ -4283,12 +4283,12 @@
       "universe": 0,
       "ux": 10,
       "uz": 11,
-      "x": -692.8874,
-      "z": -473.652161
+      "x": -704.0049,
+      "z": -468.505981
     },
     "playerShip": {
       "shipDesignId": "DEFAULT.SMALL_MISSILES",
-      "rotation": 282.594421,
+      "rotation": 282.5848,
       "scale": 0.0,
       "modules": [
         {
@@ -4329,7 +4329,7 @@
           },
           "rot": 0,
           "mirrored": false,
-          "health": 4.171589
+          "health": 5.1894927
         },
         {
           "moduleId": "HALF_0",
@@ -4425,7 +4425,7 @@
       },
       "lastVisibility": 320.0,
       "lastDisposition": 1000.0,
-      "lastActive": 1045.9678113155533,
+      "lastActive": 1049.1462925814558,
       "disabled": false,
       "persistentId": "PLAYER",
       "prefabName": "Ship",
@@ -4433,8 +4433,8 @@
         "universe": 0,
         "ux": 10,
         "uz": 11,
-        "x": -692.8874,
-        "z": -473.652161
+        "x": -704.0049,
+        "z": -468.505981
       },
       "factionId": "DEFAULT.PLAYER",
       "discovered": false
@@ -4468,7 +4468,7 @@
     "researchPoints": 20,
     "totalResearchPoints": 130,
     "anomaliesCompleted": 2,
-    "distanceFlown": 11663.859521633291,
+    "distanceFlown": 11675.588193153688,
     "swatch": {
       "id": "DEFAULT.STARCOM",
       "plating1": {
@@ -4584,7 +4584,7 @@
   "phenomenaData": {
     "emissaryData": {
       "destinations": [],
-      "timer": 68.67133
+      "timer": 72.524086
     }
   },
   "proceduralData": {
@@ -8836,7 +8836,7 @@
             "size": 95.0,
             "seed": 1104655397,
             "interaction": {
-              "anomalyState": 2,
+              "anomalyState": 4,
               "anomalyId": "BEYOND.CRASH_SPHERE",
               "stationId": "",
               "hasTrade": false,
@@ -8859,7 +8859,7 @@
           {
             "$type": "ShipData, Assembly-CSharp",
             "shipDesignId": "ARRIVAL.RAIDER_BASE",
-            "rotation": 171.634521,
+            "rotation": 162.172928,
             "scale": 1.5,
             "modules": [
               {
@@ -8977,8 +8977,8 @@
               "instanceVisits": 0
             },
             "lastVisibility": 377.5,
-            "lastDisposition": -10.1011925,
-            "lastActive": 1045.9678113155533,
+            "lastDisposition": -9.758305,
+            "lastActive": 1049.1462925814558,
             "disabled": false,
             "persistentId": "#Ship_16066519-391660453",
             "prefabName": "Ship",
@@ -8986,8 +8986,8 @@
               "universe": 0,
               "ux": 10,
               "uz": 11,
-              "x": -211.226776,
-              "z": -282.774628
+              "x": -211.227554,
+              "z": -282.790466
             },
             "factionId": "ARRIVAL.RED_RAIDERS",
             "discovered": false
@@ -37253,6 +37253,6 @@
   },
   "startBuild": 17344,
   "gameId": "65ddad5a9c7a439f9cee8fd95f51ff2c",
-  "gameTime": 1045.96777,
-  "playTime": 3285.14917
+  "gameTime": 1049.4989,
+  "playTime": 3311.28687
 }
