@@ -22,5 +22,17 @@
     "key1": 101,
     "key2": 0,
     "gamepadButton": 0
+  },
+  "ZOOM_IN": {
+    "action": 20,
+    "key1": 61,
+    "key2": 0,
+    "gamepadButton": 5
+  },
+  "ZOOM_OUT": {
+    "action": 21,
+    "key1": 45,
+    "key2": 0,
+    "gamepadButton": 6
   }
 }
