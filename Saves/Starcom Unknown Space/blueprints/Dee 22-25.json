@@ -1,5 +1,5 @@
 {
-  "id": "Dee 21-25",
+  "id": "Dee 22-25",
   "description": "",
   "custom": false,
   "defaultFactionId": "DEFAULT.PLAYER",
@@ -188,7 +188,7 @@
     {
       "moduleId": "ENGINE_1",
       "origin": {
-        "x": -1,
+        "x": 0,
         "y": -1
       },
       "rot": 0,
@@ -196,14 +196,14 @@
       "health": 8.0
     },
     {
-      "moduleId": "ENGINE_1",
+      "moduleId": "ENGINE_2",
       "origin": {
-        "x": 0,
+        "x": -1,
         "y": -1
       },
       "rot": 0,
       "mirrored": false,
-      "health": 8.0
+      "health": 28.0
     }
   ],
   "scale": 0.0,
