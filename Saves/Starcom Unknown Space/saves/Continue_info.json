@@ -1,9 +1,9 @@
 {
-  "saveName": "QUICKSAVE",
-  "saveFile": "QUICKSAVE",
+  "saveName": "Continue",
+  "saveFile": "Continue",
   "gameId": "65ddad5a9c7a439f9cee8fd95f51ff2c",
-  "saveTime": "2024-12-02T00:06:53.9730281+02:00",
-  "playTime": 16166.1846,
+  "saveTime": "2024-12-02T00:44:25.1359944+02:00",
+  "playTime": 17443.375,
   "buildNumber": 17344,
   "buildName": "Kepler",
   "autosave": false,
