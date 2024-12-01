@@ -90,3 +90,96 @@ No installed module, aborting
 #31042 994.1597 sec: FPS: 29.88145 Mission Update: 0.00116661
 #40002 1294.188 sec: FPS: 29.95247 Mission Update: 0.00121783
 #48779 1594.224 sec: FPS: 29.85785 Mission Update: 0.00152932
+Task scheduler exceeded 1500ms
+Task scheduler exceeded 1500ms
+#52491 2177.859 sec: FPS: 0.065421 Mission Update: 0.00245382
+Task scheduler exceeded 1500ms
+Task scheduler exceeded 1500ms
+Task scheduler exceeded 1500ms
+Cannot begin survey: INSUFFICIENT_CREW
+Attempted to trigger an unknown Steam Achievement: 'RESCUE'
+#60747 2477.864 sec: FPS: 29.82524 Mission Update: 0.00147063
+Material ProgressFill doesn't have _Stencil property
+Material ProgressFill(Clone) doesn't have _Stencil property
+Material ProgressFill(Clone) doesn't have _Stencil property
+#69639 2777.881 sec: FPS: 29.89054 Mission Update: 0.00139307
+Task scheduler exceeded 1500ms
+Task scheduler exceeded 1500ms
+Task scheduler exceeded 1500ms
+Task scheduler exceeded 1500ms
+Task scheduler exceeded 1500ms
+Task scheduler exceeded 1500ms
+Task scheduler exceeded 1500ms
+Task scheduler exceeded 1500ms
+#78381 3077.897 sec: FPS: 29.91965 Mission Update: 0.00216418
+Story 'BEYOND' already started
+Material ProgressFill(Clone) doesn't have _Stencil property
+Bootstrapped story 'GORYR'
+#87147 3377.901 sec: FPS: 29.91965 Mission Update: 0.00130178
+Attempting to delete 2 autosaves...
+Deleting autosave: Arrival_Complete
+Deleting autosave: Post_Prologue
+Deleted 2 autosaves.
+Cannot begin survey: HOSTILES_NEAR
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 6)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 6)
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 6)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 6)
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 8)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 8)
+#95795 3677.929 sec: FPS: 29.78187 Mission Update: 0.00220924
+Bootstrapped story 'EMISSARY'
+Activating emissary for 'EmissaryDestination'
+Attempted to trigger an unknown Steam Achievement: 'EMISSARY'
+Duplicate log entry, skipping
+#104162 3977.941 sec: FPS: 29.94152 Mission Update: 0.00262457
+Bootstrapped story 'FOREST'
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 8)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 8)
+Task scheduler exceeded 1500ms
+Task scheduler exceeded 1500ms
+Task scheduler exceeded 1500ms
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 6)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 6)
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 8)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 8)
+#111908 4277.945 sec: FPS: 29.75303 Mission Update: 0.00149667
+Bootstrapped story 'CXTA'
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 7)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 7)
+Bootstrapped story 'CXTA'
+#120398 4577.948 sec: FPS: 29.95612 Mission Update: 0.00161095
+Material ProgressFill(Clone) doesn't have _Stencil property
+Material ProgressFill(Clone) doesn't have _Stencil property
+Material ProgressFill(Clone) doesn't have _Stencil property
+#129242 4877.962 sec: FPS: 29.91236 Mission Update: 0.0009681
+Material ProgressFill(Clone) doesn't have _Stencil property
+Material ProgressFill(Clone) doesn't have _Stencil property
+Material ProgressFill(Clone) doesn't have _Stencil property
+Material ProgressFill(Clone) doesn't have _Stencil property
+#138203 5177.989 sec: FPS: 29.92694 Mission Update: 0.00128722
+#145582 5478.011 sec: FPS: 14.6077 Mission Update: 0.00263919
+Cannot begin survey: HOSTILES_NEAR
+Bootstrapped story 'ASTEROIDS'
+#153929 5778.029 sec: FPS: 21.49003 Mission Update: 0.00255822
+Attempted to trigger an unknown Steam Achievement: 'EXPLORER_1'
+#161740 6078.094 sec: FPS: 14.92711 Mission Update: 0.00281388
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 6)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 6)
+Material ProgressFill(Clone) doesn't have _Stencil property
+Material ProgressFill(Clone) doesn't have _Stencil property
+Material ProgressFill(Clone) doesn't have _Stencil property
+#170488 6378.099 sec: FPS: 29.86874 Mission Update: 0.00097563
+No installed module, aborting
+#179447 6678.111 sec: FPS: 29.92694 Mission Update: 0.00115359
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 3a0 -> priority: 1 
+  Thread -> id: 18dc -> priority: 1 

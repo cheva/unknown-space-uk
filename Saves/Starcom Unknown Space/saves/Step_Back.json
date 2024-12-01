@@ -403,7 +403,7 @@
         "maxRange": 800.0,
         "rechargeTime": 450.0,
         "canChargeActive": false,
-        "currentCharge": 10.2110233,
+        "currentCharge": 10.412735,
         "currentActiveLevel": 0.0,
         "spawnedShips": [],
         "hasSpawned": true
@@ -445,7 +445,7 @@
         "maxRange": 1000.0,
         "rechargeTime": 500.0,
         "canChargeActive": false,
-        "currentCharge": 9.58304,
+        "currentCharge": 10.3466234,
         "currentActiveLevel": 3.38156414,
         "spawnedShips": [
           "#Ship_660735625-1122824746",
@@ -979,12 +979,12 @@
         "DEFAULT.PLAYER": 0.0
       },
       "DEFAULT.STARCOM": {
-        "DEFAULT.REMNANT": -2.06870681E-13,
-        "ARRIVAL.RED_RAIDERS": -4.53510845E-13
+        "DEFAULT.REMNANT": -1.739157E-13,
+        "ARRIVAL.RED_RAIDERS": -3.81265549E-13
       },
       "ARRIVAL.RED_RAIDERS": {
-        "DEFAULT.PLAYER": -8.227974,
-        "DEFAULT.STARCOM": -7.43815057E-13
+        "DEFAULT.PLAYER": -6.917239,
+        "DEFAULT.STARCOM": -6.25323632E-13
       }
     },
     "damageModifiers": {},
@@ -1030,14 +1030,14 @@
   },
   "gameVarData": {
     "numberVars": {
-      "ARRIVAL.RESEARCH_LAB-9_delay": 1990.59229,
-      "DEFAULT.ANALYTICS-3_delay": 923.128357,
+      "ARRIVAL.RESEARCH_LAB-9_delay": 2003.91187,
+      "DEFAULT.ANALYTICS-3_delay": 936.448059,
       "DEFAULT.ANALYTICS-13_delay": 93.86854,
       "ALPHA.STABILIZERS": 2.0,
-      "DEFAULT.DEEP_SPACE-8_lull": 13.8578062,
+      "DEFAULT.DEEP_SPACE-8_lull": 27.1772079,
       "COMETS.COMETS": 1.0,
       "GORYR.VISIT-5_delay": 104.658485,
-      "GORYR.GORYR_PATCH-1_delay": 833.2423
+      "GORYR.GORYR_PATCH-1_delay": 846.562
     },
     "flagVars": {
       "SEPHARIAL.LOOP": true,
@@ -3067,7 +3067,7 @@
             "progress": 0,
             "maxProgress": 1,
             "startTime": 1135.11487,
-            "age": 2359.10645,
+            "age": 2375.59033,
             "playerCoord": {
               "universe": 0,
               "ux": 10,
@@ -4518,7 +4518,7 @@
             "progress": 0,
             "maxProgress": 1,
             "startTime": 967.2679,
-            "age": 2578.059,
+            "age": 2594.543,
             "playerCoord": {
               "universe": 0,
               "ux": 10,
@@ -4795,7 +4795,7 @@
             "progress": 0,
             "maxProgress": 1,
             "startTime": 2291.38477,
-            "age": 462.3069,
+            "age": 478.799835,
             "playerCoord": {
               "universe": 0,
               "ux": 12,
@@ -4854,14 +4854,14 @@
     "playerRank": 8,
     "playerCoord": {
       "universe": 0,
-      "ux": 10,
-      "uz": 11,
-      "x": -561.657349,
-      "z": -625.568237
+      "ux": 5,
+      "uz": 5,
+      "x": 167.975235,
+      "z": -833.792847
     },
     "playerShip": {
       "shipDesignId": "DEFAULT.SMALL_MISSILES",
-      "rotation": 286.4292,
+      "rotation": 280.1371,
       "scale": 0.0,
       "modules": [
         {
@@ -4932,7 +4932,7 @@
           },
           "rot": 0,
           "mirrored": false,
-          "health": 1.74396408
+          "health": 4.0
         },
         {
           "moduleId": "REACTOR_1",
@@ -4992,7 +4992,7 @@
           },
           "rot": 0,
           "mirrored": true,
-          "health": 1.24930143
+          "health": 3.72485352
         }
       ],
       "moduleHealthMultiplier": 1.0,
@@ -5003,13 +5003,14 @@
         "$type": "AIPlayerAutopilotCommand, Assembly-CSharp",
         "destination": {
           "universe": 0,
-          "ux": 10,
-          "uz": 11,
-          "x": -976.7655,
-          "z": -501.868347
+          "ux": 0,
+          "uz": 0,
+          "x": 0.0,
+          "z": 0.0
         },
+        "targetId": "ARRIVAL.CELAENO",
         "ThrottledSpeed": -1.0,
-        "UseTurbo": true
+        "UseTurbo": false
       },
       "spawnOrigin": {
         "universe": 0,
@@ -5018,18 +5019,18 @@
         "x": 0.0,
         "z": 0.0
       },
-      "lastVisibility": 325.0,
+      "lastVisibility": 325.000031,
       "lastDisposition": 1000.0,
-      "lastActive": 2723.8823839180404,
+      "lastActive": 2736.7459213078255,
       "disabled": false,
       "persistentId": "PLAYER",
       "prefabName": "Ship",
       "coordinates": {
         "universe": 0,
-        "ux": 10,
-        "uz": 11,
-        "x": -561.657349,
-        "z": -625.568237
+        "ux": 5,
+        "uz": 5,
+        "x": 167.975235,
+        "z": -833.792847
       },
       "factionId": "DEFAULT.PLAYER",
       "discovered": false
@@ -5057,13 +5058,13 @@
     "potentialMissiles": 0,
     "fighters": 0,
     "potentialFighters": 0,
-    "battlestationsCooldown": 10.03507,
+    "battlestationsCooldown": 0.0,
     "shieldCharge": 0.0,
     "havokCharge": 0.0,
     "researchPoints": 330,
     "totalResearchPoints": 780,
     "anomaliesCompleted": 10,
-    "distanceFlown": 130208.92663671843,
+    "distanceFlown": 130727.69552643757,
     "swatch": {
       "id": "DEFAULT.STARCOM",
       "plating1": {
@@ -5179,7 +5180,7 @@
   "phenomenaData": {
     "emissaryData": {
       "destinations": [],
-      "timer": 141.8901
+      "timer": 155.425552
     }
   },
   "proceduralData": {
@@ -7649,9 +7650,300 @@
           {
             "$type": "ShipData, Assembly-CSharp",
             "shipDesignId": "DEFAULT.STARCOM_BASE",
-            "rotation": 252.869385,
+            "rotation": 247.681259,
             "scale": 2.3,
-            "modules": [],
+            "modules": [
+              {
+                "moduleId": "HUB_7",
+                "origin": {
+                  "x": 0,
+                  "y": 0
+                },
+                "rot": 0,
+                "mirrored": false,
+                "health": 230.0
+              },
+              {
+                "moduleId": "RING_JOINT_1",
+                "origin": {
+                  "x": 0,
+                  "y": 4
+                },
+                "rot": 0,
+                "mirrored": false,
+                "health": 12.0
+              },
+              {
+                "moduleId": "RING_JOINT_1",
+                "origin": {
+                  "x": 4,
+                  "y": 2
+                },
+                "rot": 1,
+                "mirrored": false,
+                "health": 12.0
+              },
+              {
+                "moduleId": "RING_JOINT_1",
+                "origin": {
+                  "x": -4,
+                  "y": 2
+                },
+                "rot": -1,
+                "mirrored": false,
+                "health": 12.0
+              },
+              {
+                "moduleId": "RING_7B",
+                "origin": {
+                  "x": -4,
+                  "y": 0
+                },
+                "rot": -2,
+                "mirrored": false,
+                "health": 34.0
+              },
+              {
+                "moduleId": "RING_JOINT_1",
+                "origin": {
+                  "x": -4,
+                  "y": -2
+                },
+                "rot": 1,
+                "mirrored": false,
+                "health": 12.0
+              },
+              {
+                "moduleId": "RING_JOINT_1",
+                "origin": {
+                  "x": 4,
+                  "y": -2
+                },
+                "rot": 2,
+                "mirrored": false,
+                "health": 12.0
+              },
+              {
+                "moduleId": "RING_JOINT_1",
+                "origin": {
+                  "x": 0,
+                  "y": -4
+                },
+                "rot": -3,
+                "mirrored": false,
+                "health": 12.0
+              },
+              {
+                "moduleId": "RING_7",
+                "origin": {
+                  "x": -2,
+                  "y": -3
+                },
+                "rot": 3,
+                "mirrored": false,
+                "health": 34.0
+              },
+              {
+                "moduleId": "RING_7DARK",
+                "origin": {
+                  "x": 2,
+                  "y": -3
+                },
+                "rot": 2,
+                "mirrored": false,
+                "health": 34.0
+              },
+              {
+                "moduleId": "RING_7DARK",
+                "origin": {
+                  "x": 2,
+                  "y": 3
+                },
+                "rot": 1,
+                "mirrored": true,
+                "health": 34.0
+              },
+              {
+                "moduleId": "RING_7",
+                "origin": {
+                  "x": -2,
+                  "y": 3
+                },
+                "rot": -1,
+                "mirrored": false,
+                "health": 34.0
+              },
+              {
+                "moduleId": "RING_7B",
+                "origin": {
+                  "x": 4,
+                  "y": 0
+                },
+                "rot": 1,
+                "mirrored": false,
+                "health": 34.0
+              },
+              {
+                "moduleId": "TUBE_2",
+                "origin": {
+                  "x": -2,
+                  "y": 1
+                },
+                "rot": -4,
+                "mirrored": false,
+                "health": 28.0
+              },
+              {
+                "moduleId": "TUBE_2",
+                "origin": {
+                  "x": 0,
+                  "y": -2
+                },
+                "rot": 0,
+                "mirrored": false,
+                "health": 28.0
+              },
+              {
+                "moduleId": "TUBE_2",
+                "origin": {
+                  "x": 3,
+                  "y": 1
+                },
+                "rot": 1,
+                "mirrored": false,
+                "health": 28.0
+              },
+              {
+                "moduleId": "POINTY_3",
+                "origin": {
+                  "x": -6,
+                  "y": 3
+                },
+                "rot": -1,
+                "mirrored": false,
+                "health": 28.0
+              },
+              {
+                "moduleId": "FIXED_3",
+                "origin": {
+                  "x": 0,
+                  "y": -5
+                },
+                "rot": 3,
+                "mirrored": false,
+                "health": 58.0
+              },
+              {
+                "moduleId": "FIXED_3",
+                "origin": {
+                  "x": 5,
+                  "y": 2
+                },
+                "rot": 1,
+                "mirrored": false,
+                "health": 58.0
+              },
+              {
+                "moduleId": "DETECTOR_1",
+                "origin": {
+                  "x": 0,
+                  "y": 3
+                },
+                "rot": 0,
+                "mirrored": false,
+                "health": 12.0
+              },
+              {
+                "moduleId": "PLASMA_2",
+                "origin": {
+                  "x": 3,
+                  "y": -2
+                },
+                "rot": 2,
+                "mirrored": false,
+                "health": 28.0
+              },
+              {
+                "moduleId": "BULKHEAD_1",
+                "origin": {
+                  "x": 0,
+                  "y": 2
+                },
+                "rot": 0,
+                "mirrored": false,
+                "health": 34.0
+              },
+              {
+                "moduleId": "LATERAL_0",
+                "origin": {
+                  "x": -1,
+                  "y": 2
+                },
+                "rot": 3,
+                "mirrored": false,
+                "health": 5.0
+              },
+              {
+                "moduleId": "LATERAL_0",
+                "origin": {
+                  "x": 1,
+                  "y": 2
+                },
+                "rot": 0,
+                "mirrored": false,
+                "health": 5.0
+              },
+              {
+                "moduleId": "LATERAL_0",
+                "origin": {
+                  "x": 2,
+                  "y": -2
+                },
+                "rot": 2,
+                "mirrored": false,
+                "health": 5.0
+              },
+              {
+                "moduleId": "PLASMA_2",
+                "origin": {
+                  "x": -2,
+                  "y": -1
+                },
+                "rot": 1,
+                "mirrored": false,
+                "health": 28.0
+              },
+              {
+                "moduleId": "WEDGE_0B",
+                "origin": {
+                  "x": -2,
+                  "y": -2
+                },
+                "rot": 1,
+                "mirrored": false,
+                "health": 7.0
+              },
+              {
+                "moduleId": "WEDGE_0B",
+                "origin": {
+                  "x": -3,
+                  "y": -1
+                },
+                "rot": -2,
+                "mirrored": false,
+                "health": 7.0
+              },
+              {
+                "moduleId": "WEDGE_0B",
+                "origin": {
+                  "x": 3,
+                  "y": -1
+                },
+                "rot": -1,
+                "mirrored": false,
+                "health": 7.0
+              }
+            ],
             "moduleHealthMultiplier": 2.3,
             "maxHealth": 872.0,
             "maxSize": 47.5,
@@ -7677,7 +7969,7 @@
             },
             "lastVisibility": 700.0,
             "lastDisposition": 999.0,
-            "lastActive": 1951.1827343502082,
+            "lastActive": 2736.7459213078255,
             "disabled": false,
             "persistentId": "ARRIVAL.CELAENO",
             "prefabName": "Ship",
@@ -7686,7 +7978,7 @@
               "ux": 5,
               "uz": 5,
               "x": -87.6016541,
-              "z": -795.6782
+              "z": -795.6783
             },
             "factionId": "DEFAULT.STARCOM",
             "discovered": true
@@ -39029,6 +39321,6 @@
   },
   "startBuild": 17344,
   "gameId": "65ddad5a9c7a439f9cee8fd95f51ff2c",
-  "gameTime": 2723.88232,
-  "playTime": 5869.48242
+  "gameTime": 2737.16846,
+  "playTime": 5887.038
 }
