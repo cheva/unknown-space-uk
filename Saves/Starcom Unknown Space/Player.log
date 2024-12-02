@@ -10,11 +10,11 @@ Direct3D:
     VRAM:     8119 MB
     Driver:   31.0.101.2115
 Begin MonoManager ReloadAssembly
-- Completed reload, in  0.177 seconds
+- Completed reload, in  0.239 seconds
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 2.187400 ms
+UnloadTime: 3.081100 ms
 Preloader started, build Kepler (17344)
 Async progress 90%, attempting scene activation...
 Build Number: 17344
@@ -46,69 +46,38 @@ Preloading ARRIVAL
 Preloading BEYOND
 Preloading REMNANT_SPACE
 Steam knows about 0 achievements
-Attempting to delete 2 autosaves...
-Deleting autosave: Arrival_Complete
-Deleting autosave: Post_Prologue
-Deleted 2 autosaves.
 StoryId was null
 No starting story found: ''
 No starting location
-Bootstrapped story 'CEPHEID'
-#10619 400.0678 sec: FPS: 29.27108 Mission Update: 0.00338873
-Bootstrapped story 'DOLSON'
-Task scheduler exceeded 1500ms
-Task scheduler exceeded 1500ms
-Task scheduler exceeded 1500ms
-Task scheduler exceeded 1500ms
-Task scheduler exceeded 1500ms
-Task scheduler exceeded 1500ms
-Task scheduler exceeded 1500ms
-Activating Deep Search
-#18413 700.0925 sec: FPS: 29.81981 Mission Update: 0.00306607
-Bootstrapped story 'DISPATCHES'
-Task scheduler exceeded 1500ms
-Task scheduler exceeded 1500ms
-Task scheduler exceeded 1500ms
-Task scheduler exceeded 1500ms
-Task scheduler exceeded 1500ms
-Task scheduler exceeded 1500ms
-Task scheduler exceeded 1500ms
-Survey module does not exist.
-Survey module does not exist.
-Cannot interact while scan in progress
-#26662 1000.099 sec: FPS: 29.80896 Mission Update: 0.00293746
-Task scheduler exceeded 1500ms
-Task scheduler exceeded 1500ms
-Task scheduler exceeded 1500ms
-#34749 1300.115 sec: FPS: 29.87237 Mission Update: 0.00293041
+Duplicate log entry, skipping
+#8460 340.9312 sec: FPS: 17.1151 Mission Update: 0.00521314
 Material ProgressFill doesn't have _Stencil property
 Material ProgressFill(Clone) doesn't have _Stencil property
 Material ProgressFill(Clone) doesn't have _Stencil property
 Material ProgressFill(Clone) doesn't have _Stencil property
-#42872 1600.14 sec: FPS: 29.98536 Mission Update: 0.00226788
-#51703 1900.15 sec: FPS: 29.92329 Mission Update: 0.00150911
-#60629 2200.163 sec: FPS: 29.86874 Mission Update: 0.00147414
-#69231 2500.194 sec: FPS: 29.78909 Mission Update: 0.00210143
-#77937 2800.217 sec: FPS: 29.80354 Mission Update: 0.00319932
+Material ProgressFill(Clone) doesn't have _Stencil property
+Material ProgressFill(Clone) doesn't have _Stencil property
+Material ProgressFill(Clone) doesn't have _Stencil property
+Material ProgressFill(Clone) doesn't have _Stencil property
+Material ProgressFill(Clone) doesn't have _Stencil property
+Material ProgressFill(Clone) doesn't have _Stencil property
+#16536 640.961 sec: FPS: 29.36551 Mission Update: 0.00373447
+Material ProgressFill(Clone) doesn't have _Stencil property
+Material ProgressFill(Clone) doesn't have _Stencil property
+Material ProgressFill(Clone) doesn't have _Stencil property
+Material ProgressFill(Clone) doesn't have _Stencil property
+Material ProgressFill(Clone) doesn't have _Stencil property
 Duplicate log entry, skipping
-#86674 3100.23 sec: FPS: 29.46056 Mission Update: 0.0029084
-Player sector never became active
+#25047 940.9726 sec: FPS: 28.8637 Mission Update: 0.00167664
+#33775 1241.003 sec: FPS: 30.08447 Mission Update: 0.00293392
+Survey module does not exist.
 Duplicate player found on load, removing prior
-Player persistent was not active
-Player persistent coord: sector_0_17x5 -1306.309 x -484.7642
-Player data coord: sector_0_17x5 -1306.309 x -484.7642
-Player ship data coord: sector_0_17x5 -1306.309 x -484.7642
-Active sectors:
-sector_0_4x4 0 x 0
-sector_0_5x4 0 x 0
-sector_0_6x4 0 x 0
-sector_0_4x5 0 x 0
-sector_0_5x5 0 x 0
-sector_0_6x5 0 x 0
-sector_0_4x6 0 x 0
-sector_0_5x6 0 x 0
-sector_0_6x6 0 x 0
-#95409 3400.248 sec: FPS: 29.55267 Mission Update: 0.00323146
+Dialogue PopUp (UIDialoguePopUp) not found in current list of windows
+Survey module does not exist.
+#41378 1541.034 sec: FPS: 29.44291 Mission Update: 0.00300642
+#50009 1841.101 sec: FPS: 16.45971 Mission Update: 0.00381056
+Attempting to set item tradeable that player has, but allowTakeFromPlayer is false DEFAULT.SHIELDS_2
+Activating emissary for 'EmissaryDestination'
 Setting up 2 worker threads for Enlighten.
-  Thread -> id: 1850 -> priority: 1 
-  Thread -> id: 1d3c -> priority: 1 
+  Thread -> id: 95c -> priority: 1 
+  Thread -> id: 2338 -> priority: 1 

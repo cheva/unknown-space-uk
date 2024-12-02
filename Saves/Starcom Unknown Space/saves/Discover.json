@@ -97,7 +97,8 @@
           "ARRIVAL.YU_ALETHEIA",
           "BEYOND.YU_RAIDERS_STOPPED",
           "ARRIVAL.YU_ALETHEIA_FOUND",
-          "YU_PROGRESS.YU_PROMOTION_1"
+          "YU_PROGRESS.YU_PROMOTION_1",
+          "CEPHEID.YU_STARLANCE"
         ],
         "activeTopics": [
           "ARRIVAL.PLAYER_YU_CLASSIFIED",
@@ -130,7 +131,8 @@
           "ARRIVAL.RAMA_BEYOND",
           "REMNANT_SPACE.RAMA_SCIENCE",
           "ARRIVAL.RAMA_POLYHEDRAL",
-          "CEPHEID.RAMA_CEPHEID"
+          "CEPHEID.RAMA_CEPHEID",
+          "CEPHEID.RAMA_STARLANCE"
         ],
         "activeTopics": [
           "ARRIVAL.PLAYER_RAMA_ARTIFACT",
@@ -323,7 +325,7 @@
     ]
   },
   "crewData": {
-    "totalXP": 42,
+    "totalXP": 43,
     "unspentPoints": 0,
     "currentTeamLevel": 2,
     "crew": [
@@ -480,7 +482,8 @@
       "DOLSON.EMPIRE_ARCHIVES",
       "REMNANT_SPACE.THAWED_URANIUM",
       "FOREST.TITANIUM_TREES",
-      "CEPHEID.SHIELD_TECH"
+      "CEPHEID.SHIELD_TECH",
+      "CEPHEID.STARLANCE"
     ]
   },
   "encounterSaveData": {
@@ -1183,7 +1186,7 @@
       "DEFAULT.STARCOM": {
         "DEFAULT.REMNANT": -1.16010825E-13,
         "ARRIVAL.RED_RAIDERS": -4.54673638E-18,
-        "GORYR.GORYR": -0.00017866712
+        "GORYR.GORYR": -5.95338424E-05
       },
       "ARRIVAL.RED_RAIDERS": {
         "DEFAULT.PLAYER": -2.81375051,
@@ -1293,25 +1296,25 @@
   },
   "gameVarData": {
     "numberVars": {
-      "ARRIVAL.RESEARCH_LAB-9_delay": 9126.654,
+      "ARRIVAL.RESEARCH_LAB-9_delay": 9215.142,
       "REMNANT_SPACE.RAMA_SCIENCE_QUESTIONS": 1.0,
       "DOLSON.DOLSON_CONVOS-2_anomalies": 45.0,
       "DEFAULT.ANALYTICS-13_delay": 93.86854,
       "REMNANT_SPACE.RAMA_SCIENCE_POINTS": 780.0,
       "ALPHA.STABILIZERS": 2.0,
-      "DEFAULT.DEEP_SPACE-10_lull": 0.0,
+      "DEFAULT.DEEP_SPACE-10_lull": 34.87807,
       "COMETS.COMETS": 2.0,
-      "BEYOND.RED_RAIDERS-6_delay": 5473.676,
-      "ARRIVAL.POLYHEDRAL-13_delay": 2927.511,
-      "DEVOUT.DEVOUT_START-3_delay": 4483.029,
+      "BEYOND.RED_RAIDERS-6_delay": 5562.134,
+      "ARRIVAL.POLYHEDRAL-13_delay": 3015.97876,
+      "DEVOUT.DEVOUT_START-3_delay": 4571.487,
       "ARRIVAL.ALETHEIA_RETURNS-14_anomalies": 0.0,
       "REMNANT_SPACE.RANDOMS": 2.0,
       "DEFAULT.SCUTTLEBUTT": 9736.449,
       "REMNANT_SPACE.VOID_RANDOM": 5857.55664,
-      "PIRATES.BROGIDAR-24_delay": 1748.17334,
+      "PIRATES.BROGIDAR-24_delay": 1836.63757,
       "HERETICS.PYRAMIDS": 2.0,
       "FALLEN.EMPIRE_RUINS": 2.0,
-      "WISKAMUG.WISKAMUG-23_delay": 374.7536,
+      "WISKAMUG.WISKAMUG-23_delay": 463.218872,
       "FOREST.FORESTS": 1.0
     },
     "flagVars": {
@@ -1382,7 +1385,8 @@
       "YU_PROGRESS.PROMOTION_1": true,
       "DEFAULT.SHIELD_MAX_2": true,
       "CEPHEID.SCUTTLEBUTT": true,
-      "CEPHEID.SHIELD_SHUTDOWN": true
+      "CEPHEID.SHIELD_SHUTDOWN": true,
+      "CEPHEID.STARLANCE_FOUND": true
     },
     "stringVars": {
       "DEFAULT.ANOMALY_WHITELIST": "ARRIVAL.CELAENO_OUTPOST"
@@ -1409,7 +1413,8 @@
       "LOCOAN.VASSAL_COLONY[6]",
       "LOCOAN.LOST_TRIBUTE[1]",
       "FALLEN.FALL_OF_EMPIRE_1[1]",
-      "CEPHEID.SHIELD_PLANET[1]"
+      "CEPHEID.SHIELD_PLANET[1]",
+      "CEPHEID.FLASH_FREEZE[1]"
     ],
     "nodesSeen": [
       "ALPHA.SCHELL_WORMHOLE[1]",
@@ -1517,7 +1522,9 @@
       "REMNANT_SPACE.ICE_CHUNK",
       "FOREST.FOREST",
       "CEPHEID.SHIELD_PLANET",
-      "CEPHEID.SHIELDED_STATION"
+      "CEPHEID.SHIELDED_STATION",
+      "CEPHEID.FLASH_FREEZE",
+      "CEPHEID.STARLANCE"
     ]
   },
   "itemSaveData": {
@@ -3097,7 +3104,7 @@
             "progress": 1,
             "maxProgress": 3,
             "startTime": 9799.224,
-            "age": 57.4768372,
+            "age": 147.108276,
             "playerCoord": {
               "universe": 0,
               "ux": 3,
@@ -3305,7 +3312,7 @@
             "progress": 0,
             "maxProgress": 1,
             "startTime": 7809.77637,
-            "age": 3587.57227,
+            "age": 3677.15137,
             "playerCoord": {
               "universe": 0,
               "ux": 10,
@@ -5735,7 +5742,7 @@
             "progress": 0,
             "maxProgress": 1,
             "startTime": 7091.63,
-            "age": 5395.80469,
+            "age": 5485.384,
             "playerCoord": {
               "universe": 0,
               "ux": 5,
@@ -6091,17 +6098,17 @@
         "missionId": "CEPHEID.CEPHEID",
         "state": 1,
         "priority": 0,
-        "progressTime": 9798.3298844547244,
+        "progressTime": 9886.3234499312239,
         "stopped": false,
         "details": [
           {
             "missionId": "CEPHEID.CEPHEID",
             "id": "CEPHEID",
             "description": "Розташування зірки досить віддалене: [COORD].",
-            "progress": 0,
+            "progress": 1,
             "maxProgress": 1,
             "startTime": 8233.213,
-            "age": 3046.601,
+            "age": 3061.42,
             "playerCoord": {
               "universe": 0,
               "ux": 5,
@@ -6141,6 +6148,24 @@
             },
             "priority": 10,
             "HasGoal": false
+          },
+          {
+            "missionId": "CEPHEID.CEPHEID",
+            "id": "STARLANCE",
+            "description": "«Цефеїда» виявилася карликовою зіркою, оповитою мегаструктурою Залишків.",
+            "progress": 0,
+            "maxProgress": 0,
+            "startTime": 9886.323,
+            "age": 0.0,
+            "playerCoord": {
+              "universe": 0,
+              "ux": 2,
+              "uz": 12,
+              "x": 1026.157,
+              "z": -448.647644
+            },
+            "priority": 0,
+            "HasGoal": false
           }
         ],
         "activeNodeIndices": [
@@ -6150,7 +6175,7 @@
           1,
           3,
           0,
-          0,
+          2,
           2
         ]
       },
@@ -6164,7 +6189,7 @@
         "stopped": false,
         "details": [],
         "activeNodeIndices": [
-          1,
+          2,
           0,
           0,
           0
@@ -6351,14 +6376,14 @@
     "playerRank": 9,
     "playerCoord": {
       "universe": 0,
-      "ux": 2,
-      "uz": 12,
-      "x": 1511.35327,
-      "z": -122.783386
+      "ux": 5,
+      "uz": 5,
+      "x": 220.154327,
+      "z": -888.4293
     },
     "playerShip": {
       "shipDesignId": "DEFAULT.SMALL_MISSILES",
-      "rotation": 328.309021,
+      "rotation": 279.5365,
       "scale": 0.0,
       "modules": [
         {
@@ -6596,6 +6621,19 @@
       "maxHealth": 186.0,
       "maxSize": 26.5,
       "profileType": "SimpleAgent",
+      "command": {
+        "$type": "AIPlayerAutopilotCommand, Assembly-CSharp",
+        "destination": {
+          "universe": 0,
+          "ux": 0,
+          "uz": 0,
+          "x": 0.0,
+          "z": 0.0
+        },
+        "targetId": "ARRIVAL.CELAENO",
+        "ThrottledSpeed": -1.0,
+        "UseTurbo": false
+      },
       "spawnOrigin": {
         "universe": 0,
         "ux": 999,
@@ -6603,28 +6641,28 @@
         "x": 0.0,
         "z": 0.0
       },
-      "lastVisibility": 382.5,
+      "lastVisibility": 382.500031,
       "lastDisposition": 1000.0,
-      "lastActive": 9859.8594489609823,
+      "lastActive": 9947.8777397759259,
       "disabled": false,
       "persistentId": "PLAYER",
       "prefabName": "Ship",
       "coordinates": {
         "universe": 0,
-        "ux": 2,
-        "uz": 12,
-        "x": 1511.35327,
-        "z": -122.783386
+        "ux": 5,
+        "uz": 5,
+        "x": 220.154327,
+        "z": -888.4293
       },
       "factionId": "DEFAULT.PLAYER",
       "discovered": false
     },
     "playerResources": {
       "ALUMINUM": 144,
-      "PLATINUM": 26,
+      "PLATINUM": 31,
       "IRIDIUM": 2,
       "GOLD": 4,
-      "TITANIUM": 93,
+      "TITANIUM": 105,
       "YTTRIUM": 15,
       "CHIRALITE": 2,
       "COPPER": 115,
@@ -6645,10 +6683,10 @@
     "battlestationsCooldown": 0.0,
     "shieldCharge": 0.0,
     "havokCharge": 0.0,
-    "researchPoints": 235,
-    "totalResearchPoints": 2445,
-    "anomaliesCompleted": 43,
-    "distanceFlown": 634338.37290881772,
+    "researchPoints": 310,
+    "totalResearchPoints": 2520,
+    "anomaliesCompleted": 44,
+    "distanceFlown": 643066.35402074014,
     "swatch": {
       "id": "DEFAULT.STARCOM",
       "plating1": {
@@ -6769,7 +6807,7 @@
           "priority": 1.0
         }
       ],
-      "timer": 19.2234745
+      "timer": 108.329079
     }
   },
   "proceduralData": {
@@ -7187,7 +7225,7 @@
     }
   },
   "shipLogData": {
-    "index": 225,
+    "index": 229,
     "entries": [
       {
         "id": 1,
@@ -11236,6 +11274,78 @@
         "summary": "\"<i>Навіть з такої відстані видно, що це не цефеїда. Є якась мегаструктура, яка...</i>\"",
         "intro": "<i>Choven</i>: 2641.12.18 17:27 at 2.81 x 12.47 Unknown Space, Crew Log Entry",
         "details": "Ens. Cassie Pirx (Астронаука):\n\nНавіть з такої відстані видно, що це не цефеїда. Є якась мегаструктура, яка блокує вихід зірки."
+      },
+      {
+        "id": 226,
+        "type": 2,
+        "gameTime": 9862,
+        "coord": {
+          "universe": 0,
+          "ux": 2,
+          "uz": 12,
+          "x": 1510.747,
+          "z": -122.293213
+        },
+        "showMapPin": false,
+        "spriteId": "CEPHEID.Anomalies/FlashFreeze",
+        "categoryText": "Planet Anomaly: Миттєва заморозка",
+        "summary": "<i>Сотні чи, можливо, навіть тисячі років тому ця планета була домом для...</i>",
+        "intro": "12/18/2641 6:15:00 PM <i>Choven Lander SCS-01</i>\tPlanetary Anomaly Report at 2.80 x 12.48 Unknown Space",
+        "details": "Сотні чи, можливо, навіть тисячі років тому ця планета була домом для процвітаючої цивілізації, яка, можливо, не надто відставала від нашої в технологіях.\n\nРаптова зміна клімату поклала цьому край. Значна частина цивілізації зараз похована під кілометрами льодовиків, але кілька поселень на височинах пропонують ресурси, які їм більше не потрібні.\n\nEns. Triton (Ксенокультура Інсайт): <i>Я знайшов у руїнах кілька текстів, які вказують на те, що цей катаклізм не застав їх зненацька: вони були попереджені, що їхнє сонце затьмариться. Незрозуміло, чи вони не змогли підготуватися, чи вирішили не готуватися.</i>\n\t+12 Титан\n\t+5 Платина\n"
+      },
+      {
+        "id": 227,
+        "type": 1,
+        "gameTime": 9886,
+        "coord": {
+          "universe": 0,
+          "ux": 2,
+          "uz": 12,
+          "x": 1035.114,
+          "z": -452.2542
+        },
+        "showMapPin": false,
+        "spriteId": "DEFAULT.Portraits/STARCOM_CREW_5",
+        "categoryText": "Ens. Cassie Pirx (Астронаука)",
+        "summary": "\"<i>Ця масивна структура має конструктивні характеристики інших артефактів...</i>\"",
+        "intro": "<i>Choven</i>: 2641.12.18 20:15 at 2.71 x 12.41 Unknown Space, Crew Log Entry",
+        "details": "Ens. Cassie Pirx (Астронаука):\n\nЦя масивна структура має конструктивні характеристики інших артефактів залишків. Крім того, що він закриває світло зірки, він, здається, якимось чином впливає на синтез зірки."
+      },
+      {
+        "id": 228,
+        "type": 3,
+        "gameTime": 9890,
+        "coord": {
+          "universe": 0,
+          "ux": 2,
+          "uz": 12,
+          "x": 929.503357,
+          "z": -404.50412
+        },
+        "showMapPin": false,
+        "spriteId": "CEPHEID.Anomalies/StarLance",
+        "categoryText": "EV Investigation: Старланс",
+        "summary": "<i>Ця гігантська мегаструктура огортає карликову зірку, маса якої трохи...</i>",
+        "intro": "12/18/2641 8:35:00 PM <i>Choven</i>\t Spaced-based Anomaly Report at 2.69 x 12.42 Unknown Space",
+        "details": "Ця гігантська мегаструктура огортає карликову зірку, маса якої трохи перевищує масу Юпітера. Немає видимих точок доступу.\n\n<i>Cmd Covan's orders: Leave the Artifact alone, for now.</i>\n"
+      },
+      {
+        "id": 229,
+        "type": 1,
+        "gameTime": 9898,
+        "coord": {
+          "universe": 0,
+          "ux": 2,
+          "uz": 12,
+          "x": 920.0873,
+          "z": -400.185516
+        },
+        "showMapPin": false,
+        "spriteId": "DEFAULT.Portraits/STARCOM_CREW_6",
+        "categoryText": "Ens. Mark Gliese (Інженерія)",
+        "summary": "\"<i>Можливо, я бачу те, що хочу бачити, але головна проекція цієї структури...</i>\"",
+        "intro": "<i>Choven</i>: 2641.12.18 21:17 at 2.68 x 12.42 Unknown Space, Crew Log Entry",
+        "details": "Ens. Mark Gliese (Інженерія):\n\nМожливо, я бачу те, що хочу бачити, але головна проекція цієї структури <i>схоже</i> має деякі конструктивні атрибути зі стабілізаторами, які Starcom використовувала, щоб утримувати червоточину відкритою."
       }
     ]
   },
@@ -12173,7 +12283,7 @@
           {
             "$type": "ShipData, Assembly-CSharp",
             "shipDesignId": "DEFAULT.STARCOM_BASE",
-            "rotation": 99.7450943,
+            "rotation": 93.34637,
             "scale": 2.3,
             "modules": [
               {
@@ -12492,7 +12602,7 @@
             },
             "lastVisibility": 700.0,
             "lastDisposition": 999.0,
-            "lastActive": 9322.536841050256,
+            "lastActive": 9947.8777397759259,
             "disabled": false,
             "persistentId": "ARRIVAL.CELAENO",
             "prefabName": "Ship",
@@ -12509,7 +12619,7 @@
           {
             "$type": "ShipData, Assembly-CSharp",
             "shipDesignId": "ARRIVAL.ALETHEIA",
-            "rotation": 342.9903,
+            "rotation": 343.1025,
             "scale": 0.0,
             "modules": [
               {
@@ -12770,7 +12880,7 @@
                 },
                 "rot": 0,
                 "mirrored": false,
-                "health": 37.88825
+                "health": 38.0
               },
               {
                 "moduleId": "SURVEYOR_1",
@@ -12802,7 +12912,7 @@
             },
             "lastVisibility": 472.5,
             "lastDisposition": 99.0,
-            "lastActive": 9322.536841050256,
+            "lastActive": 9947.8777397759259,
             "disabled": false,
             "persistentId": "ARRIVAL.ALETHEIA2",
             "prefabName": "Ship",
@@ -12810,8 +12920,8 @@
               "universe": 0,
               "ux": 5,
               "uz": 5,
-              "x": -169.239273,
-              "z": -441.520081
+              "x": -179.934738,
+              "z": -406.4172
             },
             "factionId": "ARRIVAL.ALETHEIA",
             "discovered": true
@@ -40815,16 +40925,14 @@
           "x": 0.0,
           "z": 0.0
         },
-        "tags": [
-          "CEPHEID"
-        ],
+        "tags": [],
         "Persistents": [
           {
             "$type": "PlanetData, Assembly-CSharp",
             "size": 113.627,
             "seed": 1062913174,
             "interaction": {
-              "anomalyState": 0,
+              "anomalyState": 6,
               "stationId": "",
               "hasTrade": false,
               "instanceVisits": 0
@@ -40861,7 +40969,7 @@
             "$type": "StarData, Assembly-CSharp",
             "luminosity": 1.0,
             "explored": false,
-            "dragReduced": false,
+            "dragReduced": true,
             "depleted": false,
             "persistentId": "CEPHEID.STAR",
             "tags": "",
@@ -40886,13 +40994,13 @@
             "voidDragStrength": 0.1,
             "target": "ARRIVAL.POLYHEDRAL",
             "rotateToTarget": true,
-            "lastAngle": 169.374557,
+            "lastAngle": 169.364883,
             "interaction": {
-              "anomalyState": 0,
+              "anomalyState": 5,
               "anomalyId": "CEPHEID.STARLANCE",
               "stationId": "",
               "hasTrade": false,
-              "instanceVisits": 0
+              "instanceVisits": 1
             },
             "persistentId": "CEPHEID.STARLANCE",
             "prefabName": "Starlance",
@@ -40903,7 +41011,7 @@
               "x": 843.811035,
               "z": -347.831055
             },
-            "discovered": false
+            "discovered": true
           },
           {
             "$type": "FlingerData, Assembly-CSharp",
@@ -40915,7 +41023,7 @@
               "x": 65.69629,
               "z": 335.009766
             },
-            "used": false,
+            "used": true,
             "explored": true,
             "persistentId": "CEPHEID.FLINGER_SW",
             "prefabName": "Flinger",
@@ -40934,7 +41042,7 @@
             "size": 106.8135,
             "seed": 296356152,
             "interaction": {
-              "anomalyState": 0,
+              "anomalyState": 6,
               "stationId": "",
               "hasTrade": false,
               "instanceVisits": 0
@@ -40957,11 +41065,11 @@
             "size": 73.36113,
             "seed": 695862845,
             "interaction": {
-              "anomalyState": 4,
+              "anomalyState": 6,
               "anomalyId": "CEPHEID.FLASH_FREEZE",
               "stationId": "",
               "hasTrade": false,
-              "instanceVisits": 0
+              "instanceVisits": 1
             },
             "procAnomalyCandidate": false,
             "placementPadding": 0.0,
@@ -41004,9 +41112,7 @@
           "x": 0.0,
           "z": 0.0
         },
-        "tags": [
-          "CEPHEID"
-        ],
+        "tags": [],
         "Persistents": [
           {
             "$type": "WarpNexusData, Assembly-CSharp",
@@ -41112,6 +41218,21 @@
             },
             "factionId": "",
             "discovered": true
+          },
+          {
+            "$type": "EmissaryData, Assembly-CSharp",
+            "visitTargets": [],
+            "destinationId": "LAST_TALONIAN.START_GATEWAY",
+            "persistentId": "THE_EMISSARY",
+            "prefabName": "Emissary",
+            "coordinates": {
+              "universe": 0,
+              "ux": 3,
+              "uz": 13,
+              "x": 1630.21741,
+              "z": 2137.322
+            },
+            "discovered": false
           }
         ]
       },
@@ -41327,35 +41448,6 @@
               "uz": 8,
               "x": -664.582153,
               "z": -788.101746
-            },
-            "discovered": false
-          }
-        ]
-      },
-      {
-        "coordinates": {
-          "universe": 0,
-          "ux": 3,
-          "uz": 14,
-          "x": 0.0,
-          "z": 0.0
-        },
-        "tags": [],
-        "Persistents": [
-          {
-            "$type": "EmissaryData, Assembly-CSharp",
-            "visitTargets": [
-              "#Gas Giant J4_158780035-398788629"
-            ],
-            "destinationId": "LAST_TALONIAN.START_GATEWAY",
-            "persistentId": "THE_EMISSARY",
-            "prefabName": "Emissary",
-            "coordinates": {
-              "universe": 0,
-              "ux": 3,
-              "uz": 14,
-              "x": 2143.604,
-              "z": -2279.14087
             },
             "discovered": false
           }
@@ -47261,6 +47353,11 @@
       {
         "u": 0,
         "x": 3,
+        "z": 14
+      },
+      {
+        "u": 0,
+        "x": 3,
         "z": 15
       },
       {
@@ -47376,6 +47473,6 @@
   },
   "startBuild": 17344,
   "gameId": "65ddad5a9c7a439f9cee8fd95f51ff2c",
-  "gameTime": 9859.859,
-  "playTime": 19468.22
+  "gameTime": 9948.281,
+  "playTime": 19566.8242
 }

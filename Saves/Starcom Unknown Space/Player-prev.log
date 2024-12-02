@@ -10,11 +10,11 @@ Direct3D:
     VRAM:     8119 MB
     Driver:   31.0.101.2115
 Begin MonoManager ReloadAssembly
-- Completed reload, in  0.177 seconds
+- Completed reload, in  0.357 seconds
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 1.491900 ms
+UnloadTime: 5.409000 ms
 Preloader started, build Kepler (17344)
 Async progress 90%, attempting scene activation...
 Build Number: 17344
@@ -40,43 +40,34 @@ Activating Wwise
 WwiseUnity: Wwise(R) SDK Version 2021.1.9 Build 7847.
 WwiseUnity: Setting Plugin DLL path to: C:/Games/Starcom Unknown Space/Starcom Unknown Space_Data\Plugins\x86_64
 WwiseUnity: Sound engine initialized successfully.
+Steam knows about 0 achievements
 Preloading DEFAULT
 Preloading ALPHA
 Preloading ARRIVAL
 Preloading BEYOND
 Preloading REMNANT_SPACE
-Steam knows about 0 achievements
 StoryId was null
 No starting story found: ''
+Task scheduler exceeded 1500ms
+Task scheduler exceeded 1500ms
+Task scheduler exceeded 1500ms
+Task scheduler exceeded 1500ms
+Task scheduler exceeded 1500ms
+Task scheduler exceeded 1500ms
+Task scheduler exceeded 1500ms
+Task scheduler exceeded 1500ms
+Task scheduler exceeded 1500ms
+Task scheduler exceeded 1500ms
+Task scheduler exceeded 1500ms
+Task scheduler exceeded 1500ms
+Task scheduler exceeded 1500ms
 No starting location
+Attempting to set item tradeable that player has, but allowTakeFromPlayer is false DEFAULT.MISSILE_ENGINE
+Attempting to set item tradeable that player has, but allowTakeFromPlayer is false DEFAULT.MISSILE_GUIDANCE
+Attempting to set item tradeable that player has, but allowTakeFromPlayer is false DEFAULT.MISSILE_WARHEAD
+#8607 353.7879 sec: FPS: 29.68743 Mission Update: 0.00362583
 Duplicate log entry, skipping
-#5765 719.2939 sec: FPS: 0.05168896 Mission Update: 0.00204398
-Bootstrapped story 'LAST_TALONIAN'
-Adding topic links instead of child nodes
-Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
-Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 5)
-Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 5)
-Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
-Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 7)
-Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 7)
-#13998 1019.31 sec: FPS: 29.80896 Mission Update: 0.00223639
-Bootstrapped story 'REMNANTS_2'
-Bootstrapped story 'HELLO'
-Attempted to trigger an unknown Steam Achievement: 'POLYHEDRAL'
-#21730 1319.317 sec: FPS: 29.20499 Mission Update: 0.00472888
-Duplicate log entry, skipping
-Bootstrapped story 'LAST_TALONIAN'
-Adding topic links instead of child nodes
-Material ProgressFill doesn't have _Stencil property
-Material ProgressFill(Clone) doesn't have _Stencil property
-Material ProgressFill(Clone) doesn't have _Stencil property
-Material ProgressFill(Clone) doesn't have _Stencil property
-Material ProgressFill(Clone) doesn't have _Stencil property
-#30287 1619.349 sec: FPS: 29.84698 Mission Update: 0.00120206
-#39246 1919.383 sec: FPS: 29.91236 Mission Update: 0.00120429
-#48198 2219.393 sec: FPS: 29.83248 Mission Update: 0.00123877
-Duplicate log entry, skipping
-#56939 2519.419 sec: FPS: 29.85423 Mission Update: 0.00185527
+#17229 653.8087 sec: FPS: 29.92147 Mission Update: 0.00342325
 Setting up 2 worker threads for Enlighten.
-  Thread -> id: 84c -> priority: 1 
-  Thread -> id: e00 -> priority: 1 
+  Thread -> id: 23c8 -> priority: 1 
+  Thread -> id: 1a24 -> priority: 1 
