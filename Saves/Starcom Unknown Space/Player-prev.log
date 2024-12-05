@@ -10,11 +10,11 @@ Direct3D:
     VRAM:     8119 MB
     Driver:   31.0.101.2115
 Begin MonoManager ReloadAssembly
-- Completed reload, in  0.357 seconds
+- Completed reload, in  1.871 seconds
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 5.409000 ms
+UnloadTime: 2.615100 ms
 Preloader started, build Kepler (17344)
 Async progress 90%, attempting scene activation...
 Build Number: 17344
@@ -62,12 +62,31 @@ Task scheduler exceeded 1500ms
 Task scheduler exceeded 1500ms
 Task scheduler exceeded 1500ms
 No starting location
-Attempting to set item tradeable that player has, but allowTakeFromPlayer is false DEFAULT.MISSILE_ENGINE
-Attempting to set item tradeable that player has, but allowTakeFromPlayer is false DEFAULT.MISSILE_GUIDANCE
-Attempting to set item tradeable that player has, but allowTakeFromPlayer is false DEFAULT.MISSILE_WARHEAD
-#8607 353.7879 sec: FPS: 29.68743 Mission Update: 0.00362583
-Duplicate log entry, skipping
-#17229 653.8087 sec: FPS: 29.92147 Mission Update: 0.00342325
-Setting up 2 worker threads for Enlighten.
-  Thread -> id: 23c8 -> priority: 1 
-  Thread -> id: 1a24 -> priority: 1 
+Bootstrapped story 'CEPHEID2'
+Material ProgressFill doesn't have _Stencil property
+Material ProgressFill(Clone) doesn't have _Stencil property
+Material ProgressFill(Clone) doesn't have _Stencil property
+Material ProgressFill(Clone) doesn't have _Stencil property
+Task scheduler exceeded 1500ms
+#9298 360.3167 sec: FPS: 29.78458 Mission Update: 0.0012671
+Spawn coord isn't active: sector_0_0x0 0 x 0
+Spawned ship did not exist: #Ship_617071610-1769826661, attempted to spawn at sector_0_0x0 0 x 0
+Found persistent data: sector_0_0x0 0 x 0
+Spawn coord isn't active: sector_0_0x0 0 x 0
+Spawned ship did not exist: #Ship_523365321-1098703854, attempted to spawn at sector_0_0x0 0 x 0
+Found persistent data: sector_0_0x0 6.70142 x 11.68269
+Spawn coord isn't active: sector_0_0x0 0 x 0
+Spawned ship did not exist: #Ship_834133651-767138718, attempted to spawn at sector_0_0x0 0 x 0
+Found persistent data: sector_0_0x0 -9.844498 x 16.83258
+Spawn coord isn't active: sector_0_0x0 0 x 0
+Spawned ship did not exist: #Ship_2068064735-1337902275, attempted to spawn at sector_0_0x0 0 x 0
+Found persistent data: sector_0_0x0 -29.24897 x -0.2459078
+#17789 660.3408 sec: FPS: 29.93423 Mission Update: 0.00248922
+#26544 960.3633 sec: FPS: 29.76023 Mission Update: 0.00334903
+#35389 1260.385 sec: FPS: 29.47823 Mission Update: 0.00185841
+#43228 1560.402 sec: FPS: 29.46763 Mission Update: 0.00338457
+Activating emissary for 'EmissaryDestination'
+Task scheduler exceeded 1500ms
+#50565 1926.344 sec: FPS: 0.3801633 Mission Update: 0.00182991
+#59305 2226.354 sec: FPS: 29.818 Mission Update: 0.0028031
+#67870 2526.378 sec: FPS: 19.57311 Mission Update: 0.00345799

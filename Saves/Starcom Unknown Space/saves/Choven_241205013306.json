@@ -442,7 +442,7 @@
         "tags": []
       }
     ],
-    "supportCrew": 24
+    "supportCrew": 32
   },
   "discoverySaveData": {
     "playerDiscoveries": [
@@ -488,8 +488,7 @@
       "FOREST.TITANIUM_TREES",
       "CEPHEID.SHIELD_TECH",
       "CEPHEID.STARLANCE",
-      "DEVOUT.DEVOUT_EMP",
-      "LEGACY.ANCIENT_ORBITER"
+      "DEVOUT.DEVOUT_EMP"
     ]
   },
   "encounterSaveData": {
@@ -1118,7 +1117,7 @@
         "maxRange": 1000.0,
         "rechargeTime": 360.0,
         "canChargeActive": false,
-        "currentCharge": 485.3783,
+        "currentCharge": 113.128868,
         "currentActiveLevel": 422.458374,
         "spawnedShips": [
           "#Ship_617071610-1769826661",
@@ -1148,20 +1147,6 @@
       },
       {
         "persistentId": "#Ship_617220818-347141830",
-        "factionId": "DEVOUT.DEVOUT",
-        "maxShips": 4,
-        "maxActiveLevel": 75.0,
-        "maxCharge": 100.0,
-        "maxRange": 100.0,
-        "rechargeTime": 300.0,
-        "canChargeActive": false,
-        "currentCharge": 100.0,
-        "currentActiveLevel": 0.0,
-        "spawnedShips": [],
-        "hasSpawned": false
-      },
-      {
-        "persistentId": "#Ship_1084053599-1461936287",
         "factionId": "DEVOUT.DEVOUT",
         "maxShips": 4,
         "maxActiveLevel": 75.0,
@@ -1288,10 +1273,7 @@
         "DEFAULT.PLAYER": 0.0
       },
       "DEVOUT.DEVOUT_ELITE": {
-        "DEFAULT.PLAYER": -0.0161197148
-      },
-      "LEGACY.LEGACY": {
-        "DEFAULT.PLAYER": -3.714311
+        "DEFAULT.PLAYER": -0.7769622
       }
     },
     "damageModifiers": {
@@ -1310,12 +1292,11 @@
       "HERETICS.REDOUBT": 74.99459,
       "GORYR.GORYR": 5.012413,
       "ARRIVAL.ALETHEIA": 11.3296919,
-      "DEVOUT.DEVOUT_ELITE": 391.775269,
-      "LEGACY.LEGACY": 750.8841
+      "DEVOUT.DEVOUT_ELITE": 391.775269
     },
     "playerDamageReceived": {
       "ARRIVAL.RED_RAIDERS": 449.3487,
-      "DEFAULT.PLAYER": 105.851036,
+      "DEFAULT.PLAYER": 12.183485,
       "DEFAULT.OBSTACLE": 20.4850483,
       "DEFAULT.ERMYR": 1.45385957,
       "DEFAULT.STARCOM": 8.0,
@@ -1323,7 +1304,7 @@
       "PIRATES.BROGIDAR": 75.4905853,
       "GORYR.GORYR": 7.327713,
       "ARRIVAL.ALETHEIA": 2.0,
-      "LEGACY.LEGACY": 603.1137,
+      "LEGACY.LEGACY": 26.3617,
       "DEVOUT.DEVOUT_ELITE": 995.3718
     },
     "factionsMet": [
@@ -1377,24 +1358,25 @@
   },
   "gameVarData": {
     "numberVars": {
-      "ARRIVAL.RESEARCH_LAB-9_delay": 10078.8457,
+      "ARRIVAL.RESEARCH_LAB-9_delay": 9738.417,
       "REMNANT_SPACE.RAMA_SCIENCE_QUESTIONS": 1.0,
       "DOLSON.DOLSON_CONVOS-2_anomalies": 45.0,
       "DEFAULT.ANALYTICS-13_delay": 93.86854,
       "REMNANT_SPACE.RAMA_SCIENCE_POINTS": 780.0,
       "ALPHA.STABILIZERS": 2.0,
-      "DEFAULT.DEEP_SPACE-10_lull": 11.9436369,
+      "DEFAULT.DEEP_SPACE-10_lull": 0.0,
       "COMETS.COMETS": 2.0,
-      "BEYOND.RED_RAIDERS-6_delay": 6425.99951,
-      "ARRIVAL.POLYHEDRAL-13_delay": 3879.82813,
-      "DEVOUT.DEVOUT_START-3_delay": 5435.35254,
+      "BEYOND.RED_RAIDERS-6_delay": 6085.50342,
+      "ARRIVAL.POLYHEDRAL-13_delay": 3539.346,
+      "DEVOUT.DEVOUT_START-3_delay": 5094.85645,
       "ARRIVAL.ALETHEIA_RETURNS-14_anomalies": 0.0,
       "REMNANT_SPACE.RANDOMS": 2.0,
       "DEFAULT.SCUTTLEBUTT": 10031.4229,
       "REMNANT_SPACE.VOID_RANDOM": 5857.55664,
-      "PIRATES.BROGIDAR-24_delay": 2700.4834,
+      "PIRATES.BROGIDAR-24_delay": 2360.00122,
       "HERETICS.PYRAMIDS": 2.0,
       "FALLEN.EMPIRE_RUINS": 2.0,
+      "WISKAMUG.WISKAMUG-23_delay": 986.5861,
       "FOREST.FORESTS": 1.0,
       "HARD_RADIATION.BOOTSTRAP-2_anomalies": 49.0
     },
@@ -1609,7 +1591,7 @@
     ]
   },
   "itemSaveData": {
-    "itemDropMultiplier": 70.0,
+    "itemDropMultiplier": 32.0,
     "itemStates": {
       "DEFAULT.ADVANCED_ENGINE": {
         "itemId": "DEFAULT.ADVANCED_ENGINE",
@@ -3185,7 +3167,7 @@
             "progress": 1,
             "maxProgress": 3,
             "startTime": 9799.224,
-            "age": 1282.93066,
+            "age": 954.3443,
             "playerCoord": {
               "universe": 0,
               "ux": 3,
@@ -3393,7 +3375,7 @@
             "progress": 0,
             "maxProgress": 1,
             "startTime": 7809.77637,
-            "age": 4812.2085,
+            "age": 4483.863,
             "playerCoord": {
               "universe": 0,
               "ux": 10,
@@ -4624,7 +4606,7 @@
         "details": [],
         "activeNodeIndices": [
           1,
-          1,
+          0,
           1,
           0
         ]
@@ -5823,7 +5805,7 @@
             "progress": 0,
             "maxProgress": 1,
             "startTime": 7091.63,
-            "age": 6620.441,
+            "age": 6292.095,
             "playerCoord": {
               "universe": 0,
               "ux": 5,
@@ -5977,7 +5959,7 @@
         "stopped": false,
         "details": [],
         "activeNodeIndices": [
-          3,
+          2,
           0,
           0,
           0,
@@ -6294,7 +6276,7 @@
             "progress": 0,
             "maxProgress": 1,
             "startTime": 9966.129,
-            "age": 1110.47278,
+            "age": 781.8864,
             "playerCoord": {
               "universe": 0,
               "ux": 5,
@@ -6507,14 +6489,14 @@
     "playerRank": 9,
     "playerCoord": {
       "universe": 0,
-      "ux": 5,
-      "uz": 15,
-      "x": -418.0561,
-      "z": 42.9308777
+      "ux": 4,
+      "uz": 14,
+      "x": 1241.35864,
+      "z": 1919.43848
     },
     "playerShip": {
       "shipDesignId": "DEFAULT.SMALL_MISSILES",
-      "rotation": 345.112061,
+      "rotation": 43.67015,
       "scale": 0.0,
       "modules": [
         {
@@ -6625,7 +6607,7 @@
           },
           "rot": 8,
           "mirrored": true,
-          "health": 9.280224
+          "health": 15.0
         },
         {
           "moduleId": "HEX_SLOPE_1",
@@ -6725,7 +6707,7 @@
           },
           "rot": 0,
           "mirrored": false,
-          "health": 32.9400444
+          "health": 35.0
         },
         {
           "moduleId": "ENGINE_1",
@@ -6772,6 +6754,18 @@
       "maxHealth": 235.0,
       "maxSize": 29.5,
       "profileType": "SimpleAgent",
+      "command": {
+        "$type": "AIPlayerAutopilotCommand, Assembly-CSharp",
+        "destination": {
+          "universe": 0,
+          "ux": 5,
+          "uz": 15,
+          "x": -1244.48291,
+          "z": -446.9204
+        },
+        "ThrottledSpeed": -1.0,
+        "UseTurbo": true
+      },
       "spawnOrigin": {
         "universe": 0,
         "ux": 999,
@@ -6781,26 +6775,26 @@
       },
       "lastVisibility": 397.500061,
       "lastDisposition": 1000.0,
-      "lastActive": 10812.165520785144,
+      "lastActive": 10471.646850482328,
       "disabled": false,
       "persistentId": "PLAYER",
       "prefabName": "Ship",
       "coordinates": {
         "universe": 0,
-        "ux": 5,
-        "uz": 15,
-        "x": -418.0561,
-        "z": 42.9308777
+        "ux": 4,
+        "uz": 14,
+        "x": 1241.35864,
+        "z": 1919.43848
       },
       "factionId": "DEFAULT.PLAYER",
       "discovered": false
     },
     "playerResources": {
       "ALUMINUM": 154,
-      "PLATINUM": 28,
+      "PLATINUM": 27,
       "IRIDIUM": 2,
       "GOLD": 4,
-      "TITANIUM": 99,
+      "TITANIUM": 90,
       "YTTRIUM": 15,
       "CHIRALITE": 2,
       "COPPER": 115,
@@ -6818,13 +6812,13 @@
     "potentialMissiles": 0,
     "fighters": 0,
     "potentialFighters": 0,
-    "battlestationsCooldown": 38.60314,
+    "battlestationsCooldown": 2.47925782,
     "shieldCharge": 0.0,
     "havokCharge": 0.0,
-    "researchPoints": 255,
-    "totalResearchPoints": 2770,
+    "researchPoints": 220,
+    "totalResearchPoints": 2735,
     "anomaliesCompleted": 44,
-    "distanceFlown": 662770.6222894981,
+    "distanceFlown": 657236.318826126,
     "swatch": {
       "id": "DEFAULT.STARCOM",
       "plating1": {
@@ -6945,7 +6939,7 @@
           "priority": 1.0
         }
       ],
-      "timer": 977.278931
+      "timer": 636.2466
     }
   },
   "proceduralData": {
@@ -7363,7 +7357,7 @@
     }
   },
   "shipLogData": {
-    "index": 240,
+    "index": 239,
     "entries": [
       {
         "id": 1,
@@ -11664,24 +11658,6 @@
         "summary": "\"<i>Я ще раз перевірив пристрій, який отруїв наш реактор</i>\"",
         "intro": "<i>Choven</i>: 2641.12.20 20:03 at 4.43 x 14.55 Unknown Space, Crew Log Entry",
         "details": "Ens. Mark Gliese (Інженерія):\n\nЯ ще раз перевірив пристрій, який отруїв наш реактор.\n\nЦе Chiralite версія EMP, яка тимчасово запобігає утворенню антиматерії. Це викликав сигнал, який ми отримали від них."
-      },
-      {
-        "id": 240,
-        "type": 1,
-        "gameTime": 10527,
-        "coord": {
-          "universe": 0,
-          "ux": 5,
-          "uz": 15,
-          "x": -506.3657,
-          "z": -20.53386
-        },
-        "showMapPin": false,
-        "spriteId": "DEFAULT.Portraits/STARCOM_CREW_1",
-        "categoryText": "Ens. Jennifer Cygnus-Lee (Тактика)",
-        "summary": "\"<i>Це дуже стара автоматизована станція орбітальної оборони. У напрочуд...</i>\"",
-        "intro": "<i>Choven</i>: 2641.12.21 01:43 at 5.40 x 15.50 Unknown Space, Crew Log Entry",
-        "details": "Ens. Jennifer Cygnus-Lee (Тактика):\n\nЦе дуже стара автоматизована станція орбітальної оборони. У напрочуд хорошому стані та все ще дуже небезпечний."
       }
     ]
   },
@@ -11986,98 +11962,98 @@
             "currentSupply": 1518,
             "targetSupply": 992,
             "naturalSupply": 1518,
-            "unitPriceFloor": 0.413036764
+            "unitPriceFloor": 0.5507157
           },
           "COPPER": {
             "resource": 10,
             "currentSupply": 629,
             "targetSupply": 158,
             "naturalSupply": 629,
-            "unitPriceFloor": 0.6511587
+            "unitPriceFloor": 0.868211567
           },
           "SILVER": {
             "resource": 15,
             "currentSupply": 463,
             "targetSupply": 510,
             "naturalSupply": 463,
-            "unitPriceFloor": 1.30118334
+            "unitPriceFloor": 1.73491108
           },
           "TITANIUM": {
             "resource": 20,
             "currentSupply": 18,
             "targetSupply": 138,
             "naturalSupply": 18,
-            "unitPriceFloor": 4.96546745
+            "unitPriceFloor": 6.620623
           },
           "YTTRIUM": {
             "resource": 45,
-            "currentSupply": 229,
+            "currentSupply": 230,
             "targetSupply": 231,
             "naturalSupply": 225,
-            "unitPriceFloor": 3.2758913
+            "unitPriceFloor": 4.367855
           },
           "GOLD": {
             "resource": 50,
             "currentSupply": 144,
             "targetSupply": 249,
             "naturalSupply": 147,
-            "unitPriceFloor": 4.84968567
+            "unitPriceFloor": 6.46624756
           },
           "PLATINUM": {
             "resource": 55,
             "currentSupply": 136,
             "targetSupply": 73,
             "naturalSupply": 136,
-            "unitPriceFloor": 6.46324158
+            "unitPriceFloor": 8.617656
           },
           "URANIUM": {
             "resource": 25,
             "currentSupply": 129,
             "targetSupply": 100,
             "naturalSupply": 133,
-            "unitPriceFloor": 5.79580736
+            "unitPriceFloor": 7.727743
           },
           "IRIDIUM": {
             "resource": 35,
             "currentSupply": 17,
             "targetSupply": 74,
             "naturalSupply": 17,
-            "unitPriceFloor": 20.5622559
+            "unitPriceFloor": 27.4163418
           },
           "DIBERYLLIUM": {
             "resource": 40,
             "currentSupply": 15,
             "targetSupply": 6,
             "naturalSupply": 15,
-            "unitPriceFloor": 31.4944382
+            "unitPriceFloor": 41.9925842
           },
           "CHIRALITE": {
             "resource": 60,
             "currentSupply": 18,
             "targetSupply": 11,
             "naturalSupply": 19,
-            "unitPriceFloor": 33.82254
+            "unitPriceFloor": 45.0967178
           },
           "NEUTRONIUM": {
             "resource": 75,
             "currentSupply": 9,
             "targetSupply": 23,
             "naturalSupply": 9,
-            "unitPriceFloor": 61.9942245
+            "unitPriceFloor": 82.6589661
           },
           "ETHERINE": {
             "resource": 65,
             "currentSupply": 3,
             "targetSupply": 8,
             "naturalSupply": 3,
-            "unitPriceFloor": 109.500984
+            "unitPriceFloor": 146.001312
           },
           "XENIUM": {
             "resource": 80,
             "currentSupply": 4,
             "targetSupply": 11,
             "naturalSupply": 4,
-            "unitPriceFloor": 141.1705
+            "unitPriceFloor": 188.227325
           },
           "METALLIC_HELIUM": {
             "resource": 85,
@@ -12091,7 +12067,7 @@
             "currentSupply": 3,
             "targetSupply": 3,
             "naturalSupply": 3,
-            "unitPriceFloor": 228.124741
+            "unitPriceFloor": 304.166321
           }
         }
       },
@@ -12102,98 +12078,98 @@
             "currentSupply": 4337,
             "targetSupply": 2792,
             "naturalSupply": 4337,
-            "unitPriceFloor": 0.0756863356
+            "unitPriceFloor": 0.100915119
           },
           "COPPER": {
             "resource": 10,
             "currentSupply": 3102,
             "targetSupply": 1679,
             "naturalSupply": 3102,
-            "unitPriceFloor": 0.1135295
+            "unitPriceFloor": 0.151372671
           },
           "SILVER": {
             "resource": 15,
             "currentSupply": 1717,
             "targetSupply": 2823,
             "naturalSupply": 1717,
-            "unitPriceFloor": 0.223288223
+            "unitPriceFloor": 0.297717631
           },
           "TITANIUM": {
             "resource": 20,
             "currentSupply": 1120,
             "targetSupply": 1414,
             "naturalSupply": 1122,
-            "unitPriceFloor": 0.409219265
+            "unitPriceFloor": 0.5456257
           },
           "YTTRIUM": {
             "resource": 45,
             "currentSupply": 460,
             "targetSupply": 896,
             "naturalSupply": 460,
-            "unitPriceFloor": 0.614258468
+            "unitPriceFloor": 0.8190113
           },
           "GOLD": {
             "resource": 50,
             "currentSupply": 699,
             "targetSupply": 784,
             "naturalSupply": 700,
-            "unitPriceFloor": 0.629377
+            "unitPriceFloor": 0.8391694
           },
           "PLATINUM": {
             "resource": 55,
             "currentSupply": 340,
             "targetSupply": 470,
             "naturalSupply": 338,
-            "unitPriceFloor": 0.844689131
+            "unitPriceFloor": 1.12625217
           },
           "URANIUM": {
             "resource": 25,
             "currentSupply": 475,
             "targetSupply": 289,
             "naturalSupply": 475,
-            "unitPriceFloor": 0.870393038
+            "unitPriceFloor": 1.160524
           },
           "IRIDIUM": {
             "resource": 35,
             "currentSupply": 159,
             "targetSupply": 272,
             "naturalSupply": 162,
-            "unitPriceFloor": 2.27213621
+            "unitPriceFloor": 3.029515
           },
           "DIBERYLLIUM": {
             "resource": 40,
             "currentSupply": 76,
             "targetSupply": 170,
             "naturalSupply": 76,
-            "unitPriceFloor": 4.45306063
+            "unitPriceFloor": 5.937414
           },
           "CHIRALITE": {
             "resource": 60,
             "currentSupply": 118,
             "targetSupply": 118,
             "naturalSupply": 118,
-            "unitPriceFloor": 4.16274929
+            "unitPriceFloor": 5.550332
           },
           "NEUTRONIUM": {
             "resource": 75,
             "currentSupply": 54,
             "targetSupply": 42,
             "naturalSupply": 54,
-            "unitPriceFloor": 6.811771
+            "unitPriceFloor": 9.082361
           },
           "ETHERINE": {
             "resource": 65,
             "currentSupply": 66,
             "targetSupply": 59,
             "naturalSupply": 66,
-            "unitPriceFloor": 10.2176561
+            "unitPriceFloor": 13.6235418
           },
           "XENIUM": {
             "resource": 80,
             "currentSupply": 25,
             "targetSupply": 31,
             "naturalSupply": 25,
-            "unitPriceFloor": 16.2613621
+            "unitPriceFloor": 21.6818161
           },
           "METALLIC_HELIUM": {
             "resource": 85,
@@ -12207,7 +12183,7 @@
             "currentSupply": 16,
             "targetSupply": 14,
             "naturalSupply": 16,
-            "unitPriceFloor": 37.84317
+            "unitPriceFloor": 50.45756
           }
         }
       },
@@ -12218,98 +12194,98 @@
             "currentSupply": 1047,
             "targetSupply": 1320,
             "naturalSupply": 1047,
-            "unitPriceFloor": 0.238926843
+            "unitPriceFloor": 0.318569124
           },
           "COPPER": {
             "resource": 10,
             "currentSupply": 518,
             "targetSupply": 611,
             "naturalSupply": 518,
-            "unitPriceFloor": 0.2240091
+            "unitPriceFloor": 0.2986788
           },
           "SILVER": {
             "resource": 15,
             "currentSupply": 461,
             "targetSupply": 689,
             "naturalSupply": 461,
-            "unitPriceFloor": 0.492919981
+            "unitPriceFloor": 0.6572266
           },
           "TITANIUM": {
             "resource": 20,
             "currentSupply": 203,
             "targetSupply": 324,
             "naturalSupply": 203,
-            "unitPriceFloor": 0.867934
+            "unitPriceFloor": 1.15724528
           },
           "YTTRIUM": {
             "resource": 45,
             "currentSupply": 207,
             "targetSupply": 287,
             "naturalSupply": 207,
-            "unitPriceFloor": 1.00420308
+            "unitPriceFloor": 1.33893752
           },
           "GOLD": {
             "resource": 50,
             "currentSupply": 187,
             "targetSupply": 107,
             "naturalSupply": 187,
-            "unitPriceFloor": 1.15352559
+            "unitPriceFloor": 1.53803408
           },
           "PLATINUM": {
             "resource": 55,
             "currentSupply": 116,
             "targetSupply": 104,
             "naturalSupply": 113,
-            "unitPriceFloor": 1.5613786
+            "unitPriceFloor": 2.08183813
           },
           "URANIUM": {
             "resource": 25,
             "currentSupply": 74,
             "targetSupply": 85,
             "naturalSupply": 74,
-            "unitPriceFloor": 1.541065
+            "unitPriceFloor": 2.0547533
           },
           "IRIDIUM": {
             "resource": 35,
             "currentSupply": 14,
             "targetSupply": 35,
             "naturalSupply": 15,
-            "unitPriceFloor": 6.009039
+            "unitPriceFloor": 8.012052
           },
           "DIBERYLLIUM": {
             "resource": 40,
             "currentSupply": 29,
             "targetSupply": 22,
             "naturalSupply": 29,
-            "unitPriceFloor": 7.026204
+            "unitPriceFloor": 9.368272
           },
           "CHIRALITE": {
             "resource": 60,
             "currentSupply": 23,
             "targetSupply": 7,
             "naturalSupply": 23,
-            "unitPriceFloor": 7.851968
+            "unitPriceFloor": 10.4692907
           },
           "NEUTRONIUM": {
             "resource": 75,
             "currentSupply": 15,
             "targetSupply": 12,
             "naturalSupply": 15,
-            "unitPriceFloor": 14.0524082
+            "unitPriceFloor": 18.7365437
           },
           "ETHERINE": {
             "resource": 65,
             "currentSupply": 7,
             "targetSupply": 13,
             "naturalSupply": 7,
-            "unitPriceFloor": 22.31243
+            "unitPriceFloor": 29.7499065
           },
           "XENIUM": {
             "resource": 80,
             "currentSupply": 0,
             "targetSupply": 6,
             "naturalSupply": 0,
-            "unitPriceFloor": 31.2275734
+            "unitPriceFloor": 41.6367645
           },
           "METALLIC_HELIUM": {
             "resource": 85,
@@ -12323,7 +12299,7 @@
             "currentSupply": 2,
             "targetSupply": 1,
             "naturalSupply": 2,
-            "unitPriceFloor": 78.06893
+            "unitPriceFloor": 104.091911
           }
         }
       }
@@ -13785,400 +13761,6 @@
             },
             "discovered": true,
             "Size": 300.0
-          },
-          {
-            "$type": "ShipData, Assembly-CSharp",
-            "shipDesignId": "DEVOUT.PARISH",
-            "rotation": 181.0,
-            "scale": 2.3,
-            "modules": [
-              {
-                "moduleId": "HUB_7",
-                "origin": {
-                  "x": 0,
-                  "y": 0
-                },
-                "rot": 0,
-                "mirrored": false,
-                "health": 100.0
-              },
-              {
-                "moduleId": "SLOPED_3",
-                "origin": {
-                  "x": -1,
-                  "y": -3
-                },
-                "rot": 1,
-                "mirrored": false,
-                "health": 90.0
-              },
-              {
-                "moduleId": "SLOPED_3",
-                "origin": {
-                  "x": 1,
-                  "y": -3
-                },
-                "rot": -1,
-                "mirrored": false,
-                "health": 90.0
-              },
-              {
-                "moduleId": "SLOPED_3",
-                "origin": {
-                  "x": -2,
-                  "y": 2
-                },
-                "rot": -3,
-                "mirrored": true,
-                "health": 90.0
-              },
-              {
-                "moduleId": "SLOPED_3",
-                "origin": {
-                  "x": -3,
-                  "y": 0
-                },
-                "rot": 1,
-                "mirrored": false,
-                "health": 90.0
-              },
-              {
-                "moduleId": "SLOPED_3",
-                "origin": {
-                  "x": 2,
-                  "y": 2
-                },
-                "rot": -3,
-                "mirrored": true,
-                "health": 90.0
-              },
-              {
-                "moduleId": "HALF_0",
-                "origin": {
-                  "x": 3,
-                  "y": -1
-                },
-                "rot": -1,
-                "mirrored": false,
-                "health": 6.0
-              },
-              {
-                "moduleId": "DETECTOR_1",
-                "origin": {
-                  "x": 3,
-                  "y": 0
-                },
-                "rot": 0,
-                "mirrored": false,
-                "health": 5.0
-              },
-              {
-                "moduleId": "EXHAUST_WEDGE_0B",
-                "origin": {
-                  "x": 4,
-                  "y": 1
-                },
-                "rot": 2,
-                "mirrored": false,
-                "health": 6.0
-              },
-              {
-                "moduleId": "REACTOR_2",
-                "origin": {
-                  "x": -2,
-                  "y": 0
-                },
-                "rot": 0,
-                "mirrored": false,
-                "health": 10.0
-              },
-              {
-                "moduleId": "BATTERY_1",
-                "origin": {
-                  "x": -1,
-                  "y": -2
-                },
-                "rot": -1,
-                "mirrored": false,
-                "health": 5.0
-              },
-              {
-                "moduleId": "HAVOK_2",
-                "origin": {
-                  "x": 2,
-                  "y": 0
-                },
-                "rot": 0,
-                "mirrored": false,
-                "health": 10.0
-              },
-              {
-                "moduleId": "PLASMA_2",
-                "origin": {
-                  "x": 0,
-                  "y": 2
-                },
-                "rot": -1,
-                "mirrored": false,
-                "health": 12.0
-              },
-              {
-                "moduleId": "PLASMA_1",
-                "origin": {
-                  "x": -1,
-                  "y": 1
-                },
-                "rot": 0,
-                "mirrored": false,
-                "health": 6.0
-              },
-              {
-                "moduleId": "BULKHEAD_1",
-                "origin": {
-                  "x": 1,
-                  "y": -2
-                },
-                "rot": 0,
-                "mirrored": false,
-                "health": 15.0
-              },
-              {
-                "moduleId": "BULKHEAD_2_LINE",
-                "origin": {
-                  "x": 3,
-                  "y": 1
-                },
-                "rot": 1,
-                "mirrored": false,
-                "health": 35.0
-              },
-              {
-                "moduleId": "BULKHEAD_2_LINE",
-                "origin": {
-                  "x": 0,
-                  "y": -2
-                },
-                "rot": 0,
-                "mirrored": false,
-                "health": 35.0
-              },
-              {
-                "moduleId": "BULKHEAD_2_LINE",
-                "origin": {
-                  "x": -3,
-                  "y": 1
-                },
-                "rot": -1,
-                "mirrored": false,
-                "health": 35.0
-              },
-              {
-                "moduleId": "GANTRY_2",
-                "origin": {
-                  "x": 4,
-                  "y": 2
-                },
-                "rot": 1,
-                "mirrored": false,
-                "health": 5.0
-              },
-              {
-                "moduleId": "GANTRY_2",
-                "origin": {
-                  "x": -4,
-                  "y": 2
-                },
-                "rot": -1,
-                "mirrored": false,
-                "health": 5.0
-              },
-              {
-                "moduleId": "GANTRY_2",
-                "origin": {
-                  "x": 0,
-                  "y": -4
-                },
-                "rot": 0,
-                "mirrored": false,
-                "health": 5.0
-              },
-              {
-                "moduleId": "GANTRY_2",
-                "origin": {
-                  "x": 0,
-                  "y": -5
-                },
-                "rot": 0,
-                "mirrored": false,
-                "health": 5.0
-              },
-              {
-                "moduleId": "GANTRY_2",
-                "origin": {
-                  "x": 5,
-                  "y": 2
-                },
-                "rot": 1,
-                "mirrored": false,
-                "health": 5.0
-              },
-              {
-                "moduleId": "GANTRY_2",
-                "origin": {
-                  "x": -5,
-                  "y": 2
-                },
-                "rot": 2,
-                "mirrored": false,
-                "health": 5.0
-              },
-              {
-                "moduleId": "MISSILES_2",
-                "origin": {
-                  "x": -7,
-                  "y": 3
-                },
-                "rot": -1,
-                "mirrored": false,
-                "health": 10.0
-              },
-              {
-                "moduleId": "MISSILES_2",
-                "origin": {
-                  "x": 7,
-                  "y": 3
-                },
-                "rot": 1,
-                "mirrored": false,
-                "health": 10.0
-              },
-              {
-                "moduleId": "MISSILES_2",
-                "origin": {
-                  "x": 0,
-                  "y": -7
-                },
-                "rot": 3,
-                "mirrored": false,
-                "health": 10.0
-              },
-              {
-                "moduleId": "ARMOR_2",
-                "origin": {
-                  "x": -1,
-                  "y": -7
-                },
-                "rot": 0,
-                "mirrored": false,
-                "health": 35.0
-              },
-              {
-                "moduleId": "ARMOR_2",
-                "origin": {
-                  "x": 1,
-                  "y": -7
-                },
-                "rot": 0,
-                "mirrored": true,
-                "health": 35.0
-              },
-              {
-                "moduleId": "ARMOR_2",
-                "origin": {
-                  "x": 5,
-                  "y": 3
-                },
-                "rot": 1,
-                "mirrored": false,
-                "health": 35.0
-              },
-              {
-                "moduleId": "ARMOR_2",
-                "origin": {
-                  "x": 7,
-                  "y": 2
-                },
-                "rot": -2,
-                "mirrored": false,
-                "health": 35.0
-              },
-              {
-                "moduleId": "ARMOR_2",
-                "origin": {
-                  "x": -6,
-                  "y": 4
-                },
-                "rot": 2,
-                "mirrored": false,
-                "health": 35.0
-              },
-              {
-                "moduleId": "ARMOR_2",
-                "origin": {
-                  "x": -6,
-                  "y": 2
-                },
-                "rot": -1,
-                "mirrored": false,
-                "health": 35.0
-              },
-              {
-                "moduleId": "FIXED_1",
-                "origin": {
-                  "x": 0,
-                  "y": 3
-                },
-                "rot": 0,
-                "mirrored": false,
-                "health": 8.0
-              },
-              {
-                "moduleId": "FIXED_1",
-                "origin": {
-                  "x": -3,
-                  "y": -2
-                },
-                "rot": -2,
-                "mirrored": false,
-                "health": 8.0
-              },
-              {
-                "moduleId": "FIXED_1",
-                "origin": {
-                  "x": 3,
-                  "y": -2
-                },
-                "rot": 2,
-                "mirrored": false,
-                "health": 8.0
-              }
-            ],
-            "moduleHealthMultiplier": 0.367999971,
-            "maxHealth": 339.0,
-            "maxSize": 64.0,
-            "profileType": "StationAgent",
-            "spawnOrigin": {
-              "universe": 0,
-              "ux": 7,
-              "uz": 5,
-              "x": -718.2753,
-              "z": 256.439026
-            },
-            "lastVisibility": 0.0,
-            "lastDisposition": 0.0,
-            "lastActive": 0.0,
-            "disabled": false,
-            "persistentId": "#Ship_1084053599-1461936287",
-            "prefabName": "Ship",
-            "coordinates": {
-              "universe": 0,
-              "ux": 7,
-              "uz": 5,
-              "x": -718.2753,
-              "z": 256.439026
-            },
-            "factionId": "DEVOUT.DEVOUT",
-            "discovered": false
           }
         ]
       },
@@ -40410,7 +39992,7 @@
             "size": 119.163,
             "seed": 627542112,
             "interaction": {
-              "anomalyState": 1,
+              "anomalyState": 0,
               "anomalyId": "LEGACY.LEGACY_BASE_1",
               "stationId": "",
               "hasTrade": false,
@@ -40458,7 +40040,7 @@
             "$type": "StarData, Assembly-CSharp",
             "luminosity": 1.0,
             "explored": false,
-            "dragReduced": true,
+            "dragReduced": false,
             "depleted": false,
             "persistentId": "#Orange Star_1979605350-1720498665",
             "prefabName": "Orange Star",
@@ -40538,6 +40120,622 @@
               "x": -774.9888,
               "z": -612.6428
             },
+            "discovered": true
+          },
+          {
+            "$type": "ShipData, Assembly-CSharp",
+            "shipDesignId": "LEGACY.IMPERIAL_BASE_1",
+            "rotation": 279.010254,
+            "scale": 2.2,
+            "modules": [
+              {
+                "moduleId": "SPHERE__1",
+                "origin": {
+                  "x": 0,
+                  "y": 0
+                },
+                "rot": 0,
+                "mirrored": false,
+                "health": 11.0
+              },
+              {
+                "moduleId": "REACTOR_3",
+                "origin": {
+                  "x": 0,
+                  "y": 1
+                },
+                "rot": 0,
+                "mirrored": false,
+                "health": 29.0
+              },
+              {
+                "moduleId": "REACTOR_3",
+                "origin": {
+                  "x": 0,
+                  "y": -1
+                },
+                "rot": 3,
+                "mirrored": false,
+                "health": 29.0
+              },
+              {
+                "moduleId": "BATTERY_4",
+                "origin": {
+                  "x": -2,
+                  "y": -2
+                },
+                "rot": 0,
+                "mirrored": false,
+                "health": 43.0
+              },
+              {
+                "moduleId": "BATTERY_4",
+                "origin": {
+                  "x": 2,
+                  "y": -2
+                },
+                "rot": 0,
+                "mirrored": false,
+                "health": 43.0
+              },
+              {
+                "moduleId": "BATTERY_4",
+                "origin": {
+                  "x": -2,
+                  "y": 1
+                },
+                "rot": 0,
+                "mirrored": false,
+                "health": 43.0
+              },
+              {
+                "moduleId": "BATTERY_4",
+                "origin": {
+                  "x": 2,
+                  "y": 1
+                },
+                "rot": 0,
+                "mirrored": false,
+                "health": 43.0
+              },
+              {
+                "moduleId": "BULKHEAD_4",
+                "origin": {
+                  "x": 0,
+                  "y": -3
+                },
+                "rot": 0,
+                "mirrored": false,
+                "health": 107.0
+              },
+              {
+                "moduleId": "BULKHEAD_4",
+                "origin": {
+                  "x": 0,
+                  "y": 2
+                },
+                "rot": 0,
+                "mirrored": false,
+                "health": 107.0
+              },
+              {
+                "moduleId": "BULKHEAD_6",
+                "origin": {
+                  "x": 0,
+                  "y": 4
+                },
+                "rot": 0,
+                "mirrored": false,
+                "health": 157.0
+              },
+              {
+                "moduleId": "BULKHEAD_6",
+                "origin": {
+                  "x": 0,
+                  "y": -4
+                },
+                "rot": 3,
+                "mirrored": false,
+                "health": 157.0
+              },
+              {
+                "moduleId": "DETECTOR_3",
+                "origin": {
+                  "x": -3,
+                  "y": 3
+                },
+                "rot": -2,
+                "mirrored": false,
+                "health": 17.0
+              },
+              {
+                "moduleId": "BULKHEAD_3",
+                "origin": {
+                  "x": -3,
+                  "y": -4
+                },
+                "rot": 2,
+                "mirrored": false,
+                "health": 72.0
+              },
+              {
+                "moduleId": "BULKHEAD_3",
+                "origin": {
+                  "x": 3,
+                  "y": 3
+                },
+                "rot": -1,
+                "mirrored": false,
+                "health": 72.0
+              },
+              {
+                "moduleId": "DETECTOR_3",
+                "origin": {
+                  "x": 3,
+                  "y": -4
+                },
+                "rot": 1,
+                "mirrored": false,
+                "health": 17.0
+              },
+              {
+                "moduleId": "EXHAUST_1",
+                "origin": {
+                  "x": -2,
+                  "y": 4
+                },
+                "rot": -1,
+                "mirrored": false,
+                "health": 21.0
+              },
+              {
+                "moduleId": "EXHAUST_1",
+                "origin": {
+                  "x": 2,
+                  "y": 4
+                },
+                "rot": 1,
+                "mirrored": false,
+                "health": 21.0
+              },
+              {
+                "moduleId": "EXHAUST_1",
+                "origin": {
+                  "x": -2,
+                  "y": -4
+                },
+                "rot": -2,
+                "mirrored": false,
+                "health": 21.0
+              },
+              {
+                "moduleId": "EXHAUST_1",
+                "origin": {
+                  "x": 2,
+                  "y": -4
+                },
+                "rot": 2,
+                "mirrored": false,
+                "health": 21.0
+              },
+              {
+                "moduleId": "BULKHEAD_2_LINE",
+                "origin": {
+                  "x": -5,
+                  "y": -1
+                },
+                "rot": -1,
+                "mirrored": false,
+                "health": 50.0
+              },
+              {
+                "moduleId": "BULKHEAD_2_LINE",
+                "origin": {
+                  "x": -4,
+                  "y": 1
+                },
+                "rot": 1,
+                "mirrored": false,
+                "health": 50.0
+              },
+              {
+                "moduleId": "PLASMA_1",
+                "origin": {
+                  "x": -6,
+                  "y": 0
+                },
+                "rot": 0,
+                "mirrored": false,
+                "health": 9.0
+              },
+              {
+                "moduleId": "STRUT_2",
+                "origin": {
+                  "x": -8,
+                  "y": 0
+                },
+                "rot": 0,
+                "mirrored": false,
+                "health": 7.0
+              },
+              {
+                "moduleId": "BULKHEAD_3",
+                "origin": {
+                  "x": -10,
+                  "y": 0
+                },
+                "rot": 0,
+                "mirrored": true,
+                "health": 72.0
+              },
+              {
+                "moduleId": "MISSILES_2",
+                "origin": {
+                  "x": -11,
+                  "y": 1
+                },
+                "rot": -1,
+                "mirrored": false,
+                "health": 14.0
+              },
+              {
+                "moduleId": "MISSILES_2",
+                "origin": {
+                  "x": -11,
+                  "y": -2
+                },
+                "rot": -2,
+                "mirrored": false,
+                "health": 14.0
+              },
+              {
+                "moduleId": "ARMOR_ANGLED_3",
+                "origin": {
+                  "x": -12,
+                  "y": 2
+                },
+                "rot": -1,
+                "mirrored": false,
+                "health": 143.0
+              },
+              {
+                "moduleId": "ARMOR_ANGLED_3",
+                "origin": {
+                  "x": -12,
+                  "y": -2
+                },
+                "rot": -2,
+                "mirrored": false,
+                "health": 143.0
+              },
+              {
+                "moduleId": "BULKHEAD_2_LINE",
+                "origin": {
+                  "x": 4,
+                  "y": 1
+                },
+                "rot": -1,
+                "mirrored": false,
+                "health": 50.0
+              },
+              {
+                "moduleId": "BULKHEAD_2_LINE",
+                "origin": {
+                  "x": 5,
+                  "y": -1
+                },
+                "rot": 1,
+                "mirrored": false,
+                "health": 50.0
+              },
+              {
+                "moduleId": "PLASMA_1",
+                "origin": {
+                  "x": 6,
+                  "y": 0
+                },
+                "rot": 0,
+                "mirrored": false,
+                "health": 9.0
+              },
+              {
+                "moduleId": "STRUT_2",
+                "origin": {
+                  "x": 8,
+                  "y": 0
+                },
+                "rot": -3,
+                "mirrored": false,
+                "health": 7.0
+              },
+              {
+                "moduleId": "BULKHEAD_3",
+                "origin": {
+                  "x": 10,
+                  "y": 0
+                },
+                "rot": 0,
+                "mirrored": false,
+                "health": 72.0
+              },
+              {
+                "moduleId": "MISSILES_2",
+                "origin": {
+                  "x": 11,
+                  "y": 1
+                },
+                "rot": 1,
+                "mirrored": false,
+                "health": 14.0
+              },
+              {
+                "moduleId": "MISSILES_2",
+                "origin": {
+                  "x": 11,
+                  "y": -2
+                },
+                "rot": 2,
+                "mirrored": false,
+                "health": 14.0
+              },
+              {
+                "moduleId": "ARMOR_ANGLED_3",
+                "origin": {
+                  "x": 12,
+                  "y": 2
+                },
+                "rot": 1,
+                "mirrored": false,
+                "health": 143.0
+              },
+              {
+                "moduleId": "ARMOR_ANGLED_3",
+                "origin": {
+                  "x": 12,
+                  "y": -2
+                },
+                "rot": 2,
+                "mirrored": false,
+                "health": 143.0
+              },
+              {
+                "moduleId": "WEDGE_0B",
+                "origin": {
+                  "x": 5,
+                  "y": 1
+                },
+                "rot": -1,
+                "mirrored": false,
+                "health": 4.0
+              },
+              {
+                "moduleId": "WEDGE_0B",
+                "origin": {
+                  "x": 5,
+                  "y": -2
+                },
+                "rot": 1,
+                "mirrored": false,
+                "health": 4.0
+              },
+              {
+                "moduleId": "WEDGE_0B",
+                "origin": {
+                  "x": -5,
+                  "y": -2
+                },
+                "rot": 2,
+                "mirrored": false,
+                "health": 4.0
+              },
+              {
+                "moduleId": "WEDGE_0B",
+                "origin": {
+                  "x": -5,
+                  "y": 1
+                },
+                "rot": -2,
+                "mirrored": false,
+                "health": 4.0
+              },
+              {
+                "moduleId": "PLASMA_1",
+                "origin": {
+                  "x": -4,
+                  "y": -4
+                },
+                "rot": 0,
+                "mirrored": false,
+                "health": 9.0
+              },
+              {
+                "moduleId": "PLASMA_1",
+                "origin": {
+                  "x": -4,
+                  "y": 4
+                },
+                "rot": 0,
+                "mirrored": false,
+                "health": 9.0
+              },
+              {
+                "moduleId": "PLASMA_1",
+                "origin": {
+                  "x": 4,
+                  "y": 4
+                },
+                "rot": 0,
+                "mirrored": false,
+                "health": 9.0
+              },
+              {
+                "moduleId": "PLASMA_1",
+                "origin": {
+                  "x": 4,
+                  "y": -4
+                },
+                "rot": 0,
+                "mirrored": false,
+                "health": 9.0
+              },
+              {
+                "moduleId": "CONDUIT_2",
+                "origin": {
+                  "x": -3,
+                  "y": 0
+                },
+                "rot": 0,
+                "mirrored": false,
+                "health": 36.0
+              },
+              {
+                "moduleId": "CONDUIT_2",
+                "origin": {
+                  "x": 3,
+                  "y": 0
+                },
+                "rot": 0,
+                "mirrored": false,
+                "health": 36.0
+              },
+              {
+                "moduleId": "SLOPED_2",
+                "origin": {
+                  "x": -4,
+                  "y": 3
+                },
+                "rot": 0,
+                "mirrored": false,
+                "health": 43.0
+              },
+              {
+                "moduleId": "SLOPED_2",
+                "origin": {
+                  "x": 4,
+                  "y": 3
+                },
+                "rot": 0,
+                "mirrored": true,
+                "health": 43.0
+              },
+              {
+                "moduleId": "SLOPED_2",
+                "origin": {
+                  "x": 4,
+                  "y": -3
+                },
+                "rot": 3,
+                "mirrored": false,
+                "health": 43.0
+              },
+              {
+                "moduleId": "SLOPED_2",
+                "origin": {
+                  "x": -4,
+                  "y": -3
+                },
+                "rot": 3,
+                "mirrored": true,
+                "health": 43.0
+              },
+              {
+                "moduleId": "CARGO_3B",
+                "origin": {
+                  "x": 0,
+                  "y": 6
+                },
+                "rot": 0,
+                "mirrored": false,
+                "health": 17.0
+              },
+              {
+                "moduleId": "CARGO_3B",
+                "origin": {
+                  "x": 0,
+                  "y": 7
+                },
+                "rot": 0,
+                "mirrored": false,
+                "health": 17.0
+              },
+              {
+                "moduleId": "FIGHTERS_7",
+                "origin": {
+                  "x": 0,
+                  "y": 9
+                },
+                "rot": 0,
+                "mirrored": false,
+                "health": 57.0
+              },
+              {
+                "moduleId": "CARGO_3B",
+                "origin": {
+                  "x": 0,
+                  "y": -6
+                },
+                "rot": 3,
+                "mirrored": false,
+                "health": 17.0
+              },
+              {
+                "moduleId": "CARGO_3B",
+                "origin": {
+                  "x": 0,
+                  "y": -7
+                },
+                "rot": 3,
+                "mirrored": false,
+                "health": 17.0
+              },
+              {
+                "moduleId": "FIGHTERS_7",
+                "origin": {
+                  "x": 0,
+                  "y": -9
+                },
+                "rot": -3,
+                "mirrored": false,
+                "health": 57.0
+              }
+            ],
+            "moduleHealthMultiplier": 1.43,
+            "maxHealth": 2513.0,
+            "maxSize": 126.0,
+            "profileType": "StationAgent",
+            "command": {
+              "$type": "AIVisitCommand, Assembly-CSharp",
+              "persistentId": "#Terrestrial M1_2090609568-1627913389",
+              "locked": false,
+              "ThrottledSpeed": -1.0
+            },
+            "spawnOrigin": {
+              "universe": 0,
+              "ux": 5,
+              "uz": 15,
+              "x": -425.97998,
+              "z": 84.07129
+            },
+            "interaction": {
+              "anomalyState": 0,
+              "stationId": "",
+              "hasTrade": false,
+              "instanceVisits": 0
+            },
+            "lastVisibility": 700.0,
+            "lastDisposition": -2.0,
+            "lastActive": 10471.646850482328,
+            "disabled": false,
+            "persistentId": "#Ship_27236843-1832323028",
+            "prefabName": "Ship",
+            "coordinates": {
+              "universe": 0,
+              "ux": 5,
+              "uz": 15,
+              "x": -425.97998,
+              "z": 84.0708
+            },
+            "factionId": "LEGACY.LEGACY",
             "discovered": true
           }
         ]
@@ -41378,7 +41576,7 @@
           {
             "$type": "ShipData, Assembly-CSharp",
             "shipDesignId": "DEVOUT.ELITE_DESTROYER",
-            "rotation": 198.54393,
+            "rotation": 189.2139,
             "scale": 2.0,
             "modules": [
               {
@@ -41449,7 +41647,7 @@
                 },
                 "rot": 0,
                 "mirrored": true,
-                "health": 3.97601771
+                "health": 4.0
               },
               {
                 "moduleId": "PLASMA_3",
@@ -41459,7 +41657,7 @@
                 },
                 "rot": 0,
                 "mirrored": true,
-                "health": 8.0
+                "health": 7.99745941
               },
               {
                 "moduleId": "NACELLE_4",
@@ -41489,7 +41687,7 @@
                 },
                 "rot": 0,
                 "mirrored": false,
-                "health": 5.79261875
+                "health": 5.89394569
               },
               {
                 "moduleId": "BULKHEAD_6",
@@ -41599,7 +41797,7 @@
                 },
                 "rot": 0,
                 "mirrored": false,
-                "health": 2.0
+                "health": 1.97105467
               },
               {
                 "moduleId": "PLASMA_2",
@@ -41619,7 +41817,7 @@
                 },
                 "rot": 0,
                 "mirrored": false,
-                "health": 6.96038532
+                "health": 6.966499
               },
               {
                 "moduleId": "SLOPED_3",
@@ -41639,7 +41837,7 @@
                 },
                 "rot": -2,
                 "mirrored": true,
-                "health": 22.0
+                "health": 21.9846973
               },
               {
                 "moduleId": "FIXED_2",
@@ -41679,7 +41877,7 @@
                 },
                 "rot": 0,
                 "mirrored": true,
-                "health": 7.871711
+                "health": 7.92776537
               }
             ],
             "moduleHealthMultiplier": 0.56,
@@ -41700,8 +41898,8 @@
               "z": 810.441956
             },
             "lastVisibility": 700.0,
-            "lastDisposition": -7.733297,
-            "lastActive": 10475.85251916456,
+            "lastDisposition": -7.77696228,
+            "lastActive": 10471.646850482328,
             "disabled": false,
             "persistentId": "#Ship_958568892-1612723145",
             "prefabName": "Ship",
@@ -41709,8 +41907,8 @@
               "universe": 0,
               "ux": 3,
               "uz": 13,
-              "x": 1062.54468,
-              "z": 879.631836
+              "x": 1087.72754,
+              "z": 1002.73511
             },
             "factionId": "DEVOUT.DEVOUT_ELITE",
             "discovered": true
@@ -41718,7 +41916,7 @@
           {
             "$type": "ShipData, Assembly-CSharp",
             "shipDesignId": "DEVOUT.ELITE_FRIGATE",
-            "rotation": 170.130188,
+            "rotation": 210.719589,
             "scale": 1.75,
             "modules": [
               {
@@ -42150,8 +42348,8 @@
               "z": 810.441956
             },
             "lastVisibility": 700.0,
-            "lastDisposition": -7.733297,
-            "lastActive": 10475.85251916456,
+            "lastDisposition": -7.77696228,
+            "lastActive": 10471.646850482328,
             "disabled": false,
             "persistentId": "#Ship_1500307393-1881505611",
             "prefabName": "Ship",
@@ -42159,8 +42357,8 @@
               "universe": 0,
               "ux": 3,
               "uz": 13,
-              "x": 975.0327,
-              "z": 769.9292
+              "x": 994.348633,
+              "z": 827.209
             },
             "factionId": "DEVOUT.DEVOUT_ELITE",
             "discovered": true
@@ -42168,7 +42366,7 @@
           {
             "$type": "ShipData, Assembly-CSharp",
             "shipDesignId": "DEVOUT.ELITE_INTERCEPTOR",
-            "rotation": 89.01703,
+            "rotation": 134.355484,
             "scale": 1.5,
             "modules": [
               {
@@ -42370,8 +42568,8 @@
               "z": 810.441956
             },
             "lastVisibility": 452.5,
-            "lastDisposition": -7.733297,
-            "lastActive": 10475.85251916456,
+            "lastDisposition": -7.77696228,
+            "lastActive": 10471.646850482328,
             "disabled": false,
             "persistentId": "#Ship_1259401997-1948853313",
             "prefabName": "Ship",
@@ -42379,8 +42577,8 @@
               "universe": 0,
               "ux": 3,
               "uz": 13,
-              "x": 346.896,
-              "z": 405.1162
+              "x": 198.771,
+              "z": 473.685547
             },
             "factionId": "DEVOUT.DEVOUT_ELITE",
             "discovered": false
@@ -42603,6 +42801,17 @@
             "discovered": false
           }
         ]
+      },
+      {
+        "coordinates": {
+          "universe": 0,
+          "ux": 4,
+          "uz": 14,
+          "x": 0.0,
+          "z": 0.0
+        },
+        "tags": [],
+        "Persistents": []
       },
       {
         "coordinates": {
@@ -48633,11 +48842,6 @@
       {
         "u": 0,
         "x": 4,
-        "z": 14
-      },
-      {
-        "u": 0,
-        "x": 4,
         "z": 15
       },
       {
@@ -48768,6 +48972,6 @@
   },
   "startBuild": 17344,
   "gameId": "65ddad5a9c7a439f9cee8fd95f51ff2c",
-  "gameTime": 10812.165,
-  "playTime": 20750.1348
+  "gameTime": 10471.6465,
+  "playTime": 20409.0723
 }
