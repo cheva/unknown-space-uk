@@ -16,66 +16,6 @@
       "health": 15.0
     },
     {
-      "moduleId": "PLASMA_1",
-      "origin": {
-        "x": 1,
-        "y": 1
-      },
-      "rot": 0,
-      "mirrored": false,
-      "health": 6.0
-    },
-    {
-      "moduleId": "REACTOR_1",
-      "origin": {
-        "x": -1,
-        "y": 0
-      },
-      "rot": 0,
-      "mirrored": false,
-      "health": 5.0
-    },
-    {
-      "moduleId": "WING_2",
-      "origin": {
-        "x": 2,
-        "y": 1
-      },
-      "rot": 0,
-      "mirrored": true,
-      "health": 4.0
-    },
-    {
-      "moduleId": "PLASMA_1",
-      "origin": {
-        "x": 1,
-        "y": 0
-      },
-      "rot": 0,
-      "mirrored": false,
-      "health": 6.0
-    },
-    {
-      "moduleId": "WING_2",
-      "origin": {
-        "x": 2,
-        "y": 0
-      },
-      "rot": 0,
-      "mirrored": true,
-      "health": 4.0
-    },
-    {
-      "moduleId": "PLASMA_1",
-      "origin": {
-        "x": 1,
-        "y": -1
-      },
-      "rot": 0,
-      "mirrored": false,
-      "health": 6.0
-    },
-    {
       "moduleId": "LATERAL_0",
       "origin": {
         "x": 2,
@@ -84,16 +24,6 @@
       "rot": 0,
       "mirrored": false,
       "health": 2.0
-    },
-    {
-      "moduleId": "HALF_0",
-      "origin": {
-        "x": 2,
-        "y": 2
-      },
-      "rot": -2,
-      "mirrored": false,
-      "health": 7.0
     },
     {
       "moduleId": "HALF_0",
@@ -144,36 +74,6 @@
       "rot": 0,
       "mirrored": false,
       "health": 8.0
-    },
-    {
-      "moduleId": "FIXED_1",
-      "origin": {
-        "x": 1,
-        "y": 2
-      },
-      "rot": 0,
-      "mirrored": false,
-      "health": 8.0
-    },
-    {
-      "moduleId": "HEX_SLOPE_1",
-      "origin": {
-        "x": 0,
-        "y": 2
-      },
-      "rot": 0,
-      "mirrored": false,
-      "health": 12.0
-    },
-    {
-      "moduleId": "REACTOR_1",
-      "origin": {
-        "x": -2,
-        "y": 0
-      },
-      "rot": 0,
-      "mirrored": false,
-      "health": 5.0
     },
     {
       "moduleId": "MISSILES_2",
@@ -254,6 +154,116 @@
       "rot": 0,
       "mirrored": false,
       "health": 8.0
+    },
+    {
+      "moduleId": "REACTOR_1",
+      "origin": {
+        "x": 1,
+        "y": 0
+      },
+      "rot": 0,
+      "mirrored": false,
+      "health": 5.0
+    },
+    {
+      "moduleId": "REACTOR_1",
+      "origin": {
+        "x": 1,
+        "y": -1
+      },
+      "rot": 0,
+      "mirrored": false,
+      "health": 5.0
+    },
+    {
+      "moduleId": "PLASMA_1",
+      "origin": {
+        "x": -2,
+        "y": 0
+      },
+      "rot": 0,
+      "mirrored": false,
+      "health": 6.0
+    },
+    {
+      "moduleId": "FIXED_1",
+      "origin": {
+        "x": 0,
+        "y": 2
+      },
+      "rot": 0,
+      "mirrored": false,
+      "health": 8.0
+    },
+    {
+      "moduleId": "REACTOR_1",
+      "origin": {
+        "x": 1,
+        "y": 1
+      },
+      "rot": 0,
+      "mirrored": false,
+      "health": 5.0
+    },
+    {
+      "moduleId": "FIXED_1",
+      "origin": {
+        "x": 1,
+        "y": 2
+      },
+      "rot": 0,
+      "mirrored": false,
+      "health": 8.0
+    },
+    {
+      "moduleId": "HALF_0",
+      "origin": {
+        "x": 2,
+        "y": 2
+      },
+      "rot": -2,
+      "mirrored": false,
+      "health": 7.0
+    },
+    {
+      "moduleId": "WING_2",
+      "origin": {
+        "x": 2,
+        "y": 0
+      },
+      "rot": 0,
+      "mirrored": true,
+      "health": 4.0
+    },
+    {
+      "moduleId": "PLASMA_1",
+      "origin": {
+        "x": -1,
+        "y": 0
+      },
+      "rot": 0,
+      "mirrored": false,
+      "health": 6.0
+    },
+    {
+      "moduleId": "WING_2",
+      "origin": {
+        "x": 2,
+        "y": 1
+      },
+      "rot": 0,
+      "mirrored": true,
+      "health": 4.0
+    },
+    {
+      "moduleId": "WEDGE_0B",
+      "origin": {
+        "x": -3,
+        "y": 1
+      },
+      "rot": -2,
+      "mirrored": false,
+      "health": 3.0
     }
   ],
   "scale": 0.0,
