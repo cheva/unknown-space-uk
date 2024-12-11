@@ -10,11 +10,11 @@ Direct3D:
     VRAM:     8119 MB
     Driver:   31.0.101.2115
 Begin MonoManager ReloadAssembly
-- Completed reload, in  1.871 seconds
+- Completed reload, in  0.333 seconds
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 2.615100 ms
+UnloadTime: 3.470700 ms
 Preloader started, build Kepler (17344)
 Async progress 90%, attempting scene activation...
 Build Number: 17344
@@ -61,32 +61,128 @@ Task scheduler exceeded 1500ms
 Task scheduler exceeded 1500ms
 Task scheduler exceeded 1500ms
 Task scheduler exceeded 1500ms
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 12)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 12)
 No starting location
-Bootstrapped story 'CEPHEID2'
+Cannot interact while scan in progress
+Cannot interact while scan in progress
+Cannot interact while scan in progress
+Cannot interact while scan in progress
+Cannot interact while scan in progress
+Cannot interact while scan in progress
+Cannot interact while scan in progress
+#11134 346.9499 sec: FPS: 29.83701 Mission Update: 0.00095877
+Task scheduler exceeded 1500ms
+Task scheduler exceeded 1500ms
+Task scheduler exceeded 1500ms
+Task scheduler exceeded 1500ms
+Task scheduler exceeded 1500ms
+Cannot interact while scan in progress
+#19396 646.9762 sec: FPS: 22.31342 Mission Update: 0.00234042
+Attempted to trigger an unknown Steam Achievement: 'EXPLORER_2'
+StoryId was null
+No starting story found: ''
+No starting location
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 5)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 5)
+Attempted to trigger an unknown Steam Achievement: 'EXPLORER_2'
+Activating emissary for 'EmissaryDestination'
+#32253 1118.105 sec: FPS: 29.94882 Mission Update: 0.00282149
+#40593 1418.121 sec: FPS: 22.0294 Mission Update: 0.00373521
+Task scheduler exceeded 1500ms
+Task scheduler exceeded 1500ms
+Cannot interact while scan in progress
+No such discovery: 'DEVOUT.GLOSSOLALIA'
+#47841 1718.156 sec: FPS: 30.09183 Mission Update: 0.00163416
 Material ProgressFill doesn't have _Stencil property
 Material ProgressFill(Clone) doesn't have _Stencil property
 Material ProgressFill(Clone) doesn't have _Stencil property
 Material ProgressFill(Clone) doesn't have _Stencil property
-Task scheduler exceeded 1500ms
-#9298 360.3167 sec: FPS: 29.78458 Mission Update: 0.0012671
+Material ProgressFill(Clone) doesn't have _Stencil property
+Material ProgressFill(Clone) doesn't have _Stencil property
+Material ProgressFill(Clone) doesn't have _Stencil property
+#56275 2018.19 sec: FPS: 29.91601 Mission Update: 0.00151065
+#65155 2318.226 sec: FPS: 29.91965 Mission Update: 0.00121532
+StoryId was null
+No starting story found: ''
+No starting location
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 5)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 5)
 Spawn coord isn't active: sector_0_0x0 0 x 0
-Spawned ship did not exist: #Ship_617071610-1769826661, attempted to spawn at sector_0_0x0 0 x 0
-Found persistent data: sector_0_0x0 0 x 0
-Spawn coord isn't active: sector_0_0x0 0 x 0
-Spawned ship did not exist: #Ship_523365321-1098703854, attempted to spawn at sector_0_0x0 0 x 0
-Found persistent data: sector_0_0x0 6.70142 x 11.68269
-Spawn coord isn't active: sector_0_0x0 0 x 0
-Spawned ship did not exist: #Ship_834133651-767138718, attempted to spawn at sector_0_0x0 0 x 0
-Found persistent data: sector_0_0x0 -9.844498 x 16.83258
-Spawn coord isn't active: sector_0_0x0 0 x 0
-Spawned ship did not exist: #Ship_2068064735-1337902275, attempted to spawn at sector_0_0x0 0 x 0
-Found persistent data: sector_0_0x0 -29.24897 x -0.2459078
-#17789 660.3408 sec: FPS: 29.93423 Mission Update: 0.00248922
-#26544 960.3633 sec: FPS: 29.76023 Mission Update: 0.00334903
-#35389 1260.385 sec: FPS: 29.47823 Mission Update: 0.00185841
-#43228 1560.402 sec: FPS: 29.46763 Mission Update: 0.00338457
+Spawned ship did not exist: #Ship_1600837478-1758570244, attempted to spawn at sector_0_0x0 0 x 0
+Found persistent data: sector_0_0x0 -19.12018 x -33.99145
+Duplicate log entry, skipping
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 5)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 5)
+#81146 2909.911 sec: FPS: 29.876 Mission Update: 0.00163376
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 11)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 11)
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 5)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 5)
 Activating emissary for 'EmissaryDestination'
-Task scheduler exceeded 1500ms
-#50565 1926.344 sec: FPS: 0.3801633 Mission Update: 0.00182991
-#59305 2226.354 sec: FPS: 29.818 Mission Update: 0.0028031
-#67870 2526.378 sec: FPS: 19.57311 Mission Update: 0.00345799
+StoryId was null
+No starting story found: ''
+No starting location
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 14)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 14)
+Deep search spawned
+Spawning marker
+Cannot interact while scan in progress
+Cannot interact while scan in progress
+Cannot interact while scan in progress
+Cannot interact while scan in progress
+Cannot interact while scan in progress
+Cannot interact while scan in progress
+Cannot interact while scan in progress
+Cannot interact while scan in progress
+Cannot begin survey: HOSTILES_NEAR
+Cannot begin survey: HOSTILES_NEAR
+Cannot begin survey: HOSTILES_NEAR
+Cannot begin survey: HOSTILES_NEAR
+StoryId was null
+No starting story found: ''
+No starting location
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+Cannot interact while scan in progress
+Cannot interact while scan in progress
+Cannot interact while scan in progress
+#100667 3602.647 sec: FPS: 29.86874 Mission Update: 0.00147035
+Attempting to set item tradeable that player has, but allowTakeFromPlayer is false DEFAULT.BEAM_COOLANT
+Setting #Point Portal_1626019146-2106668277 active to True
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 5)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 5)
+Flag not satisfied, normal advance
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 5)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 5)
+#106543 4289.22 sec: FPS: 0.06600951 Mission Update: 0.0021538
+#114808 4589.245 sec: FPS: 29.86874 Mission Update: 0.00114347
+#122793 4889.277 sec: FPS: 29.31298 Mission Update: 0.00281976
+Activating emissary for 'EmissaryDestination'
+#131334 5189.298 sec: FPS: 29.88327 Mission Update: 0.00197504
+Cannot interact while scan in progress
+Duplicate log entry, skipping
+#139850 5489.332 sec: FPS: 29.82524 Mission Update: 0.00257656
+#148500 5789.368 sec: FPS: 25.34653 Mission Update: 0.0037831
+#156967 6089.391 sec: FPS: 29.28503 Mission Update: 0.00246645
+#165735 6389.414 sec: FPS: 29.91236 Mission Update: 0.00245774
+Material ProgressFill doesn't have _Stencil property
+Material ProgressFill(Clone) doesn't have _Stencil property
+Material ProgressFill(Clone) doesn't have _Stencil property
+#174201 6689.421 sec: FPS: 30.02933 Mission Update: 0.00139451
+Material ProgressFill(Clone) doesn't have _Stencil property
+Material ProgressFill(Clone) doesn't have _Stencil property
+Material ProgressFill(Clone) doesn't have _Stencil property
+#183139 6989.441 sec: FPS: 29.42529 Mission Update: 0.00124845
+#192048 7289.474 sec: FPS: 29.78187 Mission Update: 0.00110402
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 1194 -> priority: 1 
+  Thread -> id: 2240 -> priority: 1 

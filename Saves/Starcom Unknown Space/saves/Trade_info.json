@@ -1,9 +1,9 @@
 {
-  "saveName": "QUICKSAVE",
-  "saveFile": "QUICKSAVE",
+  "saveName": "Trade",
+  "saveFile": "Trade",
   "gameId": "65ddad5a9c7a439f9cee8fd95f51ff2c",
-  "saveTime": "2024-12-11T02:11:52.9954562+02:00",
-  "playTime": 33371.92,
+  "saveTime": "2024-12-11T01:39:56.1430522+02:00",
+  "playTime": 31454.6387,
   "buildNumber": 17344,
   "buildName": "Kepler",
   "autosave": false,
